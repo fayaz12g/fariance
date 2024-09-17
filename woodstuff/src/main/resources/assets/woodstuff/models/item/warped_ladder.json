@@ -1,6 +1,0 @@
-{
-  "parent": "block/ladder",
-  "textures": {
-    "layer0": "woodstuff:item/warped_ladder"
-  }
-}

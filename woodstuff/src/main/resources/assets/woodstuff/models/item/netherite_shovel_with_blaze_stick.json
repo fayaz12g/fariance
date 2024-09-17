@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "woodstuff:item/netherite_shovel_with_blaze_stick"
-  }
-}
