@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:andesite"
+    },
+    "S": {
+      "item": "woodstuff:acacia_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:andesite_hoe_with_acacia_stick",
+    "count": 1
+  }
+}

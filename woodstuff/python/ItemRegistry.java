@@ -1698,9 +1698,6 @@ GENERATED_ITEMS.put("mangrove_stick", ITEMS.register("mangrove_stick", () -> new
 GENERATED_ITEMS.put("cherry_stick", ITEMS.register("cherry_stick", () -> new Item(new Item.Properties())));
 GENERATED_ITEMS.put("crimson_stick", ITEMS.register("crimson_stick", () -> new Item(new Item.Properties())));
 GENERATED_ITEMS.put("warped_stick", ITEMS.register("warped_stick", () -> new Item(new Item.Properties())));
-GENERATED_ITEMS.put("bamboo_stick", ITEMS.register("bamboo_stick", () -> new Item(new Item.Properties())));
-GENERATED_ITEMS.put("blaze_stick", ITEMS.register("blaze_stick", () -> new Item(new Item.Properties())));
-GENERATED_ITEMS.put("breeze_stick", ITEMS.register("breeze_stick", () -> new Item(new Item.Properties())));
 GENERATED_ITEMS.put("oak_ladder", ITEMS.register("oak_ladder", () -> new BlockItem(Blocks.LADDER, new Item.Properties())));
 GENERATED_ITEMS.put("spruce_ladder", ITEMS.register("spruce_ladder", () -> new BlockItem(Blocks.LADDER, new Item.Properties())));
 GENERATED_ITEMS.put("birch_ladder", ITEMS.register("birch_ladder", () -> new BlockItem(Blocks.LADDER, new Item.Properties())));
@@ -1712,3 +1709,5 @@ GENERATED_ITEMS.put("cherry_ladder", ITEMS.register("cherry_ladder", () -> new B
 GENERATED_ITEMS.put("crimson_ladder", ITEMS.register("crimson_ladder", () -> new BlockItem(Blocks.LADDER, new Item.Properties())));
 GENERATED_ITEMS.put("warped_ladder", ITEMS.register("warped_ladder", () -> new BlockItem(Blocks.LADDER, new Item.Properties())));
 GENERATED_ITEMS.put("bamboo_ladder", ITEMS.register("bamboo_ladder", () -> new BlockItem(Blocks.LADDER, new Item.Properties())));
+GENERATED_ITEMS.put("blaze_ladder", ITEMS.register("blaze_ladder", () -> new BlockItem(Blocks.LADDER, new Item.Properties())));
+GENERATED_ITEMS.put("breeze_ladder", ITEMS.register("breeze_ladder", () -> new BlockItem(Blocks.LADDER, new Item.Properties())));

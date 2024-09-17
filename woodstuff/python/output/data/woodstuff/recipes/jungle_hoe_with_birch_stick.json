@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:jungle_planks"
+    },
+    "S": {
+      "item": "woodstuff:birch_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:jungle_hoe_with_birch_stick",
+    "count": 1
+  }
+}

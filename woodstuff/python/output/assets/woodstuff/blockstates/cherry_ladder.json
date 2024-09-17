@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "woodstuff:block/cherry_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "woodstuff:block/cherry_ladder"
+    },
+    "facing=south": {
+      "model": "woodstuff:block/cherry_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woodstuff:block/cherry_ladder",
+      "y": 270
+    }
+  }
+}

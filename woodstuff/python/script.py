@@ -8,6 +8,8 @@ WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrov
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
 MATERIAL_TYPES = WOOD_TYPES + ["iron", "diamond", "copper", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"]
 STICK_TYPES = WOOD_TYPES + ["blaze", "breeze"]
+# Create a new list that excludes "bamboo"
+filtered_wood_types = [wood for wood in WOOD_TYPES if wood != "bamboo"]
 
 # Define material properties (durability, mining level, etc.)
 MATERIAL_PROPERTIES = {
@@ -65,12 +67,12 @@ def generate_item_registry():
         items.append(f'GENERATED_ITEMS.put("{item_name}", ITEMS.register("{item_name}", () -> new {tool.capitalize()}Item(Tiers.{tier}, new Item.Properties())));')
 
     # Add wood-type sticks to registry
-    for stick in WOOD_TYPES + ["blaze", "breeze"]:
+    for stick in filtered_wood_types:
         stick_name = f"{stick}_stick"
         items.append(f'GENERATED_ITEMS.put("{stick_name}", ITEMS.register("{stick_name}", () -> new Item(new Item.Properties())));')
 
     # Add ladders for every wood type
-    for wood in WOOD_TYPES:
+    for wood in WOOD_TYPES + ["blaze", "breeze"]:
         ladder_name = f"{wood}_ladder"
         items.append(f'GENERATED_ITEMS.put("{ladder_name}", ITEMS.register("{ladder_name}", () -> new BlockItem(Blocks.LADDER, new Item.Properties())));')
 
@@ -86,12 +88,12 @@ def generate_lang_entries():
         entries[f"item.woodstuff.{item_name}"] = display_name
     
     # Add sticks to lang file
-    for stick in WOOD_TYPES + ["blaze", "breeze"]:
+    for stick in filtered_wood_types:
         stick_name = f"{stick}_stick"
         entries[f"item.woodstuff.{stick_name}"] = f"{capitalize_material(stick)} Stick"
     
     # Add ladders to lang file
-    for wood in WOOD_TYPES:
+    for wood in WOOD_TYPES + ["blaze", "breeze"]:
         ladder_name = f"{wood}_ladder"
         entries[f"item.woodstuff.{ladder_name}"] = f"{capitalize_material(wood)} Ladder"
     
@@ -124,11 +126,11 @@ def generate_climbable_json(output_dir):
 
     print(f"Climbable ladders JSON generated at: {climbable_file_path}")
 
-def generate_item_models():
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    output_dir = os.path.join(script_dir, "output", "assets", "woodstuff", "models", "item")
-    block_model_dir = os.path.join(script_dir, "output", "assets", "woodstuff", "models", "item")
-    os.makedirs(output_dir, exist_ok=True)
+def generate_item_models(output_dir):
+    item_model_dir = os.path.join(output_dir, "assets", "woodstuff", "models", "item")
+    block_model_dir = os.path.join(output_dir, "assets", "woodstuff", "models", "block")
+    os.makedirs(item_model_dir, exist_ok=True)
+    os.makedirs(block_model_dir, exist_ok=True)
 
     for material, tool, stick in product(MATERIAL_TYPES, TOOL_TYPES, STICK_TYPES):
         item_name = f"{material}_{tool}_with_{stick}_stick"
@@ -138,7 +140,7 @@ def generate_item_models():
                 "layer0": f"woodstuff:item/{item_name}"
             }
         }
-        model_file_path = os.path.join(output_dir, f"{item_name}.json")
+        model_file_path = os.path.join(item_model_dir, f"{item_name}.json")
         with open(model_file_path, 'w') as f:
             json.dump(model_data, f, indent=2)
 
@@ -151,7 +153,7 @@ def generate_item_models():
                 "layer0": f"woodstuff:item/{stick_name}"
             }
         }
-        model_file_path = os.path.join(output_dir, f"{stick_name}.json")
+        model_file_path = os.path.join(item_model_dir, f"{stick_name}.json")
         with open(model_file_path, 'w') as f:
             json.dump(model_data, f, indent=2)
 
@@ -201,13 +203,13 @@ def generate_item_models():
         }
 
         # Define the item model output path (in the models/item folder)
-        item_model_file_path = os.path.join(output_dir, f"{ladder_name}.json")
+        item_model_file_path = os.path.join(item_model_dir, f"{ladder_name}.json")
 
         # Write the item model data to the file
         with open(item_model_file_path, 'w') as f:
             json.dump(item_model_data, f, indent=2)
 
-    print("All models generated successfully.")
+    print("Models generation finished!.")
 
 
 def generate_recipes():
@@ -354,7 +356,7 @@ def generate_textures():
             print(f"Warning: Missing texture for {material}_{tool}_with_{stick}_stick")
 
     # Generate textures for sticks
-    for stick in WOOD_TYPES + ["blaze", "breeze"]:
+    for stick in filtered_wood_types:
         stick_image_path = os.path.join(image_dir, "stick", f"{stick}.png")
         if os.path.exists(stick_image_path):
             output_path = os.path.join(output_dir, f"{stick}_stick.png")
@@ -365,8 +367,8 @@ def generate_textures():
             print(f"Warning: Missing texture for {stick}_stick")
 
     # Generate textures for ladders
-    for wood in WOOD_TYPES:
-        ladder_image_path = os.path.join(image_dir, "ladder", f"{wood}.png")
+    for wood in WOOD_TYPES  + ["blaze", "breeze"]:
+        ladder_image_path = os.path.join(image_dir, "ladder", f"{wood}_ladder.png")
         if os.path.exists(ladder_image_path):
             output_path = os.path.join(output_dir, f"{wood}_ladder.png")
             ladder_img = Image.open(ladder_image_path).convert("RGBA")
@@ -410,7 +412,8 @@ def generate_blockstates(output_dir):
         
         # Define the output path for the blockstates file
         blockstates_file_path = os.path.join(blockstates_dir, f"{ladder_name}.json")
-
+        os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+        
         # Write the blockstates data to the file
         with open(blockstates_file_path, 'w') as f:
             json.dump(blockstates_data, f, indent=2)
@@ -438,6 +441,59 @@ def generate_mineable_json(base_output_dir):
 
     print(f"Mineable ladders JSON generated at: {mineable_file_path}")
 
+def generate_trapdoor_climbable_ladders_json(base_output_dir):
+    # Define the tag structure for trapdoor climbable ladders
+    trapdoor_climbable_data = {
+        "values": [
+            "minecraft:ladder"
+        ] + [f"woodstuff:{wood}_ladder" for wood in WOOD_TYPES]  # Add each wood ladder after the Minecraft ladder
+    }
+
+    # Build the full output path for the trapdoor climbable ladders JSON
+    trapdoor_climbable_file_path = os.path.join(base_output_dir, "data", "woodstuff", "tags", "block", "make_trapdoor_climbable_ladders.json")
+
+    # Ensure the directory exists
+    os.makedirs(os.path.dirname(trapdoor_climbable_file_path), exist_ok=True)
+
+    # Write the trapdoor climbable data to the file
+    with open(trapdoor_climbable_file_path, 'w') as f:
+        json.dump(trapdoor_climbable_data, f, indent=2)
+
+    print(f"Trapdoor climbable ladders JSON generated at: {trapdoor_climbable_file_path}")
+
+def generate_ladder_loot_tables(base_output_dir):
+    # Loop through each wood type to create a loot table for each ladder
+    for wood in WOOD_TYPES:
+        ladder_name = f"{wood}_ladder"
+
+        # Define the loot table structure
+        loot_table_data = {
+            "type": "minecraft:block",
+            "pools": [
+                {
+                    "rolls": 1,
+                    "entries": [
+                        {
+                            "type": "minecraft:item",
+                            "name": f"woodstuff:{ladder_name}"
+                        }
+                    ]
+                }
+            ]
+        }
+
+        # Build the output file path for each ladder's loot table
+        loot_table_file_path = os.path.join(base_output_dir, "data", "woodstuff", "loot_tables", "blocks", f"{ladder_name}.json")
+
+        # Ensure the directory exists
+        os.makedirs(os.path.dirname(loot_table_file_path), exist_ok=True)
+
+        # Write the loot table data to the file
+        with open(loot_table_file_path, 'w') as f:
+            json.dump(loot_table_data, f, indent=2)
+
+    print(f"Loot tables generated!")
+
 # Ensure that the directory exists before writing the lang file
 lang_file_path = "./output/assets/woodstuff/lang/en_us.json"
 lang_dir = os.path.dirname(lang_file_path)
@@ -448,9 +504,10 @@ recipe_file_path = "./output/data/woodstuff/recipes"
 recipe_dir = os.path.dirname(recipe_file_path)
 os.makedirs(recipe_dir, exist_ok=True) # Create the directory if it doesn't exist
 
-# Define the path for main output dircetory
-output_dir = "./output"
-os.makedirs(output_dir, exist_ok=True) # Create the directory if it doesn't exist
+script_dir = os.path.dirname(os.path.abspath(__file__))  # Get the script's directory
+output_dir = os.path.join(script_dir, "output")  # Join with the relative output path
+os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exist
+
 
 def main():
     # Generate item registry
@@ -462,15 +519,22 @@ def main():
         f.write(generate_lang_entries())
 
     # Generate item models
-    generate_item_models()
+    generate_item_models(output_dir)
 
     # Generate blockstates
     generate_blockstates(output_dir)
 
-    # Example usage:
+    # Generate climbable json
     generate_climbable_json(output_dir)
 
+    # Generate mineable json
     generate_mineable_json(output_dir)
+   
+   # Generate trapdoor climbable json
+    generate_trapdoor_climbable_ladders_json(output_dir)
+    
+    # Generate loot tables
+    generate_ladder_loot_tables(output_dir)
 
     # Generate recipes and write them to files
     for item_name, recipe in generate_recipes():
@@ -488,4 +552,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-34

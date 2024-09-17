@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:cobblestone"
+    },
+    "S": {
+      "item": "woodstuff:dark_oak_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:cobblestone_axe_with_dark_oak_stick",
+    "count": 1
+  }
+}
