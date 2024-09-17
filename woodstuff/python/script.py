@@ -1,7 +1,7 @@
 import json
 from itertools import product
 import os
-from PIL import Image
+from PIL import Image, ImageOps
 
 # Define constants
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
@@ -347,6 +347,7 @@ def generate_textures():
     os.makedirs(item_output_dir, exist_ok=True)
     os.makedirs(block_output_dir, exist_ok=True)
 
+    # Loop through each combination of material, tool, and stick
     for material, tool, stick in product(MATERIAL_TYPES, TOOL_TYPES, STICK_TYPES):
         stick_image_path = os.path.join(image_dir, "stick", f"{stick}.png")
         head_image_path = os.path.join(image_dir, "head", material, f"{tool}.png")
@@ -355,7 +356,32 @@ def generate_textures():
             stick_img = Image.open(stick_image_path).convert("RGBA")
             head_img = Image.open(head_image_path).convert("RGBA")
             
-            combined_img = Image.alpha_composite(stick_img, head_img)
+            # Create a base image for combining, adjust size based on tool requirements
+            base_width = max(stick_img.width, head_img.width)
+            base_height = max(stick_img.height, head_img.height)
+            
+            # Adjustments based on tool type
+            if tool == 'sword':
+                offset_stick = (0, 1)
+                offset_head = (0, 0)
+            elif tool == 'shovel':
+                offset_stick = (0, 1)
+                offset_head = (0, -1)
+            elif tool in ['pickaxe', 'hoe']:
+                offset_stick = (0, 0)
+                offset_head = (0, -1)
+            elif tool == 'axe':
+                offset_stick = (0, 1)
+                offset_head = (1, -1)
+            
+            # Create a new blank image for combining
+            combined_img = Image.new("RGBA", (base_width, base_height), (0, 0, 0, 0))
+            
+            # Paste the stick and head images onto the combined image
+            combined_img.paste(stick_img, offset_stick, stick_img)
+            combined_img.paste(head_img, offset_head, head_img)
+            
+            # Save the combined image
             output_path = os.path.join(item_output_dir, f"{material}_{tool}_with_{stick}_stick.png")
             combined_img.save(output_path)
             # print(f"Generated texture: {output_path}")
