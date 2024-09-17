@@ -95,7 +95,7 @@ def generate_lang_entries():
     # Add ladders to lang file
     for wood in WOOD_TYPES + ["blaze", "breeze"]:
         ladder_name = f"{wood}_ladder"
-        entries[f"item.woodstuff.{ladder_name}"] = f"{capitalize_material(wood)} Ladder"
+        entries[f"block.woodstuff.{ladder_name}"] = f"{capitalize_material(wood)} Ladder"
     
     return json.dumps(entries, indent=2)
 
@@ -337,8 +337,10 @@ def generate_recipes():
 def generate_textures():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     image_dir = os.path.join(script_dir, "image")
-    output_dir = os.path.join(script_dir, "output", "assets", "woodstuff", "textures", "item")
-    os.makedirs(output_dir, exist_ok=True)
+    item_output_dir = os.path.join(script_dir, "output", "assets", "woodstuff", "textures", "item")
+    block_output_dir = os.path.join(script_dir, "output", "assets", "woodstuff", "textures", "block")
+    os.makedirs(item_output_dir, exist_ok=True)
+    os.makedirs(block_output_dir, exist_ok=True)
 
     for material, tool, stick in product(MATERIAL_TYPES, TOOL_TYPES, STICK_TYPES):
         stick_image_path = os.path.join(image_dir, "stick", f"{stick}.png")
@@ -349,7 +351,7 @@ def generate_textures():
             head_img = Image.open(head_image_path).convert("RGBA")
             
             combined_img = Image.alpha_composite(stick_img, head_img)
-            output_path = os.path.join(output_dir, f"{material}_{tool}_with_{stick}_stick.png")
+            output_path = os.path.join(item_output_dir, f"{material}_{tool}_with_{stick}_stick.png")
             combined_img.save(output_path)
             # print(f"Generated texture: {output_path}")
         else:
@@ -359,7 +361,7 @@ def generate_textures():
     for stick in filtered_wood_types:
         stick_image_path = os.path.join(image_dir, "stick", f"{stick}.png")
         if os.path.exists(stick_image_path):
-            output_path = os.path.join(output_dir, f"{stick}_stick.png")
+            output_path = os.path.join(item_output_dir, f"{stick}_stick.png")
             stick_img = Image.open(stick_image_path).convert("RGBA")
             stick_img.save(output_path)
             # print(f"Generated texture: {output_path}")
@@ -370,7 +372,7 @@ def generate_textures():
     for wood in WOOD_TYPES  + ["blaze", "breeze"]:
         ladder_image_path = os.path.join(image_dir, "ladder", f"{wood}_ladder.png")
         if os.path.exists(ladder_image_path):
-            output_path = os.path.join(output_dir, f"{wood}_ladder.png")
+            output_path = os.path.join(block_output_dir, f"{wood}_ladder.png")
             ladder_img = Image.open(ladder_image_path).convert("RGBA")
             ladder_img.save(output_path)
             # print(f"Generated texture: {output_path}")
