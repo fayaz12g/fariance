@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "S": {
+      "item": "woodstuff:dark_oak_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:amethyst_pickaxe_with_dark_oak_stick",
+    "count": 1
+  }
+}

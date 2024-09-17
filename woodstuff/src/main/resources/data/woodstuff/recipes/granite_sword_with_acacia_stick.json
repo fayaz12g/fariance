@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:granite"
+    },
+    "S": {
+      "item": "woodstuff:acacia_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:granite_sword_with_acacia_stick",
+    "count": 1
+  }
+}

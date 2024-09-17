@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:diorite"
+    },
+    "S": {
+      "item": "woodstuff:mangrove_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:diorite_pickaxe_with_mangrove_stick",
+    "count": 1
+  }
+}

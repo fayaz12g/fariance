@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "S": {
+      "item": "woodstuff:birch_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:amethyst_sword_with_birch_stick",
+    "count": 1
+  }
+}

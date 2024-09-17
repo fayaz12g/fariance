@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:spruce_planks"
+    },
+    "S": {
+      "item": "woodstuff:dark_oak_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:spruce_hoe_with_dark_oak_stick",
+    "count": 1
+  }
+}

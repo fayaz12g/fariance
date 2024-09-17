@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "woodstuff:block/mangrove_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "woodstuff:block/mangrove_ladder"
+    },
+    "facing=south": {
+      "model": "woodstuff:block/mangrove_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woodstuff:block/mangrove_ladder",
+      "y": 270
+    }
+  }
+}

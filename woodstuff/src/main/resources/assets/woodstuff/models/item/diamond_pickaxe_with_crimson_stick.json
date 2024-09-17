@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "woodstuff:item/diamond_pickaxe_with_crimson_stick"
+  }
+}
