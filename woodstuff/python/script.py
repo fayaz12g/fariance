@@ -362,13 +362,16 @@ def generate_textures():
             
             # Adjustments based on tool type
             if tool == 'sword':
-                offset_stick = (0, 1)
+                offset_stick = (0, -1)
                 offset_head = (0, 0)
             elif tool == 'shovel':
                 offset_stick = (0, 1)
                 offset_head = (0, -1)
-            elif tool in ['pickaxe', 'hoe']:
+            elif tool == 'hoe':
                 offset_stick = (0, 0)
+                offset_head = (0, -1)
+            elif tool == 'pickaxe':
+                offset_stick = (-1, 0)
                 offset_head = (0, -1)
             elif tool == 'axe':
                 offset_stick = (0, 1)
