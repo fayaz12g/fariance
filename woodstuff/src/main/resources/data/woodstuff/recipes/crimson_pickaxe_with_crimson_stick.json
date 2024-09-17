@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:crimson_planks"
+    },
+    "S": {
+      "item": "woodstuff:crimson_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:crimson_pickaxe_with_crimson_stick",
+    "count": 1
+  }
+}

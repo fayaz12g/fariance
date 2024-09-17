@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "S": {
+      "item": "woodstuff:warped_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:dark_oak_axe_with_warped_stick",
+    "count": 1
+  }
+}

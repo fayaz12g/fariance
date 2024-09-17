@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:diorite"
+    },
+    "S": {
+      "item": "woodstuff:mangrove_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:diorite_hoe_with_mangrove_stick",
+    "count": 1
+  }
+}

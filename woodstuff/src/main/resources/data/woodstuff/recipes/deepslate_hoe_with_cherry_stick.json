@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "S": {
+      "item": "woodstuff:cherry_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:deepslate_hoe_with_cherry_stick",
+    "count": 1
+  }
+}

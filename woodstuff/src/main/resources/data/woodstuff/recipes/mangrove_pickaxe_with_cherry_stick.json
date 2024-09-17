@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:mangrove_planks"
+    },
+    "S": {
+      "item": "woodstuff:cherry_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:mangrove_pickaxe_with_cherry_stick",
+    "count": 1
+  }
+}

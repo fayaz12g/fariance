@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:birch_planks"
+    },
+    "S": {
+      "item": "woodstuff:oak_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:birch_pickaxe_with_oak_stick",
+    "count": 1
+  }
+}

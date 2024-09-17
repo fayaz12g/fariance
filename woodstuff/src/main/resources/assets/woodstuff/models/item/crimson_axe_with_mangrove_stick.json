@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "woodstuff:item/crimson_axe_with_mangrove_stick"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "woodstuff:acacia_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:copper_pickaxe_with_acacia_stick",
+    "count": 1
+  }
+}

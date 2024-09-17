@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "SSS",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "item": "woodstuff:jungle_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:jungle_ladder",
+    "count": 3
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "woodstuff:jungle_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:netherite_hoe_with_jungle_stick",
+    "count": 1
+  }
+}

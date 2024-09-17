@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "woodstuff:birch_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:copper_hoe_with_birch_stick",
+    "count": 1
+  }
+}

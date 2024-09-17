@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:jungle_planks"
+    },
+    "S": {
+      "item": "woodstuff:cherry_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:jungle_hoe_with_cherry_stick",
+    "count": 1
+  }
+}

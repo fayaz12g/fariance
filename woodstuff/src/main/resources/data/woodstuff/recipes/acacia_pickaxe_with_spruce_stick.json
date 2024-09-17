@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:acacia_planks"
+    },
+    "S": {
+      "item": "woodstuff:spruce_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:acacia_pickaxe_with_spruce_stick",
+    "count": 1
+  }
+}

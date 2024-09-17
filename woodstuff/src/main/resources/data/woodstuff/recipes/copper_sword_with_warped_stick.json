@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "woodstuff:warped_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:copper_sword_with_warped_stick",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:granite"
+    },
+    "S": {
+      "item": "woodstuff:crimson_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:granite_hoe_with_crimson_stick",
+    "count": 1
+  }
+}

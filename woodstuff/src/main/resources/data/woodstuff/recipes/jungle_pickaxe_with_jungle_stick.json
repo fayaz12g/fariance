@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:jungle_planks"
+    },
+    "S": {
+      "item": "woodstuff:jungle_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:jungle_pickaxe_with_jungle_stick",
+    "count": 1
+  }
+}

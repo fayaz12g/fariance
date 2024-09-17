@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:nether_quartz"
+    },
+    "S": {
+      "item": "woodstuff:oak_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:quartz_pickaxe_with_oak_stick",
+    "count": 1
+  }
+}

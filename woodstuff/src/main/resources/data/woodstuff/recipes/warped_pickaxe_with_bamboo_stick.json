@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:warped_planks"
+    },
+    "S": {
+      "item": "woodstuff:bamboo_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:warped_pickaxe_with_bamboo_stick",
+    "count": 1
+  }
+}
