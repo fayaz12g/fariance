@@ -92,7 +92,12 @@ def generate_lang_entries():
         stick_name = f"{stick}_stick"
         entries[f"item.woodstuff.{stick_name}"] = f"{capitalize_material(stick)} Stick"
     
-    # Add ladders to lang file
+    # Add ladders items to lang file
+    for wood in WOOD_TYPES + ["blaze", "breeze"]:
+        ladder_name = f"{wood}_ladder"
+        entries[f"item.woodstuff.{ladder_name}"] = f"{capitalize_material(wood)} Ladder"
+
+    # Add ladders blocks to lang file
     for wood in WOOD_TYPES + ["blaze", "breeze"]:
         ladder_name = f"{wood}_ladder"
         entries[f"block.woodstuff.{ladder_name}"] = f"{capitalize_material(wood)} Ladder"

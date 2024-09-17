@@ -37,7 +37,7 @@ public class WoodStuffMod {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
     // Register your items
-    public static final ItemRegistry ItemRegistry = new ItemRegistry(); // Ensure this is properly defined elsewhere
+    public static final ItemRegistry ItemRegistry = new ItemRegistry();
 
     // Create a new CreativeModeTab
     public static final RegistryObject<CreativeModeTab> WOODSTUFF_TAB = CREATIVE_MODE_TABS.register("woodstuff_tab", () -> CreativeModeTab.builder()
