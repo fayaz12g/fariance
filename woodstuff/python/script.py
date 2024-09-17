@@ -365,7 +365,7 @@ def generate_textures():
                 offset_stick = (0, -1)
                 offset_head = (0, 0)
             elif tool == 'shovel':
-                offset_stick = (0, 1)
+                offset_stick = (-1, 0)
                 offset_head = (0, -1)
             elif tool == 'hoe':
                 offset_stick = (0, 0)
