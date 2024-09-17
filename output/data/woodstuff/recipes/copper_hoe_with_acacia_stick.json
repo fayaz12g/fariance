@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "woodstuff:acacia_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:copper_hoe_with_acacia_stick",
+    "count": 1
+  }
+}

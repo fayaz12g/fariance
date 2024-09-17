@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "woodstuff:oak_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:redstone_axe_with_oak_stick",
+    "count": 1
+  }
+}

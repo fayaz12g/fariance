@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:bamboo_planks"
+    },
+    "S": {
+      "item": "woodstuff:cherry_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:bamboo_axe_with_cherry_stick",
+    "count": 1
+  }
+}

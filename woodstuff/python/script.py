@@ -10,6 +10,13 @@ MATERIAL_TYPES = WOOD_TYPES + ["iron", "diamond", "copper", "gold", "netherite",
 STICK_TYPES = WOOD_TYPES + ["blaze", "breeze"]
 # Create a new list that excludes "bamboo"
 filtered_wood_types = [wood for wood in WOOD_TYPES if wood != "bamboo"]
+tabs = {
+        "swords": "Woodstuff Swords",
+        "pickaxes": "Woodstuff Pickaxes",
+        "axes": "Woodstuff Axes",
+        "shovels": "Woodstuff Shovels",
+        "hoes": "Woodstuff Hoes"
+    }
 
 # Define material properties (durability, mining level, etc.)
 MATERIAL_PROPERTIES = {
@@ -82,16 +89,25 @@ def generate_item_registry():
 
 def generate_lang_entries():
     entries = {}
+    
+    # Creative mode tabs
+    for tool_type, display_name in tabs.items():
+        entries[f"itemGroup.woodstuff.{tool_type}"] = display_name
+
+    # Add item names
     for material, tool, stick in product(MATERIAL_TYPES, TOOL_TYPES, STICK_TYPES):
         item_name = f"{material}_{tool}_with_{stick}_stick"
-        display_name = f"{capitalize_material(material)} {tool.capitalize()} with {capitalize_material(stick)} Stick"
+        if material == stick:
+            display_name = f"{capitalize_material(material)} {tool.capitalize()}"
+        else:
+            display_name = f"{capitalize_material(material)} {capitalize_material(stick)} {tool.capitalize()}"
         entries[f"item.woodstuff.{item_name}"] = display_name
-    
+
     # Add sticks to lang file
     for stick in filtered_wood_types:
         stick_name = f"{stick}_stick"
         entries[f"item.woodstuff.{stick_name}"] = f"{capitalize_material(stick)} Stick"
-    
+
     # Add ladders items to lang file
     for wood in WOOD_TYPES + ["blaze", "breeze"]:
         ladder_name = f"{wood}_ladder"
@@ -101,7 +117,7 @@ def generate_lang_entries():
     for wood in WOOD_TYPES + ["blaze", "breeze"]:
         ladder_name = f"{wood}_ladder"
         entries[f"block.woodstuff.{ladder_name}"] = f"{capitalize_material(wood)} Ladder"
-    
+
     return json.dumps(entries, indent=2)
 
 def generate_climbable_json(output_dir):
