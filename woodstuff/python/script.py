@@ -13,16 +13,16 @@ filtered_wood_types = [wood for wood in WOOD_TYPES if wood != "bamboo"]
 
 # Define material properties (durability, mining level, etc.)
 MATERIAL_PROPERTIES = {
-    "oak": {"durability": 60, "mining_level": 0, "enchantability": 16},
+    "oak": {"durability": 20, "mining_level": 0, "enchantability": 16},
     "spruce": {"durability": 62, "mining_level": 0, "enchantability": 14},
     "birch": {"durability": 58, "mining_level": 0, "enchantability": 17},
     "jungle": {"durability": 63, "mining_level": 0, "enchantability": 15},
     "acacia": {"durability": 61, "mining_level": 0, "enchantability": 16},
     "dark_oak": {"durability": 65, "mining_level": 0, "enchantability": 14},
-    "mangrove": {"durability": 64, "mining_level": 0, "enchantability": 15},
+    "mangrove": {"durability": 84, "mining_level": 0, "enchantability": 15},
     "cherry": {"durability": 57, "mining_level": 0, "enchantability": 18},
-    "crimson": {"durability": 66, "mining_level": 0, "enchantability": 13},
-    "warped": {"durability": 67, "mining_level": 0, "enchantability": 13},
+    "crimson": {"durability": 96, "mining_level": 0, "enchantability": 13},
+    "warped": {"durability": 87, "mining_level": 0, "enchantability": 13},
     "bamboo": {"durability": 55, "mining_level": 0, "enchantability": 20},
     "stone": {"durability": 131, "mining_level": 1, "enchantability": 5},
     "iron": {"durability": 250, "mining_level": 2, "enchantability": 14},
