@@ -1725,5 +1725,11 @@
   "block.woodstuff.spruce_ladder": "Spruce Ladder",
   "block.woodstuff.warped_ladder": "Warped Ladder",
   "block.woodstuff.blaze_ladder": "Blaze Ladder",
-  "block.woodstuff.breeze_ladder": "Breeze Ladder"
+  "block.woodstuff.breeze_ladder": "Breeze Ladder",
+
+  "itemGroup.woodstuff.swords": "Woodstuff Swords",
+  "itemGroup.woodstuff.pickaxes": "Woodstuff Pickaxes",
+  "itemGroup.woodstuff.axes": "Woodstuff Axes",
+  "itemGroup.woodstuff.shovels": "Woodstuff Shovels",
+  "itemGroup.woodstuff.hoes": "Woodstuff Hoes"
 }
