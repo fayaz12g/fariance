@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "woodstuff:item/diorite_pickaxe_with_warped_stick"
-  }
-}
