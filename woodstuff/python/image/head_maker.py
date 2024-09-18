@@ -31,7 +31,7 @@ def darken_edges(image):
     for x in range(image.width):
         for y in range(image.height):
             r, g, b, a = image.getpixel((x, y))
-            darkened.putpixel((x, y), (int(r * 0.79), int(g * 0.79), int(b * 0.79), a))
+            darkened.putpixel((x, y), (int(r * 0.4), int(g * 0.4), int(b * 0.4), a))
     
     # Create a mask for the edges
     edge_mask = Image.new('L', image.size, 0)
@@ -73,9 +73,9 @@ def apply_special_mask(tool_image, special_mask_image):
                 tool_r, tool_g, tool_b, tool_a = tool_image.getpixel((x, y))
 
                 # Darken the tool_image pixel by reducing its RGB values
-                new_r = int(tool_r * (1 - darken_factor * 0.79))
-                new_g = int(tool_g * (1 - darken_factor * 0.79))
-                new_b = int(tool_b * (1 - darken_factor * 0.79))
+                new_r = int(tool_r * (1 - darken_factor * 0.69))
+                new_g = int(tool_g * (1 - darken_factor * 0.69))
+                new_b = int(tool_b * (1 - darken_factor * 0.69))
 
                 # Apply the darkened color back to the tool_image
                 tool_image.putpixel((x, y), (new_r, new_g, new_b, tool_a))
