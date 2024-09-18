@@ -25,13 +25,13 @@ def apply_mask(block_image, mask_image):
 
     return result_image
 
-def darken_edges(image):
+def darken_edges(image, amount):
     # Create a slightly darker version of the image
     darkened = Image.new('RGBA', image.size, (0, 0, 0, 0))
     for x in range(image.width):
         for y in range(image.height):
             r, g, b, a = image.getpixel((x, y))
-            darkened.putpixel((x, y), (int(r * 0.4), int(g * 0.4), int(b * 0.4), a))
+            darkened.putpixel((x, y), (int(r * amount), int(g * amount), int(b * amount), a))
     
     # Create a mask for the edges
     edge_mask = Image.new('L', image.size, 0)
@@ -120,7 +120,7 @@ def generate_tool_heads_and_sticks():
             mask_image = Image.open(mask_path).convert("RGBA")
 
             result_image = apply_mask(block_image, mask_image)
-            result_image = darken_edges(result_image)
+            result_image = darken_edges(result_image, 0.4)
 
             # Check for special mask
             special_mask_path = os.path.join(mask_dir, "tool", "special", tool + ".png")
@@ -153,7 +153,7 @@ def generate_tool_heads_and_sticks():
 
             block_image = Image.open(block_path).convert("RGBA")
             result_image = apply_mask(block_image, stick_mask_image)
-            result_image = darken_edges(result_image)
+            result_image = darken_edges(result_image, 0.69)
 
             output_path = os.path.join(stick_output_dir, f"{stick_type}.png")
             result_image.save(output_path)
