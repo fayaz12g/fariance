@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "woodstuff:warped_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:netherite_axe_with_warped_stick",
+    "count": 1
+  }
+}

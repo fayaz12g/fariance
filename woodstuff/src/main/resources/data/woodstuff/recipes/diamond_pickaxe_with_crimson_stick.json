@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "woodstuff:crimson_stick"
+    }
+  },
+  "result": {
+    "item": "woodstuff:diamond_pickaxe_with_crimson_stick",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:mangrove_planks"
+    },
+    "S": {
+      "item": "woodstuff:spruce_stick"
+    }
+  },
+  "result": {
+    "id": "woodstuff:mangrove_hoe_with_spruce_stick",
+    "count": 1
+  }
+}

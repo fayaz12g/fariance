@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "woodstuff:mangrove_stick"
+    }
+  },
+  "result": {
+    "id": "woodstuff:netherite_shovel_with_mangrove_stick",
+    "count": 1
+  }
+}

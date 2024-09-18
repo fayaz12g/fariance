@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:diorite"
+    },
+    "S": {
+      "item": "woodstuff:spruce_stick"
+    }
+  },
+  "result": {
+    "id": "woodstuff:diorite_sword_with_spruce_stick",
+    "count": 1
+  }
+}

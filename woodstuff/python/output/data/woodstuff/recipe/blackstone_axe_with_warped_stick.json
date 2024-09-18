@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:blackstone"
+    },
+    "S": {
+      "item": "woodstuff:warped_stick"
+    }
+  },
+  "result": {
+    "id": "woodstuff:blackstone_axe_with_warped_stick",
+    "count": 1
+  }
+}

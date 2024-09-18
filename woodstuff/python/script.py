@@ -324,7 +324,7 @@ def generate_recipes():
                 "P": {"item": f"minecraft:{wood}_planks"}
             },
             "result": {
-                "item": f"woodstuff:{stick_name}",
+                "id": f"woodstuff:{stick_name}",
                 "count": 4
             }
         }
@@ -345,7 +345,7 @@ def generate_recipes():
                 "S": {"item": f"woodstuff:{wood}_stick"}
             },
             "result": {
-                "item": f"woodstuff:{ladder_name}",
+                "id": f"woodstuff:{ladder_name}",
                 "count": 3
             }
         }
