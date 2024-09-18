@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:granite"
+    },
+    "S": {
+      "item": "woodstuff:spruce_stick"
+    }
+  },
+  "result": {
+    "id": "woodstuff:granite_shovel_with_spruce_stick",
+    "count": 1
+  }
+}
