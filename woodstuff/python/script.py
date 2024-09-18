@@ -381,17 +381,17 @@ def generate_textures():
                 offset_stick = (0, -1)
                 offset_head = (0, 0)
             elif tool == 'shovel':
-                offset_stick = (-1, 0)
-                offset_head = (0, -1)
+                offset_stick = (0, 0)
+                offset_head = (0, 0)
             elif tool == 'hoe':
                 offset_stick = (0, 0)
-                offset_head = (0, -1)
+                offset_head = (0, 0)
             elif tool == 'pickaxe':
-                offset_stick = (-1, 0)
-                offset_head = (0, -1)
+                offset_stick = (0, 0)
+                offset_head = (0, 0)
             elif tool == 'axe':
-                offset_stick = (0, 1)
-                offset_head = (1, -1)
+                offset_stick = (0, 0)
+                offset_head = (0, 0)
             
             # Create a new blank image for combining
             combined_img = Image.new("RGBA", (base_width, base_height), (0, 0, 0, 0))

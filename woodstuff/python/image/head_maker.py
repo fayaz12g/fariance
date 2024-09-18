@@ -1,5 +1,5 @@
 import os
-from PIL import Image, ImageChops
+from PIL import Image, ImageEnhance
 
 # Define constants
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
@@ -31,7 +31,7 @@ def darken_edges(image):
     for x in range(image.width):
         for y in range(image.height):
             r, g, b, a = image.getpixel((x, y))
-            darkened.putpixel((x, y), (int(r * 0.69), int(g * 0.69), int(b * 0.69), a))
+            darkened.putpixel((x, y), (int(r * 0.79), int(g * 0.79), int(b * 0.79), a))
     
     # Create a mask for the edges
     edge_mask = Image.new('L', image.size, 0)
@@ -51,6 +51,38 @@ def darken_edges(image):
 
     # Apply the darkened edges
     return Image.composite(darkened, image, edge_mask)
+
+def apply_special_mask(tool_image, special_mask_image):
+    # Make sure both images are in RGBA format
+    tool_image = tool_image.convert('RGBA')
+    special_mask_image = special_mask_image.convert('RGBA')
+    
+    # Loop through each pixel in special_mask_image
+    for x in range(special_mask_image.width):
+        for y in range(special_mask_image.height):
+            mask_r, mask_g, mask_b, mask_a = special_mask_image.getpixel((x, y))
+            
+            if mask_a > 0:  # Only process non-transparent pixels
+                # Calculate how close the pixel is to black (0 is black, 255 is white)
+                mask_brightness = (mask_r + mask_g + mask_b) / 3 / 255.0  # Normalize to [0, 1]
+
+                # Darken factor: 0 (full black) should darken the most, 1 (full white) should darken the least
+                darken_factor = 1 - mask_brightness
+
+                # Get the corresponding pixel from tool_image
+                tool_r, tool_g, tool_b, tool_a = tool_image.getpixel((x, y))
+
+                # Darken the tool_image pixel by reducing its RGB values
+                new_r = int(tool_r * (1 - darken_factor * 0.79))
+                new_g = int(tool_g * (1 - darken_factor * 0.79))
+                new_b = int(tool_b * (1 - darken_factor * 0.79))
+
+                # Apply the darkened color back to the tool_image
+                tool_image.putpixel((x, y), (new_r, new_g, new_b, tool_a))
+
+    return tool_image
+
+
 
 def generate_tool_heads_and_sticks():
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -79,7 +111,7 @@ def generate_tool_heads_and_sticks():
         block_image = Image.open(block_path).convert("RGBA")
 
         for tool in TOOL_TYPES:
-            mask_path = os.path.join(mask_dir, f"{tool}.png")
+            mask_path = os.path.join(mask_dir, "tool", tool + ".png")
 
             if not os.path.exists(mask_path):
                 print(f"Warning: Missing mask for {tool}")
@@ -90,6 +122,12 @@ def generate_tool_heads_and_sticks():
             result_image = apply_mask(block_image, mask_image)
             result_image = darken_edges(result_image)
 
+            # Check for special mask
+            special_mask_path = os.path.join(mask_dir, "tool", "special", tool + ".png")
+            if os.path.exists(special_mask_path):
+                special_mask_image = Image.open(special_mask_path).convert("RGBA")
+                result_image = apply_special_mask(result_image, special_mask_image)
+                
             # Save the resulting image
             output_path = os.path.join(material_output_dir, f"{tool}.png")
             result_image.save(output_path)
@@ -97,43 +135,29 @@ def generate_tool_heads_and_sticks():
 
     # Generate sticks
     os.makedirs(stick_output_dir, exist_ok=True)
-    stick_mask_path = os.path.join(mask_dir, "stick.png")
 
-    if not os.path.exists(stick_mask_path):
-        print("Warning: Missing stick mask")
-    else:
+    for stick_type in STICK_TYPES:
+        stick_mask_path = os.path.join(mask_dir, "stick", f"{stick_type}.png")
+        if not os.path.exists(stick_mask_path):
+            stick_mask_path = os.path.join(mask_dir, "stick", "default.png")
+
         stick_mask_image = Image.open(stick_mask_path).convert("RGBA")
 
-        for stick_type in STICK_TYPES:
-            if stick_type in WOOD_TYPES:
-                block_filename = f"stripped_{stick_type}_log.png"
-                block_path = os.path.join(block_dir, block_filename)
+        if stick_type in WOOD_TYPES and stick_type != "bamboo":
+            block_filename = f"stripped_{stick_type}_log.png"
+            block_path = os.path.join(block_dir, block_filename)
 
-                if not os.path.exists(block_path):
-                    print(f"Warning: Missing log texture for {stick_type}")
-                    continue
+            if not os.path.exists(block_path):
+                print(f"Warning: Missing log texture for {stick_type}")
+                continue
 
-                block_image = Image.open(block_path).convert("RGBA")
-                result_image = apply_mask(block_image, stick_mask_image)
-                result_image = darken_edges(result_image)
+            block_image = Image.open(block_path).convert("RGBA")
+            result_image = apply_mask(block_image, stick_mask_image)
+            result_image = darken_edges(result_image)
 
-                output_path = os.path.join(stick_output_dir, f"{stick_type}.png")
-                result_image.save(output_path)
-                print(f"Generated: {output_path}")
-            elif stick_type in ["blaze", "breeze"]:
-                # For blaze and breeze, we assume there are specific textures
-                stick_texture_path = os.path.join(block_dir, f"{stick_type}_rod.png")
-                if not os.path.exists(stick_texture_path):
-                    print(f"Warning: Missing texture for {stick_type} rod")
-                    continue
-
-                stick_texture = Image.open(stick_texture_path).convert("RGBA")
-                result_image = apply_mask(stick_texture, stick_mask_image)
-                result_image = darken_edges(result_image)
-
-                output_path = os.path.join(stick_output_dir, f"{stick_type}.png")
-                result_image.save(output_path)
-                print(f"Generated: {output_path}")
+            output_path = os.path.join(stick_output_dir, f"{stick_type}.png")
+            result_image.save(output_path)
+            print(f"Generated: {output_path}")
 
 if __name__ == "__main__":
     generate_tool_heads_and_sticks()
