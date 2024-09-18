@@ -552,7 +552,7 @@ lang_dir = os.path.dirname(lang_file_path)
 os.makedirs(lang_dir, exist_ok=True)  # Create directories if they don't exist
 
 # Define the path for recipe files
-recipe_file_path = "./output/data/woodstuff/recipes"
+recipe_file_path = "./output/data/woodstuff/recipe"
 recipe_dir = os.path.dirname(recipe_file_path)
 os.makedirs(recipe_dir, exist_ok=True) # Create the directory if it doesn't exist
 
