@@ -304,7 +304,7 @@ def generate_recipes():
                 "S": {"item": stick_item}
             },
             "result": {
-                "item": f"woodstuff:{item_name}",
+                "id": f"woodstuff:{item_name}",
                 "count": 1
             }
         }

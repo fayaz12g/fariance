@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "woodstuff:redstone_axe_with_oak_stick",
+    "id": "woodstuff:redstone_axe_with_oak_stick",
     "count": 1
   }
 }

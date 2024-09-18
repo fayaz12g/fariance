@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "woodstuff:gold_sword_with_oak_stick",
+    "id": "woodstuff:gold_sword_with_oak_stick",
     "count": 1
   }
 }

@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "woodstuff:redstone_hoe_with_birch_stick",
+    "id": "woodstuff:redstone_hoe_with_birch_stick",
     "count": 1
   }
 }

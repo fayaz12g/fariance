@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "woodstuff:copper_shovel_with_oak_stick",
+    "id": "woodstuff:copper_shovel_with_oak_stick",
     "count": 1
   }
 }
