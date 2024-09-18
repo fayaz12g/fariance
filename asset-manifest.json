@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/woodstuffmod/static/css/main.e2875840.css",
-    "main.js": "/woodstuffmod/static/js/main.43a2514c.js",
+    "main.js": "/woodstuffmod/static/js/main.14d141a8.js",
     "static/js/453.bb828c5d.chunk.js": "/woodstuffmod/static/js/453.bb828c5d.chunk.js",
     "index.html": "/woodstuffmod/index.html",
     "main.e2875840.css.map": "/woodstuffmod/static/css/main.e2875840.css.map",
-    "main.43a2514c.js.map": "/woodstuffmod/static/js/main.43a2514c.js.map",
+    "main.14d141a8.js.map": "/woodstuffmod/static/js/main.14d141a8.js.map",
     "453.bb828c5d.chunk.js.map": "/woodstuffmod/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2875840.css",
-    "static/js/main.43a2514c.js"
+    "static/js/main.14d141a8.js"
   ]
 }
