@@ -4185,7 +4185,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cobblestone_sword_with_warped_stick.png"
     },
     {
-      "name": "Acacia Copper Axe",
+      "name": "Copper Axe With Acacia Stick",
       "id": "copper_axe_with_acacia_stick",
       "stick": "acacia",
       "material": "copper",
@@ -4193,7 +4193,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_axe_with_acacia_stick.png"
     },
     {
-      "name": "Bamboo Copper Axe",
+      "name": "Copper Axe With Bamboo Stick",
       "id": "copper_axe_with_bamboo_stick",
       "stick": "bamboo",
       "material": "copper",
@@ -4201,7 +4201,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_axe_with_bamboo_stick.png"
     },
     {
-      "name": "Birch Copper Axe",
+      "name": "Copper Axe With Birch Stick",
       "id": "copper_axe_with_birch_stick",
       "stick": "birch",
       "material": "copper",
@@ -4209,7 +4209,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_axe_with_birch_stick.png"
     },
     {
-      "name": "Blaze Copper Axe",
+      "name": "Copper Axe With Blaze Stick",
       "id": "copper_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "copper",
@@ -4217,7 +4217,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Copper Axe",
+      "name": "Copper Axe With Breeze Stick",
       "id": "copper_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "copper",
@@ -4225,7 +4225,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_axe_with_breeze_stick.png"
     },
     {
-      "name": "Cherry Copper Axe",
+      "name": "Copper Axe With Cherry Stick",
       "id": "copper_axe_with_cherry_stick",
       "stick": "cherry",
       "material": "copper",
@@ -4233,7 +4233,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_axe_with_cherry_stick.png"
     },
     {
-      "name": "Crimson Copper Axe",
+      "name": "Copper Axe With Crimson Stick",
       "id": "copper_axe_with_crimson_stick",
       "stick": "crimson",
       "material": "copper",
@@ -4241,7 +4241,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_axe_with_crimson_stick.png"
     },
     {
-      "name": "Dark Oak Copper Axe",
+      "name": "Copper Axe With Dark Oak Stick",
       "id": "copper_axe_with_dark_oak_stick",
       "stick": "dark",
       "material": "copper",
@@ -4249,7 +4249,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_axe_with_dark_oak_stick.png"
     },
     {
-      "name": "Jungle Copper Axe",
+      "name": "Copper Axe With Jungle Stick",
       "id": "copper_axe_with_jungle_stick",
       "stick": "jungle",
       "material": "copper",
@@ -4257,7 +4257,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_axe_with_jungle_stick.png"
     },
     {
-      "name": "Mangrove Copper Axe",
+      "name": "Copper Axe With Mangrove Stick",
       "id": "copper_axe_with_mangrove_stick",
       "stick": "mangrove",
       "material": "copper",
@@ -4265,7 +4265,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_axe_with_mangrove_stick.png"
     },
     {
-      "name": "Oak Copper Axe",
+      "name": "Copper Axe With Oak Stick",
       "id": "copper_axe_with_oak_stick",
       "stick": "oak",
       "material": "copper",
@@ -4273,7 +4273,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_axe_with_oak_stick.png"
     },
     {
-      "name": "Spruce Copper Axe",
+      "name": "Copper Axe With Spruce Stick",
       "id": "copper_axe_with_spruce_stick",
       "stick": "spruce",
       "material": "copper",
@@ -4281,7 +4281,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_axe_with_spruce_stick.png"
     },
     {
-      "name": "Warped Copper Axe",
+      "name": "Copper Axe With Warped Stick",
       "id": "copper_axe_with_warped_stick",
       "stick": "warped",
       "material": "copper",
@@ -4289,7 +4289,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_axe_with_warped_stick.png"
     },
     {
-      "name": "Acacia Copper Hoe",
+      "name": "Copper Hoe With Acacia Stick",
       "id": "copper_hoe_with_acacia_stick",
       "stick": "acacia",
       "material": "copper",
@@ -4297,7 +4297,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_hoe_with_acacia_stick.png"
     },
     {
-      "name": "Bamboo Copper Hoe",
+      "name": "Copper Hoe With Bamboo Stick",
       "id": "copper_hoe_with_bamboo_stick",
       "stick": "bamboo",
       "material": "copper",
@@ -4305,7 +4305,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_hoe_with_bamboo_stick.png"
     },
     {
-      "name": "Birch Copper Hoe",
+      "name": "Copper Hoe With Birch Stick",
       "id": "copper_hoe_with_birch_stick",
       "stick": "birch",
       "material": "copper",
@@ -4313,7 +4313,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_hoe_with_birch_stick.png"
     },
     {
-      "name": "Blaze Copper Hoe",
+      "name": "Copper Hoe With Blaze Stick",
       "id": "copper_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "copper",
@@ -4321,7 +4321,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Copper Hoe",
+      "name": "Copper Hoe With Breeze Stick",
       "id": "copper_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "copper",
@@ -4329,7 +4329,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_hoe_with_breeze_stick.png"
     },
     {
-      "name": "Cherry Copper Hoe",
+      "name": "Copper Hoe With Cherry Stick",
       "id": "copper_hoe_with_cherry_stick",
       "stick": "cherry",
       "material": "copper",
@@ -4337,7 +4337,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_hoe_with_cherry_stick.png"
     },
     {
-      "name": "Crimson Copper Hoe",
+      "name": "Copper Hoe With Crimson Stick",
       "id": "copper_hoe_with_crimson_stick",
       "stick": "crimson",
       "material": "copper",
@@ -4345,7 +4345,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_hoe_with_crimson_stick.png"
     },
     {
-      "name": "Dark Oak Copper Hoe",
+      "name": "Copper Hoe With Dark Oak Stick",
       "id": "copper_hoe_with_dark_oak_stick",
       "stick": "dark",
       "material": "copper",
@@ -4353,7 +4353,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_hoe_with_dark_oak_stick.png"
     },
     {
-      "name": "Jungle Copper Hoe",
+      "name": "Copper Hoe With Jungle Stick",
       "id": "copper_hoe_with_jungle_stick",
       "stick": "jungle",
       "material": "copper",
@@ -4361,7 +4361,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_hoe_with_jungle_stick.png"
     },
     {
-      "name": "Mangrove Copper Hoe",
+      "name": "Copper Hoe With Mangrove Stick",
       "id": "copper_hoe_with_mangrove_stick",
       "stick": "mangrove",
       "material": "copper",
@@ -4369,7 +4369,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_hoe_with_mangrove_stick.png"
     },
     {
-      "name": "Oak Copper Hoe",
+      "name": "Copper Hoe With Oak Stick",
       "id": "copper_hoe_with_oak_stick",
       "stick": "oak",
       "material": "copper",
@@ -4377,7 +4377,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_hoe_with_oak_stick.png"
     },
     {
-      "name": "Spruce Copper Hoe",
+      "name": "Copper Hoe With Spruce Stick",
       "id": "copper_hoe_with_spruce_stick",
       "stick": "spruce",
       "material": "copper",
@@ -4385,7 +4385,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_hoe_with_spruce_stick.png"
     },
     {
-      "name": "Warped Copper Hoe",
+      "name": "Copper Hoe With Warped Stick",
       "id": "copper_hoe_with_warped_stick",
       "stick": "warped",
       "material": "copper",
@@ -4393,7 +4393,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_hoe_with_warped_stick.png"
     },
     {
-      "name": "Acacia Copper Pickaxe",
+      "name": "Copper Pickaxe With Acacia Stick",
       "id": "copper_pickaxe_with_acacia_stick",
       "stick": "acacia",
       "material": "copper",
@@ -4401,7 +4401,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_pickaxe_with_acacia_stick.png"
     },
     {
-      "name": "Bamboo Copper Pickaxe",
+      "name": "Copper Pickaxe With Bamboo Stick",
       "id": "copper_pickaxe_with_bamboo_stick",
       "stick": "bamboo",
       "material": "copper",
@@ -4409,7 +4409,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_pickaxe_with_bamboo_stick.png"
     },
     {
-      "name": "Birch Copper Pickaxe",
+      "name": "Copper Pickaxe With Birch Stick",
       "id": "copper_pickaxe_with_birch_stick",
       "stick": "birch",
       "material": "copper",
@@ -4417,7 +4417,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_pickaxe_with_birch_stick.png"
     },
     {
-      "name": "Blaze Copper Pickaxe",
+      "name": "Copper Pickaxe With Blaze Stick",
       "id": "copper_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "copper",
@@ -4425,7 +4425,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Copper Pickaxe",
+      "name": "Copper Pickaxe With Breeze Stick",
       "id": "copper_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "copper",
@@ -4433,7 +4433,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_pickaxe_with_breeze_stick.png"
     },
     {
-      "name": "Cherry Copper Pickaxe",
+      "name": "Copper Pickaxe With Cherry Stick",
       "id": "copper_pickaxe_with_cherry_stick",
       "stick": "cherry",
       "material": "copper",
@@ -4441,7 +4441,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_pickaxe_with_cherry_stick.png"
     },
     {
-      "name": "Crimson Copper Pickaxe",
+      "name": "Copper Pickaxe With Crimson Stick",
       "id": "copper_pickaxe_with_crimson_stick",
       "stick": "crimson",
       "material": "copper",
@@ -4449,7 +4449,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_pickaxe_with_crimson_stick.png"
     },
     {
-      "name": "Dark Oak Copper Pickaxe",
+      "name": "Copper Pickaxe With Dark Oak Stick",
       "id": "copper_pickaxe_with_dark_oak_stick",
       "stick": "dark",
       "material": "copper",
@@ -4457,7 +4457,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_pickaxe_with_dark_oak_stick.png"
     },
     {
-      "name": "Jungle Copper Pickaxe",
+      "name": "Copper Pickaxe With Jungle Stick",
       "id": "copper_pickaxe_with_jungle_stick",
       "stick": "jungle",
       "material": "copper",
@@ -4465,7 +4465,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_pickaxe_with_jungle_stick.png"
     },
     {
-      "name": "Mangrove Copper Pickaxe",
+      "name": "Copper Pickaxe With Mangrove Stick",
       "id": "copper_pickaxe_with_mangrove_stick",
       "stick": "mangrove",
       "material": "copper",
@@ -4473,7 +4473,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_pickaxe_with_mangrove_stick.png"
     },
     {
-      "name": "Oak Copper Pickaxe",
+      "name": "Copper Pickaxe With Oak Stick",
       "id": "copper_pickaxe_with_oak_stick",
       "stick": "oak",
       "material": "copper",
@@ -4481,7 +4481,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_pickaxe_with_oak_stick.png"
     },
     {
-      "name": "Spruce Copper Pickaxe",
+      "name": "Copper Pickaxe With Spruce Stick",
       "id": "copper_pickaxe_with_spruce_stick",
       "stick": "spruce",
       "material": "copper",
@@ -4489,7 +4489,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_pickaxe_with_spruce_stick.png"
     },
     {
-      "name": "Warped Copper Pickaxe",
+      "name": "Copper Pickaxe With Warped Stick",
       "id": "copper_pickaxe_with_warped_stick",
       "stick": "warped",
       "material": "copper",
@@ -4497,7 +4497,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_pickaxe_with_warped_stick.png"
     },
     {
-      "name": "Acacia Copper Shovel",
+      "name": "Copper Shovel With Acacia Stick",
       "id": "copper_shovel_with_acacia_stick",
       "stick": "acacia",
       "material": "copper",
@@ -4505,7 +4505,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_shovel_with_acacia_stick.png"
     },
     {
-      "name": "Bamboo Copper Shovel",
+      "name": "Copper Shovel With Bamboo Stick",
       "id": "copper_shovel_with_bamboo_stick",
       "stick": "bamboo",
       "material": "copper",
@@ -4513,7 +4513,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_shovel_with_bamboo_stick.png"
     },
     {
-      "name": "Birch Copper Shovel",
+      "name": "Copper Shovel With Birch Stick",
       "id": "copper_shovel_with_birch_stick",
       "stick": "birch",
       "material": "copper",
@@ -4521,7 +4521,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_shovel_with_birch_stick.png"
     },
     {
-      "name": "Blaze Copper Shovel",
+      "name": "Copper Shovel With Blaze Stick",
       "id": "copper_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "copper",
@@ -4529,7 +4529,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Copper Shovel",
+      "name": "Copper Shovel With Breeze Stick",
       "id": "copper_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "copper",
@@ -4537,7 +4537,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_shovel_with_breeze_stick.png"
     },
     {
-      "name": "Cherry Copper Shovel",
+      "name": "Copper Shovel With Cherry Stick",
       "id": "copper_shovel_with_cherry_stick",
       "stick": "cherry",
       "material": "copper",
@@ -4545,7 +4545,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_shovel_with_cherry_stick.png"
     },
     {
-      "name": "Crimson Copper Shovel",
+      "name": "Copper Shovel With Crimson Stick",
       "id": "copper_shovel_with_crimson_stick",
       "stick": "crimson",
       "material": "copper",
@@ -4553,7 +4553,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_shovel_with_crimson_stick.png"
     },
     {
-      "name": "Dark Oak Copper Shovel",
+      "name": "Copper Shovel With Dark Oak Stick",
       "id": "copper_shovel_with_dark_oak_stick",
       "stick": "dark",
       "material": "copper",
@@ -4561,7 +4561,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_shovel_with_dark_oak_stick.png"
     },
     {
-      "name": "Jungle Copper Shovel",
+      "name": "Copper Shovel With Jungle Stick",
       "id": "copper_shovel_with_jungle_stick",
       "stick": "jungle",
       "material": "copper",
@@ -4569,7 +4569,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_shovel_with_jungle_stick.png"
     },
     {
-      "name": "Mangrove Copper Shovel",
+      "name": "Copper Shovel With Mangrove Stick",
       "id": "copper_shovel_with_mangrove_stick",
       "stick": "mangrove",
       "material": "copper",
@@ -4577,7 +4577,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_shovel_with_mangrove_stick.png"
     },
     {
-      "name": "Oak Copper Shovel",
+      "name": "Copper Shovel With Oak Stick",
       "id": "copper_shovel_with_oak_stick",
       "stick": "oak",
       "material": "copper",
@@ -4585,7 +4585,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_shovel_with_oak_stick.png"
     },
     {
-      "name": "Spruce Copper Shovel",
+      "name": "Copper Shovel With Spruce Stick",
       "id": "copper_shovel_with_spruce_stick",
       "stick": "spruce",
       "material": "copper",
@@ -4593,7 +4593,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_shovel_with_spruce_stick.png"
     },
     {
-      "name": "Warped Copper Shovel",
+      "name": "Copper Shovel With Warped Stick",
       "id": "copper_shovel_with_warped_stick",
       "stick": "warped",
       "material": "copper",
@@ -4601,7 +4601,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_shovel_with_warped_stick.png"
     },
     {
-      "name": "Acacia Copper Sword",
+      "name": "Copper Sword With Acacia Stick",
       "id": "copper_sword_with_acacia_stick",
       "stick": "acacia",
       "material": "copper",
@@ -4609,7 +4609,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_sword_with_acacia_stick.png"
     },
     {
-      "name": "Bamboo Copper Sword",
+      "name": "Copper Sword With Bamboo Stick",
       "id": "copper_sword_with_bamboo_stick",
       "stick": "bamboo",
       "material": "copper",
@@ -4617,7 +4617,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_sword_with_bamboo_stick.png"
     },
     {
-      "name": "Birch Copper Sword",
+      "name": "Copper Sword With Birch Stick",
       "id": "copper_sword_with_birch_stick",
       "stick": "birch",
       "material": "copper",
@@ -4625,7 +4625,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_sword_with_birch_stick.png"
     },
     {
-      "name": "Blaze Copper Sword",
+      "name": "Copper Sword With Blaze Stick",
       "id": "copper_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "copper",
@@ -4633,7 +4633,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Copper Sword",
+      "name": "Copper Sword With Breeze Stick",
       "id": "copper_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "copper",
@@ -4641,7 +4641,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_sword_with_breeze_stick.png"
     },
     {
-      "name": "Cherry Copper Sword",
+      "name": "Copper Sword With Cherry Stick",
       "id": "copper_sword_with_cherry_stick",
       "stick": "cherry",
       "material": "copper",
@@ -4649,7 +4649,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_sword_with_cherry_stick.png"
     },
     {
-      "name": "Crimson Copper Sword",
+      "name": "Copper Sword With Crimson Stick",
       "id": "copper_sword_with_crimson_stick",
       "stick": "crimson",
       "material": "copper",
@@ -4657,7 +4657,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_sword_with_crimson_stick.png"
     },
     {
-      "name": "Dark Oak Copper Sword",
+      "name": "Copper Sword With Dark Oak Stick",
       "id": "copper_sword_with_dark_oak_stick",
       "stick": "dark",
       "material": "copper",
@@ -4665,7 +4665,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_sword_with_dark_oak_stick.png"
     },
     {
-      "name": "Jungle Copper Sword",
+      "name": "Copper Sword With Jungle Stick",
       "id": "copper_sword_with_jungle_stick",
       "stick": "jungle",
       "material": "copper",
@@ -4673,7 +4673,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_sword_with_jungle_stick.png"
     },
     {
-      "name": "Mangrove Copper Sword",
+      "name": "Copper Sword With Mangrove Stick",
       "id": "copper_sword_with_mangrove_stick",
       "stick": "mangrove",
       "material": "copper",
@@ -4681,7 +4681,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_sword_with_mangrove_stick.png"
     },
     {
-      "name": "Oak Copper Sword",
+      "name": "Copper Sword With Oak Stick",
       "id": "copper_sword_with_oak_stick",
       "stick": "oak",
       "material": "copper",
@@ -4689,7 +4689,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_sword_with_oak_stick.png"
     },
     {
-      "name": "Spruce Copper Sword",
+      "name": "Copper Sword With Spruce Stick",
       "id": "copper_sword_with_spruce_stick",
       "stick": "spruce",
       "material": "copper",
@@ -4697,7 +4697,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/copper_sword_with_spruce_stick.png"
     },
     {
-      "name": "Warped Copper Sword",
+      "name": "Copper Sword With Warped Stick",
       "id": "copper_sword_with_warped_stick",
       "stick": "warped",
       "material": "copper",
@@ -7319,6 +7319,534 @@
       "material": "diorite",
       "type": "sword",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diorite_sword_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Ezposed Copper Axe",
+      "id": "exposed_copper_axe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Ezposed Copper Axe",
+      "id": "exposed_copper_axe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Ezposed Copper Axe",
+      "id": "exposed_copper_axe_with_birch_stick",
+      "stick": "birch",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Ezposed Copper Axe",
+      "id": "exposed_copper_axe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Ezposed Copper Axe",
+      "id": "exposed_copper_axe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Ezposed Copper Axe",
+      "id": "exposed_copper_axe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Ezposed Copper Axe",
+      "id": "exposed_copper_axe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Ezposed Copper Axe",
+      "id": "exposed_copper_axe_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Ezposed Copper Axe",
+      "id": "exposed_copper_axe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Ezposed Copper Axe",
+      "id": "exposed_copper_axe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Ezposed Copper Axe",
+      "id": "exposed_copper_axe_with_oak_stick",
+      "stick": "oak",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Ezposed Copper Axe",
+      "id": "exposed_copper_axe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Ezposed Copper Axe",
+      "id": "exposed_copper_axe_with_warped_stick",
+      "stick": "warped",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Ezposed Copper Hoe",
+      "id": "exposed_copper_hoe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "exposed",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Ezposed Copper Hoe",
+      "id": "exposed_copper_hoe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "exposed",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Ezposed Copper Hoe",
+      "id": "exposed_copper_hoe_with_birch_stick",
+      "stick": "birch",
+      "material": "exposed",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Ezposed Copper Hoe",
+      "id": "exposed_copper_hoe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "exposed",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Ezposed Copper Hoe",
+      "id": "exposed_copper_hoe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "exposed",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Ezposed Copper Hoe",
+      "id": "exposed_copper_hoe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "exposed",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Ezposed Copper Hoe",
+      "id": "exposed_copper_hoe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "exposed",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Ezposed Copper Hoe",
+      "id": "exposed_copper_hoe_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "exposed",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Ezposed Copper Hoe",
+      "id": "exposed_copper_hoe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "exposed",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Ezposed Copper Hoe",
+      "id": "exposed_copper_hoe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "exposed",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Ezposed Copper Hoe",
+      "id": "exposed_copper_hoe_with_oak_stick",
+      "stick": "oak",
+      "material": "exposed",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Ezposed Copper Hoe",
+      "id": "exposed_copper_hoe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "exposed",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Ezposed Copper Hoe",
+      "id": "exposed_copper_hoe_with_warped_stick",
+      "stick": "warped",
+      "material": "exposed",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_warped_stick.png"
+    },
+    {
+      "name": "Exposed Copper Ingot",
+      "id": "exposed_copper_ingot",
+      "stick": "exposed",
+      "material": "unknown",
+      "type": "unknown",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_ingot.png"
+    },
+    {
+      "name": "Acacia Ezposed Copper Pickaxe",
+      "id": "exposed_copper_pickaxe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Ezposed Copper Pickaxe",
+      "id": "exposed_copper_pickaxe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Ezposed Copper Pickaxe",
+      "id": "exposed_copper_pickaxe_with_birch_stick",
+      "stick": "birch",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Ezposed Copper Pickaxe",
+      "id": "exposed_copper_pickaxe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Ezposed Copper Pickaxe",
+      "id": "exposed_copper_pickaxe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Ezposed Copper Pickaxe",
+      "id": "exposed_copper_pickaxe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Ezposed Copper Pickaxe",
+      "id": "exposed_copper_pickaxe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Ezposed Copper Pickaxe",
+      "id": "exposed_copper_pickaxe_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Ezposed Copper Pickaxe",
+      "id": "exposed_copper_pickaxe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Ezposed Copper Pickaxe",
+      "id": "exposed_copper_pickaxe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Ezposed Copper Pickaxe",
+      "id": "exposed_copper_pickaxe_with_oak_stick",
+      "stick": "oak",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Ezposed Copper Pickaxe",
+      "id": "exposed_copper_pickaxe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Ezposed Copper Pickaxe",
+      "id": "exposed_copper_pickaxe_with_warped_stick",
+      "stick": "warped",
+      "material": "exposed",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Ezposed Copper Shovel",
+      "id": "exposed_copper_shovel_with_acacia_stick",
+      "stick": "acacia",
+      "material": "exposed",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Ezposed Copper Shovel",
+      "id": "exposed_copper_shovel_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "exposed",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Ezposed Copper Shovel",
+      "id": "exposed_copper_shovel_with_birch_stick",
+      "stick": "birch",
+      "material": "exposed",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Ezposed Copper Shovel",
+      "id": "exposed_copper_shovel_with_blaze_stick",
+      "stick": "blaze",
+      "material": "exposed",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Ezposed Copper Shovel",
+      "id": "exposed_copper_shovel_with_breeze_stick",
+      "stick": "breeze",
+      "material": "exposed",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Ezposed Copper Shovel",
+      "id": "exposed_copper_shovel_with_cherry_stick",
+      "stick": "cherry",
+      "material": "exposed",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Ezposed Copper Shovel",
+      "id": "exposed_copper_shovel_with_crimson_stick",
+      "stick": "crimson",
+      "material": "exposed",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Ezposed Copper Shovel",
+      "id": "exposed_copper_shovel_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "exposed",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Ezposed Copper Shovel",
+      "id": "exposed_copper_shovel_with_jungle_stick",
+      "stick": "jungle",
+      "material": "exposed",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Ezposed Copper Shovel",
+      "id": "exposed_copper_shovel_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "exposed",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Ezposed Copper Shovel",
+      "id": "exposed_copper_shovel_with_oak_stick",
+      "stick": "oak",
+      "material": "exposed",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Ezposed Copper Shovel",
+      "id": "exposed_copper_shovel_with_spruce_stick",
+      "stick": "spruce",
+      "material": "exposed",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Ezposed Copper Shovel",
+      "id": "exposed_copper_shovel_with_warped_stick",
+      "stick": "warped",
+      "material": "exposed",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Ezposed Copper Sword",
+      "id": "exposed_copper_sword_with_acacia_stick",
+      "stick": "acacia",
+      "material": "exposed",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Ezposed Copper Sword",
+      "id": "exposed_copper_sword_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "exposed",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Ezposed Copper Sword",
+      "id": "exposed_copper_sword_with_birch_stick",
+      "stick": "birch",
+      "material": "exposed",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Ezposed Copper Sword",
+      "id": "exposed_copper_sword_with_blaze_stick",
+      "stick": "blaze",
+      "material": "exposed",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Ezposed Copper Sword",
+      "id": "exposed_copper_sword_with_breeze_stick",
+      "stick": "breeze",
+      "material": "exposed",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Ezposed Copper Sword",
+      "id": "exposed_copper_sword_with_cherry_stick",
+      "stick": "cherry",
+      "material": "exposed",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Ezposed Copper Sword",
+      "id": "exposed_copper_sword_with_crimson_stick",
+      "stick": "crimson",
+      "material": "exposed",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Ezposed Copper Sword",
+      "id": "exposed_copper_sword_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "exposed",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Ezposed Copper Sword",
+      "id": "exposed_copper_sword_with_jungle_stick",
+      "stick": "jungle",
+      "material": "exposed",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Ezposed Copper Sword",
+      "id": "exposed_copper_sword_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "exposed",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Ezposed Copper Sword",
+      "id": "exposed_copper_sword_with_oak_stick",
+      "stick": "oak",
+      "material": "exposed",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Ezposed Copper Sword",
+      "id": "exposed_copper_sword_with_spruce_stick",
+      "stick": "spruce",
+      "material": "exposed",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Ezposed Copper Sword",
+      "id": "exposed_copper_sword_with_warped_stick",
+      "stick": "warped",
+      "material": "exposed",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_warped_stick.png"
     },
     {
       "name": "Acacia Gold Axe",
@@ -11505,6 +12033,534 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oak_sword_with_warped_stick.png"
     },
     {
+      "name": "Acacia Oxidized Copper Axe",
+      "id": "oxidized_copper_axe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Oxidized Copper Axe",
+      "id": "oxidized_copper_axe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Oxidized Copper Axe",
+      "id": "oxidized_copper_axe_with_birch_stick",
+      "stick": "birch",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Oxidized Copper Axe",
+      "id": "oxidized_copper_axe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Oxidized Copper Axe",
+      "id": "oxidized_copper_axe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Oxidized Copper Axe",
+      "id": "oxidized_copper_axe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Oxidized Copper Axe",
+      "id": "oxidized_copper_axe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Oxidized Copper Axe",
+      "id": "oxidized_copper_axe_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Oxidized Copper Axe",
+      "id": "oxidized_copper_axe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Oxidized Copper Axe",
+      "id": "oxidized_copper_axe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Oxidized Copper Axe",
+      "id": "oxidized_copper_axe_with_oak_stick",
+      "stick": "oak",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Oxidized Copper Axe",
+      "id": "oxidized_copper_axe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Oxidized Copper Axe",
+      "id": "oxidized_copper_axe_with_warped_stick",
+      "stick": "warped",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Oxidized Copper Hoe",
+      "id": "oxidized_copper_hoe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "oxidized",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Oxidized Copper Hoe",
+      "id": "oxidized_copper_hoe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "oxidized",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Oxidized Copper Hoe",
+      "id": "oxidized_copper_hoe_with_birch_stick",
+      "stick": "birch",
+      "material": "oxidized",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Oxidized Copper Hoe",
+      "id": "oxidized_copper_hoe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "oxidized",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Oxidized Copper Hoe",
+      "id": "oxidized_copper_hoe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "oxidized",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Oxidized Copper Hoe",
+      "id": "oxidized_copper_hoe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "oxidized",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Oxidized Copper Hoe",
+      "id": "oxidized_copper_hoe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "oxidized",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Oxidized Copper Hoe",
+      "id": "oxidized_copper_hoe_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "oxidized",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Oxidized Copper Hoe",
+      "id": "oxidized_copper_hoe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "oxidized",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Oxidized Copper Hoe",
+      "id": "oxidized_copper_hoe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "oxidized",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Oxidized Copper Hoe",
+      "id": "oxidized_copper_hoe_with_oak_stick",
+      "stick": "oak",
+      "material": "oxidized",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Oxidized Copper Hoe",
+      "id": "oxidized_copper_hoe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "oxidized",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Oxidized Copper Hoe",
+      "id": "oxidized_copper_hoe_with_warped_stick",
+      "stick": "warped",
+      "material": "oxidized",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_warped_stick.png"
+    },
+    {
+      "name": "Oxidized Copper Ingot",
+      "id": "oxidized_copper_ingot",
+      "stick": "oxidized",
+      "material": "unknown",
+      "type": "unknown",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_ingot.png"
+    },
+    {
+      "name": "Acacia Oxidized Copper Pickaxe",
+      "id": "oxidized_copper_pickaxe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Oxidized Copper Pickaxe",
+      "id": "oxidized_copper_pickaxe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Oxidized Copper Pickaxe",
+      "id": "oxidized_copper_pickaxe_with_birch_stick",
+      "stick": "birch",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Oxidized Copper Pickaxe",
+      "id": "oxidized_copper_pickaxe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Oxidized Copper Pickaxe",
+      "id": "oxidized_copper_pickaxe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Oxidized Copper Pickaxe",
+      "id": "oxidized_copper_pickaxe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Oxidized Copper Pickaxe",
+      "id": "oxidized_copper_pickaxe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Oxidized Copper Pickaxe",
+      "id": "oxidized_copper_pickaxe_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Oxidized Copper Pickaxe",
+      "id": "oxidized_copper_pickaxe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Oxidized Copper Pickaxe",
+      "id": "oxidized_copper_pickaxe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Oxidized Copper Pickaxe",
+      "id": "oxidized_copper_pickaxe_with_oak_stick",
+      "stick": "oak",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Oxidized Copper Pickaxe",
+      "id": "oxidized_copper_pickaxe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Oxidized Copper Pickaxe",
+      "id": "oxidized_copper_pickaxe_with_warped_stick",
+      "stick": "warped",
+      "material": "oxidized",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Oxidized Copper Shovel",
+      "id": "oxidized_copper_shovel_with_acacia_stick",
+      "stick": "acacia",
+      "material": "oxidized",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Oxidized Copper Shovel",
+      "id": "oxidized_copper_shovel_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "oxidized",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Oxidized Copper Shovel",
+      "id": "oxidized_copper_shovel_with_birch_stick",
+      "stick": "birch",
+      "material": "oxidized",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Oxidized Copper Shovel",
+      "id": "oxidized_copper_shovel_with_blaze_stick",
+      "stick": "blaze",
+      "material": "oxidized",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Oxidized Copper Shovel",
+      "id": "oxidized_copper_shovel_with_breeze_stick",
+      "stick": "breeze",
+      "material": "oxidized",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Oxidized Copper Shovel",
+      "id": "oxidized_copper_shovel_with_cherry_stick",
+      "stick": "cherry",
+      "material": "oxidized",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Oxidized Copper Shovel",
+      "id": "oxidized_copper_shovel_with_crimson_stick",
+      "stick": "crimson",
+      "material": "oxidized",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Oxidized Copper Shovel",
+      "id": "oxidized_copper_shovel_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "oxidized",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Oxidized Copper Shovel",
+      "id": "oxidized_copper_shovel_with_jungle_stick",
+      "stick": "jungle",
+      "material": "oxidized",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Oxidized Copper Shovel",
+      "id": "oxidized_copper_shovel_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "oxidized",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Oxidized Copper Shovel",
+      "id": "oxidized_copper_shovel_with_oak_stick",
+      "stick": "oak",
+      "material": "oxidized",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Oxidized Copper Shovel",
+      "id": "oxidized_copper_shovel_with_spruce_stick",
+      "stick": "spruce",
+      "material": "oxidized",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Oxidized Copper Shovel",
+      "id": "oxidized_copper_shovel_with_warped_stick",
+      "stick": "warped",
+      "material": "oxidized",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Oxidized Copper Sword",
+      "id": "oxidized_copper_sword_with_acacia_stick",
+      "stick": "acacia",
+      "material": "oxidized",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Oxidized Copper Sword",
+      "id": "oxidized_copper_sword_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "oxidized",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Oxidized Copper Sword",
+      "id": "oxidized_copper_sword_with_birch_stick",
+      "stick": "birch",
+      "material": "oxidized",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Oxidized Copper Sword",
+      "id": "oxidized_copper_sword_with_blaze_stick",
+      "stick": "blaze",
+      "material": "oxidized",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Oxidized Copper Sword",
+      "id": "oxidized_copper_sword_with_breeze_stick",
+      "stick": "breeze",
+      "material": "oxidized",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Oxidized Copper Sword",
+      "id": "oxidized_copper_sword_with_cherry_stick",
+      "stick": "cherry",
+      "material": "oxidized",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Oxidized Copper Sword",
+      "id": "oxidized_copper_sword_with_crimson_stick",
+      "stick": "crimson",
+      "material": "oxidized",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Oxidized Copper Sword",
+      "id": "oxidized_copper_sword_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "oxidized",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Oxidized Copper Sword",
+      "id": "oxidized_copper_sword_with_jungle_stick",
+      "stick": "jungle",
+      "material": "oxidized",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Oxidized Copper Sword",
+      "id": "oxidized_copper_sword_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "oxidized",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Oxidized Copper Sword",
+      "id": "oxidized_copper_sword_with_oak_stick",
+      "stick": "oak",
+      "material": "oxidized",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Oxidized Copper Sword",
+      "id": "oxidized_copper_sword_with_spruce_stick",
+      "stick": "spruce",
+      "material": "oxidized",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Oxidized Copper Sword",
+      "id": "oxidized_copper_sword_with_warped_stick",
+      "stick": "warped",
+      "material": "oxidized",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_warped_stick.png"
+    },
+    {
       "name": "Acacia Quartz Axe",
       "id": "quartz_axe_with_acacia_stick",
       "stick": "acacia",
@@ -12543,6 +13599,534 @@
       "material": "redstone",
       "type": "sword",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/redstone_sword_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Shiny Copper Axe",
+      "id": "shiny_copper_axe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Shiny Copper Axe",
+      "id": "shiny_copper_axe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Shiny Copper Axe",
+      "id": "shiny_copper_axe_with_birch_stick",
+      "stick": "birch",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Shiny Copper Axe",
+      "id": "shiny_copper_axe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Shiny Copper Axe",
+      "id": "shiny_copper_axe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Shiny Copper Axe",
+      "id": "shiny_copper_axe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Shiny Copper Axe",
+      "id": "shiny_copper_axe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Shiny Copper Axe",
+      "id": "shiny_copper_axe_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Shiny Copper Axe",
+      "id": "shiny_copper_axe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Shiny Copper Axe",
+      "id": "shiny_copper_axe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Shiny Copper Axe",
+      "id": "shiny_copper_axe_with_oak_stick",
+      "stick": "oak",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Shiny Copper Axe",
+      "id": "shiny_copper_axe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Shiny Copper Axe",
+      "id": "shiny_copper_axe_with_warped_stick",
+      "stick": "warped",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Shiny Copper Hoe",
+      "id": "shiny_copper_hoe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "shiny",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Shiny Copper Hoe",
+      "id": "shiny_copper_hoe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "shiny",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Shiny Copper Hoe",
+      "id": "shiny_copper_hoe_with_birch_stick",
+      "stick": "birch",
+      "material": "shiny",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Shiny Copper Hoe",
+      "id": "shiny_copper_hoe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "shiny",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Shiny Copper Hoe",
+      "id": "shiny_copper_hoe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "shiny",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Shiny Copper Hoe",
+      "id": "shiny_copper_hoe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "shiny",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Shiny Copper Hoe",
+      "id": "shiny_copper_hoe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "shiny",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Shiny Copper Hoe",
+      "id": "shiny_copper_hoe_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "shiny",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Shiny Copper Hoe",
+      "id": "shiny_copper_hoe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "shiny",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Shiny Copper Hoe",
+      "id": "shiny_copper_hoe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "shiny",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Shiny Copper Hoe",
+      "id": "shiny_copper_hoe_with_oak_stick",
+      "stick": "oak",
+      "material": "shiny",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Shiny Copper Hoe",
+      "id": "shiny_copper_hoe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "shiny",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Shiny Copper Hoe",
+      "id": "shiny_copper_hoe_with_warped_stick",
+      "stick": "warped",
+      "material": "shiny",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_warped_stick.png"
+    },
+    {
+      "name": "Shiny Copper Ingot",
+      "id": "shiny_copper_ingot",
+      "stick": "shiny",
+      "material": "unknown",
+      "type": "unknown",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_ingot.png"
+    },
+    {
+      "name": "Acacia Shiny Copper Pickaxe",
+      "id": "shiny_copper_pickaxe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Shiny Copper Pickaxe",
+      "id": "shiny_copper_pickaxe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Shiny Copper Pickaxe",
+      "id": "shiny_copper_pickaxe_with_birch_stick",
+      "stick": "birch",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Shiny Copper Pickaxe",
+      "id": "shiny_copper_pickaxe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Shiny Copper Pickaxe",
+      "id": "shiny_copper_pickaxe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Shiny Copper Pickaxe",
+      "id": "shiny_copper_pickaxe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Shiny Copper Pickaxe",
+      "id": "shiny_copper_pickaxe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Shiny Copper Pickaxe",
+      "id": "shiny_copper_pickaxe_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Shiny Copper Pickaxe",
+      "id": "shiny_copper_pickaxe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Shiny Copper Pickaxe",
+      "id": "shiny_copper_pickaxe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Shiny Copper Pickaxe",
+      "id": "shiny_copper_pickaxe_with_oak_stick",
+      "stick": "oak",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Shiny Copper Pickaxe",
+      "id": "shiny_copper_pickaxe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Shiny Copper Pickaxe",
+      "id": "shiny_copper_pickaxe_with_warped_stick",
+      "stick": "warped",
+      "material": "shiny",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Shiny Copper Shovel",
+      "id": "shiny_copper_shovel_with_acacia_stick",
+      "stick": "acacia",
+      "material": "shiny",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Shiny Copper Shovel",
+      "id": "shiny_copper_shovel_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "shiny",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Shiny Copper Shovel",
+      "id": "shiny_copper_shovel_with_birch_stick",
+      "stick": "birch",
+      "material": "shiny",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Shiny Copper Shovel",
+      "id": "shiny_copper_shovel_with_blaze_stick",
+      "stick": "blaze",
+      "material": "shiny",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Shiny Copper Shovel",
+      "id": "shiny_copper_shovel_with_breeze_stick",
+      "stick": "breeze",
+      "material": "shiny",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Shiny Copper Shovel",
+      "id": "shiny_copper_shovel_with_cherry_stick",
+      "stick": "cherry",
+      "material": "shiny",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Shiny Copper Shovel",
+      "id": "shiny_copper_shovel_with_crimson_stick",
+      "stick": "crimson",
+      "material": "shiny",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Shiny Copper Shovel",
+      "id": "shiny_copper_shovel_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "shiny",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Shiny Copper Shovel",
+      "id": "shiny_copper_shovel_with_jungle_stick",
+      "stick": "jungle",
+      "material": "shiny",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Shiny Copper Shovel",
+      "id": "shiny_copper_shovel_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "shiny",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Shiny Copper Shovel",
+      "id": "shiny_copper_shovel_with_oak_stick",
+      "stick": "oak",
+      "material": "shiny",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Shiny Copper Shovel",
+      "id": "shiny_copper_shovel_with_spruce_stick",
+      "stick": "spruce",
+      "material": "shiny",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Shiny Copper Shovel",
+      "id": "shiny_copper_shovel_with_warped_stick",
+      "stick": "warped",
+      "material": "shiny",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Shiny Copper Sword",
+      "id": "shiny_copper_sword_with_acacia_stick",
+      "stick": "acacia",
+      "material": "shiny",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Shiny Copper Sword",
+      "id": "shiny_copper_sword_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "shiny",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Shiny Copper Sword",
+      "id": "shiny_copper_sword_with_birch_stick",
+      "stick": "birch",
+      "material": "shiny",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Shiny Copper Sword",
+      "id": "shiny_copper_sword_with_blaze_stick",
+      "stick": "blaze",
+      "material": "shiny",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Shiny Copper Sword",
+      "id": "shiny_copper_sword_with_breeze_stick",
+      "stick": "breeze",
+      "material": "shiny",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Shiny Copper Sword",
+      "id": "shiny_copper_sword_with_cherry_stick",
+      "stick": "cherry",
+      "material": "shiny",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Shiny Copper Sword",
+      "id": "shiny_copper_sword_with_crimson_stick",
+      "stick": "crimson",
+      "material": "shiny",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Shiny Copper Sword",
+      "id": "shiny_copper_sword_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "shiny",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Shiny Copper Sword",
+      "id": "shiny_copper_sword_with_jungle_stick",
+      "stick": "jungle",
+      "material": "shiny",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Shiny Copper Sword",
+      "id": "shiny_copper_sword_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "shiny",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Shiny Copper Sword",
+      "id": "shiny_copper_sword_with_oak_stick",
+      "stick": "oak",
+      "material": "shiny",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Shiny Copper Sword",
+      "id": "shiny_copper_sword_with_spruce_stick",
+      "stick": "spruce",
+      "material": "shiny",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Shiny Copper Sword",
+      "id": "shiny_copper_sword_with_warped_stick",
+      "stick": "warped",
+      "material": "shiny",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_warped_stick.png"
     },
     {
       "name": "Acacia Spruce Axe",
@@ -13599,6 +15183,534 @@
       "material": "warped",
       "type": "sword",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/warped_sword_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Weathered Copper Axe",
+      "id": "weathered_copper_axe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Weathered Copper Axe",
+      "id": "weathered_copper_axe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Weathered Copper Axe",
+      "id": "weathered_copper_axe_with_birch_stick",
+      "stick": "birch",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Weathered Copper Axe",
+      "id": "weathered_copper_axe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Weathered Copper Axe",
+      "id": "weathered_copper_axe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Weathered Copper Axe",
+      "id": "weathered_copper_axe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Weathered Copper Axe",
+      "id": "weathered_copper_axe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Weathered Copper Axe",
+      "id": "weathered_copper_axe_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Weathered Copper Axe",
+      "id": "weathered_copper_axe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Weathered Copper Axe",
+      "id": "weathered_copper_axe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Weathered Copper Axe",
+      "id": "weathered_copper_axe_with_oak_stick",
+      "stick": "oak",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Weathered Copper Axe",
+      "id": "weathered_copper_axe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Weathered Copper Axe",
+      "id": "weathered_copper_axe_with_warped_stick",
+      "stick": "warped",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Weathered Copper Hoe",
+      "id": "weathered_copper_hoe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "weathered",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Weathered Copper Hoe",
+      "id": "weathered_copper_hoe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "weathered",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Weathered Copper Hoe",
+      "id": "weathered_copper_hoe_with_birch_stick",
+      "stick": "birch",
+      "material": "weathered",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Weathered Copper Hoe",
+      "id": "weathered_copper_hoe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "weathered",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Weathered Copper Hoe",
+      "id": "weathered_copper_hoe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "weathered",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Weathered Copper Hoe",
+      "id": "weathered_copper_hoe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "weathered",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Weathered Copper Hoe",
+      "id": "weathered_copper_hoe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "weathered",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Weathered Copper Hoe",
+      "id": "weathered_copper_hoe_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "weathered",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Weathered Copper Hoe",
+      "id": "weathered_copper_hoe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "weathered",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Weathered Copper Hoe",
+      "id": "weathered_copper_hoe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "weathered",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Weathered Copper Hoe",
+      "id": "weathered_copper_hoe_with_oak_stick",
+      "stick": "oak",
+      "material": "weathered",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Weathered Copper Hoe",
+      "id": "weathered_copper_hoe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "weathered",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Weathered Copper Hoe",
+      "id": "weathered_copper_hoe_with_warped_stick",
+      "stick": "warped",
+      "material": "weathered",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_warped_stick.png"
+    },
+    {
+      "name": "Weathered Copper Ingot",
+      "id": "weathered_copper_ingot",
+      "stick": "weathered",
+      "material": "unknown",
+      "type": "unknown",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_ingot.png"
+    },
+    {
+      "name": "Acacia Weathered Copper Pickaxe",
+      "id": "weathered_copper_pickaxe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Weathered Copper Pickaxe",
+      "id": "weathered_copper_pickaxe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Weathered Copper Pickaxe",
+      "id": "weathered_copper_pickaxe_with_birch_stick",
+      "stick": "birch",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Weathered Copper Pickaxe",
+      "id": "weathered_copper_pickaxe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Weathered Copper Pickaxe",
+      "id": "weathered_copper_pickaxe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Weathered Copper Pickaxe",
+      "id": "weathered_copper_pickaxe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Weathered Copper Pickaxe",
+      "id": "weathered_copper_pickaxe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Weathered Copper Pickaxe",
+      "id": "weathered_copper_pickaxe_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Weathered Copper Pickaxe",
+      "id": "weathered_copper_pickaxe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Weathered Copper Pickaxe",
+      "id": "weathered_copper_pickaxe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Weathered Copper Pickaxe",
+      "id": "weathered_copper_pickaxe_with_oak_stick",
+      "stick": "oak",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Weathered Copper Pickaxe",
+      "id": "weathered_copper_pickaxe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Weathered Copper Pickaxe",
+      "id": "weathered_copper_pickaxe_with_warped_stick",
+      "stick": "warped",
+      "material": "weathered",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Weathered Copper Shovel",
+      "id": "weathered_copper_shovel_with_acacia_stick",
+      "stick": "acacia",
+      "material": "weathered",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Weathered Copper Shovel",
+      "id": "weathered_copper_shovel_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "weathered",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Weathered Copper Shovel",
+      "id": "weathered_copper_shovel_with_birch_stick",
+      "stick": "birch",
+      "material": "weathered",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Weathered Copper Shovel",
+      "id": "weathered_copper_shovel_with_blaze_stick",
+      "stick": "blaze",
+      "material": "weathered",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Weathered Copper Shovel",
+      "id": "weathered_copper_shovel_with_breeze_stick",
+      "stick": "breeze",
+      "material": "weathered",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Weathered Copper Shovel",
+      "id": "weathered_copper_shovel_with_cherry_stick",
+      "stick": "cherry",
+      "material": "weathered",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Weathered Copper Shovel",
+      "id": "weathered_copper_shovel_with_crimson_stick",
+      "stick": "crimson",
+      "material": "weathered",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Weathered Copper Shovel",
+      "id": "weathered_copper_shovel_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "weathered",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Weathered Copper Shovel",
+      "id": "weathered_copper_shovel_with_jungle_stick",
+      "stick": "jungle",
+      "material": "weathered",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Weathered Copper Shovel",
+      "id": "weathered_copper_shovel_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "weathered",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Weathered Copper Shovel",
+      "id": "weathered_copper_shovel_with_oak_stick",
+      "stick": "oak",
+      "material": "weathered",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Weathered Copper Shovel",
+      "id": "weathered_copper_shovel_with_spruce_stick",
+      "stick": "spruce",
+      "material": "weathered",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Weathered Copper Shovel",
+      "id": "weathered_copper_shovel_with_warped_stick",
+      "stick": "warped",
+      "material": "weathered",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_warped_stick.png"
+    },
+    {
+      "name": "Acacia Weathered Copper Sword",
+      "id": "weathered_copper_sword_with_acacia_stick",
+      "stick": "acacia",
+      "material": "weathered",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_acacia_stick.png"
+    },
+    {
+      "name": "Bamboo Weathered Copper Sword",
+      "id": "weathered_copper_sword_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "weathered",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_bamboo_stick.png"
+    },
+    {
+      "name": "Birch Weathered Copper Sword",
+      "id": "weathered_copper_sword_with_birch_stick",
+      "stick": "birch",
+      "material": "weathered",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_birch_stick.png"
+    },
+    {
+      "name": "Blaze Weathered Copper Sword",
+      "id": "weathered_copper_sword_with_blaze_stick",
+      "stick": "blaze",
+      "material": "weathered",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_blaze_stick.png"
+    },
+    {
+      "name": "Breeze Weathered Copper Sword",
+      "id": "weathered_copper_sword_with_breeze_stick",
+      "stick": "breeze",
+      "material": "weathered",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_breeze_stick.png"
+    },
+    {
+      "name": "Cherry Weathered Copper Sword",
+      "id": "weathered_copper_sword_with_cherry_stick",
+      "stick": "cherry",
+      "material": "weathered",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Weathered Copper Sword",
+      "id": "weathered_copper_sword_with_crimson_stick",
+      "stick": "crimson",
+      "material": "weathered",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_crimson_stick.png"
+    },
+    {
+      "name": "Dark Oak Weathered Copper Sword",
+      "id": "weathered_copper_sword_with_dark_oak_stick",
+      "stick": "dark",
+      "material": "weathered",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Jungle Weathered Copper Sword",
+      "id": "weathered_copper_sword_with_jungle_stick",
+      "stick": "jungle",
+      "material": "weathered",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_jungle_stick.png"
+    },
+    {
+      "name": "Mangrove Weathered Copper Sword",
+      "id": "weathered_copper_sword_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "weathered",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_mangrove_stick.png"
+    },
+    {
+      "name": "Oak Weathered Copper Sword",
+      "id": "weathered_copper_sword_with_oak_stick",
+      "stick": "oak",
+      "material": "weathered",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Weathered Copper Sword",
+      "id": "weathered_copper_sword_with_spruce_stick",
+      "stick": "spruce",
+      "material": "weathered",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_spruce_stick.png"
+    },
+    {
+      "name": "Warped Weathered Copper Sword",
+      "id": "weathered_copper_sword_with_warped_stick",
+      "stick": "warped",
+      "material": "weathered",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_warped_stick.png"
     }
   ],
   "sticks": [
