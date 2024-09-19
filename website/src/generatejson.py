@@ -11,7 +11,7 @@ github_block_base = "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/mai
 # Constants
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
 COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
-MATERIAL_TYPES = WOOD_TYPES + COPPER_TYPES + ["iron", "diamond", "copper", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"]
+MATERIAL_TYPES = WOOD_TYPES + COPPER_TYPES + ["iron", "diamond", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"]
 STICK_TYPES = [f"stripped_{wood}" for wood in WOOD_TYPES] + WOOD_TYPES + ["blaze", "breeze"]
 
 # Read the language file
@@ -29,7 +29,7 @@ for key, value in lang_data.items():
 tools = []
 for item_id, data in item_data.items():
     # Check if it's a tool
-    tool_types = ["sword", "axe", "shovel", "hoe", "pickaxe"]
+    tool_types = ["sword", "pickaxe", "axe", "shovel", "hoe"]
     tool_type = next((t for t in tool_types if t in item_id), None)
     
     if tool_type:
@@ -62,6 +62,7 @@ def generate_sticks():
     return [
         {
             "name": f"{capitalize(stick)} Stick",
+            "id": stick,
             "imagePath": f"{github_stick_base}{stick}.png"
         }
         for stick in STICK_TYPES
@@ -71,6 +72,7 @@ def generate_materials():
     return [
         {
             "name": capitalize(material),
+            "id": material,
             "imagePath": f"{github_block_base}" + (
                 f'{material}_block' if 'copper' in material
                 else f"stripped_{material}_log" if material in WOOD_TYPES

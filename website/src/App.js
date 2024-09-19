@@ -122,8 +122,8 @@ const App = () => {
                 <FilterButton
                   key={stick.name}
                   name={stick.name.replace(' Stick', '')}
-                  onClick={() => setFilters({ ...filters, stick: stick.name.toLowerCase().replace(' stick', '') })}
-                  isActive={filters.stick === stick.name.toLowerCase().replace(' stick', '')}
+                  onClick={() => setFilters({ ...filters, stick: stick.id.toLowerCase() })}
+                  isActive={filters.stick === stick.id.toLowerCase()}
                   imagePath={stick.imagePath}
                 />
               ))}
@@ -152,8 +152,8 @@ const App = () => {
                 <FilterButton
                   key={material.name}
                   name={material.name}
-                  onClick={() => setFilters({ ...filters, material: material.name.toLowerCase() })}
-                  isActive={filters.material === material.name.toLowerCase()}
+                  onClick={() => setFilters({ ...filters, material: material.id.toLowerCase() })}
+                  isActive={filters.material === material.id.toLowerCase()}
                   imagePath={material.imagePath}
                 />
               ))}
