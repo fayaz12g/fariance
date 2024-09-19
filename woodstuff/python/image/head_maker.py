@@ -25,6 +25,52 @@ def apply_mask(block_image, mask_image):
 
     return result_image
 
+def darken_stick_top(image, amount):
+    # Create a slightly darker version of the image
+    darkened = Image.new('RGBA', image.size, (0, 0, 0, 0))
+    for x in range(image.width):
+        for y in range(image.height):
+            r, g, b, a = image.getpixel((x, y))
+            darkened.putpixel((x, y), (int(r * amount), int(g * amount), int(b * amount), a))
+    
+    # Create a mask for the edges
+    edge_mask = Image.new('L', image.size, 0)
+    edge_pixels = edge_mask.load()
+    width, height = image.size
+    
+    for y in range(height):
+        for x in range(width):
+            if image.getpixel((x, y))[3] > 0:  # If the pixel is not fully transparent
+                # Check if any neighboring pixel is transparent
+                if (image.getpixel((x, y-1))[3] == 0):
+                    edge_pixels[x, y] = 255
+
+    # Apply the darkened edges
+    return Image.composite(darkened, image, edge_mask)
+
+def darken_stick_bottom(image, amount):
+    # Create a slightly darker version of the image
+    darkened = Image.new('RGBA', image.size, (0, 0, 0, 0))
+    for x in range(image.width):
+        for y in range(image.height):
+            r, g, b, a = image.getpixel((x, y))
+            darkened.putpixel((x, y), (int(r * amount), int(g * amount), int(b * amount), a))
+    
+    # Create a mask for the edges
+    edge_mask = Image.new('L', image.size, 0)
+    edge_pixels = edge_mask.load()
+    width, height = image.size
+    
+    for y in range(height):
+        for x in range(width):
+            if image.getpixel((x, y))[3] > 0:  # If the pixel is not fully transparent
+                # Check if any neighboring pixel is transparent
+                if (image.getpixel((x, y+1))[3] == 0):
+                    edge_pixels[x, y] = 255
+
+    # Apply the darkened edges
+    return Image.composite(darkened, image, edge_mask)
+
 def darken_edges(image, amount):
     # Create a slightly darker version of the image
     darkened = Image.new('RGBA', image.size, (0, 0, 0, 0))
@@ -144,8 +190,8 @@ def generate_tool_heads_and_sticks():
         stick_mask_image = Image.open(stick_mask_path).convert("RGBA")
 
         if stick_type in WOOD_TYPES and stick_type != "bamboo":
-            block_filename = f"stripped_{stick_type}_log.png"
-            block_path = os.path.join(block_dir, block_filename)
+            block_filename = f"{stick_type}_log.png"
+            block_path = os.path.join(block_dir, "log", block_filename)
 
             if not os.path.exists(block_path):
                 print(f"Warning: Missing log texture for {stick_type}")
@@ -153,7 +199,8 @@ def generate_tool_heads_and_sticks():
 
             block_image = Image.open(block_path).convert("RGBA")
             result_image = apply_mask(block_image, stick_mask_image)
-            result_image = darken_edges(result_image, 0.69)
+            result_image = darken_stick_top(result_image, 0.59)
+            result_image = darken_stick_bottom(result_image, 0.35)
 
             output_path = os.path.join(stick_output_dir, f"{stick_type}.png")
             result_image.save(output_path)
