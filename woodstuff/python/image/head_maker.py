@@ -223,8 +223,8 @@ def generate_tool_heads_and_sticks():
 
             # If the tool is a shovel, remove the pixels
             if tool == "shovel":
-                result_image.putpixel((10, 6), (0, 0, 0, 0)) 
-                result_image.putpixel((9, 4), (0, 0, 0, 0)) 
+                result_image.putpixel((10, 7), (0, 0, 0, 0)) 
+                result_image.putpixel((9, 6), (0, 0, 0, 0)) 
 
             # If the tool is a shovel, remove the pixels
             if tool == "axe":
