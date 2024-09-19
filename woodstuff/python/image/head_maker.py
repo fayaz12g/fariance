@@ -166,7 +166,7 @@ def generate_tool_heads_and_sticks():
             mask_image = Image.open(mask_path).convert("RGBA")
 
             result_image = apply_mask(block_image, mask_image)
-            result_image = darken_edges(result_image, 0.4)
+            result_image = darken_edges(result_image, 0.46)
 
             # Check for special mask
             special_mask_path = os.path.join(mask_dir, "tool", "special", tool + ".png")

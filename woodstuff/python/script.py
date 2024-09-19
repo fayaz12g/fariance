@@ -100,7 +100,7 @@ def generate_lang_entries():
         if material == stick:
             display_name = f"{capitalize_material(material)} {tool.capitalize()}"
         else:
-            display_name = f"{capitalize_material(material)} {capitalize_material(stick)} {tool.capitalize()}"
+            display_name = f"{capitalize_material(stick)} {capitalize_material(material)} {tool.capitalize()}"
         entries[f"item.woodstuff.{item_name}"] = display_name
 
     # Add sticks to lang file

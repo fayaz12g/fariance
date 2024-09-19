@@ -27,11 +27,11 @@ for filename in os.listdir(item_folder):
         # Extract stick and material information
         parts = item_id.split("_with_")
         if len(parts) == 2:
-            material = parts[0].split("_")[0]
             stick = parts[1].split("_")[0]
-        else:
             material = parts[0].split("_")[0]
-            stick = "unknown"
+        else:
+            stick = parts[0].split("_")[0]
+            material = "unknown"
         
         tool_type = next((word for word in ["sword", "axe", "pickaxe", "shovel", "hoe"] if word in item_id), "unknown")
         
