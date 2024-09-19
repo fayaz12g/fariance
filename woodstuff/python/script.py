@@ -60,7 +60,7 @@ def capitalize_material(material):
     if material == "weathered_copper":
         return "Weathered Copper"
     if material == "exposed_copper":
-        return "Ezposed Copper"
+        return "Exposed Copper"
     if material == "oxidized_copper":
         return "Oxidized Copper"
     
