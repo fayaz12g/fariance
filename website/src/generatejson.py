@@ -55,7 +55,6 @@ for item_id, data in item_data.items():
             "imagePath": github_raw_base + item_id + ".png"
         })
 
-
 def capitalize(s):
     return ' '.join(word.capitalize() for word in s.split('_'))
 
@@ -83,7 +82,7 @@ def generate_materials():
 
 # Create the final JSON structure
 mod_data = {
-    "tools": [],  # Assuming tools are generated elsewhere
+    "tools": tools,
     "sticks": generate_sticks(),
     "materials": generate_materials()
 }
@@ -93,3 +92,6 @@ with open('mod_items_catalog.json', 'w', encoding='utf-8') as f:
     json.dump(mod_data, f, indent=2, ensure_ascii=False)
 
 print("JSON file created successfully!")
+print(f"Number of tools generated: {len(tools)}")
+print(f"Number of sticks generated: {len(mod_data['sticks'])}")
+print(f"Number of materials generated: {len(mod_data['materials'])}")
