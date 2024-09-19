@@ -156,7 +156,7 @@ def generate_tool_heads_and_sticks():
 
         block_image = Image.open(block_path).convert("RGBA")
 
-        for tool in TOOL_TYPES:
+        for tool in TOOL_TYPES: 
             mask_path = os.path.join(mask_dir, "tool", tool + ".png")
 
             if not os.path.exists(mask_path):
@@ -173,11 +173,16 @@ def generate_tool_heads_and_sticks():
             if os.path.exists(special_mask_path):
                 special_mask_image = Image.open(special_mask_path).convert("RGBA")
                 result_image = apply_special_mask(result_image, special_mask_image)
-                
+            
+            # If the tool is a pickaxe, remove the pixel at (13, 5)
+            if tool == "pickaxe":
+                result_image.putpixel((12, 4), (0, 0, 0, 0))  # Set the pixel to fully transparent (RGBA: (0, 0, 0, 0))
+
             # Save the resulting image
             output_path = os.path.join(material_output_dir, f"{tool}.png")
             result_image.save(output_path)
             print(f"Generated: {output_path}")
+
 
     # Generate sticks
     os.makedirs(stick_output_dir, exist_ok=True)
