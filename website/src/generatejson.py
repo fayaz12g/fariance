@@ -5,8 +5,8 @@ import json
 item_folder = r"C:\Users\fayaz\Documents\GitHub\woodstuffmod\woodstuff\python\output\assets\woodstuff\textures\item"
 lang_file = r"C:\Users\fayaz\Documents\GitHub\woodstuffmod\woodstuff\python\output\assets\woodstuff\lang\en_us.json"
 github_raw_base = "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/"
-github_stick_base = "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/"
-github_block_base = "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/"
+github_stick_base = "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/"
+github_block_base = "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/"
 
 # Constants
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
@@ -62,7 +62,7 @@ def generate_sticks():
     return [
         {
             "name": f"{capitalize(stick)} Stick",
-            "imagePath": f"{github_stick_base}{stick}_stick.png"
+            "imagePath": f"{github_stick_base}{stick}.png"
         }
         for stick in STICK_TYPES
     ]

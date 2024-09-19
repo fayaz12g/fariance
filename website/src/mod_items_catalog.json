@@ -27844,221 +27844,221 @@
   "sticks": [
     {
       "name": "Stripped Oak Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/stripped_oak_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/stripped_oak.png"
     },
     {
       "name": "Stripped Spruce Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/stripped_spruce_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/stripped_spruce.png"
     },
     {
       "name": "Stripped Birch Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/stripped_birch_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/stripped_birch.png"
     },
     {
       "name": "Stripped Jungle Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/stripped_jungle_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/stripped_jungle.png"
     },
     {
       "name": "Stripped Acacia Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/stripped_acacia_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/stripped_acacia.png"
     },
     {
       "name": "Stripped Dark Oak Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/stripped_dark_oak_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/stripped_dark_oak.png"
     },
     {
       "name": "Stripped Mangrove Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/stripped_mangrove_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/stripped_mangrove.png"
     },
     {
       "name": "Stripped Cherry Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/stripped_cherry_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/stripped_cherry.png"
     },
     {
       "name": "Stripped Crimson Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/stripped_crimson_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/stripped_crimson.png"
     },
     {
       "name": "Stripped Warped Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/stripped_warped_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/stripped_warped.png"
     },
     {
       "name": "Stripped Bamboo Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/stripped_bamboo_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/stripped_bamboo.png"
     },
     {
       "name": "Oak Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/oak_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/oak.png"
     },
     {
       "name": "Spruce Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/spruce_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/spruce.png"
     },
     {
       "name": "Birch Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/birch_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/birch.png"
     },
     {
       "name": "Jungle Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/jungle_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/jungle.png"
     },
     {
       "name": "Acacia Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/acacia_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/acacia.png"
     },
     {
       "name": "Dark Oak Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/dark_oak_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/dark_oak.png"
     },
     {
       "name": "Mangrove Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/mangrove_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/mangrove.png"
     },
     {
       "name": "Cherry Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/cherry_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/cherry.png"
     },
     {
       "name": "Crimson Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/crimson_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/crimson.png"
     },
     {
       "name": "Warped Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/warped_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/warped.png"
     },
     {
       "name": "Bamboo Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/bamboo_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/bamboo.png"
     },
     {
       "name": "Blaze Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/blaze_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/blaze.png"
     },
     {
       "name": "Breeze Stick",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/breeze_stick.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/breeze.png"
     }
   ],
   "materials": [
     {
       "name": "Oak",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/stripped_oak_log.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/stripped_oak_log.png"
     },
     {
       "name": "Spruce",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/stripped_spruce_log.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/stripped_spruce_log.png"
     },
     {
       "name": "Birch",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/stripped_birch_log.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/stripped_birch_log.png"
     },
     {
       "name": "Jungle",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/stripped_jungle_log.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/stripped_jungle_log.png"
     },
     {
       "name": "Acacia",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/stripped_acacia_log.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/stripped_acacia_log.png"
     },
     {
       "name": "Dark Oak",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/stripped_dark_oak_log.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/stripped_dark_oak_log.png"
     },
     {
       "name": "Mangrove",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/stripped_mangrove_log.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/stripped_mangrove_log.png"
     },
     {
       "name": "Cherry",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/stripped_cherry_log.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/stripped_cherry_log.png"
     },
     {
       "name": "Crimson",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/stripped_crimson_log.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/stripped_crimson_log.png"
     },
     {
       "name": "Warped",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/stripped_warped_log.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/stripped_warped_log.png"
     },
     {
       "name": "Bamboo",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/stripped_bamboo_log.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/stripped_bamboo_log.png"
     },
     {
       "name": "Shiny Copper",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/shiny_copper_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/shiny_copper_block.png"
     },
     {
       "name": "Weathered Copper",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/weathered_copper_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/weathered_copper_block.png"
     },
     {
       "name": "Exposed Copper",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/exposed_copper_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/exposed_copper_block.png"
     },
     {
       "name": "Oxidized Copper",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/oxidized_copper_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/oxidized_copper_block.png"
     },
     {
       "name": "Iron",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/iron_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/iron_block.png"
     },
     {
       "name": "Diamond",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/diamond_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/diamond_block.png"
     },
     {
       "name": "Copper",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/copper_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/copper_block.png"
     },
     {
       "name": "Gold",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/gold_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/gold_block.png"
     },
     {
       "name": "Netherite",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/netherite_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/netherite_block.png"
     },
     {
       "name": "Amethyst",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/amethyst_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/amethyst_block.png"
     },
     {
       "name": "Diorite",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/diorite_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/diorite_block.png"
     },
     {
       "name": "Andesite",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/andesite_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/andesite_block.png"
     },
     {
       "name": "Granite",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/granite_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/granite_block.png"
     },
     {
       "name": "Blackstone",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/blackstone_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/blackstone_block.png"
     },
     {
       "name": "Cobblestone",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/cobblestone_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/cobblestone_block.png"
     },
     {
       "name": "Redstone",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/redstone_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/redstone_block.png"
     },
     {
       "name": "Lapis",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/lapis_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/lapis_block.png"
     },
     {
       "name": "Quartz",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/quartz_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/quartz_block.png"
     },
     {
       "name": "Deepslate",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/deepslate_block.png"
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/deepslate_block.png"
     }
   ]
 }
