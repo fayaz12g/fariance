@@ -6,8 +6,11 @@ from PIL import Image, ImageOps
 # Define constants
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
-MATERIAL_TYPES = WOOD_TYPES + ["iron", "diamond", "copper", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"]
+MATERIAL_TYPES = WOOD_TYPES + ["iron", "diamond", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"]
 STICK_TYPES = WOOD_TYPES + ["blaze", "breeze"]
+COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
+MATERIAL_TYPES = MATERIAL_TYPES + COPPER_TYPES
+
 # Create a new list that excludes "bamboo"
 filtered_wood_types = [wood for wood in WOOD_TYPES if wood != "bamboo"]
 tabs = {
@@ -52,6 +55,15 @@ MATERIAL_PROPERTIES = {
 def capitalize_material(material):
     if material == "dark_oak":
         return "Dark Oak"
+    if material == "shiny_copper":
+        return "Shiny Copper"
+    if material == "weathered_copper":
+        return "Weathered Copper"
+    if material == "exposed_copper":
+        return "Ezposed Copper"
+    if material == "oxidized_copper":
+        return "Oxidized Copper"
+    
     return material.capitalize()
 
 def generate_item_registry():
@@ -270,7 +282,10 @@ def generate_recipes():
         **{wood: f"minecraft:{wood}_planks" for wood in WOOD_TYPES},  # Wood types use "wood_planks"
         "iron": "minecraft:iron_ingot",
         "diamond": "minecraft:diamond",
-        "copper": "minecraft:copper_ingot",
+        "shiny_copper": "woodstuff:shiny_copper_ingot",
+        "exposed_copper": "woodstuff:exposed_copper_ingot",
+        "weathered_copper": "woodstuff:weathered_copper_ingot",
+        "oxidized_copper": "woodstuff:oxidized_copper_ingot",
         "gold": "minecraft:gold_ingot",
         "netherite": "minecraft:netherite_ingot",
         "amethyst": "minecraft:amethyst_shard",
@@ -428,6 +443,16 @@ def generate_textures():
             # print(f"Generated texture: {output_path}")
         else:
             print(f"Warning: Missing texture for {wood}_ladder")
+
+    for ingot in COPPER_TYPES:
+            ingot_image_path = os.path.join(image_dir, "copper", "ingots", f"{ingot}_ingot.png")
+            if os.path.exists(ingot_image_path):
+                output_path = os.path.join(item_output_dir, f"{ingot}_ingot.png")
+                ingot_img = Image.open(ingot_image_path).convert("RGBA")
+                ingot_img.save(output_path)
+                # print(f"Generated texture: {output_path}")
+            else:
+                print(f"Warning: Missing texture for {ingot}_ingot")
    
     print(f"Texture generation done!")
 

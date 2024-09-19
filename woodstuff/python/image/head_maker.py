@@ -4,7 +4,7 @@ from PIL import Image, ImageEnhance
 # Define constants
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
-OTHER_MATERIALS = ["iron", "diamond", "copper", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"]
+OTHER_MATERIALS = ["iron", "diamond", "shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"]
 MATERIAL_TYPES = WOOD_TYPES + OTHER_MATERIALS
 STICK_TYPES = WOOD_TYPES + ["blaze", "breeze"]
 

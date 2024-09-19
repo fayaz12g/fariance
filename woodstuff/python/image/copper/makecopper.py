@@ -37,7 +37,11 @@ def darken_copper_top(image, amount):
         for x in range(width):
             if image.getpixel((x, y))[3] > 0:  # If the pixel is not fully transparent
                 # Check if any neighboring pixel is transparent
-                if (image.getpixel((x, y-1))[3] == 0):
+                if (x == 0 or 
+                    y == 0 or 
+                    x == width-1 or 
+                    y == height-1 or 
+                    image.getpixel((x, y-1))[3] == 0):
                     edge_pixels[x, y] = 255
 
     # Apply the darkened edges
@@ -87,9 +91,9 @@ def apply_brightening_mask(tool_image, special_mask_image):
                 tool_r, tool_g, tool_b, tool_a = tool_image.getpixel((x, y))
 
                 # Brighten the tool_image pixel by increasing its RGB values
-                new_r = int(tool_r + (255 - tool_r) * brighten_factor * 0.69)
-                new_g = int(tool_g + (255 - tool_g) * brighten_factor * 0.69)
-                new_b = int(tool_b + (255 - tool_b) * brighten_factor * 0.69)
+                new_r = int(tool_r + (255 - tool_r) * brighten_factor * 0.49)
+                new_g = int(tool_g + (255 - tool_g) * brighten_factor * 0.49)
+                new_b = int(tool_b + (255 - tool_b) * brighten_factor * 0.49)
 
                 # Clamp the values to ensure they don't exceed 255
                 new_r = min(255, new_r)
@@ -101,6 +105,17 @@ def apply_brightening_mask(tool_image, special_mask_image):
 
     return tool_image
 
+def saturate_image(image, factor):
+    """
+    Saturate the given image by the specified factor.
+    
+    :param image: PIL Image object
+    :param factor: float, saturation factor (0.0 = grayscale, 1.0 = original, > 1.0 = more saturated)
+    :return: Saturated PIL Image object
+    """
+    enhancer = ImageEnhance.Color(image)
+    saturated_image = enhancer.enhance(factor)
+    return saturated_image
 
 def generate_copper_ingots():
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -113,8 +128,8 @@ def generate_copper_ingots():
 
     # Generate tool heads
     for type in COPPER_TYPES:
-        mask_path = os.path.join(block_dir, f"{type}_copper.png")
-        block_path = os.path.join(mask_dir, "copper_ingot.png")
+        block_path = os.path.join(block_dir, f"{type}_copper.png")
+        mask_path = os.path.join(mask_dir, "copper_ingot.png")
 
         if not os.path.exists(mask_path):
             print(f"Warning: Missing mask for {type}")
@@ -134,6 +149,10 @@ def generate_copper_ingots():
             bright_mask_image = Image.open(bright_mask_path).convert("RGBA")
             result_image = apply_brightening_mask(result_image, bright_mask_image)
         
+        # Apply saturation
+        saturation_factor = 1.3  # Adjust this value to increase or decrease saturation
+        result_image = saturate_image(result_image, saturation_factor)
+
         # Save the resulting image
         output_path = os.path.join(output_dir, f"{type}_copper_ingot.png")
         result_image.save(output_path)
