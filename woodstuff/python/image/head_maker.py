@@ -249,7 +249,7 @@ def generate_tool_heads_and_sticks():
 
         stick_mask_image = Image.open(stick_mask_path).convert("RGBA")
 
-        if stick_type in WOOD_TYPES and stick_type != "bamboo":
+        if stick_type in STICK_TYPES and stick_type not in ["blaze, breeze", "bamboo"]:
             block_filename = f"{stick_type}_log.png"
             block_path = os.path.join(block_dir, "log", block_filename)
 

@@ -7,12 +7,13 @@ from PIL import Image, ImageOps
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
 MATERIAL_TYPES = WOOD_TYPES + ["iron", "diamond", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"]
-STICK_TYPES = WOOD_TYPES + ["blaze", "breeze"]
+STICK_TYPES = ["stripped_" + s for s in WOOD_TYPES] + WOOD_TYPES + ["blaze", "breeze"]
 COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
 MATERIAL_TYPES = MATERIAL_TYPES + COPPER_TYPES
 
 # Create a new list that excludes "bamboo"
-filtered_wood_types = [wood for wood in WOOD_TYPES if wood != "bamboo"]
+filtered_wood_types = [wood for wood in STICK_TYPES if wood not in ["bamboo", "blaze", "breeze"]]
+
 tabs = {
         "swords": "Woodstuff Swords",
         "pickaxes": "Woodstuff Pickaxes",
@@ -51,20 +52,11 @@ MATERIAL_PROPERTIES = {
     "quartz": {"durability": 250, "mining_level": 2, "enchantability": 18},
 }
 
-# Correcting "Dark Oak" formatting
+# Correcting underscore formatting
 def capitalize_material(material):
-    if material == "dark_oak":
-        return "Dark Oak"
     if material == "shiny_copper":
-        return "Shiny Copper"
-    if material == "weathered_copper":
-        return "Weathered Copper"
-    if material == "exposed_copper":
-        return "Exposed Copper"
-    if material == "oxidized_copper":
-        return "Oxidized Copper"
-    
-    return material.capitalize()
+        return "Copper"
+    return material.replace("_", " ").title()
 
 def generate_item_registry():
     items = []
@@ -120,13 +112,18 @@ def generate_lang_entries():
         stick_name = f"{stick}_stick"
         entries[f"item.woodstuff.{stick_name}"] = f"{capitalize_material(stick)} Stick"
 
+    # Add copper types to lang file
+    for ingot in COPPER_TYPES:
+        ingot_name = f"{ingot}_ingot"
+        entries[f"item.woodstuff.{ingot_name}_ingot"] = f"{capitalize_material(ingot)} Ingot"
+
     # Add ladders items to lang file
     for wood in WOOD_TYPES + ["blaze", "breeze"]:
         ladder_name = f"{wood}_ladder"
         entries[f"item.woodstuff.{ladder_name}"] = f"{capitalize_material(wood)} Ladder"
 
     # Add ladders blocks to lang file
-    for wood in WOOD_TYPES + ["blaze", "breeze"]:
+    for wood in STICK_TYPES:
         ladder_name = f"{wood}_ladder"
         entries[f"block.woodstuff.{ladder_name}"] = f"{capitalize_material(wood)} Ladder"
 
@@ -178,17 +175,18 @@ def generate_item_models(output_dir):
             json.dump(model_data, f, indent=2)
 
     # Generate models for sticks
-    for stick in WOOD_TYPES + ["blaze", "breeze"]:
-        stick_name = f"{stick}_stick"
-        model_data = {
-            "parent": "item/generated",
-            "textures": {
-                "layer0": f"woodstuff:item/{stick_name}"
+    for stick in STICK_TYPES:
+        if stick not in ["blaze", "bamboo", "breeze"]:
+            stick_name = f"{stick}_stick"
+            model_data = {
+                "parent": "item/generated",
+                "textures": {
+                    "layer0": f"woodstuff:item/{stick_name}"
+                }
             }
-        }
-        model_file_path = os.path.join(item_model_dir, f"{stick_name}.json")
-        with open(model_file_path, 'w') as f:
-            json.dump(model_data, f, indent=2)
+            model_file_path = os.path.join(item_model_dir, f"{stick_name}.json")
+            with open(model_file_path, 'w') as f:
+                json.dump(model_data, f, indent=2)
 
     # Loop through each wood type and generate the corresponding models
     for wood in WOOD_TYPES:
@@ -305,7 +303,7 @@ def generate_recipes():
         item_name = f"{material}_{tool}_with_{stick}_stick"
 
         # Stick type mapping
-        stick_item = f"woodstuff:{stick}_stick" if stick in WOOD_TYPES else f"minecraft:{stick}_rod"
+        stick_item = f"woodstuff:{stick}_stick" if stick not in ["blaze", "breeze"] else f"minecraft:{stick}_rod"
         if stick == "bamboo":
             stick_item = "minecraft:bamboo"
 
@@ -326,24 +324,37 @@ def generate_recipes():
         recipes.append((item_name, json.dumps(recipe, indent=2)))
 
     # Add recipes for crafting sticks using two planks of the corresponding wood type
-    for wood in WOOD_TYPES:
-        stick_name = f"{wood}_stick"
-        recipe = {
-            "type": "minecraft:crafting_shaped",
-            "category": "misc",  # Add category
-            "pattern": [
-                "P",
-                "P"
-            ],
-            "key": {
-                "P": {"item": f"minecraft:{wood}_planks"}
-            },
-            "result": {
-                "id": f"woodstuff:{stick_name}",
-                "count": 4
+    for wood in STICK_TYPES:
+        if stick not in ["blaze", "bamboo", "breeze"]:
+            stick_name = f"{wood}_stick"
+            
+            # Determine if the wood is stripped or not
+            if wood.startswith("stripped_"):
+                material = f"minecraft:stripped_{wood}_log"
+                count = 16
+            else:
+                material = f"minecraft:{wood}_planks"
+                count = 4
+
+            # Create the recipe based on the material and count
+            recipe = {
+                "type": "minecraft:crafting_shaped",
+                "category": "misc",  # Add category
+                "pattern": [
+                    "P",
+                    "P"
+                ],
+                "key": {
+                    "P": {"item": material}
+                },
+                "result": {
+                    "id": f"woodstuff:{stick_name}",
+                    "count": count
+                }
             }
-        }
-        recipes.append((stick_name, json.dumps(recipe, indent=2)))
+
+            # Append the recipe as JSON
+            recipes.append((stick_name, json.dumps(recipe, indent=2)))
 
     # Add recipes for ladders for each wood type
     for wood in WOOD_TYPES:
@@ -423,15 +434,16 @@ def generate_textures():
             print(f"Warning: Missing texture for {material}_{tool}_with_{stick}_stick")
 
     # Generate textures for sticks
-    for stick in filtered_wood_types:
-        stick_image_path = os.path.join(image_dir, "stick", f"{stick}.png")
-        if os.path.exists(stick_image_path):
-            output_path = os.path.join(item_output_dir, f"{stick}_stick.png")
-            stick_img = Image.open(stick_image_path).convert("RGBA")
-            stick_img.save(output_path)
-            # print(f"Generated texture: {output_path}")
-        else:
-            print(f"Warning: Missing texture for {stick}_stick")
+    for stick in STICK_TYPES:
+        if stick not in ["blaze", "bamboo", "breeze"]:
+            stick_image_path = os.path.join(image_dir, "stick", f"{stick}.png")
+            if os.path.exists(stick_image_path):
+                output_path = os.path.join(item_output_dir, f"{stick}_stick.png")
+                stick_img = Image.open(stick_image_path).convert("RGBA")
+                stick_img.save(output_path)
+                # print(f"Generated texture: {output_path}")
+            else:
+                print(f"Warning: Missing texture for {stick}_stick")
 
     # Generate textures for ladders
     for wood in WOOD_TYPES  + ["blaze", "breeze"]:
