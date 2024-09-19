@@ -8,6 +8,12 @@ github_raw_base = "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/
 github_stick_base = "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/stick/"
 github_block_base = "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/block/"
 
+# Constants
+WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
+COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
+MATERIAL_TYPES = WOOD_TYPES + COPPER_TYPES + ["iron", "diamond", "copper", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"]
+STICK_TYPES = [f"stripped_{wood}" for wood in WOOD_TYPES] + WOOD_TYPES + ["blaze", "breeze"]
+
 # Read the language file
 with open(lang_file, 'r', encoding='utf-8') as f:
     lang_data = json.load(f)
@@ -49,29 +55,37 @@ for item_id, data in item_data.items():
             "imagePath": github_raw_base + item_id + ".png"
         })
 
+
+def capitalize(s):
+    return ' '.join(word.capitalize() for word in s.split('_'))
+
+def generate_sticks():
+    return [
+        {
+            "name": f"{capitalize(stick)} Stick",
+            "imagePath": f"{github_stick_base}{stick}_stick.png"
+        }
+        for stick in STICK_TYPES
+    ]
+
+def generate_materials():
+    return [
+        {
+            "name": capitalize(material),
+            "imagePath": f"{github_block_base}" + (
+                f'{material}_block' if 'copper' in material
+                else f"stripped_{material}_log" if material in WOOD_TYPES
+                else f'{material}_block'
+            ) + ".png"
+        }
+        for material in MATERIAL_TYPES
+    ]
+
 # Create the final JSON structure
 mod_data = {
-    "tools": tools,
-    "sticks": [
-        {"name": "Oak Stick", "imagePath": github_stick_base + "oak_stick.png"},
-        {"name": "Spruce Stick", "imagePath": github_stick_base + "spruce_stick.png"},
-        {"name": "Birch Stick", "imagePath": github_stick_base + "birch_stick.png"},
-        {"name": "Jungle Stick", "imagePath": github_stick_base + "jungle_stick.png"},
-        {"name": "Acacia Stick", "imagePath": github_stick_base + "acacia_stick.png"},
-        {"name": "Dark Oak Stick", "imagePath": github_stick_base + "dark_oak_stick.png"}
-    ],
-    "materials": [
-        {"name": "Diamond", "imagePath": github_block_base + "diamond_block.png"},
-        {"name": "Iron", "imagePath": github_block_base + "iron_block.png"},
-        {"name": "Gold", "imagePath": github_block_base + "gold_block.png"},
-        {"name": "Stone", "imagePath": github_block_base + "stone.png"},
-        {"name": "Oak", "imagePath": github_block_base + "oak_planks.png"},
-        {"name": "Spruce", "imagePath": github_block_base + "spruce_planks.png"},
-        {"name": "Birch", "imagePath": github_block_base + "birch_planks.png"},
-        {"name": "Jungle", "imagePath": github_block_base + "jungle_planks.png"},
-        {"name": "Acacia", "imagePath": github_block_base + "acacia_planks.png"},
-        {"name": "Dark Oak", "imagePath": github_block_base + "dark_oak_planks.png"}
-    ]
+    "tools": [],  # Assuming tools are generated elsewhere
+    "sticks": generate_sticks(),
+    "materials": generate_materials()
 }
 
 # Write the JSON file

@@ -6,8 +6,7 @@ const WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "m
 const TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"];
 const COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
 const MATERIAL_TYPES = [...WOOD_TYPES, ...COPPER_TYPES, "iron", "diamond", "copper", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"];
-const STICK_TYPES = [...WOOD_TYPES, "blaze", "breeze"];
-
+const STICK_TYPES = [...WOOD_TYPES.map(s => "stripped_" + s), ...WOOD_TYPES, "blaze", "breeze"];
 
 const ToolCard = ({ name, imageSrc }) => (
   <div className="tool-card">
@@ -16,11 +15,12 @@ const ToolCard = ({ name, imageSrc }) => (
   </div>
 );
 
-const FilterButton = ({ name, onClick, isActive }) => (
+const FilterButton = ({ name, onClick, isActive, imagePath }) => (
   <button
     onClick={onClick}
     className={`filter-button ${isActive ? 'active' : ''}`}
   >
+    {imagePath && <img src={imagePath} alt={name} className="filter-button-image" />}
     <p>{name}</p>
   </button>
 );
@@ -31,11 +31,16 @@ const App = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeTab, setActiveTab] = useState('all');
   const [error, setError] = useState(null);
+  
+  const [stickImages, setStickImages] = useState([]);
+  const [materialImages, setMaterialImages] = useState([]);
 
   useEffect(() => {
     try {
       console.log('Loading mod data...');
       setModData(modItemsCatalog);
+      setStickImages(modItemsCatalog.sticks);
+      setMaterialImages(modItemsCatalog.materials);
       console.log('Mod data loaded:', modItemsCatalog);
     } catch (error) {
       console.error("Error loading mod data:", error);
@@ -113,12 +118,13 @@ const App = () => {
                 onClick={() => handleResetFilter('stick')}
                 isActive={filters.stick === null}
               />
-              {STICK_TYPES.map((stick) => (
+              {stickImages.map((stick) => (
                 <FilterButton
-                  key={stick}
-                  name={stick}
-                  onClick={() => setFilters({ ...filters, stick: stick })}
-                  isActive={filters.stick === stick}
+                  key={stick.name}
+                  name={stick.name.replace(' Stick', '')}
+                  onClick={() => setFilters({ ...filters, stick: stick.name.toLowerCase().replace(' stick', '') })}
+                  isActive={filters.stick === stick.name.toLowerCase().replace(' stick', '')}
+                  imagePath={stick.imagePath}
                 />
               ))}
             </div>
@@ -142,12 +148,13 @@ const App = () => {
                 onClick={() => handleResetFilter('material')}
                 isActive={filters.material === null}
               />
-              {MATERIAL_TYPES.map((material) => (
+              {materialImages.map((material) => (
                 <FilterButton
-                  key={material}
-                  name={material}
-                  onClick={() => setFilters({ ...filters, material: material })}
-                  isActive={filters.material === material}
+                  key={material.name}
+                  name={material.name}
+                  onClick={() => setFilters({ ...filters, material: material.name.toLowerCase() })}
+                  isActive={filters.material === material.name.toLowerCase()}
+                  imagePath={material.imagePath}
                 />
               ))}
             </div>

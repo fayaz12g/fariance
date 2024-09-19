@@ -63,13 +63,16 @@
   cursor: pointer;
 }
 
+.filter-button-image {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+  image-rendering: pixelated;
+}
+
 .filter-button.active {
   background-color: #007bff;
   color: white;
 }
 
-.filter-button img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
-}
