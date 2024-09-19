@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import modItemsCatalog from './mod_items_catalog.json';
 
-const WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark", "mangrove", "cherry", "crimson", "warped", "bamboo"];
+const WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"];
 const TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"];
 const COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
 const MATERIAL_TYPES = [...WOOD_TYPES, ...COPPER_TYPES, "iron", "diamond", "copper", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"];
