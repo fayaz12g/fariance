@@ -98,7 +98,7 @@ def darken_edges(image, amount):
     # Apply the darkened edges
     return Image.composite(darkened, image, edge_mask)
 
-def apply_special_mask(tool_image, special_mask_image):
+def apply_darkening_mask(tool_image, special_mask_image):
     # Make sure both images are in RGBA format
     tool_image = tool_image.convert('RGBA')
     special_mask_image = special_mask_image.convert('RGBA')
@@ -128,7 +128,40 @@ def apply_special_mask(tool_image, special_mask_image):
 
     return tool_image
 
+def apply_brightening_mask(tool_image, special_mask_image):
+    # Make sure both images are in RGBA format
+    tool_image = tool_image.convert('RGBA')
+    special_mask_image = special_mask_image.convert('RGBA')
+    
+    # Loop through each pixel in special_mask_image
+    for x in range(special_mask_image.width):
+        for y in range(special_mask_image.height):
+            mask_r, mask_g, mask_b, mask_a = special_mask_image.getpixel((x, y))
+            
+            if mask_a > 0:  # Only process non-transparent pixels
+                # Calculate how close the pixel is to black (0 is black, 255 is white)
+                mask_brightness = (mask_r + mask_g + mask_b) / 3 / 255.0  # Normalize to [0, 1]
 
+                # Brighten factor: 0 (full black) should brighten the least, 1 (full white) should brighten the most
+                brighten_factor = mask_brightness
+
+                # Get the corresponding pixel from tool_image
+                tool_r, tool_g, tool_b, tool_a = tool_image.getpixel((x, y))
+
+                # Brighten the tool_image pixel by increasing its RGB values
+                new_r = int(tool_r + (255 - tool_r) * brighten_factor * 0.69)
+                new_g = int(tool_g + (255 - tool_g) * brighten_factor * 0.69)
+                new_b = int(tool_b + (255 - tool_b) * brighten_factor * 0.69)
+
+                # Clamp the values to ensure they don't exceed 255
+                new_r = min(255, new_r)
+                new_g = min(255, new_g)
+                new_b = min(255, new_b)
+
+                # Apply the brightened color back to the tool_image
+                tool_image.putpixel((x, y), (new_r, new_g, new_b, tool_a))
+
+    return tool_image
 
 def generate_tool_heads_and_sticks():
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -168,15 +201,37 @@ def generate_tool_heads_and_sticks():
             result_image = apply_mask(block_image, mask_image)
             result_image = darken_edges(result_image, 0.46)
 
-            # Check for special mask
-            special_mask_path = os.path.join(mask_dir, "tool", "special", tool + ".png")
-            if os.path.exists(special_mask_path):
-                special_mask_image = Image.open(special_mask_path).convert("RGBA")
-                result_image = apply_special_mask(result_image, special_mask_image)
+            # Check for darkening mask (tool_dark.png)
+            dark_mask_path = os.path.join(mask_dir, "tool", "special", tool + "_dark.png")
             
-            # If the tool is a pickaxe, remove the pixel at (13, 5)
-            if tool == "pickaxe":
-                result_image.putpixel((12, 4), (0, 0, 0, 0))  # Set the pixel to fully transparent (RGBA: (0, 0, 0, 0))
+            if os.path.exists(dark_mask_path):
+                dark_mask_image = Image.open(dark_mask_path).convert("RGBA")
+                result_image = apply_darkening_mask(result_image, dark_mask_image)
+            
+            # Check for brightening mask (tool_bright.png)
+            bright_mask_path = os.path.join(mask_dir, "tool", "special", tool + "_bright.png")
+            
+            if os.path.exists(bright_mask_path):
+                bright_mask_image = Image.open(bright_mask_path).convert("RGBA")
+                result_image = apply_brightening_mask(result_image, bright_mask_image)
+            
+            # If the tool is a pickaxe, remove the pixels
+            if tool == "pickaxe" or tool == "hoe":
+                result_image.putpixel((12, 4), (0, 0, 0, 0)) 
+                result_image.putpixel((11, 6), (0, 0, 0, 0)) 
+                result_image.putpixel((10, 5), (0, 0, 0, 0)) 
+
+            # If the tool is a shovel, remove the pixels
+            if tool == "shovel":
+                result_image.putpixel((10, 5), (0, 0, 0, 0)) 
+                result_image.putpixel((9, 4), (0, 0, 0, 0)) 
+
+            # If the tool is a shovel, remove the pixels
+            if tool == "axe":
+                result_image.putpixel((9, 6), (0, 0, 0, 0)) 
+                result_image.putpixel((10, 7), (0, 0, 0, 0)) 
+                result_image.putpixel((12, 5), (0, 0, 0, 0)) 
+                result_image.putpixel((11, 4), (0, 0, 0, 0)) 
 
             # Save the resulting image
             output_path = os.path.join(material_output_dir, f"{tool}.png")
