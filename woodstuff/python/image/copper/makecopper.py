@@ -107,6 +107,9 @@ def generate_copper_ingots():
     mask_dir = os.path.join(script_dir, "mask")
     block_dir = os.path.join(script_dir, "block")
     output_dir = os.path.join(script_dir, "ingots")
+    
+    # Create the output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
 
     # Generate tool heads
     for type in COPPER_TYPES:
