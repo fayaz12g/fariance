@@ -1,7 +1,7 @@
 {
   "tools": [
     {
-      "name": "Blaze Oak Sword",
+      "name": "Flaming Oak Sword",
       "id": "item.woodstuff.oak_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "oak",
@@ -9,7 +9,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oak_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Oak Sword",
+      "name": "Light Oak Sword",
       "id": "item.woodstuff.oak_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "oak",
@@ -193,7 +193,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oak_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Oak Pickaxe",
+      "name": "Flaming Oak Pickaxe",
       "id": "item.woodstuff.oak_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "oak",
@@ -201,7 +201,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oak_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Oak Pickaxe",
+      "name": "Light Oak Pickaxe",
       "id": "item.woodstuff.oak_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "oak",
@@ -385,7 +385,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oak_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Oak Shovel",
+      "name": "Flaming Oak Shovel",
       "id": "item.woodstuff.oak_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "oak",
@@ -393,7 +393,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oak_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Oak Shovel",
+      "name": "Light Oak Shovel",
       "id": "item.woodstuff.oak_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "oak",
@@ -577,7 +577,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oak_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Oak Hoe",
+      "name": "Flaming Oak Hoe",
       "id": "item.woodstuff.oak_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "oak",
@@ -585,7 +585,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oak_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Oak Hoe",
+      "name": "Light Oak Hoe",
       "id": "item.woodstuff.oak_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "oak",
@@ -769,7 +769,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oak_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Oak Axe",
+      "name": "Flaming Oak Axe",
       "id": "item.woodstuff.oak_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "oak",
@@ -777,7 +777,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oak_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Oak Axe",
+      "name": "Light Oak Axe",
       "id": "item.woodstuff.oak_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "oak",
@@ -961,7 +961,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oak_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Spruce Sword",
+      "name": "Flaming Spruce Sword",
       "id": "item.woodstuff.spruce_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "spruce",
@@ -969,7 +969,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/spruce_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Spruce Sword",
+      "name": "Light Spruce Sword",
       "id": "item.woodstuff.spruce_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "spruce",
@@ -1153,7 +1153,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/spruce_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Spruce Pickaxe",
+      "name": "Flaming Spruce Pickaxe",
       "id": "item.woodstuff.spruce_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "spruce",
@@ -1161,7 +1161,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/spruce_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Spruce Pickaxe",
+      "name": "Light Spruce Pickaxe",
       "id": "item.woodstuff.spruce_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "spruce",
@@ -1345,7 +1345,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/spruce_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Spruce Shovel",
+      "name": "Flaming Spruce Shovel",
       "id": "item.woodstuff.spruce_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "spruce",
@@ -1353,7 +1353,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/spruce_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Spruce Shovel",
+      "name": "Light Spruce Shovel",
       "id": "item.woodstuff.spruce_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "spruce",
@@ -1537,7 +1537,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/spruce_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Spruce Hoe",
+      "name": "Flaming Spruce Hoe",
       "id": "item.woodstuff.spruce_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "spruce",
@@ -1545,7 +1545,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/spruce_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Spruce Hoe",
+      "name": "Light Spruce Hoe",
       "id": "item.woodstuff.spruce_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "spruce",
@@ -1729,7 +1729,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/spruce_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Spruce Axe",
+      "name": "Flaming Spruce Axe",
       "id": "item.woodstuff.spruce_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "spruce",
@@ -1737,7 +1737,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/spruce_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Spruce Axe",
+      "name": "Light Spruce Axe",
       "id": "item.woodstuff.spruce_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "spruce",
@@ -1921,7 +1921,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/spruce_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Birch Sword",
+      "name": "Flaming Birch Sword",
       "id": "item.woodstuff.birch_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "birch",
@@ -1929,7 +1929,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/birch_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Birch Sword",
+      "name": "Light Birch Sword",
       "id": "item.woodstuff.birch_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "birch",
@@ -2113,7 +2113,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/birch_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Birch Pickaxe",
+      "name": "Flaming Birch Pickaxe",
       "id": "item.woodstuff.birch_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "birch",
@@ -2121,7 +2121,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/birch_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Birch Pickaxe",
+      "name": "Light Birch Pickaxe",
       "id": "item.woodstuff.birch_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "birch",
@@ -2305,7 +2305,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/birch_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Birch Shovel",
+      "name": "Flaming Birch Shovel",
       "id": "item.woodstuff.birch_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "birch",
@@ -2313,7 +2313,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/birch_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Birch Shovel",
+      "name": "Light Birch Shovel",
       "id": "item.woodstuff.birch_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "birch",
@@ -2497,7 +2497,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/birch_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Birch Hoe",
+      "name": "Flaming Birch Hoe",
       "id": "item.woodstuff.birch_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "birch",
@@ -2505,7 +2505,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/birch_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Birch Hoe",
+      "name": "Light Birch Hoe",
       "id": "item.woodstuff.birch_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "birch",
@@ -2689,7 +2689,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/birch_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Birch Axe",
+      "name": "Flaming Birch Axe",
       "id": "item.woodstuff.birch_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "birch",
@@ -2697,7 +2697,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/birch_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Birch Axe",
+      "name": "Light Birch Axe",
       "id": "item.woodstuff.birch_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "birch",
@@ -2881,7 +2881,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/birch_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Jungle Sword",
+      "name": "Flaming Jungle Sword",
       "id": "item.woodstuff.jungle_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "jungle",
@@ -2889,7 +2889,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/jungle_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Jungle Sword",
+      "name": "Light Jungle Sword",
       "id": "item.woodstuff.jungle_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "jungle",
@@ -3073,7 +3073,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/jungle_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Jungle Pickaxe",
+      "name": "Flaming Jungle Pickaxe",
       "id": "item.woodstuff.jungle_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "jungle",
@@ -3081,7 +3081,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/jungle_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Jungle Pickaxe",
+      "name": "Light Jungle Pickaxe",
       "id": "item.woodstuff.jungle_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "jungle",
@@ -3265,7 +3265,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/jungle_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Jungle Shovel",
+      "name": "Flaming Jungle Shovel",
       "id": "item.woodstuff.jungle_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "jungle",
@@ -3273,7 +3273,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/jungle_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Jungle Shovel",
+      "name": "Light Jungle Shovel",
       "id": "item.woodstuff.jungle_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "jungle",
@@ -3457,7 +3457,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/jungle_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Jungle Hoe",
+      "name": "Flaming Jungle Hoe",
       "id": "item.woodstuff.jungle_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "jungle",
@@ -3465,7 +3465,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/jungle_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Jungle Hoe",
+      "name": "Light Jungle Hoe",
       "id": "item.woodstuff.jungle_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "jungle",
@@ -3649,7 +3649,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/jungle_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Jungle Axe",
+      "name": "Flaming Jungle Axe",
       "id": "item.woodstuff.jungle_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "jungle",
@@ -3657,7 +3657,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/jungle_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Jungle Axe",
+      "name": "Light Jungle Axe",
       "id": "item.woodstuff.jungle_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "jungle",
@@ -3841,7 +3841,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/jungle_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Acacia Sword",
+      "name": "Flaming Acacia Sword",
       "id": "item.woodstuff.acacia_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "acacia",
@@ -3849,7 +3849,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/acacia_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Acacia Sword",
+      "name": "Light Acacia Sword",
       "id": "item.woodstuff.acacia_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "acacia",
@@ -4033,7 +4033,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/acacia_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Acacia Pickaxe",
+      "name": "Flaming Acacia Pickaxe",
       "id": "item.woodstuff.acacia_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "acacia",
@@ -4041,7 +4041,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/acacia_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Acacia Pickaxe",
+      "name": "Light Acacia Pickaxe",
       "id": "item.woodstuff.acacia_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "acacia",
@@ -4225,7 +4225,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/acacia_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Acacia Shovel",
+      "name": "Flaming Acacia Shovel",
       "id": "item.woodstuff.acacia_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "acacia",
@@ -4233,7 +4233,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/acacia_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Acacia Shovel",
+      "name": "Light Acacia Shovel",
       "id": "item.woodstuff.acacia_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "acacia",
@@ -4417,7 +4417,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/acacia_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Acacia Hoe",
+      "name": "Flaming Acacia Hoe",
       "id": "item.woodstuff.acacia_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "acacia",
@@ -4425,7 +4425,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/acacia_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Acacia Hoe",
+      "name": "Light Acacia Hoe",
       "id": "item.woodstuff.acacia_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "acacia",
@@ -4609,7 +4609,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/acacia_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Acacia Axe",
+      "name": "Flaming Acacia Axe",
       "id": "item.woodstuff.acacia_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "acacia",
@@ -4617,7 +4617,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/acacia_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Acacia Axe",
+      "name": "Light Acacia Axe",
       "id": "item.woodstuff.acacia_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "acacia",
@@ -4801,7 +4801,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/acacia_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Dark Oak Sword",
+      "name": "Flaming Dark Oak Sword",
       "id": "item.woodstuff.dark_oak_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "dark_oak",
@@ -4809,7 +4809,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/dark_oak_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Dark Oak Sword",
+      "name": "Light Dark Oak Sword",
       "id": "item.woodstuff.dark_oak_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "dark_oak",
@@ -4993,7 +4993,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/dark_oak_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Dark Oak Pickaxe",
+      "name": "Flaming Dark Oak Pickaxe",
       "id": "item.woodstuff.dark_oak_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "dark_oak",
@@ -5001,7 +5001,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/dark_oak_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Dark Oak Pickaxe",
+      "name": "Light Dark Oak Pickaxe",
       "id": "item.woodstuff.dark_oak_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "dark_oak",
@@ -5185,7 +5185,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/dark_oak_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Dark Oak Shovel",
+      "name": "Flaming Dark Oak Shovel",
       "id": "item.woodstuff.dark_oak_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "dark_oak",
@@ -5193,7 +5193,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/dark_oak_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Dark Oak Shovel",
+      "name": "Light Dark Oak Shovel",
       "id": "item.woodstuff.dark_oak_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "dark_oak",
@@ -5377,7 +5377,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/dark_oak_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Dark Oak Hoe",
+      "name": "Flaming Dark Oak Hoe",
       "id": "item.woodstuff.dark_oak_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "dark_oak",
@@ -5385,7 +5385,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/dark_oak_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Dark Oak Hoe",
+      "name": "Light Dark Oak Hoe",
       "id": "item.woodstuff.dark_oak_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "dark_oak",
@@ -5569,7 +5569,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/dark_oak_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Dark Oak Axe",
+      "name": "Flaming Dark Oak Axe",
       "id": "item.woodstuff.dark_oak_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "dark_oak",
@@ -5577,7 +5577,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/dark_oak_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Dark Oak Axe",
+      "name": "Light Dark Oak Axe",
       "id": "item.woodstuff.dark_oak_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "dark_oak",
@@ -5761,7 +5761,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/dark_oak_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Mangrove Sword",
+      "name": "Flaming Mangrove Sword",
       "id": "item.woodstuff.mangrove_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "mangrove",
@@ -5769,7 +5769,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/mangrove_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Mangrove Sword",
+      "name": "Light Mangrove Sword",
       "id": "item.woodstuff.mangrove_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "mangrove",
@@ -5953,7 +5953,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/mangrove_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Mangrove Pickaxe",
+      "name": "Flaming Mangrove Pickaxe",
       "id": "item.woodstuff.mangrove_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "mangrove",
@@ -5961,7 +5961,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/mangrove_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Mangrove Pickaxe",
+      "name": "Light Mangrove Pickaxe",
       "id": "item.woodstuff.mangrove_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "mangrove",
@@ -6145,7 +6145,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/mangrove_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Mangrove Shovel",
+      "name": "Flaming Mangrove Shovel",
       "id": "item.woodstuff.mangrove_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "mangrove",
@@ -6153,7 +6153,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/mangrove_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Mangrove Shovel",
+      "name": "Light Mangrove Shovel",
       "id": "item.woodstuff.mangrove_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "mangrove",
@@ -6337,7 +6337,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/mangrove_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Mangrove Hoe",
+      "name": "Flaming Mangrove Hoe",
       "id": "item.woodstuff.mangrove_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "mangrove",
@@ -6345,7 +6345,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/mangrove_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Mangrove Hoe",
+      "name": "Light Mangrove Hoe",
       "id": "item.woodstuff.mangrove_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "mangrove",
@@ -6529,7 +6529,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/mangrove_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Mangrove Axe",
+      "name": "Flaming Mangrove Axe",
       "id": "item.woodstuff.mangrove_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "mangrove",
@@ -6537,7 +6537,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/mangrove_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Mangrove Axe",
+      "name": "Light Mangrove Axe",
       "id": "item.woodstuff.mangrove_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "mangrove",
@@ -6721,7 +6721,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/mangrove_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Cherry Sword",
+      "name": "Flaming Cherry Sword",
       "id": "item.woodstuff.cherry_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "cherry",
@@ -6729,7 +6729,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cherry_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Cherry Sword",
+      "name": "Light Cherry Sword",
       "id": "item.woodstuff.cherry_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "cherry",
@@ -6913,7 +6913,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cherry_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Cherry Pickaxe",
+      "name": "Flaming Cherry Pickaxe",
       "id": "item.woodstuff.cherry_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "cherry",
@@ -6921,7 +6921,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cherry_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Cherry Pickaxe",
+      "name": "Light Cherry Pickaxe",
       "id": "item.woodstuff.cherry_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "cherry",
@@ -7105,7 +7105,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cherry_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Cherry Shovel",
+      "name": "Flaming Cherry Shovel",
       "id": "item.woodstuff.cherry_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "cherry",
@@ -7113,7 +7113,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cherry_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Cherry Shovel",
+      "name": "Light Cherry Shovel",
       "id": "item.woodstuff.cherry_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "cherry",
@@ -7297,7 +7297,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cherry_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Cherry Hoe",
+      "name": "Flaming Cherry Hoe",
       "id": "item.woodstuff.cherry_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "cherry",
@@ -7305,7 +7305,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cherry_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Cherry Hoe",
+      "name": "Light Cherry Hoe",
       "id": "item.woodstuff.cherry_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "cherry",
@@ -7489,7 +7489,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cherry_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Cherry Axe",
+      "name": "Flaming Cherry Axe",
       "id": "item.woodstuff.cherry_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "cherry",
@@ -7497,7 +7497,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cherry_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Cherry Axe",
+      "name": "Light Cherry Axe",
       "id": "item.woodstuff.cherry_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "cherry",
@@ -7681,7 +7681,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cherry_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Crimson Sword",
+      "name": "Flaming Crimson Sword",
       "id": "item.woodstuff.crimson_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "crimson",
@@ -7689,7 +7689,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/crimson_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Crimson Sword",
+      "name": "Light Crimson Sword",
       "id": "item.woodstuff.crimson_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "crimson",
@@ -7873,7 +7873,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/crimson_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Crimson Pickaxe",
+      "name": "Flaming Crimson Pickaxe",
       "id": "item.woodstuff.crimson_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "crimson",
@@ -7881,7 +7881,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/crimson_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Crimson Pickaxe",
+      "name": "Light Crimson Pickaxe",
       "id": "item.woodstuff.crimson_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "crimson",
@@ -8065,7 +8065,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/crimson_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Crimson Shovel",
+      "name": "Flaming Crimson Shovel",
       "id": "item.woodstuff.crimson_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "crimson",
@@ -8073,7 +8073,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/crimson_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Crimson Shovel",
+      "name": "Light Crimson Shovel",
       "id": "item.woodstuff.crimson_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "crimson",
@@ -8257,7 +8257,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/crimson_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Crimson Hoe",
+      "name": "Flaming Crimson Hoe",
       "id": "item.woodstuff.crimson_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "crimson",
@@ -8265,7 +8265,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/crimson_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Crimson Hoe",
+      "name": "Light Crimson Hoe",
       "id": "item.woodstuff.crimson_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "crimson",
@@ -8449,7 +8449,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/crimson_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Crimson Axe",
+      "name": "Flaming Crimson Axe",
       "id": "item.woodstuff.crimson_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "crimson",
@@ -8457,7 +8457,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/crimson_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Crimson Axe",
+      "name": "Light Crimson Axe",
       "id": "item.woodstuff.crimson_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "crimson",
@@ -8641,7 +8641,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/crimson_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Warped Sword",
+      "name": "Flaming Warped Sword",
       "id": "item.woodstuff.warped_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "warped",
@@ -8649,7 +8649,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/warped_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Warped Sword",
+      "name": "Light Warped Sword",
       "id": "item.woodstuff.warped_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "warped",
@@ -8833,7 +8833,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/warped_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Warped Pickaxe",
+      "name": "Flaming Warped Pickaxe",
       "id": "item.woodstuff.warped_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "warped",
@@ -8841,7 +8841,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/warped_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Warped Pickaxe",
+      "name": "Light Warped Pickaxe",
       "id": "item.woodstuff.warped_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "warped",
@@ -9025,7 +9025,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/warped_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Warped Shovel",
+      "name": "Flaming Warped Shovel",
       "id": "item.woodstuff.warped_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "warped",
@@ -9033,7 +9033,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/warped_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Warped Shovel",
+      "name": "Light Warped Shovel",
       "id": "item.woodstuff.warped_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "warped",
@@ -9217,7 +9217,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/warped_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Warped Hoe",
+      "name": "Flaming Warped Hoe",
       "id": "item.woodstuff.warped_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "warped",
@@ -9225,7 +9225,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/warped_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Warped Hoe",
+      "name": "Light Warped Hoe",
       "id": "item.woodstuff.warped_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "warped",
@@ -9409,7 +9409,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/warped_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Warped Axe",
+      "name": "Flaming Warped Axe",
       "id": "item.woodstuff.warped_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "warped",
@@ -9417,7 +9417,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/warped_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Warped Axe",
+      "name": "Light Warped Axe",
       "id": "item.woodstuff.warped_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "warped",
@@ -9601,7 +9601,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/warped_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Bamboo Sword",
+      "name": "Flaming Bamboo Sword",
       "id": "item.woodstuff.bamboo_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "bamboo",
@@ -9609,7 +9609,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/bamboo_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Bamboo Sword",
+      "name": "Light Bamboo Sword",
       "id": "item.woodstuff.bamboo_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "bamboo",
@@ -9793,7 +9793,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/bamboo_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Bamboo Pickaxe",
+      "name": "Flaming Bamboo Pickaxe",
       "id": "item.woodstuff.bamboo_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "bamboo",
@@ -9801,7 +9801,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/bamboo_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Bamboo Pickaxe",
+      "name": "Light Bamboo Pickaxe",
       "id": "item.woodstuff.bamboo_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "bamboo",
@@ -9985,7 +9985,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/bamboo_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Bamboo Shovel",
+      "name": "Flaming Bamboo Shovel",
       "id": "item.woodstuff.bamboo_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "bamboo",
@@ -9993,7 +9993,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/bamboo_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Bamboo Shovel",
+      "name": "Light Bamboo Shovel",
       "id": "item.woodstuff.bamboo_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "bamboo",
@@ -10177,7 +10177,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/bamboo_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Bamboo Hoe",
+      "name": "Flaming Bamboo Hoe",
       "id": "item.woodstuff.bamboo_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "bamboo",
@@ -10185,7 +10185,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/bamboo_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Bamboo Hoe",
+      "name": "Light Bamboo Hoe",
       "id": "item.woodstuff.bamboo_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "bamboo",
@@ -10369,7 +10369,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/bamboo_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Bamboo Axe",
+      "name": "Flaming Bamboo Axe",
       "id": "item.woodstuff.bamboo_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "bamboo",
@@ -10377,7 +10377,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/bamboo_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Bamboo Axe",
+      "name": "Light Bamboo Axe",
       "id": "item.woodstuff.bamboo_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "bamboo",
@@ -10561,7 +10561,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/bamboo_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Iron Sword",
+      "name": "Flaming Iron Sword",
       "id": "item.woodstuff.iron_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "iron",
@@ -10569,7 +10569,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/iron_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Iron Sword",
+      "name": "Light Iron Sword",
       "id": "item.woodstuff.iron_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "iron",
@@ -10753,7 +10753,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/iron_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Iron Pickaxe",
+      "name": "Flaming Iron Pickaxe",
       "id": "item.woodstuff.iron_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "iron",
@@ -10761,7 +10761,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/iron_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Iron Pickaxe",
+      "name": "Light Iron Pickaxe",
       "id": "item.woodstuff.iron_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "iron",
@@ -10945,7 +10945,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/iron_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Iron Shovel",
+      "name": "Flaming Iron Shovel",
       "id": "item.woodstuff.iron_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "iron",
@@ -10953,7 +10953,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/iron_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Iron Shovel",
+      "name": "Light Iron Shovel",
       "id": "item.woodstuff.iron_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "iron",
@@ -11137,7 +11137,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/iron_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Iron Hoe",
+      "name": "Flaming Iron Hoe",
       "id": "item.woodstuff.iron_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "iron",
@@ -11145,7 +11145,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/iron_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Iron Hoe",
+      "name": "Light Iron Hoe",
       "id": "item.woodstuff.iron_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "iron",
@@ -11329,7 +11329,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/iron_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Iron Axe",
+      "name": "Flaming Iron Axe",
       "id": "item.woodstuff.iron_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "iron",
@@ -11337,7 +11337,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/iron_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Iron Axe",
+      "name": "Light Iron Axe",
       "id": "item.woodstuff.iron_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "iron",
@@ -11521,7 +11521,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/iron_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Diamond Sword",
+      "name": "Flaming Diamond Sword",
       "id": "item.woodstuff.diamond_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "diamond",
@@ -11529,7 +11529,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diamond_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Diamond Sword",
+      "name": "Light Diamond Sword",
       "id": "item.woodstuff.diamond_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "diamond",
@@ -11713,7 +11713,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diamond_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Diamond Pickaxe",
+      "name": "Flaming Diamond Pickaxe",
       "id": "item.woodstuff.diamond_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "diamond",
@@ -11721,7 +11721,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diamond_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Diamond Pickaxe",
+      "name": "Light Diamond Pickaxe",
       "id": "item.woodstuff.diamond_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "diamond",
@@ -11905,7 +11905,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diamond_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Diamond Shovel",
+      "name": "Flaming Diamond Shovel",
       "id": "item.woodstuff.diamond_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "diamond",
@@ -11913,7 +11913,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diamond_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Diamond Shovel",
+      "name": "Light Diamond Shovel",
       "id": "item.woodstuff.diamond_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "diamond",
@@ -12097,7 +12097,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diamond_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Diamond Hoe",
+      "name": "Flaming Diamond Hoe",
       "id": "item.woodstuff.diamond_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "diamond",
@@ -12105,7 +12105,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diamond_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Diamond Hoe",
+      "name": "Light Diamond Hoe",
       "id": "item.woodstuff.diamond_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "diamond",
@@ -12289,7 +12289,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diamond_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Diamond Axe",
+      "name": "Flaming Diamond Axe",
       "id": "item.woodstuff.diamond_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "diamond",
@@ -12297,7 +12297,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diamond_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Diamond Axe",
+      "name": "Light Diamond Axe",
       "id": "item.woodstuff.diamond_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "diamond",
@@ -12481,7 +12481,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diamond_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Gold Sword",
+      "name": "Flaming Gold Sword",
       "id": "item.woodstuff.gold_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "gold",
@@ -12489,7 +12489,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/gold_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Gold Sword",
+      "name": "Light Gold Sword",
       "id": "item.woodstuff.gold_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "gold",
@@ -12673,7 +12673,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/gold_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Gold Pickaxe",
+      "name": "Flaming Gold Pickaxe",
       "id": "item.woodstuff.gold_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "gold",
@@ -12681,7 +12681,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/gold_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Gold Pickaxe",
+      "name": "Light Gold Pickaxe",
       "id": "item.woodstuff.gold_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "gold",
@@ -12865,7 +12865,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/gold_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Gold Shovel",
+      "name": "Flaming Gold Shovel",
       "id": "item.woodstuff.gold_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "gold",
@@ -12873,7 +12873,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/gold_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Gold Shovel",
+      "name": "Light Gold Shovel",
       "id": "item.woodstuff.gold_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "gold",
@@ -13057,7 +13057,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/gold_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Gold Hoe",
+      "name": "Flaming Gold Hoe",
       "id": "item.woodstuff.gold_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "gold",
@@ -13065,7 +13065,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/gold_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Gold Hoe",
+      "name": "Light Gold Hoe",
       "id": "item.woodstuff.gold_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "gold",
@@ -13249,7 +13249,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/gold_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Gold Axe",
+      "name": "Flaming Gold Axe",
       "id": "item.woodstuff.gold_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "gold",
@@ -13257,7 +13257,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/gold_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Gold Axe",
+      "name": "Light Gold Axe",
       "id": "item.woodstuff.gold_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "gold",
@@ -13441,7 +13441,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/gold_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Netherite Sword",
+      "name": "Flaming Netherite Sword",
       "id": "item.woodstuff.netherite_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "netherite",
@@ -13449,7 +13449,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/netherite_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Netherite Sword",
+      "name": "Light Netherite Sword",
       "id": "item.woodstuff.netherite_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "netherite",
@@ -13633,7 +13633,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/netherite_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Netherite Pickaxe",
+      "name": "Flaming Netherite Pickaxe",
       "id": "item.woodstuff.netherite_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "netherite",
@@ -13641,7 +13641,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/netherite_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Netherite Pickaxe",
+      "name": "Light Netherite Pickaxe",
       "id": "item.woodstuff.netherite_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "netherite",
@@ -13825,7 +13825,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/netherite_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Netherite Shovel",
+      "name": "Flaming Netherite Shovel",
       "id": "item.woodstuff.netherite_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "netherite",
@@ -13833,7 +13833,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/netherite_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Netherite Shovel",
+      "name": "Light Netherite Shovel",
       "id": "item.woodstuff.netherite_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "netherite",
@@ -14017,7 +14017,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/netherite_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Netherite Hoe",
+      "name": "Flaming Netherite Hoe",
       "id": "item.woodstuff.netherite_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "netherite",
@@ -14025,7 +14025,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/netherite_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Netherite Hoe",
+      "name": "Light Netherite Hoe",
       "id": "item.woodstuff.netherite_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "netherite",
@@ -14209,7 +14209,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/netherite_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Netherite Axe",
+      "name": "Flaming Netherite Axe",
       "id": "item.woodstuff.netherite_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "netherite",
@@ -14217,7 +14217,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/netherite_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Netherite Axe",
+      "name": "Light Netherite Axe",
       "id": "item.woodstuff.netherite_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "netherite",
@@ -14401,7 +14401,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/netherite_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Amethyst Sword",
+      "name": "Flaming Amethyst Sword",
       "id": "item.woodstuff.amethyst_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "amethyst",
@@ -14409,7 +14409,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/amethyst_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Amethyst Sword",
+      "name": "Light Amethyst Sword",
       "id": "item.woodstuff.amethyst_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "amethyst",
@@ -14593,7 +14593,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/amethyst_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Amethyst Pickaxe",
+      "name": "Flaming Amethyst Pickaxe",
       "id": "item.woodstuff.amethyst_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "amethyst",
@@ -14601,7 +14601,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/amethyst_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Amethyst Pickaxe",
+      "name": "Light Amethyst Pickaxe",
       "id": "item.woodstuff.amethyst_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "amethyst",
@@ -14785,7 +14785,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/amethyst_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Amethyst Shovel",
+      "name": "Flaming Amethyst Shovel",
       "id": "item.woodstuff.amethyst_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "amethyst",
@@ -14793,7 +14793,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/amethyst_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Amethyst Shovel",
+      "name": "Light Amethyst Shovel",
       "id": "item.woodstuff.amethyst_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "amethyst",
@@ -14977,7 +14977,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/amethyst_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Amethyst Hoe",
+      "name": "Flaming Amethyst Hoe",
       "id": "item.woodstuff.amethyst_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "amethyst",
@@ -14985,7 +14985,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/amethyst_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Amethyst Hoe",
+      "name": "Light Amethyst Hoe",
       "id": "item.woodstuff.amethyst_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "amethyst",
@@ -15169,7 +15169,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/amethyst_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Amethyst Axe",
+      "name": "Flaming Amethyst Axe",
       "id": "item.woodstuff.amethyst_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "amethyst",
@@ -15177,7 +15177,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/amethyst_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Amethyst Axe",
+      "name": "Light Amethyst Axe",
       "id": "item.woodstuff.amethyst_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "amethyst",
@@ -15361,7 +15361,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/amethyst_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Diorite Sword",
+      "name": "Flaming Diorite Sword",
       "id": "item.woodstuff.diorite_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "diorite",
@@ -15369,7 +15369,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diorite_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Diorite Sword",
+      "name": "Light Diorite Sword",
       "id": "item.woodstuff.diorite_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "diorite",
@@ -15553,7 +15553,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diorite_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Diorite Pickaxe",
+      "name": "Flaming Diorite Pickaxe",
       "id": "item.woodstuff.diorite_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "diorite",
@@ -15561,7 +15561,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diorite_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Diorite Pickaxe",
+      "name": "Light Diorite Pickaxe",
       "id": "item.woodstuff.diorite_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "diorite",
@@ -15745,7 +15745,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diorite_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Diorite Shovel",
+      "name": "Flaming Diorite Shovel",
       "id": "item.woodstuff.diorite_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "diorite",
@@ -15753,7 +15753,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diorite_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Diorite Shovel",
+      "name": "Light Diorite Shovel",
       "id": "item.woodstuff.diorite_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "diorite",
@@ -15937,7 +15937,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diorite_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Diorite Hoe",
+      "name": "Flaming Diorite Hoe",
       "id": "item.woodstuff.diorite_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "diorite",
@@ -15945,7 +15945,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diorite_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Diorite Hoe",
+      "name": "Light Diorite Hoe",
       "id": "item.woodstuff.diorite_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "diorite",
@@ -16129,7 +16129,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diorite_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Diorite Axe",
+      "name": "Flaming Diorite Axe",
       "id": "item.woodstuff.diorite_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "diorite",
@@ -16137,7 +16137,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diorite_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Diorite Axe",
+      "name": "Light Diorite Axe",
       "id": "item.woodstuff.diorite_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "diorite",
@@ -16321,7 +16321,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/diorite_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Andesite Sword",
+      "name": "Flaming Andesite Sword",
       "id": "item.woodstuff.andesite_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "andesite",
@@ -16329,7 +16329,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/andesite_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Andesite Sword",
+      "name": "Light Andesite Sword",
       "id": "item.woodstuff.andesite_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "andesite",
@@ -16513,7 +16513,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/andesite_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Andesite Pickaxe",
+      "name": "Flaming Andesite Pickaxe",
       "id": "item.woodstuff.andesite_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "andesite",
@@ -16521,7 +16521,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/andesite_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Andesite Pickaxe",
+      "name": "Light Andesite Pickaxe",
       "id": "item.woodstuff.andesite_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "andesite",
@@ -16705,7 +16705,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/andesite_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Andesite Shovel",
+      "name": "Flaming Andesite Shovel",
       "id": "item.woodstuff.andesite_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "andesite",
@@ -16713,7 +16713,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/andesite_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Andesite Shovel",
+      "name": "Light Andesite Shovel",
       "id": "item.woodstuff.andesite_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "andesite",
@@ -16897,7 +16897,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/andesite_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Andesite Hoe",
+      "name": "Flaming Andesite Hoe",
       "id": "item.woodstuff.andesite_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "andesite",
@@ -16905,7 +16905,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/andesite_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Andesite Hoe",
+      "name": "Light Andesite Hoe",
       "id": "item.woodstuff.andesite_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "andesite",
@@ -17089,7 +17089,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/andesite_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Andesite Axe",
+      "name": "Flaming Andesite Axe",
       "id": "item.woodstuff.andesite_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "andesite",
@@ -17097,7 +17097,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/andesite_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Andesite Axe",
+      "name": "Light Andesite Axe",
       "id": "item.woodstuff.andesite_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "andesite",
@@ -17281,7 +17281,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/andesite_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Granite Sword",
+      "name": "Flaming Granite Sword",
       "id": "item.woodstuff.granite_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "granite",
@@ -17289,7 +17289,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/granite_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Granite Sword",
+      "name": "Light Granite Sword",
       "id": "item.woodstuff.granite_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "granite",
@@ -17473,7 +17473,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/granite_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Granite Pickaxe",
+      "name": "Flaming Granite Pickaxe",
       "id": "item.woodstuff.granite_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "granite",
@@ -17481,7 +17481,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/granite_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Granite Pickaxe",
+      "name": "Light Granite Pickaxe",
       "id": "item.woodstuff.granite_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "granite",
@@ -17665,7 +17665,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/granite_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Granite Shovel",
+      "name": "Flaming Granite Shovel",
       "id": "item.woodstuff.granite_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "granite",
@@ -17673,7 +17673,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/granite_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Granite Shovel",
+      "name": "Light Granite Shovel",
       "id": "item.woodstuff.granite_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "granite",
@@ -17857,7 +17857,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/granite_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Granite Hoe",
+      "name": "Flaming Granite Hoe",
       "id": "item.woodstuff.granite_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "granite",
@@ -17865,7 +17865,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/granite_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Granite Hoe",
+      "name": "Light Granite Hoe",
       "id": "item.woodstuff.granite_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "granite",
@@ -18049,7 +18049,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/granite_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Granite Axe",
+      "name": "Flaming Granite Axe",
       "id": "item.woodstuff.granite_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "granite",
@@ -18057,7 +18057,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/granite_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Granite Axe",
+      "name": "Light Granite Axe",
       "id": "item.woodstuff.granite_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "granite",
@@ -18241,7 +18241,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/granite_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Blackstone Sword",
+      "name": "Flaming Blackstone Sword",
       "id": "item.woodstuff.blackstone_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "blackstone",
@@ -18249,7 +18249,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/blackstone_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Blackstone Sword",
+      "name": "Light Blackstone Sword",
       "id": "item.woodstuff.blackstone_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "blackstone",
@@ -18433,7 +18433,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/blackstone_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Blackstone Pickaxe",
+      "name": "Flaming Blackstone Pickaxe",
       "id": "item.woodstuff.blackstone_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "blackstone",
@@ -18441,7 +18441,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/blackstone_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Blackstone Pickaxe",
+      "name": "Light Blackstone Pickaxe",
       "id": "item.woodstuff.blackstone_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "blackstone",
@@ -18625,7 +18625,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/blackstone_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Blackstone Shovel",
+      "name": "Flaming Blackstone Shovel",
       "id": "item.woodstuff.blackstone_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "blackstone",
@@ -18633,7 +18633,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/blackstone_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Blackstone Shovel",
+      "name": "Light Blackstone Shovel",
       "id": "item.woodstuff.blackstone_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "blackstone",
@@ -18817,7 +18817,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/blackstone_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Blackstone Hoe",
+      "name": "Flaming Blackstone Hoe",
       "id": "item.woodstuff.blackstone_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "blackstone",
@@ -18825,7 +18825,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/blackstone_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Blackstone Hoe",
+      "name": "Light Blackstone Hoe",
       "id": "item.woodstuff.blackstone_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "blackstone",
@@ -19009,7 +19009,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/blackstone_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Blackstone Axe",
+      "name": "Flaming Blackstone Axe",
       "id": "item.woodstuff.blackstone_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "blackstone",
@@ -19017,7 +19017,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/blackstone_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Blackstone Axe",
+      "name": "Light Blackstone Axe",
       "id": "item.woodstuff.blackstone_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "blackstone",
@@ -19201,7 +19201,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/blackstone_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Cobblestone Sword",
+      "name": "Flaming Cobblestone Sword",
       "id": "item.woodstuff.cobblestone_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "cobblestone",
@@ -19209,7 +19209,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cobblestone_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Cobblestone Sword",
+      "name": "Light Cobblestone Sword",
       "id": "item.woodstuff.cobblestone_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "cobblestone",
@@ -19393,7 +19393,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cobblestone_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Cobblestone Pickaxe",
+      "name": "Flaming Cobblestone Pickaxe",
       "id": "item.woodstuff.cobblestone_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "cobblestone",
@@ -19401,7 +19401,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cobblestone_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Cobblestone Pickaxe",
+      "name": "Light Cobblestone Pickaxe",
       "id": "item.woodstuff.cobblestone_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "cobblestone",
@@ -19585,7 +19585,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cobblestone_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Cobblestone Shovel",
+      "name": "Flaming Cobblestone Shovel",
       "id": "item.woodstuff.cobblestone_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "cobblestone",
@@ -19593,7 +19593,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cobblestone_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Cobblestone Shovel",
+      "name": "Light Cobblestone Shovel",
       "id": "item.woodstuff.cobblestone_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "cobblestone",
@@ -19777,7 +19777,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cobblestone_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Cobblestone Hoe",
+      "name": "Flaming Cobblestone Hoe",
       "id": "item.woodstuff.cobblestone_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "cobblestone",
@@ -19785,7 +19785,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cobblestone_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Cobblestone Hoe",
+      "name": "Light Cobblestone Hoe",
       "id": "item.woodstuff.cobblestone_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "cobblestone",
@@ -19969,7 +19969,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cobblestone_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Cobblestone Axe",
+      "name": "Flaming Cobblestone Axe",
       "id": "item.woodstuff.cobblestone_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "cobblestone",
@@ -19977,7 +19977,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cobblestone_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Cobblestone Axe",
+      "name": "Light Cobblestone Axe",
       "id": "item.woodstuff.cobblestone_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "cobblestone",
@@ -20161,7 +20161,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/cobblestone_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Redstone Sword",
+      "name": "Flaming Redstone Sword",
       "id": "item.woodstuff.redstone_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "redstone",
@@ -20169,7 +20169,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/redstone_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Redstone Sword",
+      "name": "Light Redstone Sword",
       "id": "item.woodstuff.redstone_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "redstone",
@@ -20353,7 +20353,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/redstone_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Redstone Pickaxe",
+      "name": "Flaming Redstone Pickaxe",
       "id": "item.woodstuff.redstone_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "redstone",
@@ -20361,7 +20361,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/redstone_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Redstone Pickaxe",
+      "name": "Light Redstone Pickaxe",
       "id": "item.woodstuff.redstone_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "redstone",
@@ -20545,7 +20545,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/redstone_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Redstone Shovel",
+      "name": "Flaming Redstone Shovel",
       "id": "item.woodstuff.redstone_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "redstone",
@@ -20553,7 +20553,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/redstone_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Redstone Shovel",
+      "name": "Light Redstone Shovel",
       "id": "item.woodstuff.redstone_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "redstone",
@@ -20737,7 +20737,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/redstone_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Redstone Hoe",
+      "name": "Flaming Redstone Hoe",
       "id": "item.woodstuff.redstone_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "redstone",
@@ -20745,7 +20745,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/redstone_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Redstone Hoe",
+      "name": "Light Redstone Hoe",
       "id": "item.woodstuff.redstone_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "redstone",
@@ -20929,7 +20929,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/redstone_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Redstone Axe",
+      "name": "Flaming Redstone Axe",
       "id": "item.woodstuff.redstone_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "redstone",
@@ -20937,7 +20937,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/redstone_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Redstone Axe",
+      "name": "Light Redstone Axe",
       "id": "item.woodstuff.redstone_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "redstone",
@@ -21121,7 +21121,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/redstone_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Lapis Sword",
+      "name": "Flaming Lapis Sword",
       "id": "item.woodstuff.lapis_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "lapis",
@@ -21129,7 +21129,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/lapis_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Lapis Sword",
+      "name": "Light Lapis Sword",
       "id": "item.woodstuff.lapis_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "lapis",
@@ -21313,7 +21313,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/lapis_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Lapis Pickaxe",
+      "name": "Flaming Lapis Pickaxe",
       "id": "item.woodstuff.lapis_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "lapis",
@@ -21321,7 +21321,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/lapis_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Lapis Pickaxe",
+      "name": "Light Lapis Pickaxe",
       "id": "item.woodstuff.lapis_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "lapis",
@@ -21505,7 +21505,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/lapis_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Lapis Shovel",
+      "name": "Flaming Lapis Shovel",
       "id": "item.woodstuff.lapis_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "lapis",
@@ -21513,7 +21513,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/lapis_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Lapis Shovel",
+      "name": "Light Lapis Shovel",
       "id": "item.woodstuff.lapis_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "lapis",
@@ -21697,7 +21697,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/lapis_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Lapis Hoe",
+      "name": "Flaming Lapis Hoe",
       "id": "item.woodstuff.lapis_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "lapis",
@@ -21705,7 +21705,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/lapis_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Lapis Hoe",
+      "name": "Light Lapis Hoe",
       "id": "item.woodstuff.lapis_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "lapis",
@@ -21889,7 +21889,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/lapis_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Lapis Axe",
+      "name": "Flaming Lapis Axe",
       "id": "item.woodstuff.lapis_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "lapis",
@@ -21897,7 +21897,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/lapis_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Lapis Axe",
+      "name": "Light Lapis Axe",
       "id": "item.woodstuff.lapis_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "lapis",
@@ -22081,7 +22081,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/lapis_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Quartz Sword",
+      "name": "Flaming Quartz Sword",
       "id": "item.woodstuff.quartz_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "quartz",
@@ -22089,7 +22089,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/quartz_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Quartz Sword",
+      "name": "Light Quartz Sword",
       "id": "item.woodstuff.quartz_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "quartz",
@@ -22273,7 +22273,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/quartz_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Quartz Pickaxe",
+      "name": "Flaming Quartz Pickaxe",
       "id": "item.woodstuff.quartz_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "quartz",
@@ -22281,7 +22281,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/quartz_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Quartz Pickaxe",
+      "name": "Light Quartz Pickaxe",
       "id": "item.woodstuff.quartz_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "quartz",
@@ -22465,7 +22465,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/quartz_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Quartz Shovel",
+      "name": "Flaming Quartz Shovel",
       "id": "item.woodstuff.quartz_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "quartz",
@@ -22473,7 +22473,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/quartz_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Quartz Shovel",
+      "name": "Light Quartz Shovel",
       "id": "item.woodstuff.quartz_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "quartz",
@@ -22657,7 +22657,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/quartz_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Quartz Hoe",
+      "name": "Flaming Quartz Hoe",
       "id": "item.woodstuff.quartz_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "quartz",
@@ -22665,7 +22665,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/quartz_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Quartz Hoe",
+      "name": "Light Quartz Hoe",
       "id": "item.woodstuff.quartz_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "quartz",
@@ -22849,7 +22849,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/quartz_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Quartz Axe",
+      "name": "Flaming Quartz Axe",
       "id": "item.woodstuff.quartz_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "quartz",
@@ -22857,7 +22857,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/quartz_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Quartz Axe",
+      "name": "Light Quartz Axe",
       "id": "item.woodstuff.quartz_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "quartz",
@@ -23041,7 +23041,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/quartz_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Deepslate Sword",
+      "name": "Flaming Deepslate Sword",
       "id": "item.woodstuff.deepslate_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "deepslate",
@@ -23049,7 +23049,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/deepslate_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Deepslate Sword",
+      "name": "Light Deepslate Sword",
       "id": "item.woodstuff.deepslate_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "deepslate",
@@ -23233,7 +23233,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/deepslate_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Deepslate Pickaxe",
+      "name": "Flaming Deepslate Pickaxe",
       "id": "item.woodstuff.deepslate_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "deepslate",
@@ -23241,7 +23241,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/deepslate_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Deepslate Pickaxe",
+      "name": "Light Deepslate Pickaxe",
       "id": "item.woodstuff.deepslate_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "deepslate",
@@ -23425,7 +23425,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/deepslate_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Deepslate Shovel",
+      "name": "Flaming Deepslate Shovel",
       "id": "item.woodstuff.deepslate_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "deepslate",
@@ -23433,7 +23433,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/deepslate_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Deepslate Shovel",
+      "name": "Light Deepslate Shovel",
       "id": "item.woodstuff.deepslate_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "deepslate",
@@ -23617,7 +23617,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/deepslate_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Deepslate Hoe",
+      "name": "Flaming Deepslate Hoe",
       "id": "item.woodstuff.deepslate_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "deepslate",
@@ -23625,7 +23625,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/deepslate_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Deepslate Hoe",
+      "name": "Light Deepslate Hoe",
       "id": "item.woodstuff.deepslate_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "deepslate",
@@ -23809,7 +23809,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/deepslate_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Deepslate Axe",
+      "name": "Flaming Deepslate Axe",
       "id": "item.woodstuff.deepslate_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "deepslate",
@@ -23817,7 +23817,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/deepslate_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Deepslate Axe",
+      "name": "Light Deepslate Axe",
       "id": "item.woodstuff.deepslate_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "deepslate",
@@ -24001,7 +24001,967 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/deepslate_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Copper Sword",
+      "name": "Flaming Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_blaze_stick",
+      "stick": "blaze",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_breeze_stick",
+      "stick": "breeze",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_oak_stick",
+      "stick": "oak",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_spruce_stick",
+      "stick": "spruce",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_birch_stick",
+      "stick": "birch",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_jungle_stick",
+      "stick": "jungle",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_acacia_stick",
+      "stick": "acacia",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_cherry_stick",
+      "stick": "cherry",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_crimson_stick",
+      "stick": "crimson",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_warped_stick",
+      "stick": "warped",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Prismarine Sword",
+      "id": "item.woodstuff.prismarine_sword_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "prismarine",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_sword_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_oak_stick",
+      "stick": "oak",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_birch_stick",
+      "stick": "birch",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_warped_stick",
+      "stick": "warped",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Prismarine Pickaxe",
+      "id": "item.woodstuff.prismarine_pickaxe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "prismarine",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_pickaxe_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_blaze_stick",
+      "stick": "blaze",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_breeze_stick",
+      "stick": "breeze",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_oak_stick",
+      "stick": "oak",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_spruce_stick",
+      "stick": "spruce",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_birch_stick",
+      "stick": "birch",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_jungle_stick",
+      "stick": "jungle",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_acacia_stick",
+      "stick": "acacia",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_cherry_stick",
+      "stick": "cherry",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_crimson_stick",
+      "stick": "crimson",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_warped_stick",
+      "stick": "warped",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Prismarine Shovel",
+      "id": "item.woodstuff.prismarine_shovel_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "prismarine",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_shovel_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_oak_stick",
+      "stick": "oak",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_birch_stick",
+      "stick": "birch",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_warped_stick",
+      "stick": "warped",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Prismarine Hoe",
+      "id": "item.woodstuff.prismarine_hoe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "prismarine",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_hoe_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_oak_stick",
+      "stick": "oak",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_birch_stick",
+      "stick": "birch",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_warped_stick",
+      "stick": "warped",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Prismarine Axe",
+      "id": "item.woodstuff.prismarine_axe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "prismarine",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/prismarine_axe_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Copper Sword",
       "id": "item.woodstuff.shiny_copper_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "shiny_copper",
@@ -24009,7 +24969,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Copper Sword",
+      "name": "Light Copper Sword",
       "id": "item.woodstuff.shiny_copper_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "shiny_copper",
@@ -24193,7 +25153,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Copper Pickaxe",
+      "name": "Flaming Copper Pickaxe",
       "id": "item.woodstuff.shiny_copper_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "shiny_copper",
@@ -24201,7 +25161,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Copper Pickaxe",
+      "name": "Light Copper Pickaxe",
       "id": "item.woodstuff.shiny_copper_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "shiny_copper",
@@ -24385,7 +25345,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Copper Shovel",
+      "name": "Flaming Copper Shovel",
       "id": "item.woodstuff.shiny_copper_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "shiny_copper",
@@ -24393,7 +25353,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Copper Shovel",
+      "name": "Light Copper Shovel",
       "id": "item.woodstuff.shiny_copper_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "shiny_copper",
@@ -24577,7 +25537,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Copper Hoe",
+      "name": "Flaming Copper Hoe",
       "id": "item.woodstuff.shiny_copper_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "shiny_copper",
@@ -24585,7 +25545,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Copper Hoe",
+      "name": "Light Copper Hoe",
       "id": "item.woodstuff.shiny_copper_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "shiny_copper",
@@ -24769,7 +25729,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Copper Axe",
+      "name": "Flaming Copper Axe",
       "id": "item.woodstuff.shiny_copper_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "shiny_copper",
@@ -24777,7 +25737,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Copper Axe",
+      "name": "Light Copper Axe",
       "id": "item.woodstuff.shiny_copper_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "shiny_copper",
@@ -24961,7 +25921,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/shiny_copper_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Weathered Copper Sword",
+      "name": "Flaming Weathered Copper Sword",
       "id": "item.woodstuff.weathered_copper_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "weathered_copper",
@@ -24969,7 +25929,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Weathered Copper Sword",
+      "name": "Light Weathered Copper Sword",
       "id": "item.woodstuff.weathered_copper_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "weathered_copper",
@@ -25153,7 +26113,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Weathered Copper Pickaxe",
+      "name": "Flaming Weathered Copper Pickaxe",
       "id": "item.woodstuff.weathered_copper_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "weathered_copper",
@@ -25161,7 +26121,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Weathered Copper Pickaxe",
+      "name": "Light Weathered Copper Pickaxe",
       "id": "item.woodstuff.weathered_copper_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "weathered_copper",
@@ -25345,7 +26305,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Weathered Copper Shovel",
+      "name": "Flaming Weathered Copper Shovel",
       "id": "item.woodstuff.weathered_copper_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "weathered_copper",
@@ -25353,7 +26313,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Weathered Copper Shovel",
+      "name": "Light Weathered Copper Shovel",
       "id": "item.woodstuff.weathered_copper_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "weathered_copper",
@@ -25537,7 +26497,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Weathered Copper Hoe",
+      "name": "Flaming Weathered Copper Hoe",
       "id": "item.woodstuff.weathered_copper_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "weathered_copper",
@@ -25545,7 +26505,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Weathered Copper Hoe",
+      "name": "Light Weathered Copper Hoe",
       "id": "item.woodstuff.weathered_copper_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "weathered_copper",
@@ -25729,7 +26689,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Weathered Copper Axe",
+      "name": "Flaming Weathered Copper Axe",
       "id": "item.woodstuff.weathered_copper_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "weathered_copper",
@@ -25737,7 +26697,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Weathered Copper Axe",
+      "name": "Light Weathered Copper Axe",
       "id": "item.woodstuff.weathered_copper_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "weathered_copper",
@@ -25921,7 +26881,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/weathered_copper_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Exposed Copper Sword",
+      "name": "Flaming Exposed Copper Sword",
       "id": "item.woodstuff.exposed_copper_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "exposed_copper",
@@ -25929,7 +26889,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Exposed Copper Sword",
+      "name": "Light Exposed Copper Sword",
       "id": "item.woodstuff.exposed_copper_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "exposed_copper",
@@ -26113,7 +27073,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Exposed Copper Pickaxe",
+      "name": "Flaming Exposed Copper Pickaxe",
       "id": "item.woodstuff.exposed_copper_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "exposed_copper",
@@ -26121,7 +27081,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Exposed Copper Pickaxe",
+      "name": "Light Exposed Copper Pickaxe",
       "id": "item.woodstuff.exposed_copper_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "exposed_copper",
@@ -26305,7 +27265,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Exposed Copper Shovel",
+      "name": "Flaming Exposed Copper Shovel",
       "id": "item.woodstuff.exposed_copper_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "exposed_copper",
@@ -26313,7 +27273,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Exposed Copper Shovel",
+      "name": "Light Exposed Copper Shovel",
       "id": "item.woodstuff.exposed_copper_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "exposed_copper",
@@ -26497,7 +27457,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Exposed Copper Hoe",
+      "name": "Flaming Exposed Copper Hoe",
       "id": "item.woodstuff.exposed_copper_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "exposed_copper",
@@ -26505,7 +27465,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Exposed Copper Hoe",
+      "name": "Light Exposed Copper Hoe",
       "id": "item.woodstuff.exposed_copper_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "exposed_copper",
@@ -26689,7 +27649,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Exposed Copper Axe",
+      "name": "Flaming Exposed Copper Axe",
       "id": "item.woodstuff.exposed_copper_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "exposed_copper",
@@ -26697,7 +27657,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Exposed Copper Axe",
+      "name": "Light Exposed Copper Axe",
       "id": "item.woodstuff.exposed_copper_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "exposed_copper",
@@ -26881,7 +27841,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/exposed_copper_axe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Oxidized Copper Sword",
+      "name": "Flaming Oxidized Copper Sword",
       "id": "item.woodstuff.oxidized_copper_sword_with_blaze_stick",
       "stick": "blaze",
       "material": "oxidized_copper",
@@ -26889,7 +27849,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Oxidized Copper Sword",
+      "name": "Light Oxidized Copper Sword",
       "id": "item.woodstuff.oxidized_copper_sword_with_breeze_stick",
       "stick": "breeze",
       "material": "oxidized_copper",
@@ -27073,7 +28033,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_sword_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Oxidized Copper Pickaxe",
+      "name": "Flaming Oxidized Copper Pickaxe",
       "id": "item.woodstuff.oxidized_copper_pickaxe_with_blaze_stick",
       "stick": "blaze",
       "material": "oxidized_copper",
@@ -27081,7 +28041,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Oxidized Copper Pickaxe",
+      "name": "Light Oxidized Copper Pickaxe",
       "id": "item.woodstuff.oxidized_copper_pickaxe_with_breeze_stick",
       "stick": "breeze",
       "material": "oxidized_copper",
@@ -27265,7 +28225,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_pickaxe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Oxidized Copper Shovel",
+      "name": "Flaming Oxidized Copper Shovel",
       "id": "item.woodstuff.oxidized_copper_shovel_with_blaze_stick",
       "stick": "blaze",
       "material": "oxidized_copper",
@@ -27273,7 +28233,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Oxidized Copper Shovel",
+      "name": "Light Oxidized Copper Shovel",
       "id": "item.woodstuff.oxidized_copper_shovel_with_breeze_stick",
       "stick": "breeze",
       "material": "oxidized_copper",
@@ -27457,7 +28417,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_shovel_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Oxidized Copper Hoe",
+      "name": "Flaming Oxidized Copper Hoe",
       "id": "item.woodstuff.oxidized_copper_hoe_with_blaze_stick",
       "stick": "blaze",
       "material": "oxidized_copper",
@@ -27465,7 +28425,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Oxidized Copper Hoe",
+      "name": "Light Oxidized Copper Hoe",
       "id": "item.woodstuff.oxidized_copper_hoe_with_breeze_stick",
       "stick": "breeze",
       "material": "oxidized_copper",
@@ -27649,7 +28609,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_hoe_with_stripped_bamboo_stick.png"
     },
     {
-      "name": "Blaze Oxidized Copper Axe",
+      "name": "Flaming Oxidized Copper Axe",
       "id": "item.woodstuff.oxidized_copper_axe_with_blaze_stick",
       "stick": "blaze",
       "material": "oxidized_copper",
@@ -27657,7 +28617,7 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/oxidized_copper_axe_with_blaze_stick.png"
     },
     {
-      "name": "Breeze Oxidized Copper Axe",
+      "name": "Light Oxidized Copper Axe",
       "id": "item.woodstuff.oxidized_copper_axe_with_breeze_stick",
       "stick": "breeze",
       "material": "oxidized_copper",
@@ -28108,6 +29068,11 @@
       "name": "Deepslate",
       "id": "deepslate",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/deepslate_block.png"
+    },
+    {
+      "name": "Prismarine",
+      "id": "prismarine",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/prismarine_block.png"
     }
   ]
 }
