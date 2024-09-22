@@ -330,12 +330,16 @@ def generate_recipes():
 
     # Add recipes for crafting sticks using two planks of the corresponding wood type
     for wood in STICK_TYPES:
-        if stick not in ["blaze", "bamboo", "breeze"]:
+        if wood not in ["blaze", "bamboo", "breeze"]:
             stick_name = f"{wood}_stick"
+            if wood in ["crimson", "warped"]:
+                log_type = "stem"
+            else:
+                log_type = "log"
             
             # Determine if the wood is stripped or not
             if wood.startswith("stripped_"):
-                material = f"minecraft:stripped_{wood}_log"
+                material = f"minecraft:stripped_{wood}_{log_type}"
                 count = 16
             else:
                 material = f"minecraft:{wood}_planks"
