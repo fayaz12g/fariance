@@ -109,7 +109,7 @@ def generate_lang_entries():
         # Check if the material matches the stick name or the second part after underscore matches material
         stick_parts = stick.split('_', 1)  # Split stick into two parts at the first underscore
         if material == stick or (len(stick_parts) > 1 and stick_parts[1] == material):
-            display_name = f"{capitalize_material(stick_parts[0])} {capitalize_material(material)} {tool.capitalize()}"
+            display_name = f"{capitalize_material(stick)} {tool.capitalize()}"
         else:
             display_name = f"{capitalize_material(stick)} {capitalize_material(material)} {tool.capitalize()}"
         
