@@ -7,7 +7,7 @@ from PIL import Image, ImageOps
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
 MATERIAL_TYPES = WOOD_TYPES + ["iron", "diamond", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"]
-STICK_TYPES = ["stripped_" + s for s in WOOD_TYPES] + WOOD_TYPES + ["blaze", "breeze"]
+STICK_TYPES = ["blaze", "breeze"] + WOOD_TYPES + ["stripped_" + s for s in WOOD_TYPES]
 COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
 MATERIAL_TYPES = MATERIAL_TYPES + COPPER_TYPES
 
@@ -101,11 +101,16 @@ def generate_lang_entries():
     # Add item names
     for material, tool, stick in product(MATERIAL_TYPES, TOOL_TYPES, STICK_TYPES):
         item_name = f"{material}_{tool}_with_{stick}_stick"
-        if material == stick:
-            display_name = f"{capitalize_material(material)} {tool.capitalize()}"
+        
+        # Check if the material matches the stick name or the second part after underscore matches material
+        stick_parts = stick.split('_', 1)  # Split stick into two parts at the first underscore
+        if material == stick or (len(stick_parts) > 1 and stick_parts[1] == material):
+            display_name = f"{capitalize_material(stick_parts[0])} {capitalize_material(material)} {tool.capitalize()}"
         else:
             display_name = f"{capitalize_material(stick)} {capitalize_material(material)} {tool.capitalize()}"
+        
         entries[f"item.woodstuff.{item_name}"] = display_name
+
 
     # Add sticks to lang file
     for stick in filtered_wood_types:
