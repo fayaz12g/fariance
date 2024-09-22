@@ -6,7 +6,7 @@ from PIL import Image, ImageOps
 # Define constants
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
-MATERIAL_TYPES = WOOD_TYPES + ["iron", "diamond", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"]
+MATERIAL_TYPES = WOOD_TYPES + ["iron", "diamond", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate", "prismarine"]
 STICK_TYPES = ["blaze", "breeze"] + WOOD_TYPES + ["stripped_" + s for s in WOOD_TYPES]
 COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
 MATERIAL_TYPES = MATERIAL_TYPES + COPPER_TYPES
@@ -101,7 +101,11 @@ def generate_lang_entries():
     # Add item names
     for material, tool, stick in product(MATERIAL_TYPES, TOOL_TYPES, STICK_TYPES):
         item_name = f"{material}_{tool}_with_{stick}_stick"
-        
+        if stick == "blaze":
+            stick = "flaming"
+        if stick == "breeze":
+            stick = "light"
+
         # Check if the material matches the stick name or the second part after underscore matches material
         stick_parts = stick.split('_', 1)  # Split stick into two parts at the first underscore
         if material == stick or (len(stick_parts) > 1 and stick_parts[1] == material):
@@ -300,7 +304,8 @@ def generate_recipes():
         "redstone": "minecraft:redstone",
         "lapis": "minecraft:lapis_lazuli",
         "quartz": "minecraft:nether_quartz",
-        "deepslate": "minecraft:cobbled_deepslate"
+        "deepslate": "minecraft:cobbled_deepslate",
+        "prismarine": "minecraft:prismarine"
     }
 
     # Generate recipes for each tool with its specific pattern

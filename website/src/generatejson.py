@@ -11,7 +11,7 @@ github_block_base = "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/mai
 # Constants
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
 COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
-MATERIAL_TYPES = WOOD_TYPES + COPPER_TYPES + ["iron", "diamond", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate"]
+MATERIAL_TYPES = WOOD_TYPES + COPPER_TYPES + ["iron", "diamond", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate", "prismarine"]
 STICK_TYPES = ["blaze", "breeze"] + WOOD_TYPES + [f"stripped_{wood}" for wood in WOOD_TYPES]
 
 # Read the language file
