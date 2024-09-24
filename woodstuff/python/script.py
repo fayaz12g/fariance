@@ -124,7 +124,7 @@ def generate_lang_entries():
     # Add copper types to lang file
     for ingot in COPPER_TYPES:
         ingot_name = f"{ingot}_ingot"
-        entries[f"item.woodstuff.{ingot_name}_ingot"] = f"{capitalize_material(ingot)} Ingot"
+        entries[f"item.woodstuff.{ingot_name}"] = f"{capitalize_material(ingot)} Ingot"
 
     # Add ladders items to lang file
     for wood in WOOD_TYPES + ["blaze", "breeze"]:
@@ -196,6 +196,19 @@ def generate_item_models(output_dir):
             model_file_path = os.path.join(item_model_dir, f"{stick_name}.json")
             with open(model_file_path, 'w') as f:
                 json.dump(model_data, f, indent=2)
+
+    # Generate models for ingots
+    for ingot in COPPER_TYPES:
+        ingot_name = f"{ingot}_ingot"
+        model_data = {
+            "parent": "item/generated",
+            "textures": {
+                "layer0": f"woodstuff:item/{ingot_name}"
+            }
+        }
+        model_file_path = os.path.join(item_model_dir, f"{ingot_name}.json")
+        with open(model_file_path, 'w') as f:
+            json.dump(model_data, f, indent=2)
 
     # Loop through each wood type and generate the corresponding models
     for wood in WOOD_TYPES:
@@ -391,6 +404,25 @@ def generate_recipes():
         }
         recipes.append((ladder_name, json.dumps(recipe, indent=2)))
    
+    # Add recipes for ingots for each copper type
+    for ingot in COPPER_TYPES:
+        ingot_name = f"{ingot}_ingot"
+        recipe = {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",  
+            "pattern": [
+                " S "
+            ],
+            "key": {
+                "S": {"item": f"minecraft:{ingot}"}
+            },
+            "result": {
+                "id": f"woodstuff:{ingot_name}",
+                "count": 4
+            }
+        }
+        recipes.append((ingot_name, json.dumps(recipe, indent=2)))
+
     print(f"Recipe generation done!")
     return recipes
 

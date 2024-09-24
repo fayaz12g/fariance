@@ -25,6 +25,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Mod.EventBusSubscriber(modid = WoodStuffMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ItemRegistry {
@@ -37,14 +38,19 @@ public class ItemRegistry {
 
     private static final List<String> WOOD_TYPES = Arrays.asList("oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo");
     private static final List<String> TOOL_TYPES = Arrays.asList("sword", "pickaxe", "shovel", "hoe", "axe");
-    private static final List<String> MATERIAL_TYPES = Arrays.asList("oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo",
-            "iron", "diamond", "copper", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate");
+    private static final List<String> MATERIAL_TYPES = Arrays.asList(
+            "oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo",
+            "iron", "diamond", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate", "prismarine",
+            "shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"
+    );
     private static final List<String> STICK_TYPES = Arrays.asList("oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo", "blaze", "breeze");
+    private static final List<String> STRIPPED_STICK_TYPES = WOOD_TYPES.stream().map(wood -> "stripped_" + wood).collect(Collectors.toList());
 
     static {
         generateTools();
         generateSticks();
         generateLadders();
+        generateIngots();
     }
 
     private static void generateTools() {
@@ -52,6 +58,11 @@ public class ItemRegistry {
             for (String tool : TOOL_TYPES) {
                 for (String stick : STICK_TYPES) {
                     String itemName = material + "_" + tool + "_with_" + stick + "_stick";
+                    Tier tier = getTier(material);
+                    GENERATED_ITEMS.put(itemName, ITEMS.register(itemName, () -> createTool(tool, tier)));
+                }
+                for (String strippedStick : STRIPPED_STICK_TYPES) {
+                    String itemName = material + "_" + tool + "_with_" + strippedStick + "_stick";
                     Tier tier = getTier(material);
                     GENERATED_ITEMS.put(itemName, ITEMS.register(itemName, () -> createTool(tool, tier)));
                 }
@@ -63,6 +74,9 @@ public class ItemRegistry {
         for (String stick : STICK_TYPES) {
             String stickName = stick + "_stick";
             GENERATED_ITEMS.put(stickName, ITEMS.register(stickName, () -> new Item(new Item.Properties())));
+        }
+        for (String strippedStick : STRIPPED_STICK_TYPES) {
+            GENERATED_ITEMS.put(strippedStick, ITEMS.register(strippedStick, () -> new Item(new Item.Properties())));
         }
     }
 
@@ -76,6 +90,14 @@ public class ItemRegistry {
         // Special ladders
         generateSpecialLadder("blaze");
         generateSpecialLadder("breeze");
+    }
+
+    private static void generateIngots() {
+        List<String> copperTypes = Arrays.asList("shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper");
+        for (String copperType : copperTypes) {
+            String ingotName = copperType + "_ingot";
+            GENERATED_ITEMS.put(ingotName, ITEMS.register(ingotName, () -> new Item(new Item.Properties())));
+        }
     }
 
     private static void generateSpecialLadder(String material) {
@@ -92,6 +114,11 @@ public class ItemRegistry {
             case "diamond": return Tiers.DIAMOND;
             case "gold": return Tiers.GOLD;
             case "netherite": return Tiers.NETHERITE;
+            case "shiny_copper":
+            case "weathered_copper":
+            case "exposed_copper":
+            case "oxidized_copper":
+                return Tiers.IRON; // Assuming copper tiers are similar to iron
             default: return Tiers.STONE;  // Default to STONE for custom materials
         }
     }
@@ -112,11 +139,11 @@ public class ItemRegistry {
 
     private static Item createTool(String tool, Tier tier) {
         switch (tool) {
-            case "sword": return new SwordItem(tier, new Item.Properties());
-            case "pickaxe": return new PickaxeItem(tier, new Item.Properties());
+            case "sword": return new SwordItem(tier,  new Item.Properties());
+            case "pickaxe": return new PickaxeItem(tier,  new Item.Properties());
             case "shovel": return new ShovelItem(tier, new Item.Properties());
-            case "hoe": return new HoeItem(tier, new Item.Properties());
-            case "axe": return new AxeItem(tier, new Item.Properties());
+            case "hoe": return new HoeItem(tier,  new Item.Properties());
+            case "axe": return new AxeItem(tier,  new Item.Properties());
             default: throw new IllegalArgumentException("Unknown tool type: " + tool);
         }
     }

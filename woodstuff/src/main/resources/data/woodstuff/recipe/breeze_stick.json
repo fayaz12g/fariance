@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:breeze_planks"
+    }
+  },
+  "result": {
+    "id": "woodstuff:breeze_stick",
+    "count": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:diorite"
+    },
+    "S": {
+      "item": "woodstuff:stripped_jungle_stick"
+    }
+  },
+  "result": {
+    "id": "woodstuff:diorite_sword_with_stripped_jungle_stick",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "woodstuff:item/exposed_copper_sword_with_crimson_stick"
+  }
+}

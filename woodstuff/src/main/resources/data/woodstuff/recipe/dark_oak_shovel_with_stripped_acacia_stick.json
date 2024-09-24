@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "S": {
+      "item": "woodstuff:stripped_acacia_stick"
+    }
+  },
+  "result": {
+    "id": "woodstuff:dark_oak_shovel_with_stripped_acacia_stick",
+    "count": 1
+  }
+}

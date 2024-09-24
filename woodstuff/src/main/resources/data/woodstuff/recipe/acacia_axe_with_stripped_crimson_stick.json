@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:acacia_planks"
+    },
+    "S": {
+      "item": "woodstuff:stripped_crimson_stick"
+    }
+  },
+  "result": {
+    "id": "woodstuff:acacia_axe_with_stripped_crimson_stick",
+    "count": 1
+  }
+}
