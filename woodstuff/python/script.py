@@ -6,10 +6,11 @@ from PIL import Image, ImageOps
 # Define constants
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
-MATERIAL_TYPES = WOOD_TYPES + ["iron", "diamond", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate", "prismarine"]
+MATERIAL_TYPES = WOOD_TYPES + ["iron", "diamond", "gold", "netherite", "amethyst", "redstone", "lapis", "quartz"]
 STICK_TYPES = ["blaze", "breeze"] + WOOD_TYPES + ["stripped_" + s for s in WOOD_TYPES]
 COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
-MATERIAL_TYPES = MATERIAL_TYPES + COPPER_TYPES
+STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine"]
+MATERIAL_TYPES = MATERIAL_TYPES + COPPER_TYPES + STONE_TYPES
 
 # Create a new list that excludes "bamboo"
 filtered_wood_types = [wood for wood in STICK_TYPES if wood not in ["bamboo", "blaze", "breeze"]]
@@ -58,39 +59,6 @@ def capitalize_material(material):
         return "Copper"
     return material.replace("_", " ").title()
 
-def generate_item_registry():
-    items = []
-
-    # Materials that already exist as valid tiers
-    existing_tiers = ["iron", "diamond", "gold", "netherite"]
-
-    for material, tool, stick in product(MATERIAL_TYPES, TOOL_TYPES, STICK_TYPES):
-        item_name = f"{material}_{tool}_with_{stick}_stick"
-
-        # Determine the correct tier based on the material
-        if material in WOOD_TYPES:
-            tier = "WOOD"
-        elif material not in existing_tiers:
-            tier = "STONE"  # Default to STONE if the tier doesn't exist
-        else:
-            tier = material.upper()  # Use the material name as tier for existing tiers
-
-        items.append(f'GENERATED_ITEMS.put("{item_name}", ITEMS.register("{item_name}", () -> new {tool.capitalize()}Item(Tiers.{tier}, new Item.Properties())));')
-
-    # Add wood-type sticks to registry
-    for stick in filtered_wood_types:
-        stick_name = f"{stick}_stick"
-        items.append(f'GENERATED_ITEMS.put("{stick_name}", ITEMS.register("{stick_name}", () -> new Item(new Item.Properties())));')
-
-    # Add ladders for every wood type
-    for wood in WOOD_TYPES + ["blaze", "breeze"]:
-        ladder_name = f"{wood}_ladder"
-        items.append(f'GENERATED_ITEMS.put("{ladder_name}", ITEMS.register("{ladder_name}", () -> new BlockItem(Blocks.LADDER, new Item.Properties())));')
-
-    print(f"Registry generation done!")
-    return "\n".join(items)
-
-
 def generate_lang_entries():
     entries = {}
     
@@ -120,6 +88,16 @@ def generate_lang_entries():
     for stick in filtered_wood_types:
         stick_name = f"{stick}_stick"
         entries[f"item.woodstuff.{stick_name}"] = f"{capitalize_material(stick)} Stick"
+
+    # Add crafting tables to lang file
+    for wood in WOOD_TYPES:
+        table_name = f"{wood}_crafting_table"
+        entries[f"item.woodstuff.{table_name}"] = f"{capitalize_material(stick)} Crafting Table"
+
+    # Add furnaces to lang file
+    for stone in STONE_TYPES:
+        furnace_name = f"{stone}_furnace"
+        entries[f"item.woodstuff.{furnace_name}"] = f"{capitalize_material(stick)} Furnace"
 
     # Add copper types to lang file
     for ingot in COPPER_TYPES:
@@ -247,6 +225,53 @@ def generate_item_models(output_dir):
         with open(block_model_file_path, 'w') as f:
             json.dump(block_model_data, f, indent=2)
 
+    # Loop through each wood type and generate the corresponding models for crafting tables
+    for wood in WOOD_TYPES:
+        table_name = f"{wood}_crafting_table"
+        
+        # Block model data for the ladder
+        block_model_data = {
+        "parent": "minecraft:block/cube",
+        "textures": {
+            "down": f"minecraft:block/{wood}_planks",
+            "east": f"woodstuff:block/{wood}_crafting_table_side",
+            "north": f"woodstuff:block/{wood}_crafting_table_front",
+            "particle": f"woodstuff:block/{wood}_crafting_table_front",
+            "south": f"woodstuff:block/{wood}_crafting_table_side",
+            "up": f"woodstuff:block/{wood}_crafting_table_top",
+            "west": f"woodstuff:block/{wood}_crafting_table_front"
+        }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{table_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+    # Loop through each stone type and generate the corresponding models for furnaces
+    for stone in STONE_TYPES:
+        furnace_name = f"{stone}_furnace"
+        
+        # Block model data for the ladder
+        block_model_data = {
+            "parent": "minecraft:block/orientable",
+            "textures": {
+                "front": f"woodstuff:block/{stone}_furnace_front",
+                "side": f"woodstuff:block/{stone}_furnace_side",
+                "top": f"woodstuff:block/{stone}_furnace_top"
+            }
+            }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{furnace_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+
         # Item model data for the ladder
         item_model_data = {
             "parent": "minecraft:item/generated",
@@ -264,6 +289,74 @@ def generate_item_models(output_dir):
 
     print("Models generation finished!.")
 
+def break_recipes():
+    break_recipes = []
+
+    # Break recipes for crafting table 
+    recipe = f'{
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+            "#": {
+            "tag": "minecraft:diamond_block"
+            }
+        },
+        "pattern": [
+            "##",
+            "###"
+        ],
+        "result": {
+            "count": 1,
+            "id": "minecraft:crafting_table"
+        },
+        "show_notification": false
+    }'
+    break_recipes.append(("crafting_table", json.dumps(recipe, indent=2)))
+
+    # Break recipes for furnace 
+    recipe = f'{
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+            "#": {
+            "tag": "minecraft:diamond_block"
+            }
+        },
+        "pattern": [
+            "###",
+            "##"
+        ],
+        "result": {
+            "count": 1,
+            "id": "minecraft:furnace"
+        },
+        "show_notification": false
+    }'
+    break_recipes.append(("furnace", json.dumps(recipe, indent=2)))
+
+    # Break recipes for sticks 
+    recipe = f'{
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+            "#": {
+            "tag": "minecraft:diamond_block"
+            }
+        },
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "result": {
+            "count": 1,
+            "id": "minecraft:stick"
+        },
+        "show_notification": false
+    }'
+    break_recipes.append(("stick", json.dumps(recipe, indent=2)))
+
+    print(f"Recipe breaking done!")
+    return break_recipes
 
 def generate_recipes():
     recipes = []
@@ -491,6 +584,61 @@ def generate_textures():
             else:
                 print(f"Warning: Missing texture for {stick}_stick")
 
+    # Generate textures for crafting tables
+    for wood in WOOD_TYPES:
+        table_image_top = os.path.join(image_dir, "table", f"{wood}_crafting_table_top.png")
+        table_image_side = os.path.join(image_dir, "table", f"{wood}_crafting_table_side.png")
+        table_image_front = os.path.join(image_dir, "table", f"{wood}_crafting_table_front.png")
+        if os.path.exists(table_image_top):
+            output_path = os.path.join(item_output_dir, f"{wood}_crafting_table_top.png")
+            top_img = Image.open(table_image_top).convert("RGBA")
+            top_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture for {wood} Crafting Table Top")
+        if os.path.exists(table_image_side):
+            output_path = os.path.join(item_output_dir, f"{wood}_crafting_table_side.png")
+            side_img = Image.open(table_image_side).convert("RGBA")
+            side_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture for {wood} Crafting Table Side")
+        if os.path.exists(table_image_front):
+            output_path = os.path.join(item_output_dir, f"{wood}_crafting_table_front.png")
+            front_img = Image.open(table_image_front).convert("RGBA")
+            front_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture for {wood} Crafting Table Front")
+
+    # Generate textures for furnaces
+    for stone in STONE_TYPES:
+        furnace_image_top = os.path.join(image_dir, "furnace", f"{stone}_furnace_top.png")
+        furnace_image_side = os.path.join(image_dir, "furnace", f"{stone}_furnace_side.png")
+        furnace_image_front = os.path.join(image_dir, "furnace", f"{stone}_furnace_front.png")
+        if os.path.exists(furnace_image_top):
+            output_path = os.path.join(item_output_dir, f"{wood}_furnace_top.png")
+            top_img = Image.open(furnace_image_top).convert("RGBA")
+            top_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture for {stone} Furnace Top")
+        if os.path.exists(furnace_image_side):
+            output_path = os.path.join(item_output_dir, f"{stone}_furnace_side.png")
+            side_img = Image.open(furnace_image_side).convert("RGBA")
+            side_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture for {stone} Furnace Side")
+        if os.path.exists(furnace_image_front):
+            output_path = os.path.join(item_output_dir, f"{stone}_furnace_front.png")
+            front_img = Image.open(furnace_image_front).convert("RGBA")
+            front_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture for {stone} Furnace Front")
+
+
     # Generate textures for ladders
     for wood in WOOD_TYPES  + ["blaze", "breeze"]:
         ladder_image_path = os.path.join(image_dir, "ladder", f"{wood}_ladder.png")
@@ -639,16 +787,17 @@ recipe_file_path = "./output/data/woodstuff/recipe"
 recipe_dir = os.path.dirname(recipe_file_path)
 os.makedirs(recipe_dir, exist_ok=True) # Create the directory if it doesn't exist
 
+# Define the path for breaking recipe files
+break_recipe_file_path = "./output/data/minecraft/recipe"
+break_recipe_dir = os.path.dirname(break_recipe_file_path)
+os.makedirs(break_recipe_dir, exist_ok=True) # Create the directory if it doesn't exist
+
 script_dir = os.path.dirname(os.path.abspath(__file__))  # Get the script's directory
 output_dir = os.path.join(script_dir, "output")  # Join with the relative output path
 os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exist
 
 
 def main():
-    # Generate item registry
-    with open("ItemRegistry.java", "w") as f:
-        f.write(generate_item_registry())
-
     # Generate lang file
     with open(lang_file_path, "w") as f:
         f.write(generate_lang_entries())
@@ -679,6 +828,15 @@ def main():
         os.makedirs(os.path.dirname(recipe_file), exist_ok=True)
         with open(recipe_file, "w") as f:
             f.write(recipe)
+
+    # Generate breaking recipes and write them to files
+    for item_name, break_recipe in break_recipes():
+        # Define the full path for the recipe file
+        break_recipe_file = os.path.join(break_recipe_file_path, f"{item_name}.json")
+        # Ensure the directory exists for the current file
+        os.makedirs(os.path.dirname(break_recipe_file), exist_ok=True)
+        with open(break_recipe_file, "w") as f:
+            f.write(break_recipe)
 
     # Generate textures
     generate_textures()

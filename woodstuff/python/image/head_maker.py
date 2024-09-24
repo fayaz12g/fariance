@@ -1,12 +1,24 @@
 import os
-from PIL import Image, ImageEnhance
+from PIL import Image, ImageEnhance, ImageOps
 
 # Define constants
-TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
-OTHER_MATERIALS = ["iron", "diamond", "shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate", "prismarine"]
-MATERIAL_TYPES = WOOD_TYPES + OTHER_MATERIALS
+TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
+MATERIAL_TYPES = WOOD_TYPES + ["iron", "diamond", "gold", "netherite", "amethyst", "redstone", "lapis", "quartz"]
 STICK_TYPES = ["blaze", "breeze"] + WOOD_TYPES + ["stripped_" + s for s in WOOD_TYPES]
+COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
+STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine"]
+
+MATERIAL_TYPES = MATERIAL_TYPES + COPPER_TYPES + STONE_TYPES
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+mask_dir = os.path.join(script_dir, "mask")
+block_dir = os.path.join(script_dir, "block")
+head_output_dir = os.path.join(script_dir, "head")
+stick_output_dir = os.path.join(script_dir, "stick")
+furnace_dir = os.path.join(script_dir, "furnace")
+table_dir = os.path.join(script_dir, "table")
+overlay_dir = os.path.join(script_dir, "overlay")
 
 def apply_mask(block_image, mask_image):
     # Resize block image to match mask size if necessary
@@ -163,12 +175,70 @@ def apply_brightening_mask(tool_image, special_mask_image):
 
     return tool_image
 
+def generate_furnace_and_crafting_table_textures():
+    # Create output directories if they don't exist
+    os.makedirs(furnace_dir, exist_ok=True)
+    os.makedirs(table_dir, exist_ok=True)
+
+    # Generate furnace textures for each stone type
+    for stone in STONE_TYPES:
+        stone_texture_path = os.path.join(block_dir, f"{stone}.png")
+
+        if not os.path.exists(stone_texture_path):
+            print(f"Warning: Missing block texture for {stone}")
+            continue
+
+        stone_texture = Image.open(stone_texture_path).convert("RGBA")
+
+        for face in ["top", "side", "front"]:
+            furnace_overlay_path = os.path.join(overlay_dir, f"furnace_{face}.png")
+            if not os.path.exists(furnace_overlay_path):
+                print(f"Warning: Missing furnace overlay for {face}")
+                continue
+
+            furnace_overlay = Image.open(furnace_overlay_path).convert("RGBA")
+            furnace_result = overlay_texture(stone_texture, furnace_overlay)
+
+            output_furnace_path = os.path.join(furnace_dir, f"{stone}_furnace_{face}.png")
+            furnace_result.save(output_furnace_path)
+            print(f"Generated furnace texture: {output_furnace_path}")
+
+    # Generate crafting table textures for each wood type
+    for wood in WOOD_TYPES:
+        wood_texture_path = os.path.join(block_dir, f"{wood}_planks.png")
+
+        if not os.path.exists(wood_texture_path):
+            print(f"Warning: Missing block texture for {wood}")
+            continue
+
+        wood_texture = Image.open(wood_texture_path).convert("RGBA")
+
+        for face in ["top", "side", "front"]:
+            table_overlay_path = os.path.join(overlay_dir, f"crafting_table_{face}.png")
+            if not os.path.exists(table_overlay_path):
+                print(f"Warning: Missing crafting table overlay for {face}")
+                continue
+
+            table_overlay = Image.open(table_overlay_path).convert("RGBA")
+            table_result = overlay_texture(wood_texture, table_overlay)
+
+            output_table_path = os.path.join(table_dir, f"{wood}_crafting_table_{face}.png")
+            table_result.save(output_table_path)
+            print(f"Generated crafting table texture: {output_table_path}")
+
+def overlay_texture(base_image, overlay_image):
+    """
+    Overlays the overlay_image on top of the base_image.
+    """
+    base_image = base_image.convert("RGBA")
+    overlay_image = overlay_image.convert("RGBA")
+
+    if base_image.size != overlay_image.size:
+        overlay_image = overlay_image.resize(base_image.size, Image.LANCZOS)
+
+    return Image.alpha_composite(base_image, overlay_image)
+
 def generate_tool_heads_and_sticks():
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    mask_dir = os.path.join(script_dir, "mask")
-    block_dir = os.path.join(script_dir, "block")
-    head_output_dir = os.path.join(script_dir, "head")
-    stick_output_dir = os.path.join(script_dir, "stick")
 
     # Generate tool heads
     for material in MATERIAL_TYPES:
@@ -268,3 +338,4 @@ def generate_tool_heads_and_sticks():
 
 if __name__ == "__main__":
     generate_tool_heads_and_sticks()
+    generate_furnace_and_crafting_table_textures()
