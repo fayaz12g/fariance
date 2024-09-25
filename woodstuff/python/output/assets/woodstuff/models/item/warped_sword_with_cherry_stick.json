@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "woodstuff:item/warped_sword_with_cherry_stick"
-  }
-}

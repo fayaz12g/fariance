@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "woodstuff:item/granite_shovel_with_stripped_birch_stick"
-  }
-}

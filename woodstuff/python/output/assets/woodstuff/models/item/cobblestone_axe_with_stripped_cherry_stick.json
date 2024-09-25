@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "woodstuff:item/cobblestone_axe_with_stripped_cherry_stick"
-  }
-}

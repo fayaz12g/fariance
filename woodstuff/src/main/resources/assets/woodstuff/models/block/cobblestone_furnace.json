@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "front": "woodstuff:block/furnace_name_front",
-    "side": "woodstuff:block/furnace_name_side",
-    "top": "woodstuff:block/furnace_name_top"
+    "front": "woodstuff:block/cobblestone_furnace_front",
+    "side": "woodstuff:block/cobblestone_furnace_side",
+    "top": "woodstuff:block/cobblestone_furnace_top"
   }
 }

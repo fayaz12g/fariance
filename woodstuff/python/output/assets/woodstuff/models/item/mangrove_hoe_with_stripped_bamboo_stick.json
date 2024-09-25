@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "woodstuff:item/mangrove_hoe_with_stripped_bamboo_stick"
-  }
-}

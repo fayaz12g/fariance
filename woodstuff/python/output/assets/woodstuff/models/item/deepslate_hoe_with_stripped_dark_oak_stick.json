@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "woodstuff:item/deepslate_hoe_with_stripped_dark_oak_stick"
-  }
-}

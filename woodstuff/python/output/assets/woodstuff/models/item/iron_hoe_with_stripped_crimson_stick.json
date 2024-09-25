@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "woodstuff:item/iron_hoe_with_stripped_crimson_stick"
-  }
-}

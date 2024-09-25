@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "woodstuff:item/weathered_copper_axe_with_breeze_stick"
-  }
-}

@@ -128,7 +128,7 @@ public class ItemRegistry {
     private static void generateFurnaces() {
         for (String stone : STONE_TYPES) {
             String furnaceName = stone + "_furnace";
-            RegistryObject<Block> block = BLOCKS.register(furnaceName, () -> createFurnaceBlock(stone));
+            RegistryObject<Block> block = BLOCKS.register(furnaceName, () -> createDummyBlock(stone));
             GENERATED_BLOCKS.put(furnaceName, block);
             GENERATED_ITEMS.put(furnaceName, ITEMS.register(furnaceName, () -> new BlockItem(block.get(), new Item.Properties())));
         }
@@ -186,21 +186,18 @@ public class ItemRegistry {
     }
 
 
-    private static Block createFurnaceBlock(String stone) {
-        return new FurnaceBlock(BlockBehaviour.Properties.of()
-                .mapColor(MapColor.STONE)
-                .requiresCorrectToolForDrops()
-                .strength(3.5F)
-                .lightLevel(state -> state.getValue(FurnaceBlock.LIT) ? 13 : 0)) {
-            @Override
-            public void onPlace(BlockState pState, Level pLevel, BlockPos pPos, BlockState pOldState, boolean pIsMoving) {
-                LOGGER.info("Placed " + stone + " furnace at " + pPos);
-            }
+    private static Block createDummyBlock(String stone) {
+        return new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.STONE)  // Use a stone color
+                .strength(3.5F)) {        // Set strength if desired
 
             @Override
-            public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level pLevel, BlockState pState, BlockEntityType<T> pBlockEntityType) {
-                return createFurnaceTicker(pLevel, pBlockEntityType, BlockEntityType.FURNACE);
+            public void onPlace(BlockState pState, Level pLevel, BlockPos pPos, BlockState pOldState, boolean pIsMoving) {
+                // Log when the block is placed
+                LOGGER.info("Placed " + stone + " dummy block at " + pPos);
             }
+
+            // No need for a ticker since this block does nothing
         };
     }
 

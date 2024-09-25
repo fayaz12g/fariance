@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "woodstuff:item/birch_pickaxe_with_acacia_stick"
-  }
-}

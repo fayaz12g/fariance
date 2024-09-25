@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "woodstuff:item/lapis_hoe_with_stripped_warped_stick"
-  }
-}

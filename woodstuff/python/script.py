@@ -285,9 +285,9 @@ def generate_models(output_dir):
         block_model_data = {
             "parent": "minecraft:block/orientable",
             "textures": {
-                "front": f"woodstuff:block/furnace_name_front",
-                "side": f"woodstuff:block/furnace_name_side",
-                "top": f"woodstuff:block/furnace_name_top"
+                "front": f"woodstuff:block/{furnace_name}_front",
+                "side": f"woodstuff:block/{furnace_name}_side",
+                "top": f"woodstuff:block/{furnace_name}_top"
             }
             }
 
@@ -300,7 +300,7 @@ def generate_models(output_dir):
 
         # Item model data for the crafting table
         item_model_data = {
-            "parent": f"woodstuff:block/furnace_name"
+            "parent": f"woodstuff:block/{furnace_name}"
         }
 
         # Define the block model output path
@@ -608,8 +608,8 @@ def generate_textures():
     print("Starting texture generation...")
     script_dir = os.path.dirname(os.path.abspath(__file__))
     image_dir = os.path.join(script_dir, "image")
-    item_output_dir = os.path.join(script_dir, "output", "assets", "woodstuff", "textures", "item")
-    block_output_dir = os.path.join(script_dir, "output", "assets", "woodstuff", "textures", "block")
+    item_output_dir = os.path.join(script_dir, "../src/main/resources", "assets", "woodstuff", "textures", "item")
+    block_output_dir = os.path.join(script_dir, "../src/main/resources", "assets", "woodstuff", "textures", "block")
     os.makedirs(item_output_dir, exist_ok=True)
     os.makedirs(block_output_dir, exist_ok=True)
 
@@ -933,22 +933,22 @@ def generate_ladder_loot_tables(base_output_dir):
     print(f"Loot tables generated!")
 
 # Ensure that the directory exists before writing the lang file
-lang_file_path = "./output/assets/woodstuff/lang/en_us.json"
+lang_file_path = "../src/main/resources/assets/woodstuff/lang/en_us.json"
 lang_dir = os.path.dirname(lang_file_path)
 os.makedirs(lang_dir, exist_ok=True)  # Create directories if they don't exist
 
 # Define the path for recipe files
-recipe_file_path = "./output/data/woodstuff/recipe"
+recipe_file_path = "../src/main/resources/data/woodstuff/recipe"
 recipe_dir = os.path.dirname(recipe_file_path)
 os.makedirs(recipe_dir, exist_ok=True) # Create the directory if it doesn't exist
 
 # Define the path for breaking recipe files
-break_recipe_file_path = "./output/data/minecraft/recipe"
+break_recipe_file_path = "../src/main/resources/data/minecraft/recipe"
 break_recipe_dir = os.path.dirname(break_recipe_file_path)
 os.makedirs(break_recipe_dir, exist_ok=True) # Create the directory if it doesn't exist
 
 script_dir = os.path.dirname(os.path.abspath(__file__))  # Get the script's directory
-output_dir = os.path.join(script_dir, "output")  # Join with the relative output path
+output_dir = os.path.join(script_dir, "../src/main/resources")  # Join with the relative output path
 os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exist
 
 
