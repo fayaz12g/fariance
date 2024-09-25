@@ -66,6 +66,14 @@ public class FarianceMod {
             .displayItems((parameters, output) -> addItemsToTab(output, "hoe"))
             .build());
 
+    // New Misc tab for all other items
+    public static final RegistryObject<CreativeModeTab> MISC_TAB = CREATIVE_MODE_TABS.register("misc_tab", () -> CreativeModeTab.builder()
+            .withTabsAfter(CreativeModeTabs.SEARCH)
+            .icon(() -> ItemRegistry.GENERATED_ITEMS.get("oak_diamond_shield").get().getDefaultInstance())
+            .title(Component.translatable("itemGroup.fariance.misc"))
+            .displayItems((parameters, output) -> addMiscItemsToTab(output))
+            .build());
+
     public FarianceMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
@@ -99,4 +107,23 @@ public class FarianceMod {
             output.accept(item.get());
         }
     }
+
+    private static void addMiscItemsToTab(CreativeModeTab.Output output) {
+        List<RegistryObject<Item>> sortedItems = ItemRegistry.GENERATED_ITEMS.values().stream()
+                .filter(itemRegistryObject -> {
+                    String itemPath = itemRegistryObject.getId().getPath();
+                    return !itemPath.matches(".*_(sword|pickaxe|axe|shovel|hoe)_.*");
+                })
+                .sorted((o1, o2) -> {
+                    String name1 = o1.getId().getPath();
+                    String name2 = o2.getId().getPath();
+                    return name1.compareTo(name2);
+                })
+                .collect(Collectors.toList());
+
+        for (RegistryObject<Item> item : sortedItems) {
+            output.accept(item.get());
+        }
+    }
+
 }
