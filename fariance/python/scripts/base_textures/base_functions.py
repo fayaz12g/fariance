@@ -201,6 +201,33 @@ def overlay_texture(base_image, overlay_image):
 
     return overlay_image
 
+def overlay_texture_transparent(base_image, overlay_image):
+    """
+    Overlays the overlay_image on top of the base_image, only placing opaque pixels from the overlay onto the base.
+    """
+    base_image = base_image.convert("RGBA")
+    overlay_image = overlay_image.convert("RGBA")
+
+    # Resize overlay if it doesn't match base image size
+    if base_image.size != overlay_image.size:
+        overlay_image = overlay_image.resize(base_image.size, Image.LANCZOS)
+
+    # Get pixel data for both images
+    base_pixels = base_image.load()
+    overlay_pixels = overlay_image.load()
+
+    # Loop through each pixel
+    for y in range(overlay_image.height):
+        for x in range(overlay_image.width):
+            r, g, b, a = overlay_pixels[x, y]
+
+            # Only place pixels that are opaque (alpha > 0) from the overlay onto the base image
+            if a > 0:  # If the pixel in the overlay image is not fully transparent
+                base_pixels[x, y] = (r, g, b, a)  # Apply the pixel from the overlay
+
+    return base_image
+
+
 def tile_image(image, target_size=(64, 64)):
     """
     Tiles a smaller image (like 16x16) to fill a larger target size (like 64x64).

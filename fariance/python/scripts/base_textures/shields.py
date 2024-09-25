@@ -46,8 +46,8 @@ def generate_shields():
             additive_texture_image = Image.open(additive_texture_path)
 
             # Combine the textures: first masked wood, then masked material, then the additive
-            combined_image = overlay_texture(masked_wood_image, masked_material_image)
-            combined_image = overlay_texture(combined_image, additive_texture_image)
+            combined_image = overlay_texture_transparent(masked_wood_image, masked_material_image)
+            combined_image = overlay_texture_transparent(combined_image, additive_texture_image)
 
             # Get the darkening mask from shield_masks_dir (64x64)
             darkening_mask_path = os.path.join(shield_masks_dir, "shield_base_nopattern_dark.png")
@@ -60,6 +60,17 @@ def generate_shields():
             shield_texture_path = os.path.join(shield_dir, f"{wood}_{material}_shield_base_nopattern.png")
             final_shield_image.save(shield_texture_path)
             
+            # Now overlay the "shield_base" from masks_dir on top of the final image
+            shield_base_path = os.path.join(shield_masks_dir, "shield_base.png")
+            shield_base_image = Image.open(shield_base_path)
+
+            # Overlay the "shield_base" image onto the final shield image
+            final_shield_with_base = overlay_texture_transparent(final_shield_image, shield_base_image)
+
+            # Save the final shield texture with "shield_base"
+            shield_texture_path = os.path.join(shield_dir, f"{wood}_{material}_shield_base.png")
+            final_shield_with_base.save(shield_texture_path)
+
             # print(f"Generated {wood} {material} shields!")
 
         print(f"Generated {material} shields!")
