@@ -41,7 +41,7 @@ const App = () => {
       setModData(modItemsCatalog);
       setStickImages(modItemsCatalog.sticks);
       setMaterialImages(modItemsCatalog.materials);
-      console.log('Mod data loaded:', modItemsCatalog);
+      console.log('Mod data loaded!', modItemsCatalog);
     } catch (error) {
       console.error("Error loading mod data:", error);
       setError(`Failed to load mod data: ${error.message}. Please check the console for more details.`);
