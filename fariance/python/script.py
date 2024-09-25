@@ -491,7 +491,7 @@ def generate_recipes():
             
             # Determine if the wood is stripped or not
             if wood.startswith("stripped_"):
-                material = f"minecraft:stripped_{wood}_{log_type}"
+                material = f"minecraft:{wood}_{log_type}"
                 count = 16
             else:
                 material = f"minecraft:{wood}_planks"
