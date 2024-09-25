@@ -4,12 +4,13 @@ from PIL import Image, ImageEnhance, ImageOps
 # Define constants
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
-MATERIAL_TYPES = WOOD_TYPES + ["iron", "diamond", "gold", "netherite", "amethyst", "redstone", "lapis", "quartz"]
+MATERIAL_BASE = ["iron", "diamond", "gold", "netherite"]
+MATERIAL_NEW =   ["amethyst", "redstone", "lapis", "quartz"]
 STICK_TYPES = ["blaze", "breeze"] + WOOD_TYPES + ["stripped_" + s for s in WOOD_TYPES]
 COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
 STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine"]
 
-MATERIAL_TYPES = MATERIAL_TYPES + COPPER_TYPES + STONE_TYPES
+MATERIAL_TYPES = MATERIAL_BASE + MATERIAL_NEW + COPPER_TYPES + STONE_TYPES + WOOD_TYPES
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 mask_dir = os.path.join(script_dir, "mask")
@@ -228,7 +229,7 @@ def generate_furnace_and_crafting_table_textures():
 
 def overlay_texture(base_image, overlay_image):
     """
-    Overlays the overlay_image on top of the base_image.
+    Overlays the overlay_image on top of the base_image while preserving transparency.
     """
     base_image = base_image.convert("RGBA")
     overlay_image = overlay_image.convert("RGBA")
@@ -236,7 +237,17 @@ def overlay_texture(base_image, overlay_image):
     if base_image.size != overlay_image.size:
         overlay_image = overlay_image.resize(base_image.size, Image.LANCZOS)
 
-    return Image.alpha_composite(base_image, overlay_image)
+    # Create a new image for the result
+    result = Image.new("RGBA", base_image.size)
+
+    # Paste the base image first
+    result.paste(base_image, (0, 0), base_image)
+
+    # Then paste the overlay on top using the overlay's alpha channel as a mask
+    result.paste(overlay_image, (0, 0), overlay_image)
+
+    return result
+
 
 def generate_tool_heads_and_sticks():
 

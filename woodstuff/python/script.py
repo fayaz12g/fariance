@@ -92,12 +92,12 @@ def generate_lang_entries():
     # Add crafting tables to lang file
     for wood in WOOD_TYPES:
         table_name = f"{wood}_crafting_table"
-        entries[f"item.woodstuff.{table_name}"] = f"{capitalize_material(stick)} Crafting Table"
+        entries[f"block.woodstuff.{table_name}"] = f"{capitalize_material(wood)} Crafting Table"
 
     # Add furnaces to lang file
     for stone in STONE_TYPES:
         furnace_name = f"{stone}_furnace"
-        entries[f"item.woodstuff.{furnace_name}"] = f"{capitalize_material(stick)} Furnace"
+        entries[f"block.woodstuff.{furnace_name}"] = f"{capitalize_material(stone)} Furnace"
 
     # Add copper types to lang file
     for ingot in COPPER_TYPES:
@@ -143,7 +143,7 @@ def generate_climbable_json(output_dir):
 
     print(f"Climbable ladders JSON generated")
 
-def generate_item_models(output_dir):
+def generate_models(output_dir):
     item_model_dir = os.path.join(output_dir, "assets", "woodstuff", "models", "item")
     block_model_dir = os.path.join(output_dir, "assets", "woodstuff", "models", "block")
     os.makedirs(item_model_dir, exist_ok=True)
@@ -224,12 +224,27 @@ def generate_item_models(output_dir):
         # Write the block model data to the file
         with open(block_model_file_path, 'w') as f:
             json.dump(block_model_data, f, indent=2)
+        
+        # Item model data for the ladder
+        item_model_data = {
+            "parent": "minecraft:item/generated",
+            "textures": {
+                "layer0": f"woodstuff:block/{ladder_name}"
+            }
+        }
+
+        # Define the item model output path (in the models/item folder)
+        item_model_file_path = os.path.join(item_model_dir, f"{ladder_name}.json")
+
+        # Write the item model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
 
     # Loop through each wood type and generate the corresponding models for crafting tables
     for wood in WOOD_TYPES:
         table_name = f"{wood}_crafting_table"
         
-        # Block model data for the ladder
+        # Block model data for the crafting table
         block_model_data = {
         "parent": "minecraft:block/cube",
         "textures": {
@@ -250,6 +265,18 @@ def generate_item_models(output_dir):
         with open(block_model_file_path, 'w') as f:
             json.dump(block_model_data, f, indent=2)
 
+        # Item model data for the crafting table
+        item_model_data = {
+            "parent": f"woodstuff:block/{wood}_crafting_table"
+        }
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{table_name}.json")
+        
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+                
     # Loop through each stone type and generate the corresponding models for furnaces
     for stone in STONE_TYPES:
         furnace_name = f"{stone}_furnace"
@@ -271,21 +298,38 @@ def generate_item_models(output_dir):
         with open(block_model_file_path, 'w') as f:
             json.dump(block_model_data, f, indent=2)
 
-
-        # Item model data for the ladder
+        # Item model data for the crafting table
         item_model_data = {
-            "parent": "minecraft:item/generated",
+            "parent": f"woodstuff:block/{wood}_furnace"
+        }
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{furnace_name}.json")
+        
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
+        # furnace on models
+        furnace_on_name = f"{stone}_furnace_on"
+        
+        # Block model data for the ladder
+        block_model_data = {
+            "parent": "minecraft:block/orientable",
             "textures": {
-                "layer0": f"woodstuff:block/{ladder_name}"
+                "front": f"woodstuff:block/{stone}_furnace_front_on",
+                "side": f"woodstuff:block/{stone}_furnace_side",
+                "top": f"woodstuff:block/{stone}_furnace_top"
             }
         }
 
-        # Define the item model output path (in the models/item folder)
-        item_model_file_path = os.path.join(item_model_dir, f"{ladder_name}.json")
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{furnace_on_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
 
-        # Write the item model data to the file
-        with open(item_model_file_path, 'w') as f:
-            json.dump(item_model_data, f, indent=2)
 
     print("Models generation finished!.")
 
@@ -709,6 +753,11 @@ def generate_textures():
     print(f"Texture generation done!")
 
 def generate_blockstates(output_dir):
+    # Build the full output path for the mineable/axe.json file
+    blockstates_dir = os.path.join(output_dir, "assets", "woodstuff", "blockstates")
+
+    # Ensure the directory exists
+    os.makedirs(os.path.dirname(blockstates_dir), exist_ok=True)
 
     # Ladder blockstates
     for wood in WOOD_TYPES:
@@ -732,15 +781,72 @@ def generate_blockstates(output_dir):
                 }
             }
         }
-
-        # Build the full output path for the mineable/axe.json file
-        blockstates_dir = os.path.join(output_dir, "assets", "woodstuff", "blockstates")
-
-        # Ensure the directory exists
-        os.makedirs(os.path.dirname(blockstates_dir), exist_ok=True)
         
         # Define the output path for the blockstates file
         blockstates_file_path = os.path.join(blockstates_dir, f"{ladder_name}.json")
+        os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+        
+        # Write the blockstates data to the file
+        with open(blockstates_file_path, 'w') as f:
+            json.dump(blockstates_data, f, indent=2)
+
+        # Crafting tables
+        table_name = f"{wood}_crafting_table"
+        blockstates_data = {
+            "variants": {
+                "": {
+                "model": f"woodstuff:block/{wood}_crafting_table"
+                }
+            }
+        }
+
+        blockstates_file_path = os.path.join(blockstates_dir, f"{table_name}.json")
+        os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+        
+        # Write the blockstates data to the file
+        with open(blockstates_file_path, 'w') as f:
+            json.dump(blockstates_data, f, indent=2)
+
+    # Furnace blockstates
+    for stone in STONE_TYPES:
+        furnace_name = f"{stone}_furnace"
+        blockstates_data = {
+            "variants": {
+                "facing=east,lit=false": {
+                "model": f"woodstuff:block/{stone}_furnace",
+                "y": 90
+                },
+                "facing=east,lit=true": {
+                "model": f"woodstuff:block/{stone}_furnace_on",
+                "y": 90
+                },
+                "facing=north,lit=false": {
+                "model": f"woodstuff:block/{stone}_furnace"
+                },
+                "facing=north,lit=true": {
+                "model": f"woodstuff:block/{stone}_furnace_on"
+                },
+                "facing=south,lit=false": {
+                "model": f"woodstuff:block/{stone}_furnace",
+                "y": 180
+                },
+                "facing=south,lit=true": {
+                "model": f"woodstuff:block/{stone}_furnace_on",
+                "y": 180
+                },
+                "facing=west,lit=false": {
+                "model": f"woodstuff:block/{stone}_furnace",
+                "y": 270
+                },
+                "facing=west,lit=true": {
+                "model": f"woodstuff:block/{stone}_furnace_on",
+                "y": 270
+                }
+            }
+        }
+        
+        # Define the output path for the blockstates file
+        blockstates_file_path = os.path.join(blockstates_dir, f"{furnace_name}.json")
         os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
         
         # Write the blockstates data to the file
@@ -849,7 +955,7 @@ def main():
         f.write(generate_lang_entries())
 
     # Generate item models
-    generate_item_models(output_dir)
+    generate_models(output_dir)
 
     # Generate blockstates
     generate_blockstates(output_dir)
