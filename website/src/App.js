@@ -78,7 +78,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>WoodStuff Mod Showcase</h1>
+      <h1>Fariance Mod Showcase</h1>
       <p>Discover over {modData.tools.length} new tools added to Minecraft!</p>
 
       <div className="tabs">

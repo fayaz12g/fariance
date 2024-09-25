@@ -2,11 +2,11 @@ import os
 import json
 
 # Define the paths
-item_folder = r"C:\Users\fayaz\Documents\GitHub\woodstuffmod\woodstuff\python\output\assets\woodstuff\textures\item"
-lang_file = r"C:\Users\fayaz\Documents\GitHub\woodstuffmod\woodstuff\python\output\assets\woodstuff\lang\en_us.json"
-github_raw_base = "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/output/assets/woodstuff/textures/item/"
-github_stick_base = "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/stick/"
-github_block_base = "https://raw.githubusercontent.com/fayaz12g/woodstuffmod/main/woodstuff/python/image/block/"
+item_folder = r"C:\Users\fayaz\Documents\GitHub\woodstuffmod\fariance\src\main\resources\assets\fariance\textures\item"
+lang_file = r"C:\Users\fayaz\Documents\GitHub\woodstuffmod\fariance\src\main\resources\assets\fariance\lang\en_us.json"
+github_raw_base = "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/"
+github_stick_base = "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/"
+github_block_base = "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/"
 
 # Constants
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
@@ -21,7 +21,7 @@ with open(lang_file, 'r', encoding='utf-8') as f:
 # Create a dictionary to store item names and IDs
 item_data = {}
 for key, value in lang_data.items():
-    if key.startswith("item.woodstuff."):
+    if key.startswith("item.fariance."):
         item_id = key.split(".")[-1]
         item_data[item_id] = {"name": value, "full_id": key}
 
