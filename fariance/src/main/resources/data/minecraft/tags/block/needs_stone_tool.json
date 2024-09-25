@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "fariance:cobblestone_furnace",
     "fariance:deepslate_furnace",

@@ -30,6 +30,7 @@ def mineable_axe_json():
 def needs_stone_json():
     # Define the mineable tag structure
     mineable_data = {
+        "replace": False,
         "values": [
             f"fariance:{stone}_furnace"   # Add each stone furnace to the values list
             for stone in STONE_TYPES
