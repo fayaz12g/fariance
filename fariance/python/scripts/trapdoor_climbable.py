@@ -4,7 +4,7 @@ import os
 from PIL import Image, ImageOps
 from constants import *
 
-def generate_trapdoor_climbable_ladders_json(base_output_dir):
+def generate_trapdoor_climbable_ladders_json():
     # Define the tag structure for trapdoor climbable ladders
     trapdoor_climbable_data = {
         "values": [
@@ -13,7 +13,7 @@ def generate_trapdoor_climbable_ladders_json(base_output_dir):
     }
 
     # Build the full output path for the trapdoor climbable ladders JSON
-    trapdoor_climbable_file_path = os.path.join(base_output_dir, "data", "fariance", "tags", "block", "make_trapdoor_climbable_ladders.json")
+    trapdoor_climbable_file_path = os.path.join(output_dir, "data", "fariance", "tags", "block", "make_trapdoor_climbable_ladders.json")
 
     # Ensure the directory exists
     os.makedirs(os.path.dirname(trapdoor_climbable_file_path), exist_ok=True)

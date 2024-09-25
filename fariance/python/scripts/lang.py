@@ -70,7 +70,7 @@ def ladder_block_lang():
         ladder_name = f"{wood}_ladder"
         entries[f"block.fariance.{ladder_name}"] = f"{capitalize_material(wood)} Ladder"
 
-def generate_lang_entries(output_dir):
+def generate_lang_entries():
     
     # Ensure that the directory exists before writing the lang file
     lang_file_path = os.path.join(output_dir, "assets/fariance/lang/en_us.json")

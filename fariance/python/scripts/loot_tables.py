@@ -5,7 +5,7 @@ from PIL import Image, ImageOps
 from constants import *
 
 
-def generate_loot_tables(base_output_dir):
+def generate_loot_tables():
     # Loop through each wood type to create a loot table for each ladder
     for wood in WOOD_TYPES:
         ladder_name = f"{wood}_ladder"
@@ -27,7 +27,7 @@ def generate_loot_tables(base_output_dir):
         }
 
         # Build the output file path for each ladder's loot table
-        loot_table_file_path = os.path.join(base_output_dir, "data", "fariance", "loot_tables", "blocks", f"{ladder_name}.json")
+        loot_table_file_path = os.path.join(output_dir, "data", "fariance", "loot_tables", "blocks", f"{ladder_name}.json")
 
         # Ensure the directory exists
         os.makedirs(os.path.dirname(loot_table_file_path), exist_ok=True)

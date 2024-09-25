@@ -4,7 +4,7 @@ import os
 from PIL import Image, ImageOps
 from constants import *
 
-def generate_mineable_json(base_output_dir):
+def generate_mineable_json():
     # Define the mineable tag structure
     mineable_data = {
         "replace": False,
@@ -14,7 +14,7 @@ def generate_mineable_json(base_output_dir):
     }
 
     # Build the full output path for the mineable/axe.json file
-    mineable_file_path = os.path.join(base_output_dir, "data", "minecraft", "tags", "blocks", "mineable", "axe.json")
+    mineable_file_path = os.path.join(output_dir, "data", "minecraft", "tags", "blocks", "mineable", "axe.json")
 
     # Ensure the directory exists
     os.makedirs(os.path.dirname(mineable_file_path), exist_ok=True)

@@ -5,7 +5,7 @@ from PIL import Image, ImageOps
 from constants import *
 
 
-def generate_climbable_json(output_dir):
+def generate_climbable_json():
     # Define the climbable tag structure
     climbable_data = {
         "replace": False,

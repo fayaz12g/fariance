@@ -17,43 +17,39 @@ from trapdoor_climbable import *
 from constants import *
 
 def main():
-    
-    script_dir = os.path.dirname(os.path.abspath(__file__))  # Get the script's directory
-    output_dir = os.path.join(script_dir, "../../src/main/resources")  # Join with the relative output path
-    os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exist
 
     # Generate lang file
-    generate_lang_entries(output_dir)
+    generate_lang_entries()
 
     # Generate item models
-    generate_models(output_dir)
+    generate_models()
 
     # Generate blockstates
-    generate_blockstates(output_dir)
+    generate_blockstates()
 
     # Generate climbable json
-    generate_climbable_json(output_dir)
+    generate_climbable_json()
 
     # Generate mineable json
-    generate_mineable_json(output_dir)
+    generate_mineable_json()
    
    # Generate trapdoor climbable json
-    generate_trapdoor_climbable_ladders_json(output_dir)
+    generate_trapdoor_climbable_ladders_json()
     
     # Generate loot tables
-    generate_loot_tables(output_dir)
+    generate_loot_tables()
 
     # Generate recipes
-    generate_recipes(output_dir)
+    generate_recipes()
 
     # Generate breaking recipes
-    break_vanilla_recipes(output_dir)
+    break_vanilla_recipes()
 
     # Generate textures
-    generate_textures(output_dir)
+    generate_textures()
 
     # Generate animation files
-    generate_mcmeta(output_dir)
+    generate_mcmeta()
 
     print("Mod content generation complete!")
 

@@ -4,7 +4,7 @@ import os
 from PIL import Image, ImageOps
 from constants import *
 
-def generate_blockstates(output_dir):
+def generate_blockstates():
     # Build the full output path for the mineable/axe.json file
     blockstates_dir = os.path.join(output_dir, "assets", "fariance", "blockstates")
 

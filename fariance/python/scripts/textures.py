@@ -27,7 +27,7 @@ def combine_head_and_stick(head_img, stick_img, tool, stick):
     
     return combined_img
 
-def generate_textures(output_dir):
+def generate_textures():
     print("Starting texture generation...")
     script_dir = os.path.dirname(os.path.abspath(__file__))
     image_dir = os.path.join(script_dir, "../image")

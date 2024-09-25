@@ -67,7 +67,7 @@ def break_crafting_table():
     }
     break_recipes.append(("crafting_table", json.dumps(recipe, indent=2)))
 
-def break_vanilla_recipes(output_dir):
+def break_vanilla_recipes():
     # Define the path for breaking recipe files
     break_recipe_file_path = os.path.join(output_dir, "data/minecraft/recipe")
     break_recipe_dir = os.path.dirname(break_recipe_file_path)
@@ -79,7 +79,7 @@ def break_vanilla_recipes(output_dir):
     break_sticks()
 
     # Write them to files
-    for item_name, break_recipe in break_recipes():
+    for item_name, break_recipe in break_recipes:
         # Define the full path for the recipe file
         break_recipe_file = os.path.join(break_recipe_file_path, f"{item_name}.json")
         # Ensure the directory exists for the current file

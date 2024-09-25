@@ -4,7 +4,7 @@ import os
 from PIL import Image, ImageOps
 from constants import *
 
-def generate_models(output_dir):
+def generate_models():
     item_model_dir = os.path.join(output_dir, "assets", "fariance", "models", "item")
     block_model_dir = os.path.join(output_dir, "assets", "fariance", "models", "block")
     os.makedirs(item_model_dir, exist_ok=True)

@@ -184,7 +184,7 @@ def copper_ingot_recipes():
         }
         recipes.append((ingot_name, json.dumps(recipe, indent=2)))
 
-def generate_recipes(output_dir):
+def generate_recipes():
     
     # Define the path for recipe files
     recipe_file_path = os.path.join(output_dir, "data/fariance/recipe")
