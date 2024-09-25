@@ -496,7 +496,52 @@ def generate_recipes():
             }
         }
         recipes.append((ladder_name, json.dumps(recipe, indent=2)))
-   
+        # Make recipes for crafting table 
+        table_name = f"{wood}_crafting_table"
+        recipe = {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "key": {
+                "#": {
+                "tag": f"minecraft:{wood}_planks"
+                }
+            },
+            "pattern": [
+                "##",
+                "##"
+            ],
+            "result": {
+                "count": 1,
+                "id": f"woodstuff:{wood}_crafting_table"
+            },
+            "show_notification": f'false'
+        }
+        recipes.append((table_name, json.dumps(recipe, indent=2)))
+
+    # Add recipes for furnaces for each stone type
+    for stone in STONE_TYPES:
+        furnace_name = f"{stone}_furnace"
+        recipe = {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "key": {
+                "#": {
+                "tag": f"minecraft:{stone}"
+                }
+            },
+            "pattern": [
+                "###",
+                "# #",
+                "###"
+            ],
+            "result": {
+                "count": 1,
+                "id": f"woodstuff:{stone}_furnace"
+            },
+            "show_notification": f'false'
+        }
+        recipes.append((furnace_name, json.dumps(recipe, indent=2)))
+
     # Add recipes for ingots for each copper type
     for ingot in COPPER_TYPES:
         ingot_name = f"{ingot}_ingot"
@@ -591,21 +636,21 @@ def generate_textures():
         table_image_side = os.path.join(image_dir, "table", f"{wood}_crafting_table_side.png")
         table_image_front = os.path.join(image_dir, "table", f"{wood}_crafting_table_front.png")
         if os.path.exists(table_image_top):
-            output_path = os.path.join(item_output_dir, f"{wood}_crafting_table_top.png")
+            output_path = os.path.join(block_output_dir, f"{wood}_crafting_table_top.png")
             top_img = Image.open(table_image_top).convert("RGBA")
             top_img.save(output_path)
             # print(f"Generated texture: {output_path}")
         else:
             print(f"Warning: Missing texture for {wood} Crafting Table Top")
         if os.path.exists(table_image_side):
-            output_path = os.path.join(item_output_dir, f"{wood}_crafting_table_side.png")
+            output_path = os.path.join(block_output_dir, f"{wood}_crafting_table_side.png")
             side_img = Image.open(table_image_side).convert("RGBA")
             side_img.save(output_path)
             # print(f"Generated texture: {output_path}")
         else:
             print(f"Warning: Missing texture for {wood} Crafting Table Side")
         if os.path.exists(table_image_front):
-            output_path = os.path.join(item_output_dir, f"{wood}_crafting_table_front.png")
+            output_path = os.path.join(block_output_dir, f"{wood}_crafting_table_front.png")
             front_img = Image.open(table_image_front).convert("RGBA")
             front_img.save(output_path)
             # print(f"Generated texture: {output_path}")
@@ -618,21 +663,21 @@ def generate_textures():
         furnace_image_side = os.path.join(image_dir, "furnace", f"{stone}_furnace_side.png")
         furnace_image_front = os.path.join(image_dir, "furnace", f"{stone}_furnace_front.png")
         if os.path.exists(furnace_image_top):
-            output_path = os.path.join(item_output_dir, f"{wood}_furnace_top.png")
+            output_path = os.path.join(block_output_dir, f"{wood}_furnace_top.png")
             top_img = Image.open(furnace_image_top).convert("RGBA")
             top_img.save(output_path)
             # print(f"Generated texture: {output_path}")
         else:
             print(f"Warning: Missing texture for {stone} Furnace Top")
         if os.path.exists(furnace_image_side):
-            output_path = os.path.join(item_output_dir, f"{stone}_furnace_side.png")
+            output_path = os.path.join(block_output_dir, f"{stone}_furnace_side.png")
             side_img = Image.open(furnace_image_side).convert("RGBA")
             side_img.save(output_path)
             # print(f"Generated texture: {output_path}")
         else:
             print(f"Warning: Missing texture for {stone} Furnace Side")
         if os.path.exists(furnace_image_front):
-            output_path = os.path.join(item_output_dir, f"{stone}_furnace_front.png")
+            output_path = os.path.join(block_output_dir, f"{stone}_furnace_front.png")
             front_img = Image.open(furnace_image_front).convert("RGBA")
             front_img.save(output_path)
             # print(f"Generated texture: {output_path}")
