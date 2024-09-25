@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "#minecraft:pickaxe",
     "fariance:cobblestone_furnace",
     "fariance:deepslate_furnace",
     "fariance:andesite_furnace",
