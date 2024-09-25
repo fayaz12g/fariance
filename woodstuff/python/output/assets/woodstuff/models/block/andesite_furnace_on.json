@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "woodstuff:block/andesite_furnace_front_on",
+    "side": "woodstuff:block/andesite_furnace_side",
+    "top": "woodstuff:block/andesite_furnace_top"
+  }
+}
