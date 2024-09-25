@@ -9,8 +9,9 @@ MATERIAL_NEW =   ["amethyst", "redstone", "lapis", "quartz"]
 STICK_TYPES = ["blaze", "breeze"] + WOOD_TYPES + ["stripped_" + s for s in WOOD_TYPES]
 COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
 STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine"]
+PRISMARINE_TYPES = ["prismarine_one", "prismarine_two","prismarine_three","prismarine_four"]
 
-MATERIAL_TYPES = MATERIAL_BASE + MATERIAL_NEW + COPPER_TYPES + STONE_TYPES + WOOD_TYPES
+MATERIAL_TYPES = MATERIAL_BASE + MATERIAL_NEW + COPPER_TYPES + STONE_TYPES + WOOD_TYPES + PRISMARINE_TYPES
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 mask_dir = os.path.join(script_dir, "mask")
@@ -372,7 +373,7 @@ def generate_sticks(stick_output_dir, mask_dir, block_dir, stick_type_names, mas
 
     for stick_type in stick_type_names:
         stick_mask_path = os.path.join(mask_dir, "stick", f"{stick_type}.png")
-        if not os.path.exists(stick_mask_path):
+        if not os.path.exists(stick_mask_path) or mask_suffix==("sword"):
             stick_mask_path = os.path.join(mask_dir, "stick", mask_suffix + ".png")
 
         stick_mask_image = Image.open(stick_mask_path).convert("RGBA")
@@ -402,6 +403,7 @@ if __name__ == "__main__":
     generate_sticks(stick_output_dir, mask_dir, block_dir, STICK_TYPES, "default")
     generate_sticks(stick_output_dir, mask_dir, block_dir, STICK_TYPES, "tool")
     generate_sticks(stick_output_dir, mask_dir, block_dir, STICK_TYPES, "shovel")
+    generate_sticks(stick_output_dir, mask_dir, block_dir, STICK_TYPES, "sword")
 
     # Generate the Furnace textures and Crafting Tables
     generate_furnace_and_crafting_table_textures()

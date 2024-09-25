@@ -603,6 +603,25 @@ def generate_recipes():
     print(f"Recipe generation done!")
     return recipes
 
+def combine_head_and_stick(head_img, stick_img, tool):
+    # Create a base image for combining
+    base_width = max(stick_img.width, head_img.width)
+    base_height = max(stick_img.height, head_img.height)
+    
+    # Create a new blank image for combining
+    combined_img = Image.new("RGBA", (base_width, base_height), (0, 0, 0, 0))
+    
+    # Adjustments based on tool type
+    offset_stick = (0, 0)
+    offset_head = (0, 0)
+    # if tool == 'sword':
+    #     offset_stick = (0, -1)
+    
+    # Paste the stick and head images onto the combined image
+    combined_img.paste(stick_img, offset_stick, stick_img)
+    combined_img.paste(head_img, offset_head, head_img)
+    
+    return combined_img
 
 def generate_textures():
     print("Starting texture generation...")
@@ -620,52 +639,58 @@ def generate_textures():
         else:
             if tool == "shovel":
                 stick_image_path = os.path.join(image_dir, "stick", "shovel", f"{stick}.png")
+            elif tool == "sword":
+                stick_image_path = os.path.join(image_dir, "stick", "sword", f"{stick}.png")
             else:
                 stick_image_path = os.path.join(image_dir, "stick", "tool", f"{stick}.png")
-        head_image_path = os.path.join(image_dir, "head", material, f"{tool}.png")
         
-        if os.path.exists(stick_image_path) and os.path.exists(head_image_path):
-            stick_img = Image.open(stick_image_path).convert("RGBA")
-            head_img = Image.open(head_image_path).convert("RGBA")
+        if material == "prismarine":
+            prismarine_variants = ["one", "two", "three", "four"]
+            head_image_paths = [os.path.join(image_dir, "head", f"prismarine_{variant}", f"{tool}.png") for variant in prismarine_variants]
             
-            # Create a base image for combining, adjust size based on tool requirements
-            base_width = max(stick_img.width, head_img.width)
-            base_height = max(stick_img.height, head_img.height)
-            
-            # Adjustments based on tool type
-            if tool == 'sword':
-                offset_stick = (0, -1)
-                offset_head = (0, 0)
-            elif tool == 'shovel':
-                offset_stick = (0, 0)
-                offset_head = (0, 0)
-            elif tool == 'hoe':
-                offset_stick = (0, 0)
-                offset_head = (0, 0)
-            elif tool == 'pickaxe':
-                offset_stick = (0, 0)
-                offset_head = (0, 0)
-            elif tool == 'axe':
-                offset_stick = (0, 0)
-                offset_head = (0, 0)
-            
-            # Create a new blank image for combining
-            combined_img = Image.new("RGBA", (base_width, base_height), (0, 0, 0, 0))
-            
-            # Paste the stick and head images onto the combined image
-            combined_img.paste(stick_img, offset_stick, stick_img)
-            combined_img.paste(head_img, offset_head, head_img)
-            
-            # Save the combined image
-            output_path = os.path.join(item_output_dir, f"{material}_{tool}_with_{stick}_stick.png")
-            combined_img.save(output_path)
-            # print(f"Generated texture: {output_path}")
-        elif not os.path.exists(stick_image_path):
-            print(f"Warning:", stick_image_path, "not found!")
-        elif not os.path.exists(head_image_path):
-            print(f"Warning:", head_image_path, "not found!")
+            if all(os.path.exists(path) for path in head_image_paths) and os.path.exists(stick_image_path):
+                stick_img = Image.open(stick_image_path).convert("RGBA")
+                head_imgs = [Image.open(path).convert("RGBA") for path in head_image_paths]
+                
+                # Combine each prismarine head with the stick
+                combined_imgs = [combine_head_and_stick(head_img, stick_img, tool) for head_img in head_imgs]
+                
+                # Create the final 16x64 image
+                final_width = combined_imgs[0].width
+                final_height = sum(img.height for img in combined_imgs)
+                final_img = Image.new("RGBA", (final_width, final_height), (0, 0, 0, 0))
+                
+                # Paste the combined images vertically
+                current_height = 0
+                for img in combined_imgs:
+                    final_img.paste(img, (0, current_height))
+                    current_height += img.height
+                
+                # Save the final combined image
+                output_path = os.path.join(item_output_dir, f"{material}_{tool}_with_{stick}_stick.png")
+                final_img.save(output_path)
+                # print(f"Generated prismarine texture: {output_path}")
+            else:
+                print(f"Warning: Missing textures for prismarine_{tool}_with_{stick}_stick")
         else:
-            print(f"Warning: Missing texture for {material}_{tool}_with_{stick}_stick")
+            head_image_path = os.path.join(image_dir, "head", material, f"{tool}.png")
+            
+            if os.path.exists(stick_image_path) and os.path.exists(head_image_path):
+                stick_img = Image.open(stick_image_path).convert("RGBA")
+                head_img = Image.open(head_image_path).convert("RGBA")
+                
+                combined_img = combine_head_and_stick(head_img, stick_img, tool)
+                
+                # Save the combined image
+                output_path = os.path.join(item_output_dir, f"{material}_{tool}_with_{stick}_stick.png")
+                combined_img.save(output_path)
+                # print(f"Generated texture: {output_path}")
+            elif not os.path.exists(stick_image_path):
+                print(f"Warning: {stick_image_path} not found!")
+            elif not os.path.exists(head_image_path):
+                print(f"Warning: {head_image_path} not found!")
+            else:
+                print(f"Warning: Missing texture for {material}_{tool}_with_{stick}_stick")
 
     # Generate textures for sticks
     for stick in STICK_TYPES:
@@ -942,6 +967,34 @@ def generate_ladder_loot_tables(base_output_dir):
 
     print(f"Loot tables generated!")
 
+def generate_mcmeta():
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    item_output_dir = os.path.join(script_dir, "..", "src", "main", "resources", "assets", "fariance", "textures", "item")
+    
+    # Ensure the output directory exists
+    os.makedirs(item_output_dir, exist_ok=True)
+    
+    for material, tool, stick in product(MATERIAL_TYPES, TOOL_TYPES, STICK_TYPES):
+        # Generate the prismarine animation files
+        if material == "prismarine":
+            mcmeta_content = {
+                "animation": {
+                    "frametime": 300,
+                    "interpolate": True,
+                    "frames": [
+                        0, 1, 0, 2, 0, 3, 0, 1, 2, 1, 3, 1, 0, 2, 1, 2, 3, 2, 0, 3, 1, 3
+                    ]
+                }
+            }
+            
+            file_name = f"{material}_{tool}_with_{stick}_stick.png"
+            mcmeta_path = os.path.join(item_output_dir, f"{file_name}.mcmeta")
+            
+            with open(mcmeta_path, 'w') as mcmeta_file:
+                json.dump(mcmeta_content, mcmeta_file, indent=2)
+                
+            # print(f"Generated MCMETA file: {mcmeta_path}")
+
 # Ensure that the directory exists before writing the lang file
 lang_file_path = "../src/main/resources/assets/fariance/lang/en_us.json"
 lang_dir = os.path.dirname(lang_file_path)
@@ -1005,6 +1058,9 @@ def main():
 
     # Generate textures
     generate_textures()
+
+    # Generate animation files
+    generate_mcmeta()
 
     print("Mod content generation complete!")
 
