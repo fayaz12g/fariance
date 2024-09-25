@@ -4,14 +4,19 @@ from crafting_tables import *
 from heads import *
 from sticks import *
 
-
-if __name__ == "__main__":
+def main():
     # Generate the tool heads
     generate_tool_heads()
 
-    # Generate sticks
+    # Generate stick textures
     generate_sticks()
 
-    # Generate the Furnace textures and Crafting Tables
+    # Generate the Furnace textures
     generate_furnace_textures()
+
+    # Generate and Crafting Table textures
     generate_crafting_table_textures()
+
+
+if __name__ == "__main__":
+    main()
