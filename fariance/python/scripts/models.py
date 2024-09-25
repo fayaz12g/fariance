@@ -197,7 +197,7 @@ def shield_models():
                         "predicate": {
                             "blocking": 1
                         },
-                        "model": "item/shield_blocking"
+                        "model": f"item/{wood}_{material}_shield_blocking"
                     }
                 ]
             }

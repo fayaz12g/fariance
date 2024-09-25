@@ -130,7 +130,7 @@
       "predicate": {
         "blocking": 1
       },
-      "model": "item/shield_blocking"
+      "model": "item/cherry_netherite_shield_blocking"
     }
   ]
 }

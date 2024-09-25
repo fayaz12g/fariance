@@ -117,6 +117,18 @@ public class FarianceMod {
                 .sorted((o1, o2) -> {
                     String name1 = o1.getId().getPath();
                     String name2 = o2.getId().getPath();
+
+                    // Get the last word (after the last underscore)
+                    String lastWord1 = name1.substring(name1.lastIndexOf('_') + 1);
+                    String lastWord2 = name2.substring(name2.lastIndexOf('_') + 1);
+
+                    // Compare the last words first
+                    int lastWordComparison = lastWord1.compareTo(lastWord2);
+                    if (lastWordComparison != 0) {
+                        return lastWordComparison;
+                    }
+
+                    // If last words are the same, compare the full names
                     return name1.compareTo(name2);
                 })
                 .collect(Collectors.toList());

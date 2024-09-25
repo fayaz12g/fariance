@@ -130,7 +130,7 @@
       "predicate": {
         "blocking": 1
       },
-      "model": "item/shield_blocking"
+      "model": "item/birch_iron_shield_blocking"
     }
   ]
 }
