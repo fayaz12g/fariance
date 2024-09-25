@@ -603,7 +603,7 @@ def generate_recipes():
     print(f"Recipe generation done!")
     return recipes
 
-def combine_head_and_stick(head_img, stick_img, tool):
+def combine_head_and_stick(head_img, stick_img, tool, stick):
     # Create a base image for combining
     base_width = max(stick_img.width, head_img.width)
     base_height = max(stick_img.height, head_img.height)
@@ -614,8 +614,8 @@ def combine_head_and_stick(head_img, stick_img, tool):
     # Adjustments based on tool type
     offset_stick = (0, 0)
     offset_head = (0, 0)
-    # if tool == 'sword':
-    #     offset_stick = (0, -1)
+    if tool == 'sword' and stick in ["breeze", "blaze", "bamboo"]:
+        offset_stick = (0, -1)
     
     # Paste the stick and head images onto the combined image
     combined_img.paste(stick_img, offset_stick, stick_img)
@@ -653,7 +653,7 @@ def generate_textures():
                 head_imgs = [Image.open(path).convert("RGBA") for path in head_image_paths]
                 
                 # Combine each prismarine head with the stick
-                combined_imgs = [combine_head_and_stick(head_img, stick_img, tool) for head_img in head_imgs]
+                combined_imgs = [combine_head_and_stick(head_img, stick_img, tool, stick) for head_img in head_imgs]
                 
                 # Create the final 16x64 image
                 final_width = combined_imgs[0].width
@@ -679,7 +679,7 @@ def generate_textures():
                 stick_img = Image.open(stick_image_path).convert("RGBA")
                 head_img = Image.open(head_image_path).convert("RGBA")
                 
-                combined_img = combine_head_and_stick(head_img, stick_img, tool)
+                combined_img = combine_head_and_stick(head_img, stick_img, tool, stick)
                 
                 # Save the combined image
                 output_path = os.path.join(item_output_dir, f"{material}_{tool}_with_{stick}_stick.png")
@@ -992,7 +992,7 @@ def generate_mcmeta():
             
             with open(mcmeta_path, 'w') as mcmeta_file:
                 json.dump(mcmeta_content, mcmeta_file, indent=2)
-                
+
             # print(f"Generated MCMETA file: {mcmeta_path}")
 
 # Ensure that the directory exists before writing the lang file
