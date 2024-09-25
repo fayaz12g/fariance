@@ -50,10 +50,10 @@ def main():
     break_vanilla_recipes(output_dir)
 
     # Generate textures
-    generate_textures()
+    generate_textures(output_dir)
 
     # Generate animation files
-    generate_mcmeta()
+    generate_mcmeta(output_dir)
 
     print("Mod content generation complete!")
 

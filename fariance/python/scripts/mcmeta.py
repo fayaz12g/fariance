@@ -4,9 +4,8 @@ import os
 from PIL import Image, ImageOps
 from constants import *
 
-def generate_mcmeta():
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    item_output_dir = os.path.join(script_dir, "../..", "src", "main", "resources", "assets", "fariance", "textures", "item")
+def generate_mcmeta(output_dir):
+    item_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "item")
     
     # Ensure the output directory exists
     os.makedirs(item_output_dir, exist_ok=True)

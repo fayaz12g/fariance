@@ -27,12 +27,12 @@ def combine_head_and_stick(head_img, stick_img, tool, stick):
     
     return combined_img
 
-def generate_textures():
+def generate_textures(output_dir):
     print("Starting texture generation...")
     script_dir = os.path.dirname(os.path.abspath(__file__))
     image_dir = os.path.join(script_dir, "../image")
-    item_output_dir = os.path.join(script_dir, "../../src/main/resources", "assets", "fariance", "textures", "item")
-    block_output_dir = os.path.join(script_dir, "../../src/main/resources", "assets", "fariance", "textures", "block")
+    item_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "item")
+    block_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "block")
     os.makedirs(item_output_dir, exist_ok=True)
     os.makedirs(block_output_dir, exist_ok=True)
 
