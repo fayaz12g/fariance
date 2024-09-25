@@ -118,7 +118,7 @@ public class ItemRegistry {
     }
 
     private static void generateIngots() {
-        List<String> copperTypes = Arrays.asList("shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper");
+        List<String> copperTypes = Arrays.asList("weathered_copper", "exposed_copper", "oxidized_copper");
         for (String copperType : copperTypes) {
             String ingotName = copperType + "_ingot";
             GENERATED_ITEMS.put(ingotName, ITEMS.register(ingotName, () -> new Item(new Item.Properties())));

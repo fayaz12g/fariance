@@ -436,7 +436,7 @@ def generate_recipes():
         **{wood: f"minecraft:{wood}_planks" for wood in WOOD_TYPES},  # Wood types use "wood_planks"
         "iron": "minecraft:iron_ingot",
         "diamond": "minecraft:diamond",
-        "shiny_copper": "woodstuff:shiny_copper_ingot",
+        "shiny_copper": "minecraft:copper_ingot",
         "exposed_copper": "woodstuff:exposed_copper_ingot",
         "weathered_copper": "woodstuff:weathered_copper_ingot",
         "oxidized_copper": "woodstuff:oxidized_copper_ingot",
