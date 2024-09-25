@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "key": {
-    "#": {
-      "tag": "minecraft:birch_planks"
-    }
-  },
   "pattern": [
     "##",
     "##"
   ],
-  "result": {
-    "count": 1,
-    "id": "woodstuff:birch_crafting_table"
+  "key": {
+    "#": {
+      "item": "minecraft:birch_planks"
+    }
   },
-  "show_notification": "false"
+  "result": {
+    "id": "woodstuff:birch_crafting_table",
+    "count": 1
+  }
 }

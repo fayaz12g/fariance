@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "key": {
-    "#": {
-      "tag": "minecraft:mangrove_planks"
-    }
-  },
   "pattern": [
     "##",
     "##"
   ],
-  "result": {
-    "count": 1,
-    "id": "woodstuff:mangrove_crafting_table"
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_planks"
+    }
   },
-  "show_notification": "false"
+  "result": {
+    "id": "woodstuff:mangrove_crafting_table",
+    "count": 1
+  }
 }

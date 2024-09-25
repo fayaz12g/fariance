@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "key": {
-    "#": {
-      "tag": "minecraft:dark_oak_planks"
-    }
-  },
   "pattern": [
     "##",
     "##"
   ],
-  "result": {
-    "count": 1,
-    "id": "woodstuff:dark_oak_crafting_table"
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_planks"
+    }
   },
-  "show_notification": "false"
+  "result": {
+    "id": "woodstuff:dark_oak_crafting_table",
+    "count": 1
+  }
 }

@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "key": {
-    "#": {
-      "tag": "minecraft:bamboo_planks"
-    }
-  },
   "pattern": [
     "##",
     "##"
   ],
-  "result": {
-    "count": 1,
-    "id": "woodstuff:bamboo_crafting_table"
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo_planks"
+    }
   },
-  "show_notification": "false"
+  "result": {
+    "id": "woodstuff:bamboo_crafting_table",
+    "count": 1
+  }
 }

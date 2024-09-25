@@ -3,14 +3,26 @@ package one.fayaz.woodstuff;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.MenuProvider;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.inventory.ContainerLevelAccess;
+import net.minecraft.world.inventory.CraftingMenu;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityTicker;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -18,6 +30,8 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.IEventBus;
 import org.slf4j.Logger;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.player.Inventory;
 import com.mojang.logging.LogUtils;
 
 import java.util.Map;
@@ -135,12 +149,45 @@ public class ItemRegistry {
                 .strength(2.5F)
                 .sound(SoundType.WOOD)
                 .ignitedByLava()) {
+
+
+            public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+                // Check if the interaction is happening on the server side
+                if (!level.isClientSide) {
+                    MenuProvider menuProvider = state.getMenuProvider(level, pos);
+                    if (menuProvider != null) {
+                        // Open the crafting table menu on the server side
+                        player.openMenu(menuProvider);
+                        return InteractionResult.CONSUME;  // Interaction was handled
+                    }
+                }
+                return InteractionResult.SUCCESS; // Return success on the client-side
+            }
+
             @Override
-            public void onPlace(BlockState pState, net.minecraft.world.level.Level pLevel, BlockPos pPos, BlockState pOldState, boolean pIsMoving) {
+            public MenuProvider getMenuProvider(BlockState state, Level level, BlockPos pos) {
+                return new MenuProvider() {
+                    @Override
+                    public Component getDisplayName() {
+                        return Component.translatable("container.crafting");
+                    }
+
+                    @Override
+                    public AbstractContainerMenu createMenu(int windowId, Inventory playerInventory, Player player) {
+                        // This sets up the crafting menu on both client and server
+                        return new CraftingMenu(windowId, playerInventory, ContainerLevelAccess.create(level, pos));
+                    }
+                };
+            }
+
+            @Override
+            public void onPlace(BlockState pState, Level pLevel, BlockPos pPos, BlockState pOldState, boolean pIsMoving) {
                 LOGGER.info("Placed " + wood + " crafting table at " + pPos);
             }
         };
     }
+
+
 
     private static Block createFurnaceBlock(String stone) {
         return new FurnaceBlock(BlockBehaviour.Properties.of()
@@ -149,11 +196,17 @@ public class ItemRegistry {
                 .strength(3.5F)
                 .lightLevel(state -> state.getValue(FurnaceBlock.LIT) ? 13 : 0)) {
             @Override
-            public void onPlace(BlockState pState, net.minecraft.world.level.Level pLevel, BlockPos pPos, BlockState pOldState, boolean pIsMoving) {
+            public void onPlace(BlockState pState, Level pLevel, BlockPos pPos, BlockState pOldState, boolean pIsMoving) {
                 LOGGER.info("Placed " + stone + " furnace at " + pPos);
+            }
+
+            @Override
+            public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level pLevel, BlockState pState, BlockEntityType<T> pBlockEntityType) {
+                return createFurnaceTicker(pLevel, pBlockEntityType, BlockEntityType.FURNACE);
             }
         };
     }
+
 
     private static void generateSpecialLadder(String material) {
         String ladderName = material + "_ladder";

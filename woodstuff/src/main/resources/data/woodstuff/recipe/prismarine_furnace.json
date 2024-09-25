@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "tag": "minecraft:prismarine"
+      "item": "minecraft:prismarine"
     }
   },
   "pattern": [
@@ -14,6 +14,5 @@
   "result": {
     "count": 1,
     "id": "woodstuff:prismarine_furnace"
-  },
-  "show_notification": "false"
+  }
 }

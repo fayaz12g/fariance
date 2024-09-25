@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "key": {
-    "#": {
-      "tag": "minecraft:warped_planks"
-    }
-  },
   "pattern": [
     "##",
     "##"
   ],
-  "result": {
-    "count": 1,
-    "id": "woodstuff:warped_crafting_table"
+  "key": {
+    "#": {
+      "item": "minecraft:warped_planks"
+    }
   },
-  "show_notification": "false"
+  "result": {
+    "id": "woodstuff:warped_crafting_table",
+    "count": 1
+  }
 }

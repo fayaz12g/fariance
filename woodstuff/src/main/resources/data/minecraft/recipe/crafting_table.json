@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "tag": "minecraft:diamond_block"
+      "item": "minecraft:diamond_block"
     }
   },
   "pattern": [
@@ -13,6 +13,5 @@
   "result": {
     "count": 1,
     "id": "minecraft:crafting_table"
-  },
-  "show_notification": "false"
+  }
 }

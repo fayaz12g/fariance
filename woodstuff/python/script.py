@@ -285,9 +285,9 @@ def generate_models(output_dir):
         block_model_data = {
             "parent": "minecraft:block/orientable",
             "textures": {
-                "front": f"woodstuff:block/{stone}_furnace_front",
-                "side": f"woodstuff:block/{stone}_furnace_side",
-                "top": f"woodstuff:block/{stone}_furnace_top"
+                "front": f"woodstuff:block/furnace_name_front",
+                "side": f"woodstuff:block/furnace_name_side",
+                "top": f"woodstuff:block/furnace_name_top"
             }
             }
 
@@ -300,7 +300,7 @@ def generate_models(output_dir):
 
         # Item model data for the crafting table
         item_model_data = {
-            "parent": f"woodstuff:block/{wood}_furnace"
+            "parent": f"woodstuff:block/furnace_name"
         }
 
         # Define the block model output path
@@ -342,7 +342,7 @@ def break_recipes():
         "category": "misc",
         "key": {
             "#": {
-            "tag": "minecraft:diamond_block"
+            "item": "minecraft:diamond_block"
             }
         },
         "pattern": [
@@ -352,8 +352,7 @@ def break_recipes():
         "result": {
             "count": 1,
             "id": "minecraft:crafting_table"
-        },
-        "show_notification": f'false'
+        }
     }
     break_recipes.append(("crafting_table", json.dumps(recipe, indent=2)))
 
@@ -363,7 +362,7 @@ def break_recipes():
         "category": "misc",
         "key": {
             "#": {
-            "tag": "minecraft:diamond_block"
+            "item": "minecraft:diamond_block"
             }
         },
         "pattern": [
@@ -373,8 +372,7 @@ def break_recipes():
         "result": {
             "count": 1,
             "id": "minecraft:furnace"
-        },
-        "show_notification": f'false'
+        }
     }
     break_recipes.append(("furnace", json.dumps(recipe, indent=2)))
 
@@ -384,7 +382,7 @@ def break_recipes():
         "category": "misc",
         "key": {
             "#": {
-            "tag": "minecraft:diamond_block"
+            "item": "minecraft:diamond_block"
             }
         },
         "pattern": [
@@ -394,8 +392,7 @@ def break_recipes():
         "result": {
             "count": 1,
             "id": "minecraft:stick"
-        },
-        "show_notification": f'false'
+        }
     }
     break_recipes.append(("stick", json.dumps(recipe, indent=2)))
 
@@ -545,20 +542,19 @@ def generate_recipes():
         recipe = {
             "type": "minecraft:crafting_shaped",
             "category": "misc",
-            "key": {
-                "#": {
-                "tag": f"minecraft:{wood}_planks"
-                }
-            },
             "pattern": [
                 "##",
                 "##"
             ],
-            "result": {
-                "count": 1,
-                "id": f"woodstuff:{wood}_crafting_table"
+            "key": {
+                "#": {
+                "item": f"minecraft:{wood}_planks"
+                }
             },
-            "show_notification": f'false'
+            "result": {
+                "id": f"woodstuff:{wood}_crafting_table",
+                "count": 1
+            }
         }
         recipes.append((table_name, json.dumps(recipe, indent=2)))
 
@@ -570,7 +566,7 @@ def generate_recipes():
             "category": "misc",
             "key": {
                 "#": {
-                "tag": f"minecraft:{stone}"
+                "item": f"minecraft:{stone}"
                 }
             },
             "pattern": [
@@ -581,8 +577,7 @@ def generate_recipes():
             "result": {
                 "count": 1,
                 "id": f"woodstuff:{stone}_furnace"
-            },
-            "show_notification": f'false'
+            }
         }
         recipes.append((furnace_name, json.dumps(recipe, indent=2)))
 

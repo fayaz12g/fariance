@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "front": "woodstuff:block/prismarine_furnace_front",
-    "side": "woodstuff:block/prismarine_furnace_side",
-    "top": "woodstuff:block/prismarine_furnace_top"
+    "front": "woodstuff:block/furnace_name_front",
+    "side": "woodstuff:block/furnace_name_side",
+    "top": "woodstuff:block/furnace_name_top"
   }
 }
