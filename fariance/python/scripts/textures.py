@@ -172,7 +172,7 @@ def generate_textures():
 
 
     # Generate textures for ladders
-    for wood in WOOD_TYPES  + ["blaze", "breeze"]:
+    for wood in WOOD_TYPES + ["blaze", "breeze"]:
         ladder_image_path = os.path.join(image_dir, "ladder", f"{wood}_ladder.png")
         if os.path.exists(ladder_image_path):
             output_path = os.path.join(block_output_dir, f"{wood}_ladder.png")

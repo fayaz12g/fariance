@@ -149,8 +149,11 @@ public class ItemRegistry {
     // STICKS
     private static void generateSticks() {
         for (String stick : STICK_TYPES) {
-            String stickName = stick + "_stick";
-            GENERATED_ITEMS.put(stickName, ITEMS.register(stickName, () -> new Item(new Item.Properties())));
+            // Exclude "blaze", "breeze", and "bamboo" from stick generation
+            if (!stick.equals("blaze") && !stick.equals("breeze") && !stick.equals("bamboo")) {
+                String stickName = stick + "_stick";
+                GENERATED_ITEMS.put(stickName, ITEMS.register(stickName, () -> new Item(new Item.Properties())));
+            }
         }
     }
 

@@ -34,6 +34,13 @@ def tools_lang():
         
         entries[f"item.fariance.{item_name}"] = display_name
 
+def shield_lang():
+    # Add shield names
+    for wood in WOOD_TYPES:
+        for material in MATERIAL_BASE:
+            shield_name = f"{wood}_{material}_shield"
+            entries[f"item.fariance.{shield_name}"] = capitalize_material(shield_name)
+
 def sticks_lang():
     # Add sticks to lang file
     for stick in filtered_wood_types:
@@ -85,6 +92,7 @@ def generate_lang_entries():
     copper_ingots_lang()
     ladder_item_lang()
     ladder_block_lang()
+    shield_lang()
 
     # Generate lang file
     with open(lang_file_path, "w") as f:
