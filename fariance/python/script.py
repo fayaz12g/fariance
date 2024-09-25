@@ -615,7 +615,13 @@ def generate_textures():
 
     # Loop through each combination of material, tool, and stick
     for material, tool, stick in product(MATERIAL_TYPES, TOOL_TYPES, STICK_TYPES):
-        stick_image_path = os.path.join(image_dir, "stick", f"{stick}.png")
+        if stick in ["blaze", "breeze", "bamboo"]:
+            stick_image_path = os.path.join(image_dir, "stick", f"{stick}.png")
+        else:
+            if tool == "shovel":
+                stick_image_path = os.path.join(image_dir, "stick", "shovel", f"{stick}.png")
+            else:
+                stick_image_path = os.path.join(image_dir, "stick", "tool", f"{stick}.png")
         head_image_path = os.path.join(image_dir, "head", material, f"{tool}.png")
         
         if os.path.exists(stick_image_path) and os.path.exists(head_image_path):
@@ -654,13 +660,17 @@ def generate_textures():
             output_path = os.path.join(item_output_dir, f"{material}_{tool}_with_{stick}_stick.png")
             combined_img.save(output_path)
             # print(f"Generated texture: {output_path}")
+        elif not os.path.exists(stick_image_path):
+            print(f"Warning:", stick_image_path, "not found!")
+        elif not os.path.exists(head_image_path):
+            print(f"Warning:", head_image_path, "not found!")
         else:
             print(f"Warning: Missing texture for {material}_{tool}_with_{stick}_stick")
 
     # Generate textures for sticks
     for stick in STICK_TYPES:
         if stick not in ["blaze", "bamboo", "breeze"]:
-            stick_image_path = os.path.join(image_dir, "stick", f"{stick}.png")
+            stick_image_path = os.path.join(image_dir, "stick", "default", f"{stick}.png")
             if os.path.exists(stick_image_path):
                 output_path = os.path.join(item_output_dir, f"{stick}_stick.png")
                 stick_img = Image.open(stick_image_path).convert("RGBA")

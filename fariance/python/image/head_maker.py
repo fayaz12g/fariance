@@ -296,7 +296,7 @@ def overlay_texture(base_image, overlay_image):
 
 
 
-def generate_tool_heads_and_sticks():
+def generate_tool_heads():
 
     # Generate tool heads
     for material in MATERIAL_TYPES:
@@ -366,18 +366,18 @@ def generate_tool_heads_and_sticks():
             result_image.save(output_path)
         print(f"Generated {material} tool heads")
 
+def generate_sticks(stick_output_dir, mask_dir, block_dir, stick_type_names, mask_suffix):
+    output_dir = os.path.join(stick_output_dir, mask_suffix)
+    os.makedirs(output_dir, exist_ok=True)
 
-    # Generate sticks
-    os.makedirs(stick_output_dir, exist_ok=True)
-
-    for stick_type in STICK_TYPES:
+    for stick_type in stick_type_names:
         stick_mask_path = os.path.join(mask_dir, "stick", f"{stick_type}.png")
         if not os.path.exists(stick_mask_path):
-            stick_mask_path = os.path.join(mask_dir, "stick", "default.png")
+            stick_mask_path = os.path.join(mask_dir, "stick", mask_suffix + ".png")
 
         stick_mask_image = Image.open(stick_mask_path).convert("RGBA")
 
-        if stick_type in STICK_TYPES and stick_type not in ["blaze", "breeze", "bamboo"]:
+        if stick_type in stick_type_names and stick_type not in ["blaze", "breeze", "bamboo"]:
             block_filename = f"{stick_type}_log.png"
             block_path = os.path.join(block_dir, "log", block_filename)
 
@@ -390,10 +390,18 @@ def generate_tool_heads_and_sticks():
             result_image = darken_stick_top(result_image, 0.59)
             result_image = darken_stick_bottom(result_image, 0.35)
 
-            output_path = os.path.join(stick_output_dir, f"{stick_type}.png")
+            output_path = os.path.join(output_dir, f"{stick_type}.png")
             result_image.save(output_path)
-        print(f"Generated {stick_type} sticks")
+        print(f"Generated {stick_type} {mask_suffix} sticks")
 
 if __name__ == "__main__":
-    generate_tool_heads_and_sticks()
+    # Generate the tool heads
+    generate_tool_heads()
+
+    # Generate sticks for default, tool, and shovel
+    generate_sticks(stick_output_dir, mask_dir, block_dir, STICK_TYPES, "default")
+    generate_sticks(stick_output_dir, mask_dir, block_dir, STICK_TYPES, "tool")
+    generate_sticks(stick_output_dir, mask_dir, block_dir, STICK_TYPES, "shovel")
+
+    # Generate the Furnace textures and Crafting Tables
     generate_furnace_and_crafting_table_textures()
