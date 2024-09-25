@@ -141,7 +141,7 @@ def generate_climbable_json(output_dir):
     with open(climbable_file_path, 'w') as f:
         json.dump(climbable_data, f, indent=2)
 
-    print(f"Climbable ladders JSON generated at: {climbable_file_path}")
+    print(f"Climbable ladders JSON generated")
 
 def generate_item_models(output_dir):
     item_model_dir = os.path.join(output_dir, "assets", "woodstuff", "models", "item")
@@ -293,7 +293,7 @@ def break_recipes():
     break_recipes = []
 
     # Break recipes for crafting table 
-    recipe = f'{
+    recipe = {
         "type": "minecraft:crafting_shaped",
         "category": "misc",
         "key": {
@@ -309,12 +309,12 @@ def break_recipes():
             "count": 1,
             "id": "minecraft:crafting_table"
         },
-        "show_notification": false
-    }'
+        "show_notification": f'false'
+    }
     break_recipes.append(("crafting_table", json.dumps(recipe, indent=2)))
 
     # Break recipes for furnace 
-    recipe = f'{
+    recipe = {
         "type": "minecraft:crafting_shaped",
         "category": "misc",
         "key": {
@@ -330,12 +330,12 @@ def break_recipes():
             "count": 1,
             "id": "minecraft:furnace"
         },
-        "show_notification": false
-    }'
+        "show_notification": f'false'
+    }
     break_recipes.append(("furnace", json.dumps(recipe, indent=2)))
 
     # Break recipes for sticks 
-    recipe = f'{
+    recipe = {
         "type": "minecraft:crafting_shaped",
         "category": "misc",
         "key": {
@@ -351,8 +351,8 @@ def break_recipes():
             "count": 1,
             "id": "minecraft:stick"
         },
-        "show_notification": false
-    }'
+        "show_notification": f'false'
+    }
     break_recipes.append(("stick", json.dumps(recipe, indent=2)))
 
     print(f"Recipe breaking done!")
@@ -521,6 +521,7 @@ def generate_recipes():
 
 
 def generate_textures():
+    print("Starting texture generation...")
     script_dir = os.path.dirname(os.path.abspath(__file__))
     image_dir = os.path.join(script_dir, "image")
     item_output_dir = os.path.join(script_dir, "output", "assets", "woodstuff", "textures", "item")
@@ -722,7 +723,7 @@ def generate_mineable_json(base_output_dir):
     with open(mineable_file_path, 'w') as f:
         json.dump(mineable_data, f, indent=2)
 
-    print(f"Mineable ladders JSON generated at: {mineable_file_path}")
+    print(f"Mineable ladders JSON generated")
 
 def generate_trapdoor_climbable_ladders_json(base_output_dir):
     # Define the tag structure for trapdoor climbable ladders
@@ -742,7 +743,7 @@ def generate_trapdoor_climbable_ladders_json(base_output_dir):
     with open(trapdoor_climbable_file_path, 'w') as f:
         json.dump(trapdoor_climbable_data, f, indent=2)
 
-    print(f"Trapdoor climbable ladders JSON generated at: {trapdoor_climbable_file_path}")
+    print(f"Trapdoor climbable ladders JSON generated")
 
 def generate_ladder_loot_tables(base_output_dir):
     # Loop through each wood type to create a loot table for each ladder

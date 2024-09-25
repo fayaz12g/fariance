@@ -6,12 +6,11 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.LadderBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,6 +23,7 @@ import com.mojang.logging.LogUtils;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -38,11 +38,20 @@ public class ItemRegistry {
 
     private static final List<String> WOOD_TYPES = Arrays.asList("oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo");
     private static final List<String> TOOL_TYPES = Arrays.asList("sword", "pickaxe", "shovel", "hoe", "axe");
-    private static final List<String> MATERIAL_TYPES = Arrays.asList(
-            "oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo",
-            "iron", "diamond", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate", "prismarine",
-            "shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"
-    );
+
+    private static final List<String> STONE_TYPES = Arrays.asList("cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone");
+
+    private static final List<String> MATERIAL_TYPES = new ArrayList<>();
+    static {
+        MATERIAL_TYPES.addAll(Arrays.asList(
+                "oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo",
+                "iron", "diamond", "gold", "netherite", "amethyst", "redstone", "lapis", "quartz", "prismarine",
+                "shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"
+        ));
+        // Add stone types dynamically
+        MATERIAL_TYPES.addAll(STONE_TYPES);
+    }
+
     private static final List<String> STICK_TYPES = Arrays.asList("oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo", "blaze", "breeze");
     private static final List<String> STRIPPED_STICK_TYPES = WOOD_TYPES.stream().map(wood -> "stripped_" + wood).collect(Collectors.toList());
 
@@ -51,6 +60,8 @@ public class ItemRegistry {
         generateSticks();
         generateLadders();
         generateIngots();
+        generateCraftingTables();
+        generateFurnaces();
     }
 
     private static void generateTools() {
@@ -98,6 +109,50 @@ public class ItemRegistry {
             String ingotName = copperType + "_ingot";
             GENERATED_ITEMS.put(ingotName, ITEMS.register(ingotName, () -> new Item(new Item.Properties())));
         }
+    }
+
+    private static void generateCraftingTables() {
+        for (String wood : WOOD_TYPES) {
+            String tableName = wood + "_crafting_table";
+            RegistryObject<Block> block = BLOCKS.register(tableName, () -> createCraftingTableBlock(wood));
+            GENERATED_BLOCKS.put(tableName, block);
+            GENERATED_ITEMS.put(tableName, ITEMS.register(tableName, () -> new BlockItem(block.get(), new Item.Properties())));
+        }
+    }
+
+    private static void generateFurnaces() {
+        for (String stone : STONE_TYPES) {
+            String furnaceName = stone + "_furnace";
+            RegistryObject<Block> block = BLOCKS.register(furnaceName, () -> createFurnaceBlock(stone));
+            GENERATED_BLOCKS.put(furnaceName, block);
+            GENERATED_ITEMS.put(furnaceName, ITEMS.register(furnaceName, () -> new BlockItem(block.get(), new Item.Properties())));
+        }
+    }
+
+    private static Block createCraftingTableBlock(String wood) {
+        return new CraftingTableBlock(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.WOOD)
+                .strength(2.5F)
+                .sound(SoundType.WOOD)
+                .ignitedByLava()) {
+            @Override
+            public void onPlace(BlockState pState, net.minecraft.world.level.Level pLevel, BlockPos pPos, BlockState pOldState, boolean pIsMoving) {
+                LOGGER.info("Placed " + wood + " crafting table at " + pPos);
+            }
+        };
+    }
+
+    private static Block createFurnaceBlock(String stone) {
+        return new FurnaceBlock(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.STONE)
+                .requiresCorrectToolForDrops()
+                .strength(3.5F)
+                .lightLevel(state -> state.getValue(FurnaceBlock.LIT) ? 13 : 0)) {
+            @Override
+            public void onPlace(BlockState pState, net.minecraft.world.level.Level pLevel, BlockPos pPos, BlockState pOldState, boolean pIsMoving) {
+                LOGGER.info("Placed " + stone + " furnace at " + pPos);
+            }
+        };
     }
 
     private static void generateSpecialLadder(String material) {
