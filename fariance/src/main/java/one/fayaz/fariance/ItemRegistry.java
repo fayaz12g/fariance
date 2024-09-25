@@ -101,7 +101,8 @@ public class ItemRegistry {
             GENERATED_ITEMS.put(stickName, ITEMS.register(stickName, () -> new Item(new Item.Properties())));
         }
         for (String strippedStick : STRIPPED_STICK_TYPES) {
-            GENERATED_ITEMS.put(strippedStick, ITEMS.register(strippedStick, () -> new Item(new Item.Properties())));
+            String strippedStickName = strippedStick + "_stick";
+            GENERATED_ITEMS.put(strippedStick, ITEMS.register(strippedStickName, () -> new Item(new Item.Properties())));
         }
     }
 
