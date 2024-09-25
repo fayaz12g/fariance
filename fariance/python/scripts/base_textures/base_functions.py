@@ -200,3 +200,13 @@ def overlay_texture(base_image, overlay_image):
                 overlay_pixels[x, y] = base_pixels[x, y]  # Replace it with the base image's pixel
 
     return overlay_image
+
+def tile_image(image, target_size=(64, 64)):
+    """
+    Tiles a smaller image (like 16x16) to fill a larger target size (like 64x64).
+    """
+    tiled_image = Image.new('RGBA', target_size)
+    for x in range(0, target_size[0], image.width):
+        for y in range(0, target_size[1], image.height):
+            tiled_image.paste(image, (x, y))
+    return tiled_image
