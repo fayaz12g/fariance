@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:nether_quartz"
+    },
+    "S": {
+      "item": "fariance:stripped_warped_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:quartz_axe_with_stripped_warped_stick",
+    "count": 1
+  }
+}

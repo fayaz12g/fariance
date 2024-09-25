@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:diorite"
+    },
+    "S": {
+      "item": "minecraft:breeze_rod"
+    }
+  },
+  "result": {
+    "id": "fariance:diorite_axe_with_breeze_stick",
+    "count": 1
+  }
+}

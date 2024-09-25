@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "id": "fariance:diamond_pickaxe_with_bamboo_stick",
+    "count": 1
+  }
+}

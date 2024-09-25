@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/shiny_copper_shovel_with_stripped_birch_stick"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:granite"
+    },
+    "S": {
+      "item": "fariance:jungle_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:granite_hoe_with_jungle_stick",
+    "count": 1
+  }
+}

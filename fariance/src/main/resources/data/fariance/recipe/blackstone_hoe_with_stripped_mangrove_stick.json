@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:blackstone"
+    },
+    "S": {
+      "item": "fariance:stripped_mangrove_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:blackstone_hoe_with_stripped_mangrove_stick",
+    "count": 1
+  }
+}

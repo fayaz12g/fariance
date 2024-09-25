@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:prismarine"
+    },
+    "S": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "id": "fariance:prismarine_axe_with_bamboo_stick",
+    "count": 1
+  }
+}

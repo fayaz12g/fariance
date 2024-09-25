@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:cobblestone"
+    },
+    "S": {
+      "item": "fariance:jungle_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:cobblestone_axe_with_jungle_stick",
+    "count": 1
+  }
+}

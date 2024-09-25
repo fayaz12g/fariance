@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "fariance:oak_ladder",
+    "fariance:spruce_ladder",
+    "fariance:birch_ladder",
+    "fariance:jungle_ladder",
+    "fariance:acacia_ladder",
+    "fariance:dark_oak_ladder",
+    "fariance:mangrove_ladder",
+    "fariance:cherry_ladder",
+    "fariance:crimson_ladder",
+    "fariance:warped_ladder",
+    "fariance:bamboo_ladder"
+  ]
+}

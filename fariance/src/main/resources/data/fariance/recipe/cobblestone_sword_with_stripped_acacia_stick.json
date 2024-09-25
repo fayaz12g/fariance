@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:cobblestone"
+    },
+    "S": {
+      "item": "fariance:stripped_acacia_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:cobblestone_sword_with_stripped_acacia_stick",
+    "count": 1
+  }
+}

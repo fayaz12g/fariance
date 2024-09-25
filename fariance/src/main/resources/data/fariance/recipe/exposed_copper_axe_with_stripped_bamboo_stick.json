@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "fariance:exposed_copper_ingot"
+    },
+    "S": {
+      "item": "fariance:stripped_bamboo_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:exposed_copper_axe_with_stripped_bamboo_stick",
+    "count": 1
+  }
+}

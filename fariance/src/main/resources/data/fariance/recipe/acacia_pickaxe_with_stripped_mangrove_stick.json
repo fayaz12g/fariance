@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:acacia_planks"
+    },
+    "S": {
+      "item": "fariance:stripped_mangrove_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:acacia_pickaxe_with_stripped_mangrove_stick",
+    "count": 1
+  }
+}

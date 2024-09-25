@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/diorite_hoe_with_oak_stick"
+  }
+}

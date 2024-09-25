@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:diorite"
+    },
+    "S": {
+      "item": "fariance:stripped_warped_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:diorite_pickaxe_with_stripped_warped_stick",
+    "count": 1
+  }
+}

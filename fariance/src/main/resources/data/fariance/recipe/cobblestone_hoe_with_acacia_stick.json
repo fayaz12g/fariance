@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:cobblestone"
+    },
+    "S": {
+      "item": "fariance:acacia_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:cobblestone_hoe_with_acacia_stick",
+    "count": 1
+  }
+}

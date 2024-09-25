@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:acacia_planks"
+    },
+    "S": {
+      "item": "fariance:stripped_warped_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:acacia_hoe_with_stripped_warped_stick",
+    "count": 1
+  }
+}

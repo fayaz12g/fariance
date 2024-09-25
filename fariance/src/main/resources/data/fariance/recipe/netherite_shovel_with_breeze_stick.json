@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "minecraft:breeze_rod"
+    }
+  },
+  "result": {
+    "id": "fariance:netherite_shovel_with_breeze_stick",
+    "count": 1
+  }
+}

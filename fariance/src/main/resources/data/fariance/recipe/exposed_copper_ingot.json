@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:exposed_copper"
+    }
+  },
+  "result": {
+    "id": "fariance:exposed_copper_ingot",
+    "count": 4
+  }
+}

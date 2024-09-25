@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "fariance:oxidized_copper_ingot"
+    },
+    "S": {
+      "item": "fariance:spruce_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:oxidized_copper_axe_with_spruce_stick",
+    "count": 1
+  }
+}

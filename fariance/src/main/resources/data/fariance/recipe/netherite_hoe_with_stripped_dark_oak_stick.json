@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "fariance:stripped_dark_oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:netherite_hoe_with_stripped_dark_oak_stick",
+    "count": 1
+  }
+}

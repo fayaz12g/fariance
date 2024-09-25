@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/granite_pickaxe_with_cherry_stick"
+  }
+}

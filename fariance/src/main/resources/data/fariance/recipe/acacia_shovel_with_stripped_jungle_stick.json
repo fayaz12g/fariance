@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:acacia_planks"
+    },
+    "S": {
+      "item": "fariance:stripped_jungle_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:acacia_shovel_with_stripped_jungle_stick",
+    "count": 1
+  }
+}

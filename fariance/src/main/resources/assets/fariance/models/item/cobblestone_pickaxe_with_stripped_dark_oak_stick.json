@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/cobblestone_pickaxe_with_stripped_dark_oak_stick"
+  }
+}

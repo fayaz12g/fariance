@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:andesite"
+    },
+    "S": {
+      "item": "fariance:stripped_birch_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:andesite_hoe_with_stripped_birch_stick",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:cobblestone"
+    },
+    "S": {
+      "item": "fariance:stripped_oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:cobblestone_pickaxe_with_stripped_oak_stick",
+    "count": 1
+  }
+}

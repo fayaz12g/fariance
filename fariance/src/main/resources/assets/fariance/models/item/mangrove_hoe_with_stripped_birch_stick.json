@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/mangrove_hoe_with_stripped_birch_stick"
+  }
+}

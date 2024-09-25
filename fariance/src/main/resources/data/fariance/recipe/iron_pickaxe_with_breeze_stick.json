@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:breeze_rod"
+    }
+  },
+  "result": {
+    "id": "fariance:iron_pickaxe_with_breeze_stick",
+    "count": 1
+  }
+}

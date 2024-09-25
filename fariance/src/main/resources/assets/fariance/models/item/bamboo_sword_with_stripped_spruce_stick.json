@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/bamboo_sword_with_stripped_spruce_stick"
+  }
+}

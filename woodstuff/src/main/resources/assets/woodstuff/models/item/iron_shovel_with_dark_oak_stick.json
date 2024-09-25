@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "woodstuff:item/iron_shovel_with_dark_oak_stick"
-  }
-}

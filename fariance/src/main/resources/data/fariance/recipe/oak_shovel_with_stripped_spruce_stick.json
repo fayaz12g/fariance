@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:oak_planks"
+    },
+    "S": {
+      "item": "fariance:stripped_spruce_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:oak_shovel_with_stripped_spruce_stick",
+    "count": 1
+  }
+}

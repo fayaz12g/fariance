@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/mangrove_sword_with_breeze_stick"
+  }
+}
