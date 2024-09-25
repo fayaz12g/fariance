@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#minecraft:needs_stone_tool",
     "fariance:cobblestone_furnace",
     "fariance:deepslate_furnace",
     "fariance:andesite_furnace",
