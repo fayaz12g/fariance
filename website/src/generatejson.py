@@ -11,7 +11,10 @@ github_block_base = "https://raw.githubusercontent.com/fayaz12g/fariance/main/fa
 # Constants
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
 COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
-MATERIAL_TYPES = WOOD_TYPES + COPPER_TYPES + ["iron", "diamond", "gold", "netherite", "amethyst", "diorite", "andesite", "granite", "blackstone", "cobblestone", "redstone", "lapis", "quartz", "deepslate", "prismarine"]
+MATERIAL_BASE = ["iron", "diamond", "gold", "netherite"]
+MATERIAL_NEW =   ["amethyst", "redstone", "lapis", "quartz"]
+STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine"]
+MATERIAL_TYPES = MATERIAL_BASE + STONE_TYPES + MATERIAL_NEW + COPPER_TYPES + WOOD_TYPES
 STICK_TYPES = ["blaze", "breeze"] + WOOD_TYPES + [f"stripped_{wood}" for wood in WOOD_TYPES]
 
 # Read the language file

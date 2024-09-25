@@ -22,10 +22,6 @@ const ToolCard = ({ name, imageSrc, material }) => {
   );
 };
 
-
-
-
-
 const FilterButton = ({ name, onClick, isActive, imagePath }) => (
   <button
     onClick={onClick}
