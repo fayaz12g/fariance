@@ -26,7 +26,7 @@ def ladder_loot_tables():
         }
 
         # Build the output file path for each ladder's loot table
-        loot_table_file_path = os.path.join(output_dir, "data", "fariance", "loot_tables", "blocks", f"{ladder_name}.json")
+        loot_table_file_path = os.path.join(output_dir, "data", "fariance", "loot_table", "blocks", f"{ladder_name}.json")
 
         # Ensure the directory exists
         os.makedirs(os.path.dirname(loot_table_file_path), exist_ok=True)
@@ -64,7 +64,7 @@ def table_loot_tables():
         }
 
         # Build the output file path for each table's loot table
-        loot_table_file_path = os.path.join(output_dir, "data", "fariance", "loot_tables", "blocks", f"{table_name}.json")
+        loot_table_file_path = os.path.join(output_dir, "data", "fariance", "loot_table", "blocks", f"{table_name}.json")
 
         # Ensure the directory exists
         os.makedirs(os.path.dirname(loot_table_file_path), exist_ok=True)
@@ -111,7 +111,7 @@ def furnace_loot_tables():
         }
 
         # Build the output file path for each furnaces's loot table
-        loot_table_file_path = os.path.join(output_dir, "data", "fariance", "loot_tables", "blocks", f"{furnace_name}.json")
+        loot_table_file_path = os.path.join(output_dir, "data", "fariance", "loot_table", "blocks", f"{furnace_name}.json")
 
         # Ensure the directory exists
         os.makedirs(os.path.dirname(loot_table_file_path), exist_ok=True)

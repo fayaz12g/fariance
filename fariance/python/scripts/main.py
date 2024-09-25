@@ -15,6 +15,7 @@ from speed import *
 from textures import *
 from trapdoor_climbable import *
 from constants import *
+from tooltags import *
 
 def main():
 
@@ -50,6 +51,9 @@ def main():
 
     # Generate animation files
     generate_mcmeta()
+
+    # Add the tools to the tags are those tool types
+    create_tool_tags()
 
     print("Mod content generation complete!")
 

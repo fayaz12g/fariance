@@ -191,7 +191,7 @@ public class ItemRegistry {
         // Create the block with properties
         Block block = new Block(BlockBehaviour.Properties.of()
                 .mapColor(MapColor.STONE)
-                .strength(3.5F)) {
+                .strength(2.5F)) {
 
             // Define block state properties
             public static final DirectionProperty FACING = DirectionProperty.create("facing");

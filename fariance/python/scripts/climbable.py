@@ -15,7 +15,7 @@ def generate_climbable_json():
     }
 
     # Build the full output path for the mineable/axe.json file
-    climbable_file_path = os.path.join(output_dir, "data", "minecraft", "tags", "blocks")
+    climbable_file_path = os.path.join(output_dir, "data", "minecraft", "tags", "block")
 
     # Ensure the directory exists
     os.makedirs(os.path.dirname(climbable_file_path), exist_ok=True)
