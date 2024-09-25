@@ -87,7 +87,7 @@ public class FarianceMod {
 
     private static void addItemsToTab(CreativeModeTab.Output output, String toolType) {
         List<RegistryObject<Item>> sortedItems = ItemRegistry.GENERATED_ITEMS.values().stream()
-                .filter(itemRegistryObject -> itemRegistryObject.getId().getPath().contains(toolType))
+                .filter(itemRegistryObject -> itemRegistryObject.getId().getPath().matches(".*_" + toolType + "_.*"))
                 .sorted((o1, o2) -> {
                     String name1 = o1.getId().getPath();
                     String name2 = o2.getId().getPath();

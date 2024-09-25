@@ -16,11 +16,11 @@ MATERIAL_TYPES = MATERIAL_TYPES + COPPER_TYPES + STONE_TYPES
 filtered_wood_types = [wood for wood in STICK_TYPES if wood not in ["bamboo", "blaze", "breeze"]]
 
 tabs = {
-        "swords": "fariance Swords",
-        "pickaxes": "fariance Pickaxes",
-        "axes": "fariance Axes",
-        "shovels": "fariance Shovels",
-        "hoes": "fariance Hoes"
+        "swords": "Fariance Swords",
+        "pickaxes": "Fariance Pickaxes",
+        "axes": "Fariance Axes",
+        "shovels": "Fariance Shovels",
+        "hoes": "Fariance Hoes"
     }
 
 # Define material properties (durability, mining level, etc.)
