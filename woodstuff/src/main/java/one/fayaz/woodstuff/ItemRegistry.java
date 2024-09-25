@@ -125,15 +125,6 @@ public class ItemRegistry {
         }
     }
 
-    private static void generateCraftingTables() {
-        for (String wood : WOOD_TYPES) {
-            String tableName = wood + "_crafting_table";
-            RegistryObject<Block> block = BLOCKS.register(tableName, () -> createCraftingTableBlock(wood));
-            GENERATED_BLOCKS.put(tableName, block);
-            GENERATED_ITEMS.put(tableName, ITEMS.register(tableName, () -> new BlockItem(block.get(), new Item.Properties())));
-        }
-    }
-
     private static void generateFurnaces() {
         for (String stone : STONE_TYPES) {
             String furnaceName = stone + "_furnace";
@@ -143,26 +134,21 @@ public class ItemRegistry {
         }
     }
 
+    private static void generateCraftingTables() {
+        for (String wood : WOOD_TYPES) {
+            String tableName = wood + "_crafting_table";
+            RegistryObject<Block> block = BLOCKS.register(tableName, () -> createCraftingTableBlock(wood));
+            GENERATED_BLOCKS.put(tableName, block);
+            GENERATED_ITEMS.put(tableName, ITEMS.register(tableName, () -> new BlockItem(block.get(), new Item.Properties())));
+        }
+    }
+
     private static Block createCraftingTableBlock(String wood) {
         return new CraftingTableBlock(BlockBehaviour.Properties.of()
                 .mapColor(MapColor.WOOD)
                 .strength(2.5F)
                 .sound(SoundType.WOOD)
                 .ignitedByLava()) {
-
-
-            public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
-                // Check if the interaction is happening on the server side
-                if (!level.isClientSide) {
-                    MenuProvider menuProvider = state.getMenuProvider(level, pos);
-                    if (menuProvider != null) {
-                        // Open the crafting table menu on the server side
-                        player.openMenu(menuProvider);
-                        return InteractionResult.CONSUME;  // Interaction was handled
-                    }
-                }
-                return InteractionResult.SUCCESS; // Return success on the client-side
-            }
 
             @Override
             public MenuProvider getMenuProvider(BlockState state, Level level, BlockPos pos) {
@@ -174,10 +160,22 @@ public class ItemRegistry {
 
                     @Override
                     public AbstractContainerMenu createMenu(int windowId, Inventory playerInventory, Player player) {
-                        // This sets up the crafting menu on both client and server
-                        return new CraftingMenu(windowId, playerInventory, ContainerLevelAccess.create(level, pos));
+                        // Use the CustomCraftingMenu instead of the vanilla one
+                        return new CustomCraftingMenu(windowId, playerInventory, ContainerLevelAccess.create(level, pos));
                     }
                 };
+            }
+
+            public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+                if (level.isClientSide) {
+                    return InteractionResult.SUCCESS; // Handle client-side interaction
+                } else {
+                    MenuProvider menuProvider = state.getMenuProvider(level, pos);
+                    if (menuProvider != null) {
+                        player.openMenu(menuProvider); // Open the menu on the server side
+                    }
+                    return InteractionResult.CONSUME; // Consume the interaction
+                }
             }
 
             @Override
@@ -186,7 +184,6 @@ public class ItemRegistry {
             }
         };
     }
-
 
 
     private static Block createFurnaceBlock(String stone) {
