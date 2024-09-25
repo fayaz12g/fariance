@@ -191,7 +191,7 @@ def generate_furnace_and_crafting_table_textures():
 
         stone_texture = Image.open(stone_texture_path).convert("RGBA")
 
-        for face in ["top", "side", "front"]:
+        for face in ["top", "side", "front", "front_on"]:
             furnace_overlay_path = os.path.join(overlay_dir, f"furnace_{face}.png")
             if not os.path.exists(furnace_overlay_path):
                 print(f"Warning: Missing furnace overlay for {face}")
@@ -229,24 +229,29 @@ def generate_furnace_and_crafting_table_textures():
 
 def overlay_texture(base_image, overlay_image):
     """
-    Overlays the overlay_image on top of the base_image while preserving transparency.
+    Overlays the overlay_image on top of the base_image, replacing white pixels in the overlay with corresponding pixels from the base_image.
     """
     base_image = base_image.convert("RGBA")
     overlay_image = overlay_image.convert("RGBA")
 
+    # Resize overlay if it doesn't match base image size
     if base_image.size != overlay_image.size:
         overlay_image = overlay_image.resize(base_image.size, Image.LANCZOS)
 
-    # Create a new image for the result
-    result = Image.new("RGBA", base_image.size)
+    # Get pixel data for both images
+    base_pixels = base_image.load()
+    overlay_pixels = overlay_image.load()
 
-    # Paste the base image first
-    result.paste(base_image, (0, 0), base_image)
+    # Loop through each pixel and replace white (or near-white) pixels with corresponding base pixels
+    for y in range(overlay_image.height):
+        for x in range(overlay_image.width):
+            r, g, b, a = overlay_pixels[x, y]
+            if (r, g, b) == (255, 255, 255) and a > 0:  # Check if the pixel is white
+                overlay_pixels[x, y] = base_pixels[x, y]  # Replace it with the base image's pixel
 
-    # Then paste the overlay on top using the overlay's alpha channel as a mask
-    result.paste(overlay_image, (0, 0), overlay_image)
+    return overlay_image
 
-    return result
+
 
 
 def generate_tool_heads_and_sticks():

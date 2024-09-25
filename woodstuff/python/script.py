@@ -706,6 +706,7 @@ def generate_textures():
         furnace_image_top = os.path.join(image_dir, "furnace", f"{stone}_furnace_top.png")
         furnace_image_side = os.path.join(image_dir, "furnace", f"{stone}_furnace_side.png")
         furnace_image_front = os.path.join(image_dir, "furnace", f"{stone}_furnace_front.png")
+        furnace_image_front_on = os.path.join(image_dir, "furnace", f"{stone}_furnace_front_on.png")
         if os.path.exists(furnace_image_top):
             output_path = os.path.join(block_output_dir, f"{wood}_furnace_top.png")
             top_img = Image.open(furnace_image_top).convert("RGBA")
@@ -724,6 +725,13 @@ def generate_textures():
             output_path = os.path.join(block_output_dir, f"{stone}_furnace_front.png")
             front_img = Image.open(furnace_image_front).convert("RGBA")
             front_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture for {stone} Furnace Front On")
+        if os.path.exists(furnace_image_front_on):
+            output_path = os.path.join(block_output_dir, f"{stone}_furnace_front_on.png")
+            front_on_img = Image.open(furnace_image_front_on).convert("RGBA")
+            front_on_img.save(output_path)
             # print(f"Generated texture: {output_path}")
         else:
             print(f"Warning: Missing texture for {stone} Furnace Front")
