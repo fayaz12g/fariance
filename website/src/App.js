@@ -9,47 +9,19 @@ const MATERIAL_TYPES = [...WOOD_TYPES, ...COPPER_TYPES, "iron", "diamond", "copp
 const STICK_TYPES = [...WOOD_TYPES.map(s => "stripped_" + s), ...WOOD_TYPES, "blaze", "breeze"];
 
 const ToolCard = ({ name, imageSrc, material }) => {
-  const [currentSegment, setCurrentSegment] = useState(0);
-
-  useEffect(() => {
-    let interval;
-    if (material === 'prismarine') {
-      interval = setInterval(() => {
-        setCurrentSegment((prevSegment) => (prevSegment + 1) % 4);
-      }, 1000); // Change segment every 1 second
-    }
-    return () => clearInterval(interval);
-  }, [material]);
-
-  const segmentHeight = 16; // Each segment is 16 pixels high
-  const segmentBackgroundPosition = `0px -${currentSegment * segmentHeight}px`;
-
   return (
     <div className="tool-card">
-      {material === 'prismarine' ? (
-        <div
-          style={{
-            width: '64px', // Display size (scale as needed)
-            height: '64px', // Display size (scale as needed)
-            overflow: 'hidden', // Ensure that any overflow is hidden
-            backgroundImage: `url(${imageSrc})`,
-            backgroundPosition: segmentBackgroundPosition,
-            backgroundSize: '16px 64px', // The entire height of the texture remains the same
-            imageRendering: 'pixelated', // Ensure pixelated rendering
-          }}
-        />
-      ) : (
         <img
           src={imageSrc}
           alt={name}
           onError={(e) => { console.error(`Failed to load image: ${imageSrc}`); e.target.src = 'placeholder.png'; }}
           style={{ width: '100%', height: 'auto', marginTop: '20px', imageRendering: 'pixelated' }}
         />
-      )}
       <h3>{name}</h3>
     </div>
   );
 };
+
 
 
 
