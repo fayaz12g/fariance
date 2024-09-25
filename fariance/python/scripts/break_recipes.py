@@ -2,27 +2,10 @@ import json
 from itertools import product
 import os
 from PIL import Image, ImageOps
+from constants import *
 
-# Define constants
-WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
-TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
-MATERIAL_BASE = ["iron", "diamond", "gold", "netherite"]
-MATERIAL_NEW =   ["amethyst", "redstone", "lapis", "quartz"]
-STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine"]
-STICK_TYPES = ["blaze", "breeze"] + WOOD_TYPES + ["stripped_" + s for s in WOOD_TYPES]
-COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
-STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine"]
-
-MATERIAL_TYPES = MATERIAL_BASE + STONE_TYPES + MATERIAL_NEW + COPPER_TYPES + WOOD_TYPES
-
-# Create a new list that excludes "bamboo"
-filtered_wood_types = [wood for wood in STICK_TYPES if wood not in ["bamboo", "blaze", "breeze"]]
-
-
-def break_recipes():
-    break_recipes = []
-
-    # Break recipes for crafting table 
+def break_sticks():
+        # Break recipes for sticks 
     recipe = {
         "type": "minecraft:crafting_shaped",
         "category": "misc",
@@ -33,15 +16,16 @@ def break_recipes():
         },
         "pattern": [
             "##",
-            "###"
+            "##"
         ],
         "result": {
             "count": 1,
-            "id": "minecraft:crafting_table"
+            "id": "minecraft:stick"
         }
     }
-    break_recipes.append(("crafting_table", json.dumps(recipe, indent=2)))
+    break_recipes.append(("stick", json.dumps(recipe, indent=2)))
 
+def break_furnaces():
     # Break recipes for furnace 
     recipe = {
         "type": "minecraft:crafting_shaped",
@@ -62,7 +46,8 @@ def break_recipes():
     }
     break_recipes.append(("furnace", json.dumps(recipe, indent=2)))
 
-    # Break recipes for sticks 
+def break_crafting_table():
+    # Break recipe for crafting table 
     recipe = {
         "type": "minecraft:crafting_shaped",
         "category": "misc",
@@ -73,14 +58,33 @@ def break_recipes():
         },
         "pattern": [
             "##",
-            "##"
+            "###"
         ],
         "result": {
             "count": 1,
-            "id": "minecraft:stick"
+            "id": "minecraft:crafting_table"
         }
     }
-    break_recipes.append(("stick", json.dumps(recipe, indent=2)))
+    break_recipes.append(("crafting_table", json.dumps(recipe, indent=2)))
+
+def break_vanilla_recipes(output_dir):
+    # Define the path for breaking recipe files
+    break_recipe_file_path = os.path.join(output_dir, "data/minecraft/recipe")
+    break_recipe_dir = os.path.dirname(break_recipe_file_path)
+    os.makedirs(break_recipe_dir, exist_ok=True) # Create the directory if it doesn't exist
+
+    # Do all the breaking
+    break_crafting_table()
+    break_furnaces()
+    break_sticks()
+
+    # Write them to files
+    for item_name, break_recipe in break_recipes():
+        # Define the full path for the recipe file
+        break_recipe_file = os.path.join(break_recipe_file_path, f"{item_name}.json")
+        # Ensure the directory exists for the current file
+        os.makedirs(os.path.dirname(break_recipe_file), exist_ok=True)
+        with open(break_recipe_file, "w") as f:
+            f.write(break_recipe)
 
     print(f"Recipe breaking done!")
-    return break_recipes

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:stripped_spruce_log"
+    }
+  },
+  "result": {
+    "id": "fariance:stripped_spruce_stick",
+    "count": 16
+  }
+}
