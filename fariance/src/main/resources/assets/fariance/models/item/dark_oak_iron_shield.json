@@ -2,7 +2,8 @@
   "parent": "builtin/entity",
   "gui_light": "front",
   "textures": {
-    "particle": "block/dark_oak_planks"
+    "particle": "block/dark_oak_planks",
+    "layer0": "fariance:textures/entity/dark_oak_iron_shield_base_nopattern"
   },
   "display": {
     "thirdperson_righthand": {

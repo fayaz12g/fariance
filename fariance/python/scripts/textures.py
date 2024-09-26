@@ -29,13 +29,21 @@ def combine_head_and_stick(head_img, stick_img, tool, stick):
 
 def generate_textures():
     print("Starting texture generation...")
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    image_dir = os.path.join(script_dir, "../image")
-    item_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "item")
-    block_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "block")
     os.makedirs(item_output_dir, exist_ok=True)
     os.makedirs(block_output_dir, exist_ok=True)
+    os.makedirs(entity_output_dir, exist_ok=True)
 
+    ingot_textures()
+    tool_textures()
+    stick_textures()
+    crafting_table_textures()
+    furnace_textures()
+    ladder_textures()
+    shield_textures()
+
+    print(f"Texture generation done!")
+
+def tool_textures():
     # Loop through each combination of material, tool, and stick
     for material, tool, stick in product(MATERIAL_TYPES, TOOL_TYPES, STICK_TYPES):
         if stick in ["blaze", "breeze", "bamboo"]:
@@ -96,6 +104,8 @@ def generate_textures():
             else:
                 print(f"Warning: Missing texture for {material}_{tool}_with_{stick}_stick")
 
+
+def stick_textures():
     # Generate textures for sticks
     for stick in STICK_TYPES:
         if stick not in ["blaze", "bamboo", "breeze"]:
@@ -108,33 +118,31 @@ def generate_textures():
             else:
                 print(f"Warning: Missing texture for {stick}_stick")
 
-    # Generate textures for crafting tables
-    for wood in WOOD_TYPES:
-        table_image_top = os.path.join(image_dir, "table", f"{wood}_crafting_table_top.png")
-        table_image_side = os.path.join(image_dir, "table", f"{wood}_crafting_table_side.png")
-        table_image_front = os.path.join(image_dir, "table", f"{wood}_crafting_table_front.png")
-        if os.path.exists(table_image_top):
-            output_path = os.path.join(block_output_dir, f"{wood}_crafting_table_top.png")
-            top_img = Image.open(table_image_top).convert("RGBA")
-            top_img.save(output_path)
+def ladder_textures():
+    # Generate textures for ladders
+    for wood in WOOD_TYPES + ["blaze", "breeze"]:
+        ladder_image_path = os.path.join(image_dir, "ladder", f"{wood}_ladder.png")
+        if os.path.exists(ladder_image_path):
+            output_path = os.path.join(block_output_dir, f"{wood}_ladder.png")
+            ladder_img = Image.open(ladder_image_path).convert("RGBA")
+            ladder_img.save(output_path)
             # print(f"Generated texture: {output_path}")
         else:
-            print(f"Warning: Missing texture for {wood} Crafting Table Top")
-        if os.path.exists(table_image_side):
-            output_path = os.path.join(block_output_dir, f"{wood}_crafting_table_side.png")
-            side_img = Image.open(table_image_side).convert("RGBA")
-            side_img.save(output_path)
-            # print(f"Generated texture: {output_path}")
-        else:
-            print(f"Warning: Missing texture for {wood} Crafting Table Side")
-        if os.path.exists(table_image_front):
-            output_path = os.path.join(block_output_dir, f"{wood}_crafting_table_front.png")
-            front_img = Image.open(table_image_front).convert("RGBA")
-            front_img.save(output_path)
-            # print(f"Generated texture: {output_path}")
-        else:
-            print(f"Warning: Missing texture for {wood} Crafting Table Front")
+            print(f"Warning: Missing texture for {wood}_ladder")
 
+def ingot_textures():
+    # Generate copper ingot textures
+    for ingot in COPPER_TYPES:
+            ingot_image_path = os.path.join(image_dir, "copper", "ingots", f"{ingot}_ingot.png")
+            if os.path.exists(ingot_image_path):
+                output_path = os.path.join(item_output_dir, f"{ingot}_ingot.png")
+                ingot_img = Image.open(ingot_image_path).convert("RGBA")
+                ingot_img.save(output_path)
+                # print(f"Generated texture: {output_path}")
+            else:
+                print(f"Warning: Missing texture for {ingot}_ingot")
+
+def furnace_textures():
     # Generate textures for furnaces
     for stone in STONE_TYPES:
         furnace_image_top = os.path.join(image_dir, "furnace", f"{stone}_furnace_top.png")
@@ -170,26 +178,55 @@ def generate_textures():
         else:
             print(f"Warning: Missing texture for {stone} Furnace Front")
 
-
-    # Generate textures for ladders
-    for wood in WOOD_TYPES + ["blaze", "breeze"]:
-        ladder_image_path = os.path.join(image_dir, "ladder", f"{wood}_ladder.png")
-        if os.path.exists(ladder_image_path):
-            output_path = os.path.join(block_output_dir, f"{wood}_ladder.png")
-            ladder_img = Image.open(ladder_image_path).convert("RGBA")
-            ladder_img.save(output_path)
+def crafting_table_textures():
+    # Generate textures for crafting tables
+    for wood in WOOD_TYPES:
+        table_image_top = os.path.join(image_dir, "table", f"{wood}_crafting_table_top.png")
+        table_image_side = os.path.join(image_dir, "table", f"{wood}_crafting_table_side.png")
+        table_image_front = os.path.join(image_dir, "table", f"{wood}_crafting_table_front.png")
+        if os.path.exists(table_image_top):
+            output_path = os.path.join(block_output_dir, f"{wood}_crafting_table_top.png")
+            top_img = Image.open(table_image_top).convert("RGBA")
+            top_img.save(output_path)
             # print(f"Generated texture: {output_path}")
         else:
-            print(f"Warning: Missing texture for {wood}_ladder")
+            print(f"Warning: Missing texture for {wood} Crafting Table Top")
+        if os.path.exists(table_image_side):
+            output_path = os.path.join(block_output_dir, f"{wood}_crafting_table_side.png")
+            side_img = Image.open(table_image_side).convert("RGBA")
+            side_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture for {wood} Crafting Table Side")
+        if os.path.exists(table_image_front):
+            output_path = os.path.join(block_output_dir, f"{wood}_crafting_table_front.png")
+            front_img = Image.open(table_image_front).convert("RGBA")
+            front_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture for {wood} Crafting Table Front")
 
-    for ingot in COPPER_TYPES:
-            ingot_image_path = os.path.join(image_dir, "copper", "ingots", f"{ingot}_ingot.png")
-            if os.path.exists(ingot_image_path):
-                output_path = os.path.join(item_output_dir, f"{ingot}_ingot.png")
-                ingot_img = Image.open(ingot_image_path).convert("RGBA")
-                ingot_img.save(output_path)
+def shield_textures():
+    # Generate textures for ladders
+    for wood in WOOD_TYPES:
+        for material in MATERIAL_BASE:
+            shield_image_path = os.path.join(image_dir, "shield", f"{wood}_{material}_shield_base.png")
+            shield_nopattern_image_path = os.path.join(image_dir, "shield", f"{wood}_{material}_shield_base_nopattern.png")
+
+            # Generate shield image
+            if os.path.exists(shield_image_path):
+                output_path = os.path.join(entity_output_dir, f"{wood}_{material}_shield_base.png")
+                shield_img = Image.open(shield_image_path).convert("RGBA")
+                shield_img.save(output_path)
                 # print(f"Generated texture: {output_path}")
             else:
-                print(f"Warning: Missing texture for {ingot}_ingot")
-   
-    print(f"Texture generation done!")
+                print(f"Warning: Missing texture for {wood}_{material}_shield_base")
+            
+            # Generate shield no pattern image
+            if os.path.exists(shield_nopattern_image_path):
+                nopattern_output_path = os.path.join(entity_output_dir, f"{wood}_{material}_shield_base_nopattern.png")
+                shield_nopat_img = Image.open(shield_nopattern_image_path).convert("RGBA")
+                shield_nopat_img.save(nopattern_output_path)
+                # print(f"Generated texture: {nopattern_output_path}")
+            else:
+                print(f"Warning: Missing texture for {wood}_{material}_shield_base_nopattern")

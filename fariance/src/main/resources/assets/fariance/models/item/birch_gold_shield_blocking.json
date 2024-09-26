@@ -2,7 +2,8 @@
   "parent": "builtin/entity",
   "gui_light": "front",
   "textures": {
-    "particle": "block/birch_planks"
+    "particle": "block/birch_planks",
+    "layer0": "fariance:textures/entity/birch_gold_shield_base_nopattern"
   },
   "display": {
     "thirdperson_righthand": {

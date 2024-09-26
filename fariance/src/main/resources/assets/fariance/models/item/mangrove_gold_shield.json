@@ -2,7 +2,8 @@
   "parent": "builtin/entity",
   "gui_light": "front",
   "textures": {
-    "particle": "block/mangrove_planks"
+    "particle": "block/mangrove_planks",
+    "layer0": "fariance:textures/entity/mangrove_gold_shield_base_nopattern"
   },
   "display": {
     "thirdperson_righthand": {

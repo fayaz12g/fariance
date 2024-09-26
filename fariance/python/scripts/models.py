@@ -153,7 +153,8 @@ def shield_models():
                 "parent": "builtin/entity",
                 "gui_light": "front",
                 "textures": {
-                    "particle": f"block/{wood}_planks"
+                    "particle": f"block/{wood}_planks",
+                    "layer0": f"fariance:textures/entity/{wood}_{material}_shield_base_nopattern"
                 },
                 "display": {
                     "thirdperson_righthand": {
@@ -217,7 +218,8 @@ def shield_models():
                 "parent": "builtin/entity",
                 "gui_light": "front",
                 "textures": {
-                    "particle": f"block/{wood}_planks"
+                    "particle": f"block/{wood}_planks",
+                    "layer0": f"fariance:textures/entity/{wood}_{material}_shield_base_nopattern"
                 },
                 "display": {
                     "thirdperson_righthand": {

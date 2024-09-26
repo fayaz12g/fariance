@@ -2,7 +2,8 @@
   "parent": "builtin/entity",
   "gui_light": "front",
   "textures": {
-    "particle": "block/acacia_planks"
+    "particle": "block/acacia_planks",
+    "layer0": "fariance:textures/entity/acacia_gold_shield_base_nopattern"
   },
   "display": {
     "thirdperson_righthand": {

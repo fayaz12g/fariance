@@ -2,7 +2,8 @@
   "parent": "builtin/entity",
   "gui_light": "front",
   "textures": {
-    "particle": "block/crimson_planks"
+    "particle": "block/crimson_planks",
+    "layer0": "fariance:textures/entity/crimson_netherite_shield_base_nopattern"
   },
   "display": {
     "thirdperson_righthand": {

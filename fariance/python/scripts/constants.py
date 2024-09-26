@@ -4,6 +4,11 @@ script_dir = os.path.dirname(os.path.abspath(__file__))  # Get the script's dire
 output_dir = os.path.join(script_dir, "../../src/main/resources")  # Join with the relative output path
 os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exist
 
+image_dir = os.path.join(script_dir, "../image")
+item_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "item")
+block_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "block")
+entity_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "entity")
+
 # Define constants
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]

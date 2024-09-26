@@ -206,6 +206,29 @@ def fence_recipes():
         }
         recipes.append((f"{wood}_fence", json.dumps(recipe, indent=2)))
 
+def shield_recipes():
+    for wood in WOOD_TYPES:
+        for material in MATERIAL_BASE:
+            # Make recipes for fence gates
+            recipe = {
+                "type": "minecraft:crafting_shaped",
+                "category": "equipment",
+                "key": {
+                    "W": f"minecraft:{wood}_planks",
+                    "o": {"item": material_mappings[material]},
+                },
+                "pattern": [
+                    "WoW",
+                    "WWW",
+                    " W "
+                ],
+                "result": {
+                    "count": 1,
+                    "id": f"fariance:{wood}_{material}_shield"
+                }
+            }
+            recipes.append((f"{wood}_{material}_shield", json.dumps(recipe, indent=2)))
+
 def fence_gate_recipes():
     for wood in WOOD_TYPES:
         # Make recipes for fence gates
@@ -244,6 +267,7 @@ def generate_recipes():
     copper_ingot_recipes()
     fence_recipes()
     fence_gate_recipes()
+    shield_recipes()
 
     # Generate recipes and write them to files
     for item_name, recipe in recipes:
