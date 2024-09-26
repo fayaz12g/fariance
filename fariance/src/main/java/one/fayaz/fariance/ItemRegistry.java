@@ -15,6 +15,8 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.entity.BedBlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -134,7 +136,8 @@ public class ItemRegistry {
     }
 
     private static Block createBedBlock(String wood, String wool) {
-        return new BedBlock(getDyeColor(wool), BlockBehaviour.Properties.of()
+        DyeColor color = DyeColor.valueOf(wool.toUpperCase());
+        return new CustomBedBlock(color, BlockBehaviour.Properties.of()
                 .mapColor(MapColor.WOOD)
                 .sound(SoundType.WOOD)
                 .strength(0.2F)

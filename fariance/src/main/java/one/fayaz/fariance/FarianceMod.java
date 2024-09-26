@@ -82,6 +82,10 @@ public class FarianceMod {
 
         // Register the Deferred Register to the mod event bus
         ItemRegistry.register(modEventBus);
+
+        // Then register block entities
+        CustomBedBlock.registerBlockEntities();
+
         CREATIVE_MODE_TABS.register(modEventBus);
 
         // Register ourselves for server and other game events
