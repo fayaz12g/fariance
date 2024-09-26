@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "W": "minecraft:warped_planks",
+    "W": {
+      "item": "minecraft:warped_planks"
+    },
     "o": {
       "item": "minecraft:iron_ingot"
     }

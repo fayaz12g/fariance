@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "W": "minecraft:crimson_planks",
+    "W": {
+      "item": "minecraft:crimson_planks"
+    },
     "o": {
       "item": "minecraft:netherite_ingot"
     }

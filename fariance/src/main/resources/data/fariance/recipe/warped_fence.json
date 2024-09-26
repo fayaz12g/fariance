@@ -3,8 +3,12 @@
   "category": "misc",
   "group": "wooden_fence",
   "key": {
-    "#": "fariance:warped_stick",
-    "W": "minecraft:warped_planks"
+    "#": {
+      "item": "fariance:warped_stick"
+    },
+    "W": {
+      "item": "minecraft:warped_planks"
+    }
   },
   "pattern": [
     "W#W",

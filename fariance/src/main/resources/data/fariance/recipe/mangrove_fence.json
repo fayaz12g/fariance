@@ -3,8 +3,12 @@
   "category": "misc",
   "group": "wooden_fence",
   "key": {
-    "#": "fariance:mangrove_stick",
-    "W": "minecraft:mangrove_planks"
+    "#": {
+      "item": "fariance:mangrove_stick"
+    },
+    "W": {
+      "item": "minecraft:mangrove_planks"
+    }
   },
   "pattern": [
     "W#W",

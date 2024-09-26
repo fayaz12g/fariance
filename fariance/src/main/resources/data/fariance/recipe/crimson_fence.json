@@ -3,8 +3,12 @@
   "category": "misc",
   "group": "wooden_fence",
   "key": {
-    "#": "fariance:crimson_stick",
-    "W": "minecraft:crimson_planks"
+    "#": {
+      "item": "fariance:crimson_stick"
+    },
+    "W": {
+      "item": "minecraft:crimson_planks"
+    }
   },
   "pattern": [
     "W#W",

@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "W": "minecraft:dark_oak_planks",
+    "W": {
+      "item": "minecraft:dark_oak_planks"
+    },
     "o": {
       "item": "minecraft:netherite_ingot"
     }

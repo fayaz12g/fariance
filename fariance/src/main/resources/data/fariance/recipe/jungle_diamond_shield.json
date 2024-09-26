@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "W": "minecraft:jungle_planks",
+    "W": {
+      "item": "minecraft:jungle_planks"
+    },
     "o": {
       "item": "minecraft:diamond"
     }

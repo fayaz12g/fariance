@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "W": "minecraft:acacia_planks",
+    "W": {
+      "item": "minecraft:acacia_planks"
+    },
     "o": {
       "item": "minecraft:gold_ingot"
     }

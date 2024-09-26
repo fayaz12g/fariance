@@ -3,8 +3,12 @@
   "category": "misc",
   "group": "wooden_fence",
   "key": {
-    "#": "fariance:jungle_stick",
-    "W": "minecraft:jungle_planks"
+    "#": {
+      "item": "fariance:jungle_stick"
+    },
+    "W": {
+      "item": "minecraft:jungle_planks"
+    }
   },
   "pattern": [
     "W#W",

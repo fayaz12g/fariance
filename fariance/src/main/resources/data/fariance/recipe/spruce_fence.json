@@ -3,8 +3,12 @@
   "category": "misc",
   "group": "wooden_fence",
   "key": {
-    "#": "fariance:spruce_stick",
-    "W": "minecraft:spruce_planks"
+    "#": {
+      "item": "fariance:spruce_stick"
+    },
+    "W": {
+      "item": "minecraft:spruce_planks"
+    }
   },
   "pattern": [
     "W#W",

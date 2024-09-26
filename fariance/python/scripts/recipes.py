@@ -192,8 +192,8 @@ def fence_recipes():
             "category": "misc",
             "group": "wooden_fence",
             "key": {
-                "#": f"fariance:{wood}_stick",
-                "W": f"minecraft:{wood}_planks"
+                "#": {"item": f"fariance:{wood}_stick"},
+                "W": {"item": f"minecraft:{wood}_planks"}
             },
             "pattern": [
                 "W#W",
@@ -214,8 +214,8 @@ def shield_recipes():
                 "type": "minecraft:crafting_shaped",
                 "category": "equipment",
                 "key": {
-                    "W": f"minecraft:{wood}_planks",
-                    "o": {"item": material_mappings[material]},
+                    "W": {"item": f"minecraft:{wood}_planks"},
+                    "o": {"item": material_mappings[material]}
                 },
                 "pattern": [
                     "WoW",
@@ -237,8 +237,8 @@ def fence_gate_recipes():
             "category": "redstone",
             "group": "wooden_fence_gate",
             "key": {
-                "#": f"fariance:{wood}_stick",
-                "W": f"minecraft:{wood}_planks"
+                "#": {"item": f"fariance:{wood}_stick"},
+                "W": {"item": f"minecraft:{wood}_planks"}
             },
             "pattern": [
                 "#W#",

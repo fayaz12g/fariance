@@ -178,6 +178,29 @@ def break_signs():
         }
         break_recipes.append((f"{wood}_sign", json.dumps(recipe, indent=2)))
 
+def break_shield():
+    for wood in WOOD_TYPES:
+        # Break recipe for fence gates
+        recipe = {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "group": "wooden_sign",
+            "key": {
+                "#": f"minecraft:planks",
+                "X": f"fariance:{wood}_stick"
+            },
+            "pattern": [
+                "###",
+                "###",
+                " X "
+            ],
+            "result": {
+                "count": 3,
+                "id": f"minecraft:{wood}_sign"
+            }
+        }
+        break_recipes.append((f"shield", json.dumps(recipe, indent=2)))
+
 def break_vanilla_recipes():
     # Define the path for breaking recipe files
     break_recipe_file_path = os.path.join(output_dir, "data/minecraft/recipe")
@@ -193,6 +216,7 @@ def break_vanilla_recipes():
     break_fence_gates()
     break_tools()
     break_signs()
+    break_shield()
 
     # Write them to files
     for item_name, break_recipe in break_recipes:

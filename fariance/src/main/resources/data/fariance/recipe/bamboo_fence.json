@@ -3,8 +3,12 @@
   "category": "misc",
   "group": "wooden_fence",
   "key": {
-    "#": "fariance:bamboo_stick",
-    "W": "minecraft:bamboo_planks"
+    "#": {
+      "item": "fariance:bamboo_stick"
+    },
+    "W": {
+      "item": "minecraft:bamboo_planks"
+    }
   },
   "pattern": [
     "W#W",
