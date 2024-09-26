@@ -190,25 +190,13 @@ public class ItemRegistry {
 
     // LADDERS
     private static void generateLadders() {
-        for (String wood : WOOD_TYPES) {
+        for (String wood : STICK_TYPES) {
             String ladderName = wood + "_ladder";
             RegistryObject<Block> block = BLOCKS.register(ladderName, () -> createLadderBlock(wood));
             GENERATED_BLOCKS.put(ladderName, block);
             GENERATED_ITEMS.put(ladderName, ITEMS.register(ladderName, () -> new BlockItem(block.get(), new Item.Properties())));
         }
-        // Special ladders
-        generateSpecialLadder("blaze");
-        generateSpecialLadder("breeze");
     }
-
-    private static void generateSpecialLadder(String material) {
-        String ladderName = material + "_ladder";
-        RegistryObject<Block> block = BLOCKS.register(ladderName, () -> createLadderBlock(material));
-        GENERATED_BLOCKS.put(ladderName, block);
-        GENERATED_ITEMS.put(ladderName, ITEMS.register(ladderName, () -> new BlockItem(block.get(), new Item.Properties())));
-    }
-
-
 
     private static Block createLadderBlock(String material) {
         return new LadderBlock(BlockBehaviour.Properties.of()
