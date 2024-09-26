@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "fariance:blaze_ladder",
+    "fariance:breeze_ladder",
     "fariance:oak_ladder",
     "fariance:spruce_ladder",
     "fariance:birch_ladder",
@@ -11,6 +13,17 @@
     "fariance:cherry_ladder",
     "fariance:crimson_ladder",
     "fariance:warped_ladder",
-    "fariance:bamboo_ladder"
+    "fariance:bamboo_ladder",
+    "fariance:stripped_oak_ladder",
+    "fariance:stripped_spruce_ladder",
+    "fariance:stripped_birch_ladder",
+    "fariance:stripped_jungle_ladder",
+    "fariance:stripped_acacia_ladder",
+    "fariance:stripped_dark_oak_ladder",
+    "fariance:stripped_mangrove_ladder",
+    "fariance:stripped_cherry_ladder",
+    "fariance:stripped_crimson_ladder",
+    "fariance:stripped_warped_ladder",
+    "fariance:stripped_bamboo_ladder"
   ]
 }

@@ -8,11 +8,11 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:bamboo"
+      "item": "fariance:stripped_acacia_stick"
     }
   },
   "result": {
-    "id": "fariance:bamboo_ladder",
+    "id": "fariance:stripped_acacia_ladder",
     "count": 3
   }
 }

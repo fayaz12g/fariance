@@ -8,11 +8,11 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:bamboo"
+      "item": "minecraft:breeze_rod"
     }
   },
   "result": {
-    "id": "fariance:bamboo_ladder",
+    "id": "fariance:breeze_ladder",
     "count": 3
   }
 }

@@ -8,11 +8,11 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:bamboo"
+      "item": "fariance:stripped_crimson_stick"
     }
   },
   "result": {
-    "id": "fariance:bamboo_ladder",
+    "id": "fariance:stripped_crimson_ladder",
     "count": 3
   }
 }
