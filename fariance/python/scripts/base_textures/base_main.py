@@ -4,6 +4,7 @@ from crafting_tables import *
 from heads import *
 from sticks import *
 from shields import *
+from ladders import *
 
 def main():
     # Generate the tool heads
@@ -21,6 +22,8 @@ def main():
     # Generate the shield textures
     generate_shields()
 
+    # Generate the ladder textures
+    generate_ladders()
 
 if __name__ == "__main__":
     main()

@@ -120,7 +120,7 @@ def stick_textures():
 
 def ladder_textures():
     # Generate textures for ladders
-    for wood in WOOD_TYPES + ["blaze", "breeze"]:
+    for wood in STICK_TYPES:
         ladder_image_path = os.path.join(image_dir, "ladder", f"{wood}_ladder.png")
         if os.path.exists(ladder_image_path):
             output_path = os.path.join(block_output_dir, f"{wood}_ladder.png")
