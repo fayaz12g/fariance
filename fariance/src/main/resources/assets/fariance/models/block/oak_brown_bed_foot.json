@@ -1,6 +1,7 @@
 {
   "parent": "fariance:block/template_bed_foot",
   "textures": {
-    "bed": "fariance:block/oak_brown"
+    "bed": "fariance:entity/bed/oak_brown",
+    "particle": "minecraft:block/oak_planks"
   }
 }

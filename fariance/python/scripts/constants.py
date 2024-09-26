@@ -7,7 +7,9 @@ os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exi
 image_dir = os.path.join(script_dir, "../image")
 item_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "item")
 block_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "block")
+atlases_output_dir = os.path.join(output_dir, "assets", "fariance", "atlases")
 entity_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "entity")
+
 
 # Define constants
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
@@ -71,6 +73,7 @@ tabs = {
         "axes": "Fariance Axes",
         "shovels": "Fariance Shovels",
         "hoes": "Fariance Hoes",
+        "beds": "Fariance Beds",
         "misc": "Fariance Miscellaneous"
     }
 

@@ -66,6 +66,13 @@ public class FarianceMod {
             .displayItems((parameters, output) -> addItemsToTab(output, "hoe"))
             .build());
 
+    public static final RegistryObject<CreativeModeTab> BEDS_TAB = CREATIVE_MODE_TABS.register("beds_tab", () -> CreativeModeTab.builder()
+            .withTabsAfter(CreativeModeTabs.SEARCH)
+            .icon(() -> ItemRegistry.GENERATED_ITEMS.get("oak_red_bed").get().getDefaultInstance())
+            .title(Component.translatable("itemGroup.fariance.beds"))
+            .displayItems((parameters, output) -> addItemsToTab(output, "bed"))
+            .build());
+
     // New Misc tab for all other items
     public static final RegistryObject<CreativeModeTab> MISC_TAB = CREATIVE_MODE_TABS.register("misc_tab", () -> CreativeModeTab.builder()
             .withTabsAfter(CreativeModeTabs.SEARCH)
@@ -116,7 +123,7 @@ public class FarianceMod {
         List<RegistryObject<Item>> sortedItems = ItemRegistry.GENERATED_ITEMS.values().stream()
                 .filter(itemRegistryObject -> {
                     String itemPath = itemRegistryObject.getId().getPath();
-                    return !itemPath.matches(".*_(sword|pickaxe|axe|shovel|hoe)_.*");
+                    return !itemPath.matches(".*_(sword|pickaxe|axe|shovel|hoe|bed)_.*");
                 })
                 .sorted((o1, o2) -> {
                     String name1 = o1.getId().getPath();

@@ -1,6 +1,7 @@
 {
   "parent": "fariance:block/template_bed_head",
   "textures": {
-    "bed": "fariance:block/warped_lime"
+    "bed": "fariance:entity/bed/warped_lime",
+    "particle": "minecraft:block/warped_planks"
   }
 }

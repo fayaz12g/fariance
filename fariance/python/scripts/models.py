@@ -321,14 +321,14 @@ def bed_models():
             # Blocking shield models
             bed_block_name_head = f"{wood}_{color}_bed_head"
             
-            # Block model data for the shield
+            # Block model data for the bed head
             block_head_model_data = {
                 "parent": "fariance:block/template_bed_head",
                 "textures": {
-                    "bed": f"fariance:block/{wood}_{color}"
+                    "bed": f"fariance:entity/bed/{wood}_{color}",
+                    "particle": f"minecraft:block/{wood}_planks"
                 }
             }
-
 
             # Define the block model output path
             head_model_file_path = os.path.join(block_model_dir, f"{bed_block_name_head}.json")
@@ -340,11 +340,12 @@ def bed_models():
             # Blocking shield models
             bed_block_name_foot = f"{wood}_{color}_bed_foot"
             
-            # Block model data for the shield
+            # Block model data for the bed foot
             block_foot_model_data = {
                 "parent": "fariance:block/template_bed_foot",
                 "textures": {
-                    "bed": f"fariance:block/{wood}_{color}"
+                    "bed": f"fariance:entity/bed/{wood}_{color}",
+                    "particle": f"minecraft:block/{wood}_planks"
                 }
             }
 
@@ -363,7 +364,6 @@ def bed_template_models():
     block_head_template_data = {
         "texture_size": [64, 64],
         "textures": {
-            "particle": "block/oak_planks"
         },
         "elements": [
             {
@@ -419,7 +419,6 @@ def bed_template_models():
     block_foot_template_data = {
         "texture_size": [64, 64],
         "textures": {
-            "particle": "block/oak_planks"
         },
         "elements": [
             {
@@ -522,6 +521,22 @@ def furnace_models():
         with open(block_model_file_path, 'w') as f:
             json.dump(block_model_data, f, indent=2)
 
+
+def atlases_blocks():
+    file_name = f"blocks"
+    model_data = {
+        "sources": [
+            {
+                "type": "directory",
+                "source": "entity/bed",
+                "prefix": "entity/bed/"
+            }
+        ]
+    }
+    model_file_path = os.path.join(atlases_output_dir, f"{file_name}.json")
+    with open(model_file_path, 'w') as f:
+        json.dump(model_data, f, indent=2)
+
 def generate_models():
     os.makedirs(item_model_dir, exist_ok=True)
     os.makedirs(block_model_dir, exist_ok=True)
@@ -535,6 +550,7 @@ def generate_models():
     shield_models()
     bed_models()
     bed_template_models()
+    atlases_blocks()
 
 
 

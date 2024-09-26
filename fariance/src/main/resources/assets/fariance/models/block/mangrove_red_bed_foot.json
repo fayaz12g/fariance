@@ -1,6 +1,7 @@
 {
   "parent": "fariance:block/template_bed_foot",
   "textures": {
-    "bed": "fariance:block/mangrove_red"
+    "bed": "fariance:entity/bed/mangrove_red",
+    "particle": "minecraft:block/mangrove_planks"
   }
 }

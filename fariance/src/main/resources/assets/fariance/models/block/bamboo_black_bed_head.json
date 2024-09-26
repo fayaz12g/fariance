@@ -1,6 +1,7 @@
 {
   "parent": "fariance:block/template_bed_head",
   "textures": {
-    "bed": "fariance:block/bamboo_black"
+    "bed": "fariance:entity/bed/bamboo_black",
+    "particle": "minecraft:block/bamboo_planks"
   }
 }

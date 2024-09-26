@@ -158,9 +158,13 @@ def bed_textures():
                 print(f"Warning: Missing texture for {wood}_{color}_bed")
             
             # Bed Block (entity)
+            bed_block_dir = os.path.join(entity_output_dir, "bed")
+            os.makedirs(bed_block_dir, exist_ok=True)  # Create the directory if it doesn't exist
+
             bed_block_path = os.path.join(image_dir, "bed", "block", f"{wood}_{color}.png")
+            
             if os.path.exists(bed_block_path):
-                output_path = os.path.join(block_output_dir, f"{wood}_{color}.png")
+                output_path = os.path.join(bed_block_dir, f"{wood}_{color}.png")
                 bed_block_img = Image.open(bed_block_path).convert("RGBA")
                 bed_block_img.save(output_path)
                 # print(f"Generated texture: {output_path}")

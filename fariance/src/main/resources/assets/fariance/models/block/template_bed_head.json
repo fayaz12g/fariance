@@ -3,9 +3,7 @@
     64,
     64
   ],
-  "textures": {
-    "particle": "block/oak_planks"
-  },
+  "textures": {},
   "elements": [
     {
       "from": [
