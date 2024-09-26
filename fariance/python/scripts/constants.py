@@ -16,7 +16,7 @@ MATERIAL_BASE = ["iron", "diamond", "gold", "netherite"]
 MATERIAL_NEW =   ["amethyst", "redstone", "lapis", "quartz"]
 STICK_TYPES = ["blaze", "breeze"] + WOOD_TYPES + ["stripped_" + s for s in WOOD_TYPES]
 COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
-STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine", "sandstone", "red_sandstone"]
+STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine", "sandstone", "red_sandstone", "end_stone", "tuff"]
 
 MATERIAL_TYPES = MATERIAL_BASE + STONE_TYPES + MATERIAL_NEW + COPPER_TYPES + WOOD_TYPES
 
@@ -128,6 +128,8 @@ material_mappings = {
     "deepslate": "minecraft:cobbled_deepslate",
     "prismarine": "minecraft:prismarine",
     "sandstone": "minecraft:sandstone",
+    "end_stone": "minecraft:end_stone",
+    "tuff": "minecraft:tuff",
     "red_sandstone": "minecraft:red_sandstone"
 }
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:tuff"
+    },
+    "S": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "id": "fariance:tuff_hoe_with_bamboo_stick",
+    "count": 1
+  }
+}

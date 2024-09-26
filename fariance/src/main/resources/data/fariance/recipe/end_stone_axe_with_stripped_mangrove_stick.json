@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:end_stone"
+    },
+    "S": {
+      "item": "fariance:stripped_mangrove_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:end_stone_axe_with_stripped_mangrove_stick",
+    "count": 1
+  }
+}

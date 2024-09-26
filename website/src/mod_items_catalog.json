@@ -12481,6 +12481,1926 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_stripped_bamboo_stick.png"
     },
     {
+      "name": "Flaming End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_blaze_stick",
+      "stick": "blaze",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_blaze_stick.png"
+    },
+    {
+      "name": "Light End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_breeze_stick",
+      "stick": "breeze",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_oak_stick",
+      "stick": "oak",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_spruce_stick",
+      "stick": "spruce",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_birch_stick",
+      "stick": "birch",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_jungle_stick",
+      "stick": "jungle",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_acacia_stick",
+      "stick": "acacia",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_cherry_stick",
+      "stick": "cherry",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_crimson_stick",
+      "stick": "crimson",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_warped_stick",
+      "stick": "warped",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo End Stone Sword",
+      "id": "item.fariance.end_stone_sword_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "end_stone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_sword_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_oak_stick",
+      "stick": "oak",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_birch_stick",
+      "stick": "birch",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_warped_stick",
+      "stick": "warped",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo End Stone Pickaxe",
+      "id": "item.fariance.end_stone_pickaxe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "end_stone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_pickaxe_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_blaze_stick",
+      "stick": "blaze",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_blaze_stick.png"
+    },
+    {
+      "name": "Light End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_breeze_stick",
+      "stick": "breeze",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_oak_stick",
+      "stick": "oak",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_spruce_stick",
+      "stick": "spruce",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_birch_stick",
+      "stick": "birch",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_jungle_stick",
+      "stick": "jungle",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_acacia_stick",
+      "stick": "acacia",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_cherry_stick",
+      "stick": "cherry",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_crimson_stick",
+      "stick": "crimson",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_warped_stick",
+      "stick": "warped",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo End Stone Shovel",
+      "id": "item.fariance.end_stone_shovel_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "end_stone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_shovel_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_oak_stick",
+      "stick": "oak",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_birch_stick",
+      "stick": "birch",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_warped_stick",
+      "stick": "warped",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo End Stone Hoe",
+      "id": "item.fariance.end_stone_hoe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "end_stone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_hoe_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_oak_stick",
+      "stick": "oak",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_birch_stick",
+      "stick": "birch",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_warped_stick",
+      "stick": "warped",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo End Stone Axe",
+      "id": "item.fariance.end_stone_axe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "end_stone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/end_stone_axe_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_blaze_stick",
+      "stick": "blaze",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_breeze_stick",
+      "stick": "breeze",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_oak_stick",
+      "stick": "oak",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_spruce_stick",
+      "stick": "spruce",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_birch_stick",
+      "stick": "birch",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_jungle_stick",
+      "stick": "jungle",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_acacia_stick",
+      "stick": "acacia",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_cherry_stick",
+      "stick": "cherry",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_crimson_stick",
+      "stick": "crimson",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_warped_stick",
+      "stick": "warped",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Tuff Sword",
+      "id": "item.fariance.tuff_sword_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "tuff",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_sword_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_oak_stick",
+      "stick": "oak",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_birch_stick",
+      "stick": "birch",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_warped_stick",
+      "stick": "warped",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Tuff Pickaxe",
+      "id": "item.fariance.tuff_pickaxe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "tuff",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_pickaxe_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_blaze_stick",
+      "stick": "blaze",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_breeze_stick",
+      "stick": "breeze",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_oak_stick",
+      "stick": "oak",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_spruce_stick",
+      "stick": "spruce",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_birch_stick",
+      "stick": "birch",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_jungle_stick",
+      "stick": "jungle",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_acacia_stick",
+      "stick": "acacia",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_cherry_stick",
+      "stick": "cherry",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_crimson_stick",
+      "stick": "crimson",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_warped_stick",
+      "stick": "warped",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Tuff Shovel",
+      "id": "item.fariance.tuff_shovel_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "tuff",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_shovel_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_oak_stick",
+      "stick": "oak",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_birch_stick",
+      "stick": "birch",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_warped_stick",
+      "stick": "warped",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Tuff Hoe",
+      "id": "item.fariance.tuff_hoe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "tuff",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_hoe_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_oak_stick",
+      "stick": "oak",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_birch_stick",
+      "stick": "birch",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_warped_stick",
+      "stick": "warped",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Tuff Axe",
+      "id": "item.fariance.tuff_axe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "tuff",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/tuff_axe_with_stripped_bamboo_stick.png"
+    },
+    {
       "name": "Flaming Amethyst Sword",
       "id": "item.fariance.amethyst_sword_with_blaze_stick",
       "stick": "blaze",
@@ -30908,6 +32828,16 @@
       "name": "Red Sandstone",
       "id": "red_sandstone",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/red_sandstone_block.png"
+    },
+    {
+      "name": "End Stone",
+      "id": "end_stone",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/end_stone_block.png"
+    },
+    {
+      "name": "Tuff",
+      "id": "tuff",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/tuff_block.png"
     },
     {
       "name": "Amethyst",
