@@ -77,7 +77,7 @@ public class ItemRegistry {
             "amethyst", "redstone", "lapis", "quartz");
 
     private static final List<String> STONE_TYPES = Arrays.asList(
-            "cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine");
+            "cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine", "sandstone", "red_sandstone");
 
     private static final List<String> COPPER_TYPES = Arrays.asList(
             "shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper");

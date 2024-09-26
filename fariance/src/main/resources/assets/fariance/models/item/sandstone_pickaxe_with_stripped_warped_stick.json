@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/sandstone_pickaxe_with_stripped_warped_stick"
+  }
+}

@@ -14,10 +14,9 @@ WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrov
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
 MATERIAL_BASE = ["iron", "diamond", "gold", "netherite"]
 MATERIAL_NEW =   ["amethyst", "redstone", "lapis", "quartz"]
-STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine"]
 STICK_TYPES = ["blaze", "breeze"] + WOOD_TYPES + ["stripped_" + s for s in WOOD_TYPES]
 COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
-STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine"]
+STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine", "sandstone", "red_sandstone"]
 
 MATERIAL_TYPES = MATERIAL_BASE + STONE_TYPES + MATERIAL_NEW + COPPER_TYPES + WOOD_TYPES
 
@@ -127,7 +126,9 @@ material_mappings = {
     "lapis": "minecraft:lapis_lazuli",
     "quartz": "minecraft:nether_quartz",
     "deepslate": "minecraft:cobbled_deepslate",
-    "prismarine": "minecraft:prismarine"
+    "prismarine": "minecraft:prismarine",
+    "sandstone": "minecraft:sandstone",
+    "red_sandstone": "minecraft:red_sandstone"
 }
 
 # Lang data

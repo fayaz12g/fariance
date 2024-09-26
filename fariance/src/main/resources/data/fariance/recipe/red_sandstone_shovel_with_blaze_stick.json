@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:red_sandstone"
+    },
+    "S": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "id": "fariance:red_sandstone_shovel_with_blaze_stick",
+    "count": 1
+  }
+}

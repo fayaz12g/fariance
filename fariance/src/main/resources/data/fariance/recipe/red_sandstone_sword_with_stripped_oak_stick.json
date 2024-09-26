@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:red_sandstone"
+    },
+    "S": {
+      "item": "fariance:stripped_oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:red_sandstone_sword_with_stripped_oak_stick",
+    "count": 1
+  }
+}

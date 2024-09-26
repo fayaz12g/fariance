@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:red_sandstone"
+    },
+    "S": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "id": "fariance:red_sandstone_pickaxe_with_bamboo_stick",
+    "count": 1
+  }
+}

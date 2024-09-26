@@ -10561,6 +10561,1926 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/prismarine_axe_with_stripped_bamboo_stick.png"
     },
     {
+      "name": "Flaming Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_blaze_stick",
+      "stick": "blaze",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_breeze_stick",
+      "stick": "breeze",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_oak_stick",
+      "stick": "oak",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_spruce_stick",
+      "stick": "spruce",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_birch_stick",
+      "stick": "birch",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_jungle_stick",
+      "stick": "jungle",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_acacia_stick",
+      "stick": "acacia",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_cherry_stick",
+      "stick": "cherry",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_crimson_stick",
+      "stick": "crimson",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_warped_stick",
+      "stick": "warped",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Sandstone Sword",
+      "id": "item.fariance.sandstone_sword_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_sword_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_oak_stick",
+      "stick": "oak",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_birch_stick",
+      "stick": "birch",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_warped_stick",
+      "stick": "warped",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Sandstone Pickaxe",
+      "id": "item.fariance.sandstone_pickaxe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_pickaxe_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_blaze_stick",
+      "stick": "blaze",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_breeze_stick",
+      "stick": "breeze",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_oak_stick",
+      "stick": "oak",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_spruce_stick",
+      "stick": "spruce",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_birch_stick",
+      "stick": "birch",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_jungle_stick",
+      "stick": "jungle",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_acacia_stick",
+      "stick": "acacia",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_cherry_stick",
+      "stick": "cherry",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_crimson_stick",
+      "stick": "crimson",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_warped_stick",
+      "stick": "warped",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Sandstone Shovel",
+      "id": "item.fariance.sandstone_shovel_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_shovel_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_oak_stick",
+      "stick": "oak",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_birch_stick",
+      "stick": "birch",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_warped_stick",
+      "stick": "warped",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Sandstone Hoe",
+      "id": "item.fariance.sandstone_hoe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_hoe_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_oak_stick",
+      "stick": "oak",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_birch_stick",
+      "stick": "birch",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_warped_stick",
+      "stick": "warped",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Sandstone Axe",
+      "id": "item.fariance.sandstone_axe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/sandstone_axe_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_blaze_stick",
+      "stick": "blaze",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_breeze_stick",
+      "stick": "breeze",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_oak_stick",
+      "stick": "oak",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_spruce_stick",
+      "stick": "spruce",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_birch_stick",
+      "stick": "birch",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_jungle_stick",
+      "stick": "jungle",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_acacia_stick",
+      "stick": "acacia",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_cherry_stick",
+      "stick": "cherry",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_crimson_stick",
+      "stick": "crimson",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_warped_stick",
+      "stick": "warped",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Red Sandstone Sword",
+      "id": "item.fariance.red_sandstone_sword_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "red_sandstone",
+      "type": "sword",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_sword_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_oak_stick",
+      "stick": "oak",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_birch_stick",
+      "stick": "birch",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_warped_stick",
+      "stick": "warped",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Red Sandstone Pickaxe",
+      "id": "item.fariance.red_sandstone_pickaxe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "red_sandstone",
+      "type": "pickaxe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_pickaxe_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_blaze_stick",
+      "stick": "blaze",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_breeze_stick",
+      "stick": "breeze",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_oak_stick",
+      "stick": "oak",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_spruce_stick",
+      "stick": "spruce",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_birch_stick",
+      "stick": "birch",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_jungle_stick",
+      "stick": "jungle",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_acacia_stick",
+      "stick": "acacia",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_cherry_stick",
+      "stick": "cherry",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_crimson_stick",
+      "stick": "crimson",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_warped_stick",
+      "stick": "warped",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Red Sandstone Shovel",
+      "id": "item.fariance.red_sandstone_shovel_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "red_sandstone",
+      "type": "shovel",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_shovel_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_oak_stick",
+      "stick": "oak",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_birch_stick",
+      "stick": "birch",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_warped_stick",
+      "stick": "warped",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Red Sandstone Hoe",
+      "id": "item.fariance.red_sandstone_hoe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "red_sandstone",
+      "type": "hoe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_hoe_with_stripped_bamboo_stick.png"
+    },
+    {
+      "name": "Flaming Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_blaze_stick",
+      "stick": "blaze",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_blaze_stick.png"
+    },
+    {
+      "name": "Light Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_breeze_stick",
+      "stick": "breeze",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_breeze_stick.png"
+    },
+    {
+      "name": "Oak Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_oak_stick",
+      "stick": "oak",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_oak_stick.png"
+    },
+    {
+      "name": "Spruce Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_spruce_stick",
+      "stick": "spruce",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_spruce_stick.png"
+    },
+    {
+      "name": "Birch Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_birch_stick",
+      "stick": "birch",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_birch_stick.png"
+    },
+    {
+      "name": "Jungle Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_jungle_stick",
+      "stick": "jungle",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_jungle_stick.png"
+    },
+    {
+      "name": "Acacia Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_acacia_stick",
+      "stick": "acacia",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_acacia_stick.png"
+    },
+    {
+      "name": "Dark Oak Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_dark_oak_stick",
+      "stick": "dark_oak",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_dark_oak_stick.png"
+    },
+    {
+      "name": "Mangrove Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_mangrove_stick",
+      "stick": "mangrove",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_mangrove_stick.png"
+    },
+    {
+      "name": "Cherry Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_cherry_stick",
+      "stick": "cherry",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_cherry_stick.png"
+    },
+    {
+      "name": "Crimson Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_crimson_stick",
+      "stick": "crimson",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_crimson_stick.png"
+    },
+    {
+      "name": "Warped Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_warped_stick",
+      "stick": "warped",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_warped_stick.png"
+    },
+    {
+      "name": "Bamboo Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_bamboo_stick",
+      "stick": "bamboo",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_bamboo_stick.png"
+    },
+    {
+      "name": "Stripped Oak Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_stripped_oak_stick",
+      "stick": "stripped_oak",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_stripped_oak_stick.png"
+    },
+    {
+      "name": "Stripped Spruce Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_stripped_spruce_stick",
+      "stick": "stripped_spruce",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_stripped_spruce_stick.png"
+    },
+    {
+      "name": "Stripped Birch Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_stripped_birch_stick",
+      "stick": "stripped_birch",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_stripped_birch_stick.png"
+    },
+    {
+      "name": "Stripped Jungle Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_stripped_jungle_stick",
+      "stick": "stripped_jungle",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_stripped_jungle_stick.png"
+    },
+    {
+      "name": "Stripped Acacia Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_stripped_acacia_stick",
+      "stick": "stripped_acacia",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_stripped_acacia_stick.png"
+    },
+    {
+      "name": "Stripped Dark Oak Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_stripped_dark_oak_stick",
+      "stick": "stripped_dark_oak",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_stripped_dark_oak_stick.png"
+    },
+    {
+      "name": "Stripped Mangrove Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_stripped_mangrove_stick",
+      "stick": "stripped_mangrove",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_stripped_mangrove_stick.png"
+    },
+    {
+      "name": "Stripped Cherry Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_stripped_cherry_stick",
+      "stick": "stripped_cherry",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_stripped_cherry_stick.png"
+    },
+    {
+      "name": "Stripped Crimson Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_stripped_crimson_stick",
+      "stick": "stripped_crimson",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_stripped_crimson_stick.png"
+    },
+    {
+      "name": "Stripped Warped Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_stripped_warped_stick",
+      "stick": "stripped_warped",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_stripped_warped_stick.png"
+    },
+    {
+      "name": "Stripped Bamboo Red Sandstone Axe",
+      "id": "item.fariance.red_sandstone_axe_with_stripped_bamboo_stick",
+      "stick": "stripped_bamboo",
+      "material": "red_sandstone",
+      "type": "axe",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/red_sandstone_axe_with_stripped_bamboo_stick.png"
+    },
+    {
       "name": "Flaming Amethyst Sword",
       "id": "item.fariance.amethyst_sword_with_blaze_stick",
       "stick": "blaze",
@@ -28978,6 +30898,16 @@
       "name": "Prismarine",
       "id": "prismarine",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/prismarine_block.png"
+    },
+    {
+      "name": "Sandstone",
+      "id": "sandstone",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/sandstone_block.png"
+    },
+    {
+      "name": "Red Sandstone",
+      "id": "red_sandstone",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/red_sandstone_block.png"
     },
     {
       "name": "Amethyst",

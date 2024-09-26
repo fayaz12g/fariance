@@ -7,7 +7,7 @@ MATERIAL_BASE = ["iron", "diamond", "gold", "netherite"]
 MATERIAL_NEW =   ["amethyst", "redstone", "lapis", "quartz"]
 STICK_TYPES = ["blaze", "breeze"] + WOOD_TYPES + ["stripped_" + s for s in WOOD_TYPES]
 COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
-STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine"]
+STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "blackstone", "prismarine", "sandstone", "red_sandstone"]
 PRISMARINE_TYPES = ["prismarine_one", "prismarine_two","prismarine_three","prismarine_four"]
 
 MATERIAL_TYPES = MATERIAL_BASE + MATERIAL_NEW + COPPER_TYPES + STONE_TYPES + WOOD_TYPES + PRISMARINE_TYPES
