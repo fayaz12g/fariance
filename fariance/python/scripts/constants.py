@@ -21,6 +21,14 @@ STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "bl
 
 MATERIAL_TYPES = MATERIAL_BASE + STONE_TYPES + MATERIAL_NEW + COPPER_TYPES + WOOD_TYPES
 
+# Define potions types
+POTION_TYPES = [
+    "mundane", "thick", "awkward", "night_vision", "invisibility", "leaping",
+    "fire_resistance", "swiftness", "slowness", "turtle_master", "water_breathing",
+    "healing", "harming", "poison", "regeneration", "strength", "weakness", "luck",
+    "slow_falling"
+]
+
 # Create a new list that excludes "bamboo"
 filtered_wood_types = [wood for wood in STICK_TYPES if wood not in ["bamboo", "blaze", "breeze"]]
 

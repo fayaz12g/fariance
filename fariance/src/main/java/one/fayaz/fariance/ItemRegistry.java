@@ -20,9 +20,11 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraftforge.fluids.ForgeFlowingFluid;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -33,6 +35,11 @@ import org.slf4j.Logger;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Inventory;
 import com.mojang.logging.LogUtils;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraftforge.fluids.ForgeFlowingFluid;
+import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraftforge.fluids.*;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -49,6 +56,13 @@ public class ItemRegistry {
 
     public static final Map<String, RegistryObject<Item>> GENERATED_ITEMS = new HashMap<>();
     public static final Map<String, RegistryObject<Block>> GENERATED_BLOCKS = new HashMap<>();
+
+    private static final List<String> POTION_TYPES = Arrays.asList(
+            "mundane", "thick", "awkward", "night_vision", "invisibility", "leaping",
+            "fire_resistance", "swiftness", "slowness", "turtle_master", "water_breathing",
+            "healing", "harming", "poison", "regeneration", "strength", "weakness", "luck",
+            "slow_falling"
+    );
 
     private static final List<String> WOOD_TYPES = Arrays.asList(
             "oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo");
@@ -84,6 +98,12 @@ public class ItemRegistry {
         MATERIAL_TYPES.addAll(WOOD_TYPES);
     }
 
+    public static final Map<String, RegistryObject<Item>> POTION_BUCKETS = new HashMap<>();
+    public static final Map<String, RegistryObject<LiquidBlock>> POTION_FLUIDS = new HashMap<>();
+    public static final Map<String, RegistryObject<FlowingFluid>> POTION_FLUID_SOURCES = new HashMap<>();
+    public static final Map<String, RegistryObject<FlowingFluid>> POTION_FLUID_FLOWINGS = new HashMap<>();
+
+
     static {
         generateTools();
         generateSticks();
@@ -92,8 +112,19 @@ public class ItemRegistry {
         generateCraftingTables();
         generateFurnaces();
         generateShields();
+        generatePotionBucketsAndFluids();
     }
 
+    // POTIONS
+    private static void generatePotionBucketsAndFluids() {
+        for (String potionType : POTION_TYPES) {
+//            registerPotionFluid(potionType);
+//            registerPotionBucket(potionType);
+        }
+    }
+
+
+    // TOOLS
     private static void generateTools() {
         for (String material : MATERIAL_TYPES) {
             for (String tool : TOOL_TYPES) {

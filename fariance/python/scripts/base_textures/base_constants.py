@@ -12,6 +12,14 @@ PRISMARINE_TYPES = ["prismarine_one", "prismarine_two","prismarine_three","prism
 
 MATERIAL_TYPES = MATERIAL_BASE + MATERIAL_NEW + COPPER_TYPES + STONE_TYPES + WOOD_TYPES + PRISMARINE_TYPES
 
+# Define potions types
+POTION_TYPES = [
+    "mundane", "thick", "awkward", "night_vision", "invisibility", "leaping",
+    "fire_resistance", "swiftness", "slowness", "turtle_master", "water_breathing",
+    "healing", "harming", "poison", "regeneration", "strength", "weakness", "luck",
+    "slow_falling"
+]
+
 script_dir = os.path.dirname(os.path.abspath(__file__))
 image_dir = os.path.join(script_dir, "../../image")
 mask_dir = os.path.join(image_dir, "mask")
