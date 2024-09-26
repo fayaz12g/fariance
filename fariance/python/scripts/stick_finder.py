@@ -3,6 +3,7 @@ import json
 
 # Define paths
 recipes_dir = r"C:\Users\fayaz\AppData\Roaming\.minecraft\versions\24w39a\24w39a\data\minecraft\recipe"
+existing_recipes_dir = r"C:\Users\fayaz\Documents\GitHub\woodstuffmod\fariance\src\main\resources\data\minecraft\recipe"
 output_file = os.path.join(os.path.dirname(__file__), "stick_recipes.json")
 
 # List to hold the names of files containing "minecraft:stick"
@@ -14,7 +15,16 @@ def find_stick_in_recipes():
     for filename in os.listdir(recipes_dir):
         # Check if the file is a JSON file
         if filename.endswith(".json"):
+            # Full path to the file in the original directory
             file_path = os.path.join(recipes_dir, filename)
+            
+            # Check if a file with the same name exists in the existing recipes directory
+            existing_file_path = os.path.join(existing_recipes_dir, filename)
+            if os.path.exists(existing_file_path):
+                # If the file exists, skip it
+                print(f"Skipping {filename} as it already exists in the 'woodstuffmod' directory.")
+                continue
+            
             try:
                 # Open and load the JSON file
                 with open(file_path, 'r', encoding='utf-8') as file:

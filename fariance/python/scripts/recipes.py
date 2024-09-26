@@ -184,6 +184,50 @@ def copper_ingot_recipes():
         }
         recipes.append((ingot_name, json.dumps(recipe, indent=2)))
 
+def fence_recipes():
+    for wood in WOOD_TYPES:
+        # Make recipe for fences 
+        recipe = {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",
+            "group": "wooden_fence",
+            "key": {
+                "#": f"fariance:{wood}_stick",
+                "W": f"minecraft:{wood}_planks"
+            },
+            "pattern": [
+                "W#W",
+                "W#W"
+            ],
+            "result": {
+                "count": 3,
+                "id": "minecraft:acacia_fence"
+            }
+        }
+        recipes.append((f"{wood}_fence", json.dumps(recipe, indent=2)))
+
+def fence_gate_recipes():
+    for wood in WOOD_TYPES:
+        # Make recipes for fence gates
+        recipe = {
+            "type": "minecraft:crafting_shaped",
+            "category": "redstone",
+            "group": "wooden_fence_gate",
+            "key": {
+                "#": f"fariance:{wood}_stick",
+                "W": f"minecraft:{wood}_planks"
+            },
+            "pattern": [
+                "#W#",
+                "#W#"
+            ],
+            "result": {
+                "count": 1,
+                "id": "minecraft:acacia_fence_gate"
+            }
+        }
+        recipes.append((f"{wood}_fence_gate", json.dumps(recipe, indent=2)))
+
 def generate_recipes():
     
     # Define the path for recipe files
@@ -198,6 +242,8 @@ def generate_recipes():
     crafting_table_recipes()
     furnace_recipes()
     copper_ingot_recipes()
+    fence_recipes()
+    fence_gate_recipes()
 
     # Generate recipes and write them to files
     for item_name, recipe in recipes:
