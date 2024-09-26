@@ -215,7 +215,7 @@ def shield_textures():
 
             # Generate shield image
             if os.path.exists(shield_image_path):
-                output_path = os.path.join(entity_output_dir, f"{wood}_{material}_shield_base.png")
+                output_path = os.path.join(item_output_dir, f"{wood}_{material}_shield_base.png")
                 shield_img = Image.open(shield_image_path).convert("RGBA")
                 shield_img.save(output_path)
                 # print(f"Generated texture: {output_path}")
@@ -224,7 +224,7 @@ def shield_textures():
             
             # Generate shield no pattern image
             if os.path.exists(shield_nopattern_image_path):
-                nopattern_output_path = os.path.join(entity_output_dir, f"{wood}_{material}_shield_base_nopattern.png")
+                nopattern_output_path = os.path.join(item_output_dir, f"{wood}_{material}_shield_base_nopattern.png")
                 shield_nopat_img = Image.open(shield_nopattern_image_path).convert("RGBA")
                 shield_nopat_img.save(nopattern_output_path)
                 # print(f"Generated texture: {nopattern_output_path}")

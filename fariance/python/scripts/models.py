@@ -150,58 +150,76 @@ def shield_models():
             
             # Block model data for the shield
             item_model_data = {
-                "parent": "builtin/entity",
-                "gui_light": "front",
                 "textures": {
-                    "particle": f"block/{wood}_planks",
-                    "layer0": f"fariance:textures/entity/{wood}_{material}_shield_base_nopattern"
+                    "1": f"fariance:item/{wood}_{material}_shield_base_nopattern",
+                    "particle": f"fariance:item/{wood}_{material}_shield_base_nopattern"
                 },
+                "elements": [
+                    {
+                        "from": [-6, -11, 1],
+                        "to": [6, 11, 2],
+                        "faces": {
+                            "north": {"uv": [3.5, 0.25, 6.5, 5.75], "texture": "#1"},
+                            "east": {"uv": [3.25, 0.25, 3.5, 5.75], "texture": "#1"},
+                            "south": {"uv": [0.25, 0.25, 3.25, 5.75], "texture": "#1"},
+                            "west": {"uv": [0, 0.25, 0.25, 5.75], "texture": "#1"},
+                            "up": {"uv": [0.25, 0, 3.25, 0.25], "texture": "#1"},
+                            "down": {"uv": [3.25, 0, 6.25, 0.25], "texture": "#1"}
+                        }
+                    },
+                    {
+                        "from": [-1, -3, -5],
+                        "to": [1, 3, 1],
+                        "faces": {
+                            "north": {"uv": [10, 1.5, 10.5, 3], "texture": "#1"},
+                            "east": {"uv": [8.5, 1.5, 10, 3], "texture": "#1"},
+                            "south": {"uv": [8, 1.5, 8.5, 3], "texture": "#1"},
+                            "west": {"uv": [6.5, 1.5, 8, 3], "texture": "#1"},
+                            "up": {"uv": [8, 0, 8.5, 1.5], "texture": "#1"},
+                            "down": {"uv": [8.5, 1.5, 9, 0], "texture": "#1"}
+                        }
+                    }
+                ],
+                "overrides": [
+                    {"predicate": {"blocking": 1}, "model": f"fariance:item/{wood}_{material}_shield_blocking"}
+                ],
                 "display": {
                     "thirdperson_righthand": {
-                        "rotation": [ 0, 90, 0 ],
-                        "translation": [ 10, 6, -4 ],
-                        "scale": [ 1, 1, 1 ]
+                        "rotation": [0, 90, 0],
+                        "translation": [10.01, 6, -4]
                     },
                     "thirdperson_lefthand": {
-                        "rotation": [ 0, 90, 0 ],
-                        "translation": [ 10, 6, 12 ],
-                        "scale": [ 1, 1, 1 ]
+                        "rotation": [0, 90, 0],
+                        "translation": [10.51, 6, 12]
                     },
                     "firstperson_righthand": {
-                        "rotation": [ 0, 180, 5 ],
-                        "translation": [ -10, 2, -10 ],
-                        "scale": [ 1.25, 1.25, 1.25 ]
+                        "rotation": [0, 180, 5],
+                        "translation": [-10, 0.5, -10],
+                        "scale": [1.25, 1.25, 1.25]
                     },
                     "firstperson_lefthand": {
-                        "rotation": [ 0, 180, 5 ],
-                        "translation": [ 10, 0, -10 ],
-                        "scale": [ 1.25, 1.25, 1.25 ]
-                    },
-                    "gui": {
-                        "rotation": [ 15, -25, -5 ],
-                        "translation": [ 2, 3, 0 ],
-                        "scale": [ 0.65, 0.65, 0.65 ]
-                    },
-                    "fixed": {
-                        "rotation": [ 0, 180, 0 ],
-                        "translation": [ -4.5, 4.5, -5],
-                        "scale":[ 0.55, 0.55, 0.55]
+                        "rotation": [0, 180, 5],
+                        "translation": [10, -1, -10],
+                        "scale": [1.25, 1.25, 1.25]
                     },
                     "ground": {
                         "rotation": [ 0, 0, 0 ],
                         "translation": [ 2, 4, 2],
                         "scale":[ 0.25, 0.25, 0.25]
+                    },
+                    "gui": {
+                        "rotation": [24, -45, -5],
+                        "translation": [-0.5, 0.75, 0],
+                        "scale": [0.65, 0.6, 0.9]
+                    },
+                    "fixed": {
+                        "rotation": [0, -180, 0],
+                        "translation": [-7.25, 7.25, -8],
+                        "scale": [0.9, 0.9, 0.9]
                     }
-                },
-                "overrides": [
-                    {
-                        "predicate": {
-                            "blocking": 1
-                        },
-                        "model": f"item/{wood}_{material}_shield_blocking"
-                    }
-                ]
+                }
             }
+
 
             # Define the block model output path
             item_model_file_path = os.path.join(item_model_dir, f"{shield_name}.json")
@@ -215,41 +233,62 @@ def shield_models():
             
             # Block model data for the shield
             item_model_data = {
-                "parent": "builtin/entity",
-                "gui_light": "front",
                 "textures": {
-                    "particle": f"block/{wood}_planks",
-                    "layer0": f"fariance:textures/entity/{wood}_{material}_shield_base_nopattern"
+                    "1": f"fariance:item/{wood}_{material}_shield_base_nopattern",
+                    "particle": "fariance:item/{wood}_{material}_shield_base_nopattern"
                 },
+                "elements": [
+                    {
+                        "from": [-6, -11, 1],
+                        "to": [6, 11, 2],
+                        "faces": {
+                            "north": {"uv": [3.5, 0.25, 6.5, 5.75], "texture": "#1"},
+                            "east": {"uv": [3.25, 0.25, 3.5, 5.75], "texture": "#1"},
+                            "south": {"uv": [0.25, 0.25, 3.25, 5.75], "texture": "#1"},
+                            "west": {"uv": [0, 0.25, 0.25, 5.75], "texture": "#1"},
+                            "up": {"uv": [0.25, 0, 3.25, 0.25], "texture": "#1"},
+                            "down": {"uv": [3.25, 0, 6.25, 0.25], "texture": "#1"}
+                        }
+                    },
+                    {
+                        "from": [-1, -3, -5],
+                        "to": [1, 3, 1],
+                        "faces": {
+                            "north": {"uv": [10, 1.5, 10.5, 3], "texture": "#1"},
+                            "east": {"uv": [8.5, 1.5, 10, 3], "texture": "#1"},
+                            "south": {"uv": [8, 1.5, 8.5, 3], "texture": "#1"},
+                            "west": {"uv": [6.5, 1.5, 8, 3], "texture": "#1"},
+                            "up": {"uv": [8, 0, 8.5, 1.5], "texture": "#1"},
+                            "down": {"uv": [8.5, 1.5, 9, 0], "texture": "#1"}
+                        }
+                    }
+                ],
                 "display": {
                     "thirdperson_righthand": {
-                        "rotation": [ 45, 155, 0 ],
-                        "translation": [ -3.49, 11, -2 ],
-                        "scale": [ 1, 1, 1 ]
+                        "rotation": [43, 165, 0],
+                        "translation": [-6.49, 12.5, -2]
                     },
                     "thirdperson_lefthand": {
-                        "rotation": [ 45, 155, 0 ],
-                        "translation": [ 11.51, 7, 2.5 ],
-                        "scale": [ 1, 1, 1 ]
+                        "rotation": [43, -180, 0],
+                        "translation": [7.51, 10.25, -1]
                     },
                     "firstperson_righthand": {
-                        "rotation": [ 0, 180, -5 ],
-                        "translation": [ -15, 5, -11 ],
-                        "scale": [ 1.25, 1.25, 1.25 ]
+                        "rotation": [0, 180, 0],
+                        "translation": [-15, 3, -12],
+                        "scale": [1.25, 1.25, 1.25]
                     },
                     "firstperson_lefthand": {
-                        "rotation": [ 0, 180, -5 ],
-                        "translation": [ 5, 5, -11 ],
-                        "scale": [ 1.25, 1.25, 1.25 ]
+                        "rotation": [0, 180, 0],
+                        "translation": [5, 3, -9],
+                        "scale": [1.25, 1.25, 1.25]
                     },
                     "gui": {
-                        "rotation": [ 15, -25, -5 ],
-                        "translation": [ 2, 3, 0 ],
-                        "scale": [ 0.65, 0.65, 0.65 ]
+                        "rotation": [24, -45, -5],
+                        "translation": [-0.5, 0.75, 0],
+                        "scale": [0.65, 0.6, 0.9]
                     }
                 }
             }
-
 
             # Define the block model output path
             item_model_file_path = os.path.join(item_model_dir, f"{blocking_shield_name}.json")
