@@ -257,50 +257,23 @@ public class ItemRegistry {
     private static void generateFurnaces() {
         for (String stone : STONE_TYPES) {
             String furnaceName = stone + "_furnace";
-            RegistryObject<Block> block = BLOCKS.register(furnaceName, () -> createDummyBlock(stone));
+            RegistryObject<Block> block = BLOCKS.register(furnaceName, () -> createFurnaceBlock(stone));
             GENERATED_BLOCKS.put(furnaceName, block);
             GENERATED_ITEMS.put(furnaceName, ITEMS.register(furnaceName, () -> new BlockItem(block.get(), new Item.Properties())));
         }
     }
 
-    public static Block createDummyBlock(String stone) {
-        // Create the block with properties
-        Block block = new Block(BlockBehaviour.Properties.of()
+    private static Block createFurnaceBlock(String stone) {
+        return new FurnaceBlock(BlockBehaviour.Properties.of()
                 .mapColor(MapColor.STONE)
-                .strength(1.5F)) {
-
-            // Define block state properties
-            public static final DirectionProperty FACING = DirectionProperty.create("facing");
-            public static final BooleanProperty LIT = BooleanProperty.create("lit");
-
-            // Constructor to set default block states
-            {
-                // Set the default block state to face north and be unlit
-                this.registerDefaultState(this.stateDefinition.any()
-                        .setValue(FACING, Direction.NORTH)
-                        .setValue(LIT, false));
-            }
-
-            // Handle right-click behavior
-            public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
-                // Toggle the 'lit' state
-                boolean lit = !state.getValue(LIT);
-                level.setBlock(pos, state.setValue(LIT, lit), 3);
-                return InteractionResult.SUCCESS; // Indicate successful interaction
-            }
-
+                .requiresCorrectToolForDrops()
+                .strength(3.5F)
+                .lightLevel(state -> state.getValue(FurnaceBlock.LIT) ? 13 : 0)) {
             @Override
-            public void onPlace(BlockState state, Level level, BlockPos pos, BlockState oldState, boolean isMoving) {
-                LOGGER.info("Placed " + stone + " dummy block at " + pos);
-            }
-
-            @Override
-            protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-                builder.add(FACING, LIT);
+            public void onPlace(BlockState pState, net.minecraft.world.level.Level pLevel, BlockPos pPos, BlockState pOldState, boolean pIsMoving) {
+                LOGGER.info("Placed " + stone + " furnace at " + pPos);
             }
         };
-
-        return block;
     }
 
     // CRAFTING TABLES

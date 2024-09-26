@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "PPP"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:brown_wool"
+    },
+    "P": {
+      "item": "minecraft:bamboo_planks"
+    }
+  },
+  "result": {
+    "id": "fariance:bamboo_brown_bed",
+    "count": 1
+  }
+}

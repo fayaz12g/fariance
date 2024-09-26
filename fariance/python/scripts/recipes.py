@@ -256,6 +256,30 @@ def fence_gate_recipes():
         }
         recipes.append((f"{wood}_fence_gate", json.dumps(recipe, indent=2)))
 
+
+def ladder_recipes():
+    # Add recipes for beds for each wood type
+    for wood in WOOD_TYPES:
+        for color in WOOL_TYPES:
+            bed_name = f"{wood}_{color}_bed"
+            recipe = {
+                "type": "minecraft:crafting_shaped",
+                "category": "misc", 
+                "pattern": [
+                    "WWW",
+                    "PPP"
+                ],
+                "key": {
+                    "W": {"item": f"minecraft:{color}_wool"},
+                    "P": {"item": f"minecraft:{wood}_planks"}
+                },
+                "result": {
+                    "id": f"fariance:{bed_name}",
+                    "count": 1
+                }
+            }
+            recipes.append((bed_name, json.dumps(recipe, indent=2)))
+
 def generate_recipes():
     
     # Define the path for recipe files
