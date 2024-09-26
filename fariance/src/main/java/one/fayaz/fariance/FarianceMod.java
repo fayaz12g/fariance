@@ -123,7 +123,7 @@ public class FarianceMod {
         List<RegistryObject<Item>> sortedItems = ItemRegistry.GENERATED_ITEMS.values().stream()
                 .filter(itemRegistryObject -> {
                     String itemPath = itemRegistryObject.getId().getPath();
-                    return !itemPath.matches(".*_(sword|pickaxe|axe|shovel|hoe|bed)_.*");
+                    return !itemPath.matches(".*_(sword|pickaxe|axe|shovel|hoe)_.*");
                 })
                 .sorted((o1, o2) -> {
                     String name1 = o1.getId().getPath();
