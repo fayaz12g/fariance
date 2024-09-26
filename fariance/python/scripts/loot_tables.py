@@ -6,7 +6,7 @@ from constants import *
 
 def ladder_loot_tables():
     # Loop through each wood type to create a loot table for each ladder
-    for wood in WOOD_TYPES:
+    for wood in STICK_TYPES:
         ladder_name = f"{wood}_ladder"
 
         # Define the loot table structure

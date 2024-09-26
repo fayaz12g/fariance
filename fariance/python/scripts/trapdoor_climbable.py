@@ -9,7 +9,7 @@ def generate_trapdoor_climbable_ladders_json():
     trapdoor_climbable_data = {
         "values": [
             "minecraft:ladder"
-        ] + [f"fariance:{wood}_ladder" for wood in WOOD_TYPES]  # Add each wood ladder after the Minecraft ladder
+        ] + [f"fariance:{wood}_ladder" for wood in STICK_TYPES]  # Add each wood ladder after the Minecraft ladder
     }
 
     # Build the full output path for the trapdoor climbable ladders JSON

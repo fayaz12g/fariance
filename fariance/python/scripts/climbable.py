@@ -10,7 +10,7 @@ def generate_climbable_json():
     climbable_data = {
         "replace": False,
         "values": [
-            f"fariance:{wood}_ladder" for wood in WOOD_TYPES  # Add each wood ladder to the values list
+            f"fariance:{wood}_ladder" for wood in STICK_TYPES  # Add each wood ladder to the values list
         ]
     }
 

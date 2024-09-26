@@ -53,7 +53,7 @@ def ingot_models():
 
 def ladder_models():
      # Loop through each wood type and generate the corresponding models
-    for wood in WOOD_TYPES:
+    for wood in STICK_TYPES:
         ladder_name = f"{wood}_ladder"
         
         # Block model data for the ladder

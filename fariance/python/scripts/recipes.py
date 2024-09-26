@@ -97,7 +97,12 @@ def tool_recipes():
 
 def ladder_recipes():
      # Add recipes for ladders for each wood type
-    for wood in WOOD_TYPES:
+    for wood in STICK_TYPES:
+        # Stick type mapping
+        stick_item = f"fariance:{wood}_stick" if wood not in ["blaze", "breeze"] else f"minecraft:{wood}_rod"
+        if wood == "bamboo":
+            stick_item = "minecraft:bamboo"
+
         ladder_name = f"{wood}_ladder"
         recipe = {
             "type": "minecraft:crafting_shaped",
@@ -108,7 +113,7 @@ def ladder_recipes():
                 "S S"
             ],
             "key": {
-                "S": {"item": f"fariance:{wood}_stick"}
+                "S": {"item": stick_item}
             },
             "result": {
                 "id": f"fariance:{ladder_name}",

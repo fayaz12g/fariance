@@ -12,7 +12,7 @@ def generate_blockstates():
     os.makedirs(os.path.dirname(blockstates_dir), exist_ok=True)
 
     # Ladder blockstates
-    for wood in WOOD_TYPES:
+    for wood in STICK_TYPES:
         ladder_name = f"{wood}_ladder"
         blockstates_data = {
             "variants": {

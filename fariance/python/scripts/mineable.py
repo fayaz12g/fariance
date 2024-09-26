@@ -10,7 +10,7 @@ def mineable_axe_json():
         "replace": False,
         "values": [
             f"fariance:{wood}_ladder"   # Add each wood ladder
-            for wood in WOOD_TYPES
+            for wood in STICK_TYPES
         ] + [
             f"fariance:{wood}_crafting_table"   # Add each wood crafting table
             for wood in WOOD_TYPES
