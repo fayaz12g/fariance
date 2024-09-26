@@ -28,6 +28,9 @@ POTION_TYPES = [
     "slow_falling"
 ]
 
+WOOL_TYPES = ["black", "blue", "brown", "cyan", "gray", "green", "light_blue", "light_gray", "lime", "magenta", "orange", "pink", "purple",
+               "red", "white", "yellow"]
+
 # Create a new list that excludes "bamboo"
 filtered_wood_types = [wood for wood in STICK_TYPES if wood not in ["bamboo", "blaze", "breeze"]]
 

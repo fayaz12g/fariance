@@ -297,6 +297,177 @@ def shield_models():
             with open(item_model_file_path, 'w') as f:
                 json.dump(item_model_data, f, indent=2)
 
+def bed_models():
+    # Loop through each wood type and generate the corresponding models for beds
+    for wood in WOOD_TYPES:
+        for color in WOOL_TYPES:
+            bed_name = f"{wood}_{color}_bed"
+            
+            # Block model data for the bed
+            item_model_data = {
+                "parent": "minecraft:item/generated",
+                "textures": {
+                    "layer0": f"fariance:item/{bed_name}"
+                }
+            }
+
+            # Define the block model output path
+            item_model_file_path = os.path.join(item_model_dir, f"{bed_name}.json")
+            
+            # Write the block model data to the file
+            with open(item_model_file_path, 'w') as f:
+                json.dump(item_model_data, f, indent=2)
+            
+            # Blocking shield models
+            bed_block_name_head = f"{wood}_{color}_bed_head"
+            
+            # Block model data for the shield
+            block_head_model_data = {
+                "parent": "fariance:block/template_bed_head",
+                "textures": {
+                    "bed": f"fariance:block/{wood}_{color}"
+                }
+            }
+
+
+            # Define the block model output path
+            head_model_file_path = os.path.join(block_model_dir, f"{bed_block_name_head}.json")
+            
+            # Write the block model data to the file
+            with open(head_model_file_path, 'w') as f:
+                json.dump(block_head_model_data, f, indent=2)
+
+            # Blocking shield models
+            bed_block_name_foot = f"{wood}_{color}_bed_foot"
+            
+            # Block model data for the shield
+            block_foot_model_data = {
+                "parent": "fariance:block/template_bed_foot",
+                "textures": {
+                    "bed": f"fariance:block/{wood}_{color}"
+                }
+            }
+
+            # Define the block model output path
+            foot_model_file_path = os.path.join(block_model_dir, f"{bed_block_name_foot}.json")
+            
+            # Write the block model data to the file
+            with open(foot_model_file_path, 'w') as f:
+                json.dump(block_foot_model_data, f, indent=2)
+
+def bed_template_models():
+    # Head template name
+    template_bed_head = "template_bed_head"
+    
+    # Block model data for the head template
+    block_head_template_data = {
+        "texture_size": [64, 64],
+        "textures": {
+            "particle": "block/oak_planks"
+        },
+        "elements": [
+            {
+                "from": [0, 0, 13],
+                "to": [3, 3, 16],
+                "rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 21]},
+                "faces": {
+                    "north": {"uv": [14.75, 0.75, 15.5, 1.5], "texture": "#bed"},
+                    "east": {"uv": [14, 0.75, 14.75, 1.5], "texture": "#bed"},
+                    "south": {"uv": [13.25, 0.75, 14, 1.5], "texture": "#bed", "cullface": "south"},
+                    "west": {"uv": [12.5, 0.75, 13.25, 1.5], "texture": "#bed", "cullface": "west"},
+                    "down": {"uv": [14, 0, 14.75, 0.75], "texture": "#bed", "cullface": "down"}
+                }
+            },
+            {
+                "from": [13, 0, 13],
+                "to": [16, 3, 16],
+                "rotation": {"angle": 0, "axis": "y", "origin": [21, 8, 21]},
+                "faces": {
+                    "north": {"uv": [14, 2.25, 14.75, 3], "texture": "#bed"},
+                    "east": {"uv": [13.25, 2.25, 14, 3], "texture": "#bed", "cullface": "east"},
+                    "south": {"uv": [12.5, 2.25, 13.25, 3], "texture": "#bed", "cullface": "south"},
+                    "west": {"uv": [14.75, 2.25, 15.5, 3], "texture": "#bed"},
+                    "down": {"uv": [14, 1.5, 14.75, 2.25], "texture": "#bed", "cullface": "down"}
+                }
+            },
+            {
+                "from": [0, 3, 0],
+                "to": [16, 9, 16],
+                "rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 8]},
+                "faces": {
+                    "east": {"uv": [0, 1.5, 1.5, 5.5], "rotation": 270, "texture": "#bed", "cullface": "east"},
+                    "south": {"uv": [1.5, 0, 5.5, 1.5], "rotation": 180, "texture": "#bed", "cullface": "south"},
+                    "west": {"uv": [5.5, 1.5, 7, 5.5], "rotation": 90, "texture": "#bed", "cullface": "west"},
+                    "up": {"uv": [1.5, 1.5, 5.5, 5.5], "rotation": 180, "texture": "#bed"},
+                    "down": {"uv": [7, 1.5, 11, 5.5], "texture": "#bed"}
+                }
+            }
+        ]
+    }
+
+    # Define the block model output path
+    head_template_file_path = os.path.join(block_model_dir, f"{template_bed_head}.json")
+    
+    # Write the block model data to the file
+    with open(head_template_file_path, 'w') as f:
+        json.dump(block_head_template_data, f, indent=2)
+
+    # Foot template name
+    template_bed_foot = "template_bed_foot"
+    
+    # Block model data for the head template
+    block_foot_template_data = {
+        "texture_size": [64, 64],
+        "textures": {
+            "particle": "block/oak_planks"
+        },
+        "elements": [
+            {
+                "from": [0, 0, 0],
+                "to": [3, 3, 3],
+                "faces": {
+                    "north": {"uv": [12.5, 5.25, 13.25, 6], "texture": "#bed", "cullface": "north"},
+                    "east": {"uv": [14.75, 5.25, 15.5, 6], "texture": "#bed"},
+                    "south": {"uv": [14, 5.25, 14.75, 6], "texture": "#bed"},
+                    "west": {"uv": [13.25, 5.25, 14, 6], "texture": "#bed", "cullface": "west"},
+                    "down": {"uv": [14, 4.5, 14.75, 5.25], "texture": "#bed", "cullface": "down"}
+                }
+            },
+            {
+                "from": [13, 0, 0],
+                "to": [16, 3, 3],
+                "rotation": {"angle": 0, "axis": "y", "origin": [21, 8, 8]},
+                "faces": {
+                    "north": {"uv": [14, 3.75, 13.25, 4.5], "texture": "#bed", "cullface": "north"},
+                    "east": {"uv": [12.5, 3.75, 13.25, 4.5], "texture": "#bed", "cullface": "east"},
+                    "south": {"uv": [14.75, 3.75, 15.5, 4.5], "texture": "#bed"},
+                    "west": {"uv": [14, 3.75, 14.75, 4.5], "texture": "#bed"},
+                    "down": {"uv": [14, 3, 14.75, 3.75], "texture": "#bed", "cullface": "down"}
+                }
+            },
+            {
+                "from": [0, 3, 0],
+                "to": [16, 9, 16],
+                "rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 8]},
+                "faces": {
+                    "north": {"uv": [5.5, 5.5, 9.5, 7], "rotation": 180, "texture": "#bed", "cullface": "north"},
+                    "east": {"uv": [0, 7, 1.5, 11], "rotation": 270, "texture": "#bed", "cullface": "east"},
+                    "west": {"uv": [5.5, 7, 7, 11], "rotation": 90, "texture": "#bed", "cullface": "west"},
+                    "up": {"uv": [1.5, 7, 5.5, 11], "rotation": 180, "texture": "#bed"},
+                    "down": {"uv": [7, 7, 11, 11], "texture": "#bed"}
+                }
+            }
+        ]
+    }
+
+    # Define the block model output path
+    foot_template_file_path = os.path.join(block_model_dir, f"{template_bed_foot}.json")
+    
+    # Write the block model data to the file
+    with open(foot_template_file_path, 'w') as f:
+        json.dump(block_foot_template_data, f, indent=2)
+
+
 def furnace_models():
        # Loop through each stone type and generate the corresponding models for furnaces
     for stone in STONE_TYPES:
@@ -362,6 +533,9 @@ def generate_models():
     crafting_table_models()
     furnace_models()
     shield_models()
+    bed_models()
+    bed_template_models()
+
 
 
     print("Models generation finished!.")

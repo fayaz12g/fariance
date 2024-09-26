@@ -98,6 +98,11 @@ public class ItemRegistry {
         MATERIAL_TYPES.addAll(WOOD_TYPES);
     }
 
+    private static final List<String> WOOL_TYPES = Arrays.asList(
+            "black", "blue", "brown", "cyan", "gray", "green", "light_blue", "light_gray",
+            "lime", "magenta", "orange", "pink", "purple", "red", "white", "yellow"
+    );
+
     public static final Map<String, RegistryObject<Item>> POTION_BUCKETS = new HashMap<>();
     public static final Map<String, RegistryObject<LiquidBlock>> POTION_FLUIDS = new HashMap<>();
     public static final Map<String, RegistryObject<FlowingFluid>> POTION_FLUID_SOURCES = new HashMap<>();
@@ -113,6 +118,31 @@ public class ItemRegistry {
         generateFurnaces();
         generateShields();
         generatePotionBucketsAndFluids();
+        generateBeds();
+    }
+
+    // BEDS
+    private static void generateBeds() {
+        for (String wood : WOOD_TYPES) {
+            for (String wool : WOOL_TYPES) {
+                String bedName = wood + "_" + wool + "_bed";
+                RegistryObject<Block> block = BLOCKS.register(bedName, () -> createBedBlock(wood, wool));
+                GENERATED_BLOCKS.put(bedName, block);
+                GENERATED_ITEMS.put(bedName, ITEMS.register(bedName, () -> new BedItem(block.get(), new Item.Properties())));
+            }
+        }
+    }
+
+    private static Block createBedBlock(String wood, String wool) {
+        return new BedBlock(getDyeColor(wool), BlockBehaviour.Properties.of()
+                .mapColor(MapColor.WOOD)
+                .sound(SoundType.WOOD)
+                .strength(0.2F)
+                .noOcclusion());
+    }
+
+    private static DyeColor getDyeColor(String wool) {
+        return DyeColor.valueOf(wool.toUpperCase());
     }
 
     // POTIONS

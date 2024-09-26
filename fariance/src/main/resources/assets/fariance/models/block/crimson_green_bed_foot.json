@@ -1,0 +1,6 @@
+{
+  "parent": "fariance:block/template_bed_foot",
+  "textures": {
+    "bed": "fariance:block/crimson_green"
+  }
+}

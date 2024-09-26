@@ -1,0 +1,6 @@
+{
+  "parent": "fariance:block/template_bed_head",
+  "textures": {
+    "bed": "fariance:block/dark_oak_green"
+  }
+}

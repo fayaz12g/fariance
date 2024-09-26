@@ -40,6 +40,7 @@ def generate_textures():
     furnace_textures()
     ladder_textures()
     shield_textures()
+    bed_textures()
 
     print(f"Texture generation done!")
 
@@ -141,6 +142,30 @@ def ingot_textures():
                 # print(f"Generated texture: {output_path}")
             else:
                 print(f"Warning: Missing texture for {ingot}_ingot")
+
+def bed_textures():
+    # Generate bed textures
+    for wood in WOOD_TYPES:
+        for color in WOOL_TYPES:
+            # Bed item
+            bed_item_path = os.path.join(image_dir, "bed", "item", f"{wood}_{color}_bed.png")
+            if os.path.exists(bed_item_path):
+                output_path = os.path.join(item_output_dir, f"{wood}_{color}_bed.png")
+                bed_item_img = Image.open(bed_item_path).convert("RGBA")
+                bed_item_img.save(output_path)
+                # print(f"Generated texture: {output_path}")
+            else:
+                print(f"Warning: Missing texture for {wood}_{color}_bed")
+            
+            # Bed Block (entity)
+            bed_block_path = os.path.join(image_dir, "bed", "block", f"{wood}_{color}.png")
+            if os.path.exists(bed_block_path):
+                output_path = os.path.join(block_output_dir, f"{wood}_{color}.png")
+                bed_block_img = Image.open(bed_block_path).convert("RGBA")
+                bed_block_img.save(output_path)
+                # print(f"Generated texture: {output_path}")
+            else:
+                print(f"Warning: Missing texture for {wood}_{color} bed entity")
 
 def furnace_textures():
     # Generate textures for furnaces

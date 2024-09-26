@@ -41,6 +41,13 @@ def shield_lang():
             shield_name = f"{wood}_{material}_shield"
             entries[f"item.fariance.{shield_name}"] = capitalize_material(shield_name)
 
+def bed_lang():
+    # Add bed names
+    for wood in WOOD_TYPES:
+        for color in WOOL_TYPES:
+            bed_name = f"{wood}_{color}_bed"
+            entries[f"block.fariance.{bed_name}"] = capitalize_material(bed_name)
+
 def sticks_lang():
     # Add sticks to lang file
     for stick in filtered_wood_types:
@@ -93,6 +100,7 @@ def generate_lang_entries():
     ladder_item_lang()
     ladder_block_lang()
     shield_lang()
+    bed_lang()
 
     # Generate lang file
     with open(lang_file_path, "w") as f:
