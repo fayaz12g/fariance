@@ -264,15 +264,11 @@ public class ItemRegistry {
     }
 
     private static Block createFurnaceBlock(String stone) {
-        return new FurnaceBlock(BlockBehaviour.Properties.of()
+        return new CustomFurnaceBlock(BlockBehaviour.Properties.of()
                 .mapColor(MapColor.STONE)
                 .requiresCorrectToolForDrops()
                 .strength(3.5F)
                 .lightLevel(state -> state.getValue(FurnaceBlock.LIT) ? 13 : 0)) {
-            @Override
-            public void onPlace(BlockState pState, net.minecraft.world.level.Level pLevel, BlockPos pPos, BlockState pOldState, boolean pIsMoving) {
-                LOGGER.info("Placed " + stone + " furnace at " + pPos);
-            }
         };
     }
 
