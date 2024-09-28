@@ -37,9 +37,9 @@ def planks_to_sticks():
 def logs_to_sticks():
     # Add recipes for crafting sticks using two planks of the corresponding wood type
     for wood in STICK_TYPES:
-        if wood.startswith("stripped_"):
+        if wood not in ["blaze", "breeze", "bamboo"]:
             stick_name = f"{wood}_stick"
-            if wood in ["stripped_crimson", "stripped_warped"]:
+            if wood in ["crimson", "warped", "stripped_crimson", "stripped_warped"]:
                 log_type = "stem"
             else:
                 log_type = "log"

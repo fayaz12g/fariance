@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:warped_stem"
+    }
+  },
+  "result": {
+    "id": "fariance:warped_stick",
+    "count": 16
+  }
+}
