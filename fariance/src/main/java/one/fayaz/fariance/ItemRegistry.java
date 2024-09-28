@@ -316,11 +316,6 @@ public class ItemRegistry {
                     return InteractionResult.CONSUME; // Consume the interaction
                 }
             }
-
-            @Override
-            public void onPlace(BlockState pState, Level pLevel, BlockPos pPos, BlockState pOldState, boolean pIsMoving) {
-                LOGGER.info("Placed " + wood + " crafting table at " + pPos);
-            }
         };
     }
 
