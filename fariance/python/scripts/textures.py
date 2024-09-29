@@ -138,7 +138,7 @@ def new_plank_textures():
     for wood in NEW_WOOD:
             plank_image_path = os.path.join(image_dir, "block", "planks", f"{wood}_planks.png")
             if os.path.exists(plank_image_path):
-                output_path = os.path.join(item_output_dir, f"{wood}_planks.png")
+                output_path = os.path.join(block_output_dir, f"{wood}_planks.png")
                 ingot_img = Image.open(plank_image_path).convert("RGBA")
                 ingot_img.save(output_path)
                 # print(f"Generated texture: {output_path}")
@@ -148,7 +148,7 @@ def new_plank_textures():
             # New log
             log_image_path = os.path.join(image_dir, "block", f"{wood}_log.png")
             if os.path.exists(log_image_path):
-                output_path = os.path.join(item_output_dir, f"{wood}_log.png")
+                output_path = os.path.join(block_output_dir, f"{wood}_log.png")
                 ingot_img = Image.open(log_image_path).convert("RGBA")
                 ingot_img.save(output_path)
                 # print(f"Generated texture: {output_path}")
@@ -158,7 +158,7 @@ def new_plank_textures():
             # New stripped log
             stripped_log_image_path = os.path.join(image_dir, "block", f"stripped_{wood}_log.png")
             if os.path.exists(log_image_path):
-                output_path = os.path.join(item_output_dir, f"stripped_{wood}_log.png")
+                output_path = os.path.join(block_output_dir, f"stripped_{wood}_log.png")
                 ingot_img = Image.open(stripped_log_image_path).convert("RGBA")
                 ingot_img.save(output_path)
                 # print(f"Generated texture: {output_path}")
@@ -168,7 +168,7 @@ def new_plank_textures():
             # New stripped log
             stripped_log_image_path = os.path.join(image_dir, "block", f"stripped_{wood}_log_top.png")
             if os.path.exists(log_image_path):
-                output_path = os.path.join(item_output_dir, f"stripped_{wood}_log_top.png")
+                output_path = os.path.join(block_output_dir, f"stripped_{wood}_log_top.png")
                 ingot_img = Image.open(stripped_log_image_path).convert("RGBA")
                 ingot_img.save(output_path)
                 # print(f"Generated texture: {output_path}")
@@ -178,7 +178,7 @@ def new_plank_textures():
             # New stripped log
             stripped_log_image_path = os.path.join(image_dir, "block", f"{wood}_log_top.png")
             if os.path.exists(log_image_path):
-                output_path = os.path.join(item_output_dir, f"{wood}_log_top.png")
+                output_path = os.path.join(block_output_dir, f"{wood}_log_top.png")
                 ingot_img = Image.open(stripped_log_image_path).convert("RGBA")
                 ingot_img.save(output_path)
                 # print(f"Generated texture: {output_path}")
