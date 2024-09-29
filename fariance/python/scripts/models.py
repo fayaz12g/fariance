@@ -623,6 +623,23 @@ def new_wood_blocks():
         with open(block_model_file_path, 'w') as f:
             json.dump(block_model_data, f, indent=2)
 
+        button_pressed_name = f"{wood}_button_pressed"
+                
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/button_pressed",
+            "textures": {
+                "texture": f"fariance:block/{wood}_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{button_pressed_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
         # Item model data for the crafting table
         item_model_data = {
             "parent": f"fariance:block/{button_name}"
@@ -635,14 +652,48 @@ def new_wood_blocks():
         with open(item_model_file_path, 'w') as f:
             json.dump(item_model_data, f, indent=2)
 
-        fence_name = f"{wood}_fence"
+        fence_name = f"{wood}_fence_post"
                 
         # Block model data
         block_model_data = {
+            "parent": "minecraft:block/fence_post",
+            "textures": {
+                "texture": f"fariance:block/{wood}_planks"
+            }
         }
 
         # Define the block model output path
         block_model_file_path = os.path.join(block_model_dir, f"{fence_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+                
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/fence_inventory",
+            "textures": {
+                "texture": f"fariance:block/{wood}_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{fence_name}_inventory.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/fence_side",
+            "textures": {
+                "texture": f"fariance:block/{wood}_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{fence_name}_side.json")
         
         # Write the block model data to the file
         with open(block_model_file_path, 'w') as f:
@@ -727,6 +778,22 @@ def new_wood_blocks():
 
         # Define the block model output path
         block_model_file_path = os.path.join(block_model_dir, f"{log_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/cube_column_horizontal",
+            "textures": {
+                "end": f"fariance:block/{wood}_{log_type}_top",
+                "side": f"fariance:block/{wood}_{log_type}"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{log_name}_horizontal.json")
         
         # Write the block model data to the file
         with open(block_model_file_path, 'w') as f:
