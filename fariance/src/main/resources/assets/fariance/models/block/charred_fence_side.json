@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/pressure_plate_up",
+  "parent": "minecraft:block/fence_side",
   "textures": {
     "texture": "fariance:block/charred_planks"
   }

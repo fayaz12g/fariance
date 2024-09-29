@@ -577,7 +577,7 @@ def new_wood_blocks():
         with open(block_model_file_path, 'w') as f:
             json.dump(block_model_data, f, indent=2)
 
-        plate_down_name = f"{wood}_pressure_plate"
+        plate_down_name = f"{wood}_pressure_plate_down"
     
        # Block model data
         block_model_data = {
@@ -640,9 +640,24 @@ def new_wood_blocks():
         with open(block_model_file_path, 'w') as f:
             json.dump(block_model_data, f, indent=2)
 
+       # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/button_inventory",
+            "textures": {
+                "texture": "minecraft:block/acacia_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{button_name}_inventory.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
         # Item model data for the crafting table
         item_model_data = {
-            "parent": f"fariance:block/{button_name}"
+            "parent": f"fariance:block/{button_name}_inventory"
         }
 
         # Define the block model output path
@@ -652,7 +667,7 @@ def new_wood_blocks():
         with open(item_model_file_path, 'w') as f:
             json.dump(item_model_data, f, indent=2)
 
-        fence_name = f"{wood}_fence_post"
+        fence_name = f"{wood}_fence"
                 
         # Block model data
         block_model_data = {
@@ -663,7 +678,7 @@ def new_wood_blocks():
         }
 
         # Define the block model output path
-        block_model_file_path = os.path.join(block_model_dir, f"{fence_name}.json")
+        block_model_file_path = os.path.join(block_model_dir, f"{fence_name}_post.json")
         
         # Write the block model data to the file
         with open(block_model_file_path, 'w') as f:
@@ -701,7 +716,7 @@ def new_wood_blocks():
 
         # Item model data for the crafting table
         item_model_data = {
-            "parent": f"fariance:block/{fence_name}"
+            "parent": f"fariance:block/{fence_name}_inventory"
         }
 
         # Define the block model output path
@@ -755,7 +770,10 @@ def new_wood_blocks():
 
         # Item model data for the crafting table
         item_model_data = {
-            "parent": f"fariance:block/{door_name}"
+            "parent": "minecraft:item/generated",
+            "textures": {
+                "layer0": "minecraft:item/acacia_door"
+            }
         }
 
         # Define the block model output path
