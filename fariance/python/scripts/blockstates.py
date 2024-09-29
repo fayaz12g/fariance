@@ -60,87 +60,87 @@ def new_wood_blockstates():
                 "x": 180
                 },
                 "face=ceiling,facing=west,powered=false": {
-                "model":f"fariance:block/{item_name}_button",
+                "model":f"fariance:block/{item_name}",
                 "x": 180,
                 "y": 90
                 },
                 "face=ceiling,facing=west,powered=true": {
-                "model":f"fariance:block/{item_name}_button_pressed",
+                "model":f"fariance:block/{item_name}_pressed",
                 "x": 180,
                 "y": 90
                 },
                 "face=floor,facing=east,powered=false": {
-                "model":f"fariance:block/{item_name}_button",
+                "model":f"fariance:block/{item_name}",
                 "y": 90
                 },
                 "face=floor,facing=east,powered=true": {
-                "model":f"fariance:block/{item_name}_button_pressed",
+                "model":f"fariance:block/{item_name}_pressed",
                 "y": 90
                 },
                 "face=floor,facing=north,powered=false": {
-                "model":f"fariance:block/{item_name}_button"
+                "model":f"fariance:block/{item_name}"
                 },
                 "face=floor,facing=north,powered=true": {
-                "model":f"fariance:block/{item_name}_button_pressed"
+                "model":f"fariance:block/{item_name}_pressed"
                 },
                 "face=floor,facing=south,powered=false": {
-                "model":f"fariance:block/{item_name}_button",
+                "model":f"fariance:block/{item_name}",
                 "y": 180
                 },
                 "face=floor,facing=south,powered=true": {
-                "model":f"fariance:block/{item_name}_button_pressed",
+                "model":f"fariance:block/{item_name}_pressed",
                 "y": 180
                 },
                 "face=floor,facing=west,powered=false": {
-                "model":f"fariance:block/{item_name}_button",
+                "model":f"fariance:block/{item_name}",
                 "y": 270
                 },
                 "face=floor,facing=west,powered=true": {
-                "model":f"fariance:block/{item_name}_button_pressed",
+                "model":f"fariance:block/{item_name}_pressed",
                 "y": 270
                 },
                 "face=wall,facing=east,powered=false": {
-                "model": f"fariance:block/{item_name}_button",
+                "model": f"fariance:block/{item_name}",
                 "uvlock": True,
                 "x": 90,
                 "y": 90
                 },
                 "face=wall,facing=east,powered=true": {
-                "model":f"fariance:block/{item_name}_button_pressed",
+                "model":f"fariance:block/{item_name}_pressed",
                 "uvlock": True,
                 "x": 90,
                 "y": 90
                 },
                 "face=wall,facing=north,powered=false": {
-                "model":f"fariance:block/{item_name}_button",
+                "model":f"fariance:block/{item_name}",
                 "uvlock": True,
                 "x": 90
                 },
                 "face=wall,facing=north,powered=true": {
-                "model":f"fariance:block/{item_name}_button_pressed",
+                "model":f"fariance:block/{item_name}_pressed",
                 "uvlock": True,
                 "x": 90
                 },
                 "face=wall,facing=south,powered=false": {
-                "model":f"fariance:block/{item_name}_button",
+                "model":f"fariance:block/{item_name}",
                 "uvlock": True,
                 "x": 90,
                 "y": 180
                 },
                 "face=wall,facing=south,powered=true": {
-                "model":f"fariance:block/{item_name}_button_pressed",
+                "model":f"fariance:block/{item_name}_pressed",
                 "uvlock": True,
                 "x": 90,
                 "y": 180
                 },
                 "face=wall,facing=west,powered=false": {
-                "model":f"fariance:block/{item_name}_button",
+                "model":f"fariance:block/{item_name}",
                 "uvlock": True,
                 "x": 90,
                 "y": 270
                 },
                 "face=wall,facing=west,powered=true": {
-                "model":f"fariance:block/{item_name}_button_pressed",
+                "model":f"fariance:block/{item_name}_pressed",
                 "uvlock": True,
                 "x": 90,
                 "y": 270
