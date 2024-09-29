@@ -136,24 +136,43 @@ public class ItemRegistry {
     }
 
     private static void generateTorches() {
-        for (String wood : WOOD_TYPES) {
-            final String woodName = wood; // Create a final copy for use in lambdas
+        for (String wood : STICK_TYPES) {
+            if (!wood.equals("breeze") && !wood.equals("blaze")) {
+                final String woodName = wood; // Create a final copy for use in lambdas
 
-            // Torch
-            RegistryObject<Block> torch = BLOCKS.register(woodName + "_torch",
-                    () -> new TorchBlock(
-                            ParticleTypes.FLAME, // Sets the light level of the torch (14 is the default torch light level)
-                            BlockBehaviour.Properties.of()
-                                                        .mapColor(MapColor.WOOD)
-                                                        .noCollission()
-                                                        .strength(0.5F)
-                                                        .sound(SoundType.WOOD)
-                                                        .lightLevel((state) -> 14))); // Sets the flame particle effect for the torch
+                // Torch (upright placement)
+                RegistryObject<Block> torch = BLOCKS.register(woodName + "_torch",
+                        () -> new TorchBlock(
+                                ParticleTypes.FLAME, // Sets the light level of the torch (14 is the default torch light level)
+                                BlockBehaviour.Properties.of()
+                                                                .mapColor(MapColor.WOOD)
+                                                                .noCollission()
+                                                                .strength(0.5F)
+                                                                .sound(SoundType.WOOD)
+                                                                .lightLevel((state) -> 14))); // Sets the flame particle effect for the torch
 
-            GENERATED_BLOCKS.put(woodName + "_torch", torch);
-            registerBlockItem(woodName + "_torch", torch);
+                // Wall-mounted torch
+                RegistryObject<Block> wallTorch = BLOCKS.register(woodName + "_wall_torch",
+                        () -> new WallTorchBlock(
+                                ParticleTypes.FLAME, // Same properties but for the wall torch
+                                BlockBehaviour.Properties.of()
+                                                                .mapColor(MapColor.WOOD)
+                                                                .noCollission()
+                                                                .strength(0.5F)
+                                                                .sound(SoundType.WOOD)
+                                                                .lightLevel((state) -> 14))); // Sets the flame particle effect for the wall torch
+
+                // Add both torch and wall torch to the GENERATED_BLOCKS map
+                GENERATED_BLOCKS.put(woodName + "_torch", torch);
+                GENERATED_BLOCKS.put(woodName + "_wall_torch", wallTorch);
+
+                // Register block items for both torch and wall torch
+                registerBlockItem(woodName + "_torch", torch);
+                registerBlockItem(woodName + "_wall_torch", wallTorch);
+            }
         }
     }
+
 
 
     private static void generateNewWoodBlocks() {
