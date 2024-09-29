@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "S": {
+      "item": "fariance:stripped_pale_oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:deepslate_shovel_with_stripped_pale_oak_stick",
+    "count": 1
+  }
+}

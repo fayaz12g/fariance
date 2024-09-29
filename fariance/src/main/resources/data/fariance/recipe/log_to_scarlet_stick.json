@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:scarlet_log"
+    }
+  },
+  "result": {
+    "id": "fariance:scarlet_stick",
+    "count": 16
+  }
+}

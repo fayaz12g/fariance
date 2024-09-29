@@ -480,7 +480,7 @@ def furnace_models():
                 "side": f"fariance:block/{furnace_name}_side",
                 "top": f"fariance:block/{furnace_name}_top"
             }
-            }
+        }
 
         # Define the block model output path
         block_model_file_path = os.path.join(block_model_dir, f"{furnace_name}.json")
@@ -522,6 +522,303 @@ def furnace_models():
             json.dump(block_model_data, f, indent=2)
 
 
+def new_wood_blocks():
+    # Add new wood models
+    for wood in NEW_WOOD:
+        if wood in NETHER_WOODS:
+            log_type = "stem"
+        else: 
+            log_type = "log"
+
+        plank_name = f"{wood}_planks"
+        
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/cube_all",
+            "textures": {
+                "all": f"fariance:block/{wood}_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{plank_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Item model data for the crafting table
+        item_model_data = {
+            "parent": f"fariance:block/{plank_name}"
+        }
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{plank_name}.json")
+        
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
+
+        plate_name = f"{wood}_pressure_plate"
+                
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/pressure_plate_up",
+            "textures": {
+                "texture": f"fariance:block/{wood}_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{plate_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        plate_down_name = f"{wood}_pressure_plate"
+    
+       # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/pressure_plate_down",
+            "textures": {
+                "texture": f"fariance:block/{wood}_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{plate_down_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Item model data for the crafting table
+        item_model_data = {
+            "parent": f"fariance:block/{plate_name}"
+        }
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{plate_name}.json")
+        
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
+        button_name = f"{wood}_button"
+                
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/button",
+            "textures": {
+                "texture": f"fariance:block/{wood}_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{button_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Item model data for the crafting table
+        item_model_data = {
+            "parent": f"fariance:block/{button_name}"
+        }
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{button_name}.json")
+        
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
+        fence_name = f"{wood}_fence"
+                
+        # Block model data
+        block_model_data = {
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{fence_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Item model data for the crafting table
+        item_model_data = {
+            "parent": f"fariance:block/{fence_name}"
+        }
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{fence_name}.json")
+        
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
+        gate_name = f"{wood}_fence_gate"
+                
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/fence_post",
+            "textures": {
+                "texture": f"fariance:block/{wood}_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{gate_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Item model data for the crafting table
+        item_model_data = {
+            "parent": f"fariance:block/{gate_name}"
+        }
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{gate_name}.json")
+        
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
+        door_name = f"{wood}_door"
+                
+        # Block model data
+        block_model_data = {
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{door_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Item model data for the crafting table
+        item_model_data = {
+            "parent": f"fariance:block/{door_name}"
+        }
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{door_name}.json")
+        
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
+        log_name = f"{wood}_{log_type}"
+                
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/cube_column",
+            "textures": {
+                "end": f"fariance:block/{wood}_{log_type}_top",
+                "side": f"fariance:block/{wood}_{log_type}"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{log_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Item model data for the crafting table
+        item_model_data = {
+            "parent": f"fariance:block/{log_name}"
+        }
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{log_name}.json")
+        
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
+        stripped_log_name = f"stripped_{wood}_{log_type}"
+                
+        # Block model data
+        block_model_data = {
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{stripped_log_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Item model data for the crafting table
+        item_model_data = {
+            "parent": f"fariance:block/{stripped_log_name}"
+        }
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{stripped_log_name}.json")
+        
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
+        slab_name = f"{wood}_slab"
+                
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/slab",
+            "textures": {
+                "bottom": f"fariance:block/{wood}_planks",
+                "side": f"fariance:block/{wood}_planks",
+                "top": f"fariance:block/{wood}_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{slab_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        slab_top_name = f"{wood}_slab"
+                
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/slab_top",
+            "textures": {
+                "bottom": f"fariance:block/{wood}_planks",
+                "side": f"fariance:block/{wood}_planks",
+                "top": f"fariance:block/{wood}_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{slab_top_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Item model data for the crafting table
+        item_model_data = {
+            "parent": f"fariance:block/{slab_name}"
+        }
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{slab_name}.json")
+        
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
 def atlases_blocks():
     file_name = f"blocks"
     model_data = {
@@ -551,6 +848,7 @@ def generate_models():
     bed_models()
     bed_template_models()
     atlases_blocks()
+    new_wood_blocks()
 
 
 

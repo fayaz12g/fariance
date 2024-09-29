@@ -20,8 +20,9 @@ def generate_sticks():
                 block_path = os.path.join(block_dir, "log", block_filename)
 
                 if not os.path.exists(block_path):
-                    print(f"Warning: Missing log texture for {stick_type}")
-                    continue
+                    print(f"Warning: Missing log texture for {stick_type}. Using default.")
+                    block_path = os.path.join(block_dir, "log", "default.png")
+                    
 
                 block_image = Image.open(block_path).convert("RGBA")
                 result_image = apply_mask(block_image, stick_mask_image)

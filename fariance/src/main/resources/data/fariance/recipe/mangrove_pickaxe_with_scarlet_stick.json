@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:mangrove_planks"
+    },
+    "S": {
+      "item": "fariance:scarlet_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:mangrove_pickaxe_with_scarlet_stick",
+    "count": 1
+  }
+}

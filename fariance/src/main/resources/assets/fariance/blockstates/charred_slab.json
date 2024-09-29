@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fariance:block/charred_slab"
+    },
+    "type=double": {
+      "model": "fariance:block/charred_planks"
+    },
+    "type=top": {
+      "model": "fariance:block/charred_slab_top"
+    }
+  }
+}

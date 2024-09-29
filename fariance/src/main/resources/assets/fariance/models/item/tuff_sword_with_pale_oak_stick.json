@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/tuff_sword_with_pale_oak_stick"
+  }
+}

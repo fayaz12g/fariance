@@ -14,6 +14,9 @@
     "fariance:crimson_ladder",
     "fariance:warped_ladder",
     "fariance:bamboo_ladder",
+    "fariance:pale_oak_ladder",
+    "fariance:charred_ladder",
+    "fariance:scarlet_ladder",
     "fariance:stripped_oak_ladder",
     "fariance:stripped_spruce_ladder",
     "fariance:stripped_birch_ladder",
@@ -24,6 +27,9 @@
     "fariance:stripped_cherry_ladder",
     "fariance:stripped_crimson_ladder",
     "fariance:stripped_warped_ladder",
-    "fariance:stripped_bamboo_ladder"
+    "fariance:stripped_bamboo_ladder",
+    "fariance:stripped_pale_oak_ladder",
+    "fariance:stripped_charred_ladder",
+    "fariance:stripped_scarlet_ladder"
   ]
 }

@@ -84,6 +84,41 @@ def ladder_block_lang():
         ladder_name = f"{wood}_ladder"
         entries[f"block.fariance.{ladder_name}"] = f"{capitalize_material(wood)} Ladder"
 
+def new_wood_lang():
+    # Add new wood blocks to lang file
+    for wood in NEW_WOOD:
+        if wood in NETHER_WOODS:
+            log_type = "stem"
+        else: 
+            log_type = "log"
+
+        plank_name = f"{wood}_planks"
+        entries[f"block.fariance.{plank_name}"] = f"{capitalize_material(wood)} Planks"
+
+        plate_name = f"{wood}_pressure_plate"
+        entries[f"block.fariance.{plate_name}"] = f"{capitalize_material(wood)} Pressure Plate"
+
+        button_name = f"{wood}_button"
+        entries[f"block.fariance.{button_name}"] = f"{capitalize_material(wood)} Button"
+
+        fence_name = f"{wood}_fence"
+        entries[f"block.fariance.{fence_name}"] = f"{capitalize_material(wood)} Fence"
+
+        gate_name = f"{wood}_fence_gate"
+        entries[f"block.fariance.{gate_name}"] = f"{capitalize_material(wood)} Fence Gate"
+
+        door_name = f"{wood}_door"
+        entries[f"block.fariance.{door_name}"] = f"{capitalize_material(wood)} Door"
+
+        log_name = f"{wood}_{log_type}"
+        entries[f"block.fariance.{log_name}"] = f"{capitalize_material(wood)} {capitalize_material(log_type)}"
+
+        stripped_log_name = f"stripped_{wood}_{log_type}"
+        entries[f"block.fariance.{stripped_log_name}"] = f"Stripped {capitalize_material(wood)} {capitalize_material(log_type)}"
+
+        slab_name = f"{wood}_slab"
+        entries[f"block.fariance.{slab_name}"] = f"{capitalize_material(wood)} Slab"
+
 def generate_lang_entries():
     
     # Ensure that the directory exists before writing the lang file
@@ -101,6 +136,7 @@ def generate_lang_entries():
     ladder_block_lang()
     shield_lang()
     bed_lang()
+    new_wood_lang()
 
     # Generate lang file
     with open(lang_file_path, "w") as f:

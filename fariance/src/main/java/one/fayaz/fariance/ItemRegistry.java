@@ -5,6 +5,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.MenuProvider;
@@ -17,11 +18,14 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.entity.BedBlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.grower.TreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.SoundType;
@@ -66,9 +70,14 @@ public class ItemRegistry {
             "slow_falling"
     );
 
-    private static final List<String> WOOD_TYPES = Arrays.asList(
-            "oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo");
+    private static final List<String> NEW_WOOD_TYPES = Arrays.asList(
+            "pale_oak", "charred", "purple");
 
+    private static final List<String> WOOD_TYPES = new ArrayList<>();
+    static {
+        WOOD_TYPES.addAll(Arrays.asList("oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"));
+        WOOD_TYPES.addAll(NEW_WOOD_TYPES);
+    }
     private static final List<String> TOOL_TYPES = Arrays.asList(
             "sword", "pickaxe", "shovel", "hoe", "axe");
 
@@ -121,7 +130,74 @@ public class ItemRegistry {
         generateShields();
         generatePotionBucketsAndFluids();
         generateBeds();
+        generateNewWoodBlocks();
     }
+
+    private static void generateNewWoodBlocks() {
+        for (String wood : NEW_WOOD_TYPES) {
+            final String woodName = wood; // Create a final copy for use in lambdas
+
+            // Plank
+            RegistryObject<Block> planks = BLOCKS.register(woodName + "_planks",
+                    () -> new Block(BlockBehaviour.Properties.of().strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put(woodName + "_planks", planks);
+            registerBlockItem(woodName + "_planks", planks);
+
+            // Pressure Plate
+            RegistryObject<Block> pressurePlate = BLOCKS.register(woodName + "_pressure_plate",
+                    () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).noCollission().strength(0.5F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put(woodName + "_pressure_plate", pressurePlate);
+            registerBlockItem(woodName + "_pressure_plate", pressurePlate);
+
+            // Button
+            RegistryObject<Block> button = BLOCKS.register(woodName + "_button",
+                    () -> new ButtonBlock(BlockSetType.OAK, 30, BlockBehaviour.Properties.of().noCollission().strength(0.5F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put(woodName + "_button", button);
+            registerBlockItem(woodName + "_button", button);
+
+            // Fence Gate
+            RegistryObject<Block> fenceGate = BLOCKS.register(woodName + "_fence_gate",
+                    () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.of().strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put(woodName + "_fence_gate", fenceGate);
+            registerBlockItem(woodName + "_fence_gate", fenceGate);
+
+            // Fence
+            RegistryObject<Block> fence = BLOCKS.register(woodName + "_fence",
+                    () -> new FenceBlock(BlockBehaviour.Properties.of().strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put(woodName + "_fence", fence);
+            registerBlockItem(woodName + "_fence", fence);
+
+            // Door
+            RegistryObject<Block> door = BLOCKS.register(woodName + "_door",
+                    () -> new DoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.of().strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+            GENERATED_BLOCKS.put(woodName + "_door", door);
+            registerBlockItem(woodName + "_door", door);
+
+            // Stem
+            RegistryObject<Block> stem = BLOCKS.register(woodName + "_stem",
+                    () -> new RotatedPillarBlock(BlockBehaviour.Properties.of().strength(2.0F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put(woodName + "_stem", stem);
+            registerBlockItem(woodName + "_stem", stem);
+
+            // Stripped Stem
+            RegistryObject<Block> strippedStem = BLOCKS.register("stripped_" + woodName + "_stem",
+                    () -> new RotatedPillarBlock(BlockBehaviour.Properties.of().strength(2.0F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put("stripped_" + woodName + "_stem", strippedStem);
+            registerBlockItem("stripped_" + woodName + "_stem", strippedStem);
+
+            // Slab
+            RegistryObject<Block> slab = BLOCKS.register(woodName + "_slab",
+                    () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put(woodName + "_slab", slab);
+            registerBlockItem(woodName + "_slab", slab);
+        }
+    }
+
+    // Helper method to register BlockItems
+    private static void registerBlockItem(String name, RegistryObject<Block> block) {
+        GENERATED_ITEMS.put(name, ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties())));
+    }
+
 
     // BEDS
     private static void generateBeds() {

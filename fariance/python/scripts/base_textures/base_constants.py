@@ -1,7 +1,8 @@
 import os
 
 # Define constants
-WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
+NEW_WOOD = ["pale_oak", "charred", "scarlet"]
+WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"] + NEW_WOOD
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
 MATERIAL_BASE = ["iron", "diamond", "gold", "netherite"]
 MATERIAL_NEW =   ["amethyst", "redstone", "lapis", "quartz"]

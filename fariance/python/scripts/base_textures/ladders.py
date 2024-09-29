@@ -17,8 +17,8 @@ def generate_ladders():
         else:
             ladder_mask_path = os.path.join(source_dir, f"{stick_type}_ladder.png")
         if not os.path.exists(ladder_mask_path):
-            print(f"Warning: Missing mask texture for {stick_type} ladder")
-            continue
+            print(f"Warning: Missing mask texture for {stick_type} ladder. Using default mask")
+            ladder_mask_path = os.path.join(source_dir, f"default.png")
     
         ladder_mask_image = Image.open(ladder_mask_path).convert("RGBA")
 

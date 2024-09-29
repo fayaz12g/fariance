@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "fariance:stripped_charred_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:gold_axe_with_stripped_charred_stick",
+    "count": 1
+  }
+}

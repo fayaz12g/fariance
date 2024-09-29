@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:stripped_charred_log"
+    }
+  },
+  "result": {
+    "id": "fariance:stripped_charred_stick",
+    "count": 16
+  }
+}

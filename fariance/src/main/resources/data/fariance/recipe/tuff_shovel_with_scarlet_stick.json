@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:tuff"
+    },
+    "S": {
+      "item": "fariance:scarlet_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:tuff_shovel_with_scarlet_stick",
+    "count": 1
+  }
+}

@@ -17,7 +17,7 @@ def generate_bed_blocks():
         for color in WOOL_COLORS:
             wood_texture_path = os.path.join(block_dir, "planks", f"{wood}_planks.png")
             if not os.path.exists(wood_texture_path):
-                print(f"Warning: Missing block texture for {wood}")
+                print(f"Warning: Missing texture for {wood} planks in planks dir")
                 continue
             
             wood_texture = Image.open(wood_texture_path).convert("RGBA")

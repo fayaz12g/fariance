@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:scarlet_planks"
+    },
+    "S": {
+      "item": "fariance:scarlet_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:scarlet_sword_with_scarlet_stick",
+    "count": 1
+  }
+}

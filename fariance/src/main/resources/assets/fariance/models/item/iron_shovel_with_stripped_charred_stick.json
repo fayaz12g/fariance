@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/iron_shovel_with_stripped_charred_stick"
+  }
+}

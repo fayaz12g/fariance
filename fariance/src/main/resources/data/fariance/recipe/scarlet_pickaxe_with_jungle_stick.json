@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:scarlet_planks"
+    },
+    "S": {
+      "item": "fariance:jungle_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:scarlet_pickaxe_with_jungle_stick",
+    "count": 1
+  }
+}
