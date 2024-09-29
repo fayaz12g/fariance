@@ -84,6 +84,14 @@ def ladder_block_lang():
         ladder_name = f"{wood}_ladder"
         entries[f"block.fariance.{ladder_name}"] = f"{capitalize_material(wood)} Ladder"
 
+def torch_lang():
+    # Add torches to lang file
+    for wood in STICK_TYPES:
+        if wood not in ["breeze", "blaze"]:
+            torch_name = f"{wood}_torch"
+            entries[f"block.fariance.{torch_name}"] = f"{capitalize_material(wood)} Torch"
+
+
 def new_wood_lang():
     # Add new wood blocks to lang file
     for wood in NEW_WOOD:
@@ -137,6 +145,7 @@ def generate_lang_entries():
     shield_lang()
     bed_lang()
     new_wood_lang()
+    torch_lang()
 
     # Generate lang file
     with open(lang_file_path, "w") as f:

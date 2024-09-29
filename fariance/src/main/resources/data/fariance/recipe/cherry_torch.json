@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W",
+    "P",
+    "P"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:coal"
+    },
+    "P": {
+      "item": "fariance:cherry_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:cherry_torch",
+    "count": 1
+  }
+}

@@ -4,6 +4,7 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
@@ -131,7 +132,29 @@ public class ItemRegistry {
         generatePotionBucketsAndFluids();
         generateBeds();
         generateNewWoodBlocks();
+        generateTorches();
     }
+
+    private static void generateTorches() {
+        for (String wood : WOOD_TYPES) {
+            final String woodName = wood; // Create a final copy for use in lambdas
+
+            // Torch
+            RegistryObject<Block> torch = BLOCKS.register(woodName + "_torch",
+                    () -> new TorchBlock(
+                            ParticleTypes.FLAME, // Sets the light level of the torch (14 is the default torch light level)
+                            BlockBehaviour.Properties.of()
+                                                        .mapColor(MapColor.WOOD)
+                                                        .noCollission()
+                                                        .strength(0.5F)
+                                                        .sound(SoundType.WOOD)
+                                                        .lightLevel((state) -> 14))); // Sets the flame particle effect for the torch
+
+            GENERATED_BLOCKS.put(woodName + "_torch", torch);
+            registerBlockItem(woodName + "_torch", torch);
+        }
+    }
+
 
     private static void generateNewWoodBlocks() {
         for (String wood : NEW_WOOD_TYPES) {

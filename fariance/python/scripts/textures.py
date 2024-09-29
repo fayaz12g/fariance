@@ -41,6 +41,7 @@ def generate_textures():
     ladder_textures()
     shield_textures()
     bed_textures()
+    torch_textures()
     new_plank_textures()
 
     print(f"Texture generation done!")
@@ -185,7 +186,17 @@ def new_plank_textures():
             else:
                 print(f"Warning: Missing texture for {wood}_log_top")
 
-
+def torch_textures():
+    # Generate torch textures
+    for wood in WOOD_TYPES:
+            torch_image_path = os.path.join(image_dir, "torch", f"{wood}_torch.png")
+            if os.path.exists(torch_image_path):
+                output_path = os.path.join(block_output_dir, f"{wood}_torch.png")
+                ingot_img = Image.open(torch_image_path).convert("RGBA")
+                ingot_img.save(output_path)
+                # print(f"Generated texture: {output_path}")
+            else:
+                print(f"Warning: Missing texture for {wood}_torch")
 
 def ingot_textures():
     # Generate copper ingot textures

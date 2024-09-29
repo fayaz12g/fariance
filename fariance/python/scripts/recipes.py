@@ -280,6 +280,32 @@ def ladder_recipes():
             }
             recipes.append((bed_name, json.dumps(recipe, indent=2)))
 
+def torch_recipes():
+    # Add recipes for torches for each wood type
+    for wood in STICK_TYPES:
+         if wood not in ["breeze", "blaze"]:
+            torch_name = f"{wood}_torch"
+            recipe = {
+                "type": "minecraft:crafting_shaped",
+                "category": "misc", 
+                "pattern": [
+                    "W",
+                    "P",
+                    "P"
+                ],
+                "key": {
+                    "W": {"item": f"minecraft:coal"},
+                    "P": {"item": f"fariance:{wood}_stick"}
+                },
+                "result": {
+                    "id": f"fariance:{torch_name}",
+                    "count": 1
+                }
+            }
+            recipes.append((torch_name, json.dumps(recipe, indent=2)))
+
+
+
 def generate_recipes():
     
     # Define the path for recipe files
@@ -297,6 +323,7 @@ def generate_recipes():
     fence_recipes()
     fence_gate_recipes()
     shield_recipes()
+    torch_recipes()
 
     # Generate recipes and write them to files
     for item_name, recipe in recipes:

@@ -142,6 +142,42 @@ def crafting_table_models():
         with open(item_model_file_path, 'w') as f:
             json.dump(item_model_data, f, indent=2)
 
+def torch_models():
+    # Loop through each wood type and generate the corresponding models for torches
+    for wood in STICK_TYPES:
+        if wood not in ["breeze", "blaze"]:
+            torch_name = f"{wood}_torch"
+            
+            # Block model data for the torch
+            block_model_data = {
+                "parent": "minecraft:block/template_torch",
+                "textures": {
+                    "torch": f"fariance:block/{wood}_torch"
+                }
+            }
+
+            # Define the block model output path
+            block_model_file_path = os.path.join(block_model_dir, f"{torch_name}.json")
+            
+            # Write the block model data to the file
+            with open(block_model_file_path, 'w') as f:
+                json.dump(block_model_data, f, indent=2)
+
+            # Item model data for the torch
+            item_model_data = {
+                "parent": "minecraft:item/generated",
+                "textures": {
+                    "layer0": f"fariance:block/{wood}_torch"
+                }
+            }
+
+            # Define the block model output path
+            item_model_file_path = os.path.join(item_model_dir, f"{torch_name}.json")
+            
+            # Write the block model data to the file
+            with open(item_model_file_path, 'w') as f:
+                json.dump(item_model_data, f, indent=2)
+
 def shield_models():
     # Loop through each wood type and generate the corresponding models for shields
     for wood in WOOD_TYPES:
@@ -934,6 +970,7 @@ def generate_models():
     bed_template_models()
     atlases_blocks()
     new_wood_blocks()
+    torch_models()
 
 
 

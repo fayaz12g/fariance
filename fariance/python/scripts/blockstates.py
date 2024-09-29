@@ -16,6 +16,7 @@ def generate_blockstates():
     crafting_blockstates()
     bed_blockstates()
     new_wood_blockstates()
+    torch_blockstates()
 
     print("Blockstates generated successfully.")
 
@@ -620,6 +621,27 @@ def bed_blockstates():
             }
 
             blockstates_file_path = os.path.join(blockstates_dir, f"{bed_name}.json")
+            os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+            
+            # Write the blockstates data to the file
+            with open(blockstates_file_path, 'w') as f:
+                json.dump(blockstates_data, f, indent=2)
+
+
+def torch_blockstates():
+    for wood in STICK_TYPES:
+        if wood not in ["breeze", "blaze"]:
+            # Torches
+            torch_name = f"{wood}_torch"
+            blockstates_data = {
+                "variants": {
+                    "": {
+                    "model": "minecraft:block/torch"
+                    }
+                }
+            }
+
+            blockstates_file_path = os.path.join(blockstates_dir, f"{torch_name}.json")
             os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
             
             # Write the blockstates data to the file

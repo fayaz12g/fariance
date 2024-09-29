@@ -13,6 +13,11 @@ PRISMARINE_TYPES = ["prismarine_one", "prismarine_two","prismarine_three","prism
 
 MATERIAL_TYPES = MATERIAL_BASE + MATERIAL_NEW + COPPER_TYPES + STONE_TYPES + WOOD_TYPES + PRISMARINE_TYPES
 
+
+WOOL_COLORS = ["black", "blue", "brown", "cyan", "gray", "green", "light_blue", "light_gray", "lime", "magenta", "orange", "pink", "purple",
+               "red", "white", "yellow"]
+
+
 # Define potions types
 POTION_TYPES = [
     "mundane", "thick", "awkward", "night_vision", "invisibility", "leaping",
