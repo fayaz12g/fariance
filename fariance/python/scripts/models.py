@@ -644,7 +644,7 @@ def new_wood_blocks():
         block_model_data = {
             "parent": "minecraft:block/button_inventory",
             "textures": {
-                "texture": "minecraft:block/acacia_planks"
+                "texture": f"fariance:block/{wood}_planks"
             }
         }
 
@@ -772,7 +772,7 @@ def new_wood_blocks():
         item_model_data = {
             "parent": "minecraft:item/generated",
             "textures": {
-                "layer0": "minecraft:item/acacia_door"
+                "layer0": f"fariance:item/{wood}_door"
             }
         }
 
