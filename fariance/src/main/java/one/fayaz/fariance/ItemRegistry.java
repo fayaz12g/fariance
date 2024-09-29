@@ -71,7 +71,7 @@ public class ItemRegistry {
     );
 
     private static final List<String> NEW_WOOD_TYPES = Arrays.asList(
-            "pale_oak", "charred", "purple");
+            "pale_oak", "charred", "scarlet");
 
     private static final List<String> WOOD_TYPES = new ArrayList<>();
     static {
