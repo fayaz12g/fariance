@@ -636,7 +636,7 @@ def torch_blockstates():
             blockstates_data = {
                 "variants": {
                     "": {
-                    "model": "minecraft:block/torch"
+                    "model": f"fariance:block/{wood}_torch"
                     }
                 }
             }
