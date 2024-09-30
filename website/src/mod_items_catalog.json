@@ -44418,6 +44418,16 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/oak.png"
     },
     {
+      "name": "Dark Oak Stick",
+      "id": "dark_oak",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/dark_oak.png"
+    },
+    {
+      "name": "Pale Oak Stick",
+      "id": "pale_oak",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/pale_oak.png"
+    },
+    {
       "name": "Spruce Stick",
       "id": "spruce",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/spruce.png"
@@ -44436,11 +44446,6 @@
       "name": "Acacia Stick",
       "id": "acacia",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/acacia.png"
-    },
-    {
-      "name": "Dark Oak Stick",
-      "id": "dark_oak",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/dark_oak.png"
     },
     {
       "name": "Mangrove Stick",
@@ -44468,9 +44473,29 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/bamboo.png"
     },
     {
+      "name": "Scarlet Stick",
+      "id": "scarlet",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/scarlet.png"
+    },
+    {
+      "name": "Charred Stick",
+      "id": "charred",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/charred.png"
+    },
+    {
       "name": "Stripped Oak Stick",
       "id": "stripped_oak",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/stripped_oak.png"
+    },
+    {
+      "name": "Stripped Dark Oak Stick",
+      "id": "stripped_dark_oak",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/stripped_dark_oak.png"
+    },
+    {
+      "name": "Stripped Pale Oak Stick",
+      "id": "stripped_pale_oak",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/stripped_pale_oak.png"
     },
     {
       "name": "Stripped Spruce Stick",
@@ -44491,11 +44516,6 @@
       "name": "Stripped Acacia Stick",
       "id": "stripped_acacia",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/stripped_acacia.png"
-    },
-    {
-      "name": "Stripped Dark Oak Stick",
-      "id": "stripped_dark_oak",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/stripped_dark_oak.png"
     },
     {
       "name": "Stripped Mangrove Stick",
@@ -44521,6 +44541,16 @@
       "name": "Stripped Bamboo Stick",
       "id": "stripped_bamboo",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/stripped_bamboo.png"
+    },
+    {
+      "name": "Stripped Scarlet Stick",
+      "id": "stripped_scarlet",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/stripped_scarlet.png"
+    },
+    {
+      "name": "Stripped Charred Stick",
+      "id": "stripped_charred",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/stripped_charred.png"
     }
   ],
   "materials": [
@@ -44645,6 +44675,16 @@
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/stripped_oak_log.png"
     },
     {
+      "name": "Dark Oak",
+      "id": "dark_oak",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/stripped_dark_oak_log.png"
+    },
+    {
+      "name": "Pale Oak",
+      "id": "pale_oak",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/stripped_pale_oak_log.png"
+    },
+    {
       "name": "Spruce",
       "id": "spruce",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/stripped_spruce_log.png"
@@ -44663,11 +44703,6 @@
       "name": "Acacia",
       "id": "acacia",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/stripped_acacia_log.png"
-    },
-    {
-      "name": "Dark Oak",
-      "id": "dark_oak",
-      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/stripped_dark_oak_log.png"
     },
     {
       "name": "Mangrove",
@@ -44693,6 +44728,16 @@
       "name": "Bamboo",
       "id": "bamboo",
       "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/stripped_bamboo_log.png"
+    },
+    {
+      "name": "Scarlet",
+      "id": "scarlet",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/stripped_scarlet_log.png"
+    },
+    {
+      "name": "Charred",
+      "id": "charred",
+      "imagePath": "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/stripped_charred_log.png"
     }
   ]
 }
