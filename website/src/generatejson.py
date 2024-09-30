@@ -5,7 +5,7 @@ import json
 item_folder = r"C:\Users\fayaz\Documents\GitHub\woodstuffmod\fariance\src\main\resources\assets\fariance\textures\item"
 lang_file = r"C:\Users\fayaz\Documents\GitHub\woodstuffmod\fariance\src\main\resources\assets\fariance\lang\en_us.json"
 github_raw_base = "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/src/main/resources/assets/fariance/textures/item/"
-github_stick_base = "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/"
+github_stick_base = "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/stick/default/"
 github_block_base = "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/"
 
 # Constants
