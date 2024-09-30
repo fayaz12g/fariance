@@ -647,6 +647,18 @@ def torch_blockstates():
                     }
                 }
 
+                if torch == "redstone":
+                    blockstates_data = {
+                        "variants": {
+                            "lit=false": {
+                            "model": f"fariance:block/{torch_name}_off"
+                            },
+                            "lit=true": {
+                            "model": f"fariance:block/{torch_name}"
+                            }
+                        }
+                    }
+
                 blockstates_file_path = os.path.join(blockstates_dir, f"{torch_name}.json")
                 os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
                 
@@ -683,6 +695,42 @@ def wall_torch_blockstates():
                         }
                     }
                 }
+
+                if torch == "redstone":
+                    blockstates_data = {
+                        "variants": {
+                            "facing=east,lit=false": {
+                            "model": f"fariance:block/{wall_torch_name}_off"
+                            },
+                            "facing=east,lit=true": {
+                            "model": f"fariance:block/{wall_torch_name}"
+                            },
+                            "facing=north,lit=false": {
+                            "model": f"fariance:block/{wall_torch_name}_off",
+                            "y": 270
+                            },
+                            "facing=north,lit=true": {
+                            "model": f"fariance:block/{wall_torch_name}",
+                            "y": 270
+                            },
+                            "facing=south,lit=false": {
+                            "model": f"fariance:block/{wall_torch_name}_off",
+                            "y": 90
+                            },
+                            "facing=south,lit=true": {
+                            "model": f"fariance:block/{wall_torch_name}",
+                            "y": 90
+                            },
+                            "facing=west,lit=false": {
+                            "model": f"fariance:block/{wall_torch_name}_off",
+                            "y": 180
+                            },
+                            "facing=west,lit=true": {
+                            "model": f"fariance:block/{wall_torch_name}",
+                            "y": 180
+                            }
+                        }
+                    }
 
                 blockstates_file_path = os.path.join(blockstates_dir, f"{wall_torch_name}.json")
                 os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)

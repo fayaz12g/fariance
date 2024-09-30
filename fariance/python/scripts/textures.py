@@ -194,22 +194,35 @@ def new_wood_textures():
 def torch_textures():
     # Generate torch textures
     for wood in STICK_TYPES:
-            if wood not in ["breeze", "blaze"]:
-                for torch in TORCH_TYPES:
-                    
-                    if torch == "normal":
-                        torch_name = f"{wood}_torch"
-                    else:
-                        torch_name = f"{wood}_{torch}_torch"
+        if wood not in ["breeze", "blaze"]:
+            for torch in TORCH_TYPES:
+                if torch == "normal":
+                    torch_name = f"{wood}_torch"
+                elif torch == "redstone":
+                    torch_name = f"{wood}_redstone_torch"
+                    torch_off_name = f"{wood}_redstone_torch_off"
+                else:
+                    torch_name = f"{wood}_{torch}_torch"
                 
-                    torch_image_path = os.path.join(image_dir, "torch", f"{torch_name}.png")
-                    if os.path.exists(torch_image_path):
-                        output_path = os.path.join(block_output_dir, f"{torch_name}.png")
-                        ingot_img = Image.open(torch_image_path).convert("RGBA")
-                        ingot_img.save(output_path)
-                        # print(f"Generated texture: {output_path}")
+                torch_image_path = os.path.join(image_dir, "torch", f"{torch_name}.png")
+                if os.path.exists(torch_image_path):
+                    output_path = os.path.join(block_output_dir, f"{torch_name}.png")
+                    torch_img = Image.open(torch_image_path).convert("RGBA")
+                    torch_img.save(output_path)
+                    # print(f"Generated texture: {output_path}")
+                else:
+                    print(f"Warning: Missing texture for {torch_name}")
+                
+                # Handle redstone torch off state
+                if torch == "redstone":
+                    torch_off_image_path = os.path.join(image_dir, "torch", f"{torch_off_name}.png")
+                    if os.path.exists(torch_off_image_path):
+                        output_off_path = os.path.join(block_output_dir, f"{torch_off_name}.png")
+                        torch_off_img = Image.open(torch_off_image_path).convert("RGBA")
+                        torch_off_img.save(output_off_path)
+                        # print(f"Generated texture: {output_off_path}")
                     else:
-                        print(f"Warning: Missing texture for {torch_name}")
+                        print(f"Warning: Missing texture for {torch_off_name}")
 
 
 def ingot_textures():

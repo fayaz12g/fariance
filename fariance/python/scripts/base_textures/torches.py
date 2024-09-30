@@ -1,92 +1,53 @@
 import os
-from PIL import Image, ImageEnhance, ImageOps
+from PIL import Image
 from base_constants import *
 from base_functions import *
 
 torch_dir = os.path.join(image_dir, "torch")
 torch_source = os.path.join(image_dir, "source", "torch")
 
-def generate_torches():
-    for wood in WOOD_TYPES:
-        for torch in TORCH_TYPES:
+def generate_torch(wood, torch_type, is_stripped=False):
+    if torch_type == "normal":
+        torch_name = f"{wood}_torch"
+    else:
+        torch_name = f"{wood}_{torch_type}_torch"
 
-            if torch == "normal":
-                torch_name = f"{wood}_torch"
-            else:
-                torch_name = f"{wood}_{torch}_torch"
+    wood_dir = "planks" if is_stripped else "log"
+    wood_texture_path = os.path.join(block_dir, wood_dir, f"{wood}_{wood_dir}.png")
+    if not os.path.exists(wood_texture_path):
+        print(f"Warning: Missing texture for {wood} {wood_dir}")
+        wood_texture_path = os.path.join(block_dir, "log", "default.png")
 
-            wood_texture_path = os.path.join(block_dir, "log", f"{wood}_log.png")
-            if not os.path.exists(wood_texture_path):
-                print(f"Warning: Missing texture for {wood} log in log dir")
-                wood_texture_path = os.path.join(block_dir, "log", f"default.png")
-            
-            wood_texture = Image.open(wood_texture_path).convert("RGBA")
-            
-            overlay_path = os.path.join(torch_source, f"{torch}_overlay.png")
-            if not os.path.exists(overlay_path):
-                print(f"Warning: Missing torch overlay texture")
-                continue
-            
-            overlay_texture = Image.open(overlay_path).convert("RGBA")
+    wood_texture = Image.open(wood_texture_path).convert("RGBA")
 
-            wood_mask_path = os.path.join(torch_source, "stick_mask.png")
-            wood_mask_texture = Image.open(wood_mask_path).convert("RGBA")
+    overlays = ["overlay"]
+    if torch_type == "redstone":
+        overlays.append("off_overlay")
 
-            wood_dark_mask_path = os.path.join(torch_source, "dark_mask.png")
-            wood_dark_mask_texture = Image.open(wood_dark_mask_path).convert("RGBA")
+    for overlay in overlays:
+        overlay_path = os.path.join(torch_source, f"{torch_type}_{overlay}.png")
+        if not os.path.exists(overlay_path):
+            print(f"Warning: Missing torch {overlay} texture for {torch_type} at {overlay_path}")
+            continue
 
-            torch_stick_image = apply_mask(wood_texture, wood_mask_texture)
+        overlay_texture = Image.open(overlay_path).convert("RGBA")
 
-            torch_stick_image =  apply_darkening_mask(torch_stick_image, wood_dark_mask_texture)
+        wood_mask_texture = Image.open(os.path.join(torch_source, "stick_mask.png")).convert("RGBA")
+        wood_dark_mask_texture = Image.open(os.path.join(torch_source, "dark_mask.png")).convert("RGBA")
 
-            full_torch_image = overlay_texture_transparent(torch_stick_image, overlay_texture)
+        torch_stick_image = apply_mask(wood_texture, wood_mask_texture)
+        torch_stick_image = apply_darkening_mask(torch_stick_image, wood_dark_mask_texture)
 
-            output_path = os.path.join(torch_dir, f"{torch_name}.png")
-            full_torch_image.save(output_path)
-            
-    print("Done generating torch textures")
+        full_torch_image = overlay_texture_transparent(torch_stick_image, overlay_texture)
 
-def generate_stripped_torches():
-    for wood in WOOD_TYPES:
-        for torch in TORCH_TYPES:
-
-            
-            if torch == "normal":
-                torch_name = f"{wood}_torch"
-            else:
-                torch_name = f"{wood}_{torch}_torch"
-
-            wood_texture_path = os.path.join(block_dir, "planks", f"{wood}_planks.png")
-            if not os.path.exists(wood_texture_path):
-                print(f"Warning: Missing texture for {wood} log in log dir")
-                wood_texture_path = os.path.join(block_dir, "log", f"default.png")
-            
-            wood_texture = Image.open(wood_texture_path).convert("RGBA")
-            
-            overlay_path = os.path.join(torch_source, f"{torch}_overlay.png")
-            if not os.path.exists(overlay_path):
-                print(f"Warning: Missing torch overlay texture for {torch} at {overlay_path}")
-                continue
-            
-            overlay_texture = Image.open(overlay_path).convert("RGBA")
-
-            wood_mask_path = os.path.join(torch_source, "stick_mask.png")
-            wood_mask_texture = Image.open(wood_mask_path).convert("RGBA")
-
-            wood_dark_mask_path = os.path.join(torch_source, "dark_mask.png")
-            wood_dark_mask_texture = Image.open(wood_dark_mask_path).convert("RGBA")
-
-            torch_stick_image = apply_mask(wood_texture, wood_mask_texture)
-
-            torch_stick_image =  apply_darkening_mask(torch_stick_image, wood_dark_mask_texture)
-
-            full_torch_image = overlay_texture_transparent(torch_stick_image, overlay_texture)
-
-            output_path = os.path.join(torch_dir, f"stripped_{torch_name}.png")
-            full_torch_image.save(output_path)
-            
-    print("Done generating torch textures")
+        prefix = "stripped_" if is_stripped else ""
+        suffix = "_off" if overlay == "off_overlay" else ""
+        output_path = os.path.join(torch_dir, f"{prefix}{torch_name}{suffix}.png")
+        full_torch_image.save(output_path)
 
 def generate_all_torches():
-    generate_torches()
-    generate_stripped_torches()
+    for wood in WOOD_TYPES:
+        for torch_type in TORCH_TYPES:
+            generate_torch(wood, torch_type, is_stripped=False)
+            generate_torch(wood, torch_type, is_stripped=True)
+    print("Done generating all torch textures")

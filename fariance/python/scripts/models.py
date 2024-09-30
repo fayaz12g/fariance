@@ -162,7 +162,15 @@ def torch_models():
                         "torch": f"fariance:block/{torch_name}"
                     }
                 }
-
+                
+                if torch == "redstone":
+                        block_model_data = {
+                            "parent": f"minecraft:block/{template}",
+                            "textures": {
+                                "torch": f"fariance:block/{torch_name}_on"
+                            }
+                        }
+                    
                 # Define the block model output path
                 block_model_file_path = os.path.join(block_model_dir, f"{torch_name}.json")
                 
@@ -195,6 +203,12 @@ def wall_torch_models():
                     wall_torch_name = f"{wood}_wall_torch"
                 else:
                     wall_torch_name = f"{wood}_{torch}_wall_torch"
+
+                if torch == "normal":
+                    torch_name = f"{wood}_torch"
+                else:
+                    torch_name = f"{wood}_{torch}_torch"
+
                 template = "template_torch_wall"
                 if torch == "redstone":
                     template = "template_redstone_torch_wall"
@@ -204,9 +218,17 @@ def wall_torch_models():
                 block_model_data = {
                     "parent": f"minecraft:block/{template}",
                     "textures": {
-                        "torch": f"fariance:block/{wall_torch_name}"
+                        "torch": f"fariance:block/{torch_name}"
                     }
                 }
+
+                if torch == "redstone":
+                    block_model_data = {
+                        "parent": f"minecraft:block/{template}",
+                        "textures": {
+                            "torch": f"fariance:block/{torch_name}_on"
+                        }
+                    }
 
                 # Define the block model output path
                 block_model_file_path = os.path.join(block_model_dir, f"{wall_torch_name}.json")
