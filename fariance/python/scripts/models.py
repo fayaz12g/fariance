@@ -246,7 +246,7 @@ def wall_torch_models():
                     }
 
                     # Define the block model output path
-                    block_model_file_path = os.path.join(block_model_dir, f"{torch_name}_off.json")
+                    block_model_file_path = os.path.join(block_model_dir, f"{wall_torch_name}_off.json")
                     
                     # Write the block model data to the file
                     with open(block_model_file_path, 'w') as f:
