@@ -204,7 +204,7 @@ def wall_torch_models():
                 block_model_data = {
                     "parent": f"minecraft:block/{template}",
                     "textures": {
-                        "torch": f"fariance:block/{wood}_torch"
+                        "torch": f"fariance:block/{wall_torch_name}"
                     }
                 }
 

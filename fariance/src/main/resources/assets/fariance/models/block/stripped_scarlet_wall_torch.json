@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_torch_wall",
   "textures": {
-    "torch": "fariance:block/stripped_scarlet_torch"
+    "torch": "fariance:block/stripped_scarlet_wall_torch"
   }
 }

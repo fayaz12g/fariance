@@ -93,7 +93,7 @@ def torch_lang():
                     torch_name = f"{wood}_torch"
                 else:
                     torch_name = f"{wood}_{torch}_torch"
-                entries[f"block.fariance.{torch_name}"] = f"{capitalize_material(wood)} Torch"
+                entries[f"block.fariance.{torch_name}"] = f"{capitalize_material(torch_name)}"
 
 
 def new_wood_lang():
