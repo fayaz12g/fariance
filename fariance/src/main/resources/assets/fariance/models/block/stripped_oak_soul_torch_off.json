@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "fariance:block/stripped_oak_soul_torch"
+  }
+}

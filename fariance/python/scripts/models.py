@@ -162,17 +162,25 @@ def torch_models():
                         "torch": f"fariance:block/{torch_name}"
                     }
                 }
-                
-                if torch == "redstone":
-                        block_model_data = {
-                            "parent": f"minecraft:block/{template}",
-                            "textures": {
-                                "torch": f"fariance:block/{torch_name}_on"
-                            }
-                        }
+            
                     
                 # Define the block model output path
                 block_model_file_path = os.path.join(block_model_dir, f"{torch_name}.json")
+                
+                # Write the block model data to the file
+                with open(block_model_file_path, 'w') as f:
+                    json.dump(block_model_data, f, indent=2)
+
+                if torch == "redstone":
+                    block_model_data = {
+                        "parent": "minecraft:block/template_torch_unlit",
+                        "textures": {
+                            "torch": f"fariance:block/{wood}_redstone_torch_off"
+                        }
+                    }
+
+                # Define the block model output path
+                block_model_file_path = os.path.join(block_model_dir, f"{torch_name}_off.json")
                 
                 # Write the block model data to the file
                 with open(block_model_file_path, 'w') as f:
@@ -222,14 +230,6 @@ def wall_torch_models():
                     }
                 }
 
-                if torch == "redstone":
-                    block_model_data = {
-                        "parent": f"minecraft:block/{template}",
-                        "textures": {
-                            "torch": f"fariance:block/{torch_name}_on"
-                        }
-                    }
-
                 # Define the block model output path
                 block_model_file_path = os.path.join(block_model_dir, f"{wall_torch_name}.json")
                 
@@ -237,6 +237,20 @@ def wall_torch_models():
                 with open(block_model_file_path, 'w') as f:
                     json.dump(block_model_data, f, indent=2)
 
+                if torch == "redstone":
+                    block_model_data = {
+                        "parent": "minecraft:block/template_torch_wall_unlit",
+                        "textures": {
+                            "torch": f"fariance:block/{wood}_redstone_torch_off"
+                        }
+                    }
+
+                    # Define the block model output path
+                    block_model_file_path = os.path.join(block_model_dir, f"{torch_name}_off.json")
+                    
+                    # Write the block model data to the file
+                    with open(block_model_file_path, 'w') as f:
+                        json.dump(block_model_data, f, indent=2)
 
 def shield_models():
     # Loop through each wood type and generate the corresponding models for shields
