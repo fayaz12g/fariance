@@ -9,7 +9,7 @@ github_stick_base = "https://raw.githubusercontent.com/fayaz12g/fariance/main/fa
 github_block_base = "https://raw.githubusercontent.com/fayaz12g/fariance/main/fariance/python/image/block/"
 
 # Constants
-WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"]
+WOOD_TYPES = ["oak", "dark_oak", "pale_oak", "spruce", "birch", "jungle", "acacia", "mangrove", "cherry", "crimson", "warped", "bamboo", "scarlet", "charred"]
 COPPER_TYPES = ["shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper"]
 MATERIAL_BASE = ["iron", "diamond", "gold", "netherite"]
 MATERIAL_NEW =   ["amethyst", "redstone", "lapis", "quartz"]
