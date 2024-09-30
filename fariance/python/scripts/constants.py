@@ -3,6 +3,7 @@ import os
 script_dir = os.path.dirname(os.path.abspath(__file__))  # Get the script's directory
 output_dir = os.path.join(script_dir, "../../src/main/resources")  # Join with the relative output path
 os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exist
+copy_dir = os.path.join(script_dir, "../copy/resources")
 
 image_dir = os.path.join(script_dir, "../image")
 item_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "item")

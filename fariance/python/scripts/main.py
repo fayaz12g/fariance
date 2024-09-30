@@ -16,6 +16,7 @@ from textures import *
 from trapdoor_climbable import *
 from constants import *
 from tooltags import *
+from copyres import *
 
 def main():
 
@@ -54,6 +55,9 @@ def main():
 
     # Add the tools to the tags are those tool types
     create_tool_tags()
+
+    # Copy the required resources from newer minecraft versions
+    copy_resources()
 
     print("Mod content generation complete!")
 
