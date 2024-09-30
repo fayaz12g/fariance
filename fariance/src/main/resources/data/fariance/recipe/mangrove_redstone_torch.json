@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W",
+    "P"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "fariance:mangrove_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:mangrove_redstone_torch",
+    "count": 4
+  }
+}

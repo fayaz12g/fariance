@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_redstone_torch",
+  "textures": {
+    "torch": "fariance:block/crimson_redstone_torch"
+  }
+}

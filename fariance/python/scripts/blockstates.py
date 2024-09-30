@@ -17,6 +17,7 @@ def generate_blockstates():
     bed_blockstates()
     new_wood_blockstates()
     torch_blockstates()
+    wall_torch_blockstates()
 
     print("Blockstates generated successfully.")
 
@@ -630,23 +631,65 @@ def bed_blockstates():
 
 def torch_blockstates():
     for wood in STICK_TYPES:
-        if wood not in ["breeze", "blaze"]:
-            # Torches
-            torch_name = f"{wood}_torch"
-            blockstates_data = {
-                "variants": {
-                    "": {
-                    "model": f"fariance:block/{wood}_torch"
+        for torch in TORCH_TYPES:
+            if wood not in ["breeze", "blaze"]:
+
+                if torch == "normal":
+                    torch_name = f"{wood}_torch"
+                else:
+                    torch_name = f"{wood}_{torch}_torch"
+
+                blockstates_data = {
+                    "variants": {
+                        "": {
+                        "model": f"fariance:block/{torch_name}"
+                        }
                     }
                 }
-            }
 
-            blockstates_file_path = os.path.join(blockstates_dir, f"{torch_name}.json")
-            os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
-            
-            # Write the blockstates data to the file
-            with open(blockstates_file_path, 'w') as f:
-                json.dump(blockstates_data, f, indent=2)
+                blockstates_file_path = os.path.join(blockstates_dir, f"{torch_name}.json")
+                os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+                
+                # Write the blockstates data to the file
+                with open(blockstates_file_path, 'w') as f:
+                    json.dump(blockstates_data, f, indent=2)
+
+def wall_torch_blockstates():
+    for wood in STICK_TYPES:
+        for torch in TORCH_TYPES:
+            if wood not in ["breeze", "blaze"]:
+
+                if torch == "normal":
+                    wall_torch_name = f"{wood}_wall_torch"
+                else:
+                    wall_torch_name = f"{wood}_{torch}_wall_torch"
+
+                blockstates_data = {
+                    "variants": {
+                        "facing=east": {
+                        "model": f"fariance:block/{wall_torch_name}"
+                        },
+                        "facing=north": {
+                        "model": f"fariance:block/{wall_torch_name}",
+                        "y": 270
+                        },
+                        "facing=south": {
+                        "model": f"fariance:block/{wall_torch_name}",
+                        "y": 90
+                        },
+                        "facing=west": {
+                        "model": f"fariance:block/{wall_torch_name}",
+                        "y": 180
+                        }
+                    }
+                }
+
+                blockstates_file_path = os.path.join(blockstates_dir, f"{wall_torch_name}.json")
+                os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+                
+                # Write the blockstates data to the file
+                with open(blockstates_file_path, 'w') as f:
+                    json.dump(blockstates_data, f, indent=2)
 
 def furnace_blockstates():
     # Furnace blockstates

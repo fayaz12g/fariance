@@ -3,10 +3,9 @@ package one.fayaz.fariance;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
+import net.minecraft.core.particles.ParticleOptions;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.chat.Component;
-import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.MenuProvider;
@@ -17,36 +16,25 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.block.entity.BedBlockEntity;
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.grower.TreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
-import net.minecraft.world.level.block.state.properties.BooleanProperty;
-import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraftforge.fluids.ForgeFlowingFluid;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.IEventBus;
+import one.fayaz.fariance.blocks.*;
 import org.slf4j.Logger;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Inventory;
 import com.mojang.logging.LogUtils;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.fluids.ForgeFlowingFluid;
-import net.minecraft.world.level.material.Fluid;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraftforge.fluids.*;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -71,8 +59,15 @@ public class ItemRegistry {
             "slow_falling"
     );
 
+    private static final List<String> TORCH_TYPES = Arrays.asList(
+            "normal", "redstone", "soul");
+
     private static final List<String> NEW_WOOD_TYPES = Arrays.asList(
             "pale_oak", "charred", "scarlet");
+
+    private static final List<String> NETHER_WOODS = Arrays.asList(
+            "crimson", "charred", "scarlet", "warped");
+
 
     private static final List<String> WOOD_TYPES = new ArrayList<>();
     static {
@@ -138,29 +133,81 @@ public class ItemRegistry {
     private static void generateTorches() {
         for (String wood : STICK_TYPES) {
             if (!wood.equals("breeze") && !wood.equals("blaze")) {
-                final String woodName = wood; // Create a final copy for use in lambdas
+                final String woodName = wood;
 
-                // Torch (upright placement)
-                RegistryObject<Block> torch = BLOCKS.register(woodName + "_torch",
-                        () -> new TorchBlock(
-                                ParticleTypes.FLAME, // Sets the light level of the torch (14 is the default torch light level)
-                                BlockBehaviour.Properties.of()
-                                                                .mapColor(MapColor.WOOD)
-                                                                .noCollission()
-                                                                .strength(0.5F)
-                                                                .sound(SoundType.WOOD)
-                                                                .lightLevel((state) -> 14))); // Sets the flame particle effect for the torch
+                // Normal Torch
+                createTorchSet(woodName, "", ParticleTypes.FLAME, 14);
 
-                // Add both torch and wall torch to the GENERATED_BLOCKS map
-                GENERATED_BLOCKS.put(woodName + "_torch", torch);
+                // Soul Torch
+                createTorchSet(woodName, "soul_", ParticleTypes.SOUL_FIRE_FLAME, 10);
 
-                // Register block items for both torch and wall torch
-                registerBlockItem(woodName + "_torch", torch);
+                // Redstone Torch
+                createRedstoneTorchSet(woodName);
             }
         }
     }
 
+    private static void createTorchSet(String woodName, String prefix, ParticleOptions particleType, int lightLevel) {
+        // Wall Torch (register first)
+        RegistryObject<Block> wallTorch = BLOCKS.register(woodName + "_" + prefix + "wall_torch",
+                () -> new CustomWallTorchBlock(
+                        particleType,
+                        BlockBehaviour.Properties.of()
+                                .mapColor(MapColor.WOOD)
+                                .noCollission()
+                                .strength(0.5F)
+                                .sound(SoundType.WOOD)
+                                .lightLevel((state) -> lightLevel)));
 
+        // Torch (upright placement)
+        RegistryObject<Block> torch = BLOCKS.register(woodName + "_" + prefix + "torch",
+                () -> new CustomTorchBlock(
+                        particleType,
+                        BlockBehaviour.Properties.of()
+                                .mapColor(MapColor.WOOD)
+                                .noCollission()
+                                .strength(0.5F)
+                                .sound(SoundType.WOOD)
+                                .lightLevel((state) -> lightLevel),
+                        wallTorch.get()));
+
+        // Add both torch and wall torch to the GENERATED_BLOCKS map
+        GENERATED_BLOCKS.put(woodName + "_" + prefix + "torch", torch);
+        GENERATED_BLOCKS.put(woodName + "_" + prefix + "wall_torch", wallTorch);
+
+        // Register block item for the torch (will handle both placements)
+        registerBlockItem(woodName + "_" + prefix + "torch", torch);
+    }
+
+    private static void createRedstoneTorchSet(String woodName) {
+        // Redstone Wall Torch (register first)
+        RegistryObject<Block> redstoneWallTorch = BLOCKS.register(woodName + "_redstone_wall_torch",
+                () -> new CustomRedstoneWallTorchBlock(
+                        BlockBehaviour.Properties.of()
+                                .mapColor(MapColor.WOOD)
+                                .noCollission()
+                                .strength(0.5F)
+                                .sound(SoundType.WOOD)
+                                .lightLevel((state) -> state.getValue(RedstoneWallTorchBlock.LIT) ? 7 : 0)));
+
+        // Redstone Torch (upright placement)
+        RegistryObject<Block> redstoneTorch = BLOCKS.register(woodName + "_redstone_torch",
+                () -> new CustomRedstoneTorchBlock(
+                        BlockBehaviour.Properties.of()
+                                .mapColor(MapColor.WOOD)
+                                .noCollission()
+                                .strength(0.5F)
+                                .sound(SoundType.WOOD)
+                                .lightLevel((state) -> state.getValue(RedstoneTorchBlock.LIT) ? 7 : 0),
+                        redstoneWallTorch.get()));
+
+        // Add both redstone torch and wall torch to the GENERATED_BLOCKS map
+        GENERATED_BLOCKS.put(woodName + "_redstone_torch", redstoneTorch);
+        GENERATED_BLOCKS.put(woodName + "_redstone_wall_torch", redstoneWallTorch);
+
+        // Register block item for the redstone torch (will handle both placements)
+        registerBlockItem(woodName + "_redstone_torch", redstoneTorch);
+    }
 
     private static void generateNewWoodBlocks() {
         for (String wood : NEW_WOOD_TYPES) {
@@ -202,17 +249,23 @@ public class ItemRegistry {
             GENERATED_BLOCKS.put(woodName + "_door", door);
             registerBlockItem(woodName + "_door", door);
 
-            // Stem
-            RegistryObject<Block> stem = BLOCKS.register(woodName + "_stem",
-                    () -> new RotatedPillarBlock(BlockBehaviour.Properties.of().strength(2.0F).sound(SoundType.WOOD)));
-            GENERATED_BLOCKS.put(woodName + "_stem", stem);
-            registerBlockItem(woodName + "_stem", stem);
+            String log_type = "_log";
+            if (NETHER_WOODS.contains(wood)) {
+                log_type = "_stem";
+            }
 
-            // Stripped Stem
-            RegistryObject<Block> strippedStem = BLOCKS.register("stripped_" + woodName + "_stem",
+            // Log or Stem
+            RegistryObject<Block> stem = BLOCKS.register(woodName + log_type,
                     () -> new RotatedPillarBlock(BlockBehaviour.Properties.of().strength(2.0F).sound(SoundType.WOOD)));
-            GENERATED_BLOCKS.put("stripped_" + woodName + "_stem", strippedStem);
-            registerBlockItem("stripped_" + woodName + "_stem", strippedStem);
+            GENERATED_BLOCKS.put(woodName + log_type, stem);
+            registerBlockItem(woodName + log_type, stem);
+
+            // Stripped Log or Stem
+            RegistryObject<Block> strippedStem = BLOCKS.register("stripped_" + woodName + log_type,
+                    () -> new RotatedPillarBlock(BlockBehaviour.Properties.of().strength(2.0F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put("stripped_" + woodName + log_type, strippedStem);
+            registerBlockItem("stripped_" + woodName + log_type, strippedStem);
+
 
             // Slab
             RegistryObject<Block> slab = BLOCKS.register(woodName + "_slab",

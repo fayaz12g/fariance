@@ -13,6 +13,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import one.fayaz.fariance.blocks.CustomBedBlock;
+import one.fayaz.fariance.blocks.CustomFurnaceBlock;
 import org.slf4j.Logger;
 
 import java.util.List;

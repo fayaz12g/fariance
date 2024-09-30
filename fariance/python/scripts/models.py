@@ -145,38 +145,76 @@ def crafting_table_models():
 def torch_models():
     # Loop through each wood type and generate the corresponding models for torches
     for wood in STICK_TYPES:
-        if wood not in ["breeze", "blaze"]:
-            torch_name = f"{wood}_torch"
-            
-            # Block model data for the torch
-            block_model_data = {
-                "parent": "minecraft:block/template_torch",
-                "textures": {
-                    "torch": f"fariance:block/{wood}_torch"
+        for torch in TORCH_TYPES:
+            if wood not in ["breeze", "blaze"]:
+                if torch == "normal":
+                    torch_name = f"{wood}_torch"
+                else:
+                    torch_name = f"{wood}_{torch}_torch"
+                template = "template_torch"
+                if torch == "redstone":
+                    template = "template_redstone_torch"
+                
+                # Block model data for the torch
+                block_model_data = {
+                    "parent": f"minecraft:block/{template}",
+                    "textures": {
+                        "torch": f"fariance:block/{torch_name}"
+                    }
                 }
-            }
 
-            # Define the block model output path
-            block_model_file_path = os.path.join(block_model_dir, f"{torch_name}.json")
-            
-            # Write the block model data to the file
-            with open(block_model_file_path, 'w') as f:
-                json.dump(block_model_data, f, indent=2)
+                # Define the block model output path
+                block_model_file_path = os.path.join(block_model_dir, f"{torch_name}.json")
+                
+                # Write the block model data to the file
+                with open(block_model_file_path, 'w') as f:
+                    json.dump(block_model_data, f, indent=2)
 
-            # Item model data for the torch
-            item_model_data = {
-                "parent": "minecraft:item/generated",
-                "textures": {
-                    "layer0": f"fariance:block/{wood}_torch"
+                # Item model data for the torch
+                item_model_data = {
+                    "parent": "minecraft:item/generated",
+                    "textures": {
+                        "layer0": f"fariance:block/{torch_name}"
+                    }
                 }
-            }
 
-            # Define the block model output path
-            item_model_file_path = os.path.join(item_model_dir, f"{torch_name}.json")
-            
-            # Write the block model data to the file
-            with open(item_model_file_path, 'w') as f:
-                json.dump(item_model_data, f, indent=2)
+                # Define the block model output path
+                item_model_file_path = os.path.join(item_model_dir, f"{torch_name}.json")
+                
+                # Write the block model data to the file
+                with open(item_model_file_path, 'w') as f:
+                    json.dump(item_model_data, f, indent=2)
+
+def wall_torch_models():
+    # Loop through each wood type and generate the corresponding models for torches
+    for wood in STICK_TYPES:
+        for torch in TORCH_TYPES:
+            if wood not in ["breeze", "blaze"]:
+
+                if torch == "normal":
+                    wall_torch_name = f"{wood}_wall_torch"
+                else:
+                    wall_torch_name = f"{wood}_{torch}_wall_torch"
+                template = "template_torch_wall"
+                if torch == "redstone":
+                    template = "template_redstone_torch_wall"
+                
+                
+                # Block model data for the torch
+                block_model_data = {
+                    "parent": f"minecraft:block/{template}",
+                    "textures": {
+                        "torch": f"fariance:block/{wood}_torch"
+                    }
+                }
+
+                # Define the block model output path
+                block_model_file_path = os.path.join(block_model_dir, f"{wall_torch_name}.json")
+                
+                # Write the block model data to the file
+                with open(block_model_file_path, 'w') as f:
+                    json.dump(block_model_data, f, indent=2)
+
 
 def shield_models():
     # Loop through each wood type and generate the corresponding models for shields
@@ -971,6 +1009,7 @@ def generate_models():
     atlases_blocks()
     new_wood_blocks()
     torch_models()
+    wall_torch_models()
 
 
 

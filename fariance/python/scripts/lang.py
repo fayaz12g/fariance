@@ -87,9 +87,13 @@ def ladder_block_lang():
 def torch_lang():
     # Add torches to lang file
     for wood in STICK_TYPES:
-        if wood not in ["breeze", "blaze"]:
-            torch_name = f"{wood}_torch"
-            entries[f"block.fariance.{torch_name}"] = f"{capitalize_material(wood)} Torch"
+        for torch in TORCH_TYPES:
+            if wood not in ["breeze", "blaze"]:
+                if torch == "normal":
+                    torch_name = f"{wood}_torch"
+                else:
+                    torch_name = f"{wood}_{torch}_torch"
+                entries[f"block.fariance.{torch_name}"] = f"{capitalize_material(wood)} Torch"
 
 
 def new_wood_lang():

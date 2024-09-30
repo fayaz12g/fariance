@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "fariance:block/dark_oak_wall_torch"
+    },
+    "facing=north": {
+      "model": "fariance:block/dark_oak_wall_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "fariance:block/dark_oak_wall_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "fariance:block/dark_oak_wall_torch",
+      "y": 180
+    }
+  }
+}

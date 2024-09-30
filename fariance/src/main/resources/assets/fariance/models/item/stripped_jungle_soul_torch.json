@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fariance:block/stripped_jungle_soul_torch"
+  }
+}

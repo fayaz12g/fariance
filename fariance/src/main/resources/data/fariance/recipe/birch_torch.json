@@ -3,7 +3,6 @@
   "category": "misc",
   "pattern": [
     "W",
-    "P",
     "P"
   ],
   "key": {
@@ -16,6 +15,6 @@
   },
   "result": {
     "id": "fariance:birch_torch",
-    "count": 1
+    "count": 4
   }
 }

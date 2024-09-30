@@ -283,26 +283,51 @@ def ladder_recipes():
 def torch_recipes():
     # Add recipes for torches for each wood type
     for wood in STICK_TYPES:
-         if wood not in ["breeze", "blaze"]:
-            torch_name = f"{wood}_torch"
-            recipe = {
-                "type": "minecraft:crafting_shaped",
-                "category": "misc", 
-                "pattern": [
-                    "W",
-                    "P",
-                    "P"
-                ],
-                "key": {
-                    "W": {"item": f"minecraft:coal"},
-                    "P": {"item": f"fariance:{wood}_stick"}
-                },
-                "result": {
-                    "id": f"fariance:{torch_name}",
-                    "count": 1
+         for torch in TORCH_TYPES:
+            if wood not in ["breeze", "blaze"]:
+                if torch == "normal":
+                    torch_name = f"{wood}_torch"
+                    material = "coal"
+                else:
+                    torch_name = f"{wood}_{torch}_torch"
+                    material = "redstone"
+                if torch == "soul":
+                    recipe = {
+                    "type": "minecraft:crafting_shaped",
+                    "category": "misc", 
+                    "pattern": [
+                        "W",
+                        "P",
+                        "S"
+                    ],
+                    "key": {
+                        "W": {"item": f"minecraft:coal"},
+                        "P": {"item": f"fariance:{wood}_stick"},
+                        "S": {"item": f"minecraft:soul_sand"}
+                    },
+                    "result": {
+                        "id": f"fariance:{torch_name}",
+                        "count": 4
+                    }
                 }
-            }
-            recipes.append((torch_name, json.dumps(recipe, indent=2)))
+                else:
+                    recipe = {
+                    "type": "minecraft:crafting_shaped",
+                    "category": "misc", 
+                    "pattern": [
+                        "W",
+                        "P"
+                    ],
+                    "key": {
+                        "W": {"item": f"minecraft:{material}"},
+                        "P": {"item": f"fariance:{wood}_stick"}
+                    },
+                    "result": {
+                        "id": f"fariance:{torch_name}",
+                        "count": 4
+                    }
+                }
+                recipes.append((torch_name, json.dumps(recipe, indent=2)))
 
 
 

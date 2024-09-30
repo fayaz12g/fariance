@@ -24,6 +24,8 @@ STONE_TYPES = ["cobblestone", "deepslate", "andesite", "diorite", "granite", "bl
 
 MATERIAL_TYPES = MATERIAL_BASE + STONE_TYPES + MATERIAL_NEW + COPPER_TYPES + WOOD_TYPES
 
+TORCH_TYPES= ["normal", "soul", "redstone"]
+
 # Define potions types
 POTION_TYPES = [
     "mundane", "thick", "awkward", "night_vision", "invisibility", "leaping",
