@@ -135,61 +135,61 @@ def ladder_textures():
 
 
 def new_wood_textures():
-    # Generate ne wplank textures
+    # Generate new wood textures
     for wood in NEW_WOOD:
-            if wood in NETHER_WOODS:
-                log_type = "stem"
-            else: 
-                log_type = "log"
-        
-            plank_image_path = os.path.join(image_dir, "newwood", f"{wood}",  f"{wood}_planks.png")
-            if os.path.exists(plank_image_path):
-                output_path = os.path.join(block_output_dir, f"{wood}_planks.png")
-                ingot_img = Image.open(plank_image_path).convert("RGBA")
-                ingot_img.save(output_path)
-                # print(f"Generated texture: {output_path}")
-            else:
-                print(f"Warning: Missing texture for {wood}_planks")
+        if wood in NETHER_WOODS:
+            log_type = "stem"
+        else: 
+            log_type = "log"
+    
+        plank_image_path = os.path.join(image_dir, "newwood", f"{wood}",  f"{wood}_planks.png")
+        if os.path.exists(plank_image_path):
+            output_path = os.path.join(block_output_dir, f"{wood}_planks.png")
+            ingot_img = Image.open(plank_image_path).convert("RGBA")
+            ingot_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture for {wood}_planks")
 
-            # New log
-            log_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"{wood}_{log_type}.png")
-            if os.path.exists(log_image_path):
-                output_path = os.path.join(block_output_dir, f"{wood}_{log_type}.png")
-                ingot_img = Image.open(log_image_path).convert("RGBA")
-                ingot_img.save(output_path)
-                # print(f"Generated texture: {output_path}")
-            else:
-                print(f"Warning: Missing texture for {wood}_{log_type}")
+        # New log
+        log_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"{wood}_{log_type}.png")
+        if os.path.exists(log_image_path):
+            output_path = os.path.join(block_output_dir, f"{wood}_{log_type}.png")
+            ingot_img = Image.open(log_image_path).convert("RGBA")
+            ingot_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture for {wood}_{log_type}")
 
-            # New stripped log
-            stripped_log_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"stripped_{wood}_{log_type}.png")
-            if os.path.exists(log_image_path):
-                output_path = os.path.join(block_output_dir, f"stripped_{wood}_{log_type}.png")
-                ingot_img = Image.open(stripped_log_image_path).convert("RGBA")
-                ingot_img.save(output_path)
-                # print(f"Generated texture: {output_path}")
-            else:
-                print(f"Warning: Missing texture for stripped {wood}_{log_type}")
+        # New stripped log
+        stripped_log_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"stripped_{wood}_{log_type}.png")
+        if os.path.exists(log_image_path):
+            output_path = os.path.join(block_output_dir, f"stripped_{wood}_{log_type}.png")
+            ingot_img = Image.open(stripped_log_image_path).convert("RGBA")
+            ingot_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture for stripped {wood}_{log_type}")
 
-            # New stripped log top
-            stripped_log_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"stripped_{wood}_{log_type}_top.png")
-            if os.path.exists(log_image_path):
-                output_path = os.path.join(block_output_dir, f"stripped_{wood}_{log_type}_top.png")
-                ingot_img = Image.open(stripped_log_image_path).convert("RGBA")
-                ingot_img.save(output_path)
-                # print(f"Generated texture: {output_path}")
-            else:
-                print(f"Warning: Missing texture at {stripped_log_image_path}")
+        # New stripped log top
+        stripped_log_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"stripped_{wood}_{log_type}_top.png")
+        if os.path.exists(log_image_path):
+            output_path = os.path.join(block_output_dir, f"stripped_{wood}_{log_type}_top.png")
+            ingot_img = Image.open(stripped_log_image_path).convert("RGBA")
+            ingot_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture at {stripped_log_image_path}")
 
-            # New log top
-            stripped_log_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"{wood}_{log_type}_top.png")
-            if os.path.exists(log_image_path):
-                output_path = os.path.join(block_output_dir, f"{wood}_{log_type}_top.png")
-                ingot_img = Image.open(stripped_log_image_path).convert("RGBA")
-                ingot_img.save(output_path)
-                # print(f"Generated texture: {output_path}")
-            else:
-                print(f"Warning: Missing texture at {stripped_log_image_path}")
+        # New log top
+        stripped_log_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"{wood}_{log_type}_top.png")
+        if os.path.exists(log_image_path):
+            output_path = os.path.join(block_output_dir, f"{wood}_{log_type}_top.png")
+            ingot_img = Image.open(stripped_log_image_path).convert("RGBA")
+            ingot_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture at {stripped_log_image_path}")
 
 def torch_textures():
     # Generate torch textures
