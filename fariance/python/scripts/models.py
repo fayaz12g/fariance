@@ -796,6 +796,51 @@ def new_wood_blocks():
                 
         # Block model data
         block_model_data = {
+            "parent": "minecraft:block/template_fence_gate_open",
+            "textures": {
+                "texture": f"fariance:block/{wood}_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{fence_name}_gate_open.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block//template_fence_gate_wall",
+            "textures": {
+                "texture": f"fariance:block/{wood}_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{fence_name}_gate_wall.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/template_fence_gate_wall_open",
+            "textures": {
+                "texture": f"fariance:block/{wood}_planks"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{fence_name}_gate_wall_open.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
             "parent": "minecraft:block/fence_inventory",
             "textures": {
                 "texture": f"fariance:block/{wood}_planks"
@@ -869,10 +914,129 @@ def new_wood_blocks():
                 
         # Block model data
         block_model_data = {
+            "parent": "minecraft:block/door_bottom_left",
+            "textures": {
+                "bottom": f"fariance:block/{wood}_door_bottom",
+                "top": f"fariance:block/{wood}_door_top"
+            }
+        }
+
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{door_name}_bottom_left.json")
+
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/door_bottom_left_open",
+            "textures": {
+                "bottom": f"fariance:block/{wood}_door_bottom",
+                "top": f"fariance:block/{wood}_door_top"
+            }
         }
 
         # Define the block model output path
-        block_model_file_path = os.path.join(block_model_dir, f"{door_name}.json")
+        block_model_file_path = os.path.join(block_model_dir, f"{door_name}_bottom_left_open.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/door_bottom_right",
+            "textures": {
+                "bottom": f"fariance:block/{wood}_door_bottom",
+                "top": f"fariance:block/{wood}_door_top"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{door_name}_bottom_right.json")
+
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/door_bottom_right_open",
+            "textures": {
+                "bottom": f"fariance:block/{wood}_door_bottom",
+                "top": f"fariance:block/{wood}_door_top"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{door_name}_bottom_right_open.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/door_bottom_left",
+            "textures": {
+                "bottom": f"fariance:block/{wood}_door_bottom",
+                "top": f"fariance:block/{wood}_door_top"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{door_name}_top_left.json")
+
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/door_top_left_open",
+            "textures": {
+                "bottom": f"fariance:block/{wood}_door_bottom",
+                "top": f"fariance:block/{wood}_door_top"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{door_name}_top_left_open.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/door_top_right",
+            "textures": {
+                "bottom": f"fariance:block/{wood}_door_bottom",
+                "top": f"fariance:block/{wood}_door_top"
+            }
+        }
+
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{door_name}_top_right.json")
+
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/door_top_right_open",
+            "textures": {
+                "bottom": f"fariance:block/{wood}_door_bottom",
+                "top": f"fariance:block/{wood}_door_top"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{door_name}_top_right_open.json")
         
         # Write the block model data to the file
         with open(block_model_file_path, 'w') as f:
