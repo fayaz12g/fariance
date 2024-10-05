@@ -139,6 +139,15 @@ def new_wood_textures():
     for wood in NEW_WOOD:
         if wood in NETHER_WOODS:
             log_type = "stem"
+            animated_log = os.path.join(image_dir, "newwood", f"{wood}",  f"{wood}_stem.png.mcmeta.png")
+            if os.path.exists(animated_log):
+                output_path = os.path.join(block_output_dir, f"{wood}_stem.png.mcmeta.png")
+                ingot_img = Image.open(animated_log).convert("RGBA")
+                ingot_img.save(output_path)
+                # print(f"Generated texture: {output_path}")
+            else:
+                print(f"Warning: Missing texture for {wood}_planks")
+
         else: 
             log_type = "log"
     
