@@ -343,62 +343,150 @@ def shield_models():
             
             # Block model data for the shield
             item_model_data = {
+                "texture_size": [64, 64],
                 "textures": {
-                    "1": f"fariance:item/{wood}_{material}_shield_base_nopattern",
-                    "particle": "fariance:item/{wood}_{material}_shield_base_nopattern"
+                    "0": f"fariance:item/{wood}_{material}_shield_base_nopattern",
+                    "particle": f"fariance:item/{wood}_{material}_shield_base_nopattern"
                 },
                 "elements": [
                     {
-                        "from": [-6, -11, 1],
-                        "to": [6, 11, 2],
+                        "from": [3, 20, 3],
+                        "to": [13, 22, 4],
+                        "rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
                         "faces": {
-                            "north": {"uv": [3.5, 0.25, 6.5, 5.75], "texture": "#1"},
-                            "east": {"uv": [3.25, 0.25, 3.5, 5.75], "texture": "#1"},
-                            "south": {"uv": [0.25, 0.25, 3.25, 5.75], "texture": "#1"},
-                            "west": {"uv": [0, 0.25, 0.25, 5.75], "texture": "#1"},
-                            "up": {"uv": [0.25, 0, 3.25, 0.25], "texture": "#1"},
-                            "down": {"uv": [3.25, 0, 6.25, 0.25], "texture": "#1"}
+                            "north": {"uv": [6.5, 0, 9, 0.5], "texture": "#0"},
+                            "east": {"uv": [8.25, 9.25, 8.5, 9.75], "texture": "#0"},
+                            "south": {"uv": [6.5, 0.75, 9, 1.25], "texture": "#0"},
+                            "west": {"uv": [0, 9.5, 0.25, 10], "texture": "#0"},
+                            "up": {"uv": [9.25, 7.75, 6.75, 7.5], "texture": "#0"},
+                            "down": {"uv": [10.25, 2.25, 7.75, 2.5], "texture": "#0"}
                         }
                     },
                     {
-                        "from": [-1, -3, -5],
-                        "to": [1, 3, 1],
+                        "from": [2, 2, 3],
+                        "to": [14, 20, 4],
+                        "rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
                         "faces": {
-                            "north": {"uv": [10, 1.5, 10.5, 3], "texture": "#1"},
-                            "east": {"uv": [8.5, 1.5, 10, 3], "texture": "#1"},
-                            "south": {"uv": [8, 1.5, 8.5, 3], "texture": "#1"},
-                            "west": {"uv": [6.5, 1.5, 8, 3], "texture": "#1"},
-                            "up": {"uv": [8, 0, 8.5, 1.5], "texture": "#1"},
-                            "down": {"uv": [8.5, 1.5, 9, 0], "texture": "#1"}
+                            "north": {"uv": [0, 0, 3, 4.5], "texture": "#0"},
+                            "east": {"uv": [4, 6.5, 4.25, 11], "texture": "#0"},
+                            "south": {"uv": [3.25, 0, 6.25, 4.5], "texture": "#0"},
+                            "west": {"uv": [4.5, 6.5, 4.75, 11], "texture": "#0"},
+                            "up": {"uv": [8, 6.75, 5, 6.5], "texture": "#0"},
+                            "down": {"uv": [8, 7, 5, 7.25], "texture": "#0"}
+                        }
+                    },
+                    {
+                        "from": [3, 0, 3],
+                        "to": [13, 2, 4],
+                        "rotation": {"angle": 0, "axis": "y", "origin": [8, 12.25, 8]},
+                        "faces": {
+                            "north": {"uv": [1.25, 6.5, 3.75, 7], "texture": "#0"},
+                            "east": {"uv": [5, 9.5, 5.25, 10], "texture": "#0"},
+                            "south": {"uv": [6.5, 1.5, 9, 2], "texture": "#0"},
+                            "west": {"uv": [5.5, 9.5, 5.75, 10], "texture": "#0"},
+                            "up": {"uv": [10.25, 3, 7.75, 2.75], "texture": "#0"},
+                            "down": {"uv": [10.25, 3.25, 7.75, 3.5], "texture": "#0"}
+                        }
+                    },
+                    {
+                        "from": [6, 9, 9],
+                        "to": [10, 13, 10],
+                        "rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+                        "faces": {
+                            "north": {"uv": [6.5, 2.25, 7.5, 3.25], "texture": "#0"},
+                            "east": {"uv": [8, 8, 8.5, 9], "texture": "#0"},
+                            "south": {"uv": [6.5, 3.5, 7.5, 4.5], "texture": "#0"},
+                            "west": {"uv": [0, 8.25, 0.5, 9.25], "texture": "#0"},
+                            "up": {"uv": [6, 8.75, 5, 8.25], "texture": "#0"},
+                            "down": {"uv": [9.25, 6.25, 8.25, 6.75], "texture": "#0"}
+                        }
+                    },
+                    {
+                        "from": [6, 13, 4],
+                        "to": [10, 14, 10],
+                        "rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+                        "faces": {
+                            "north": {"uv": [2.5, 8, 3.5, 8.5], "texture": "#0"},
+                            "east": {"uv": [7.25, 5.5, 8.75, 6], "texture": "#0"},
+                            "south": {"uv": [6.75, 8, 7.75, 8.5], "texture": "#0"},
+                            "west": {"uv": [5, 7.5, 6.5, 8], "texture": "#0"},
+                            "up": {"uv": [7, 6.25, 6, 4.75], "texture": "#0"},
+                            "down": {"uv": [1, 6.5, 0, 8], "texture": "#0"}
+                        }
+                    },
+                    {
+                        "from": [6, 8, 4],
+                        "to": [10, 9, 10],
+                        "rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+                        "faces": {
+                            "north": {"uv": [7.75, 3.75, 8.75, 4.25], "texture": "#0"},
+                            "east": {"uv": [1.25, 7.25, 2.75, 7.75], "texture": "#0"},
+                            "south": {"uv": [1.25, 8, 2.25, 8.5], "texture": "#0"},
+                            "west": {"uv": [7.25, 4.75, 8.75, 5.25], "texture": "#0"},
+                            "up": {"uv": [4.5, 6.25, 3.5, 4.75], "texture": "#0"},
+                            "down": {"uv": [5.75, 4.75, 4.75, 6.25], "texture": "#0"}
                         }
                     }
                 ],
                 "display": {
                     "thirdperson_righthand": {
-                        "rotation": [43, 165, 0],
-                        "translation": [-6.49, 12.5, -2]
+                        "rotation": [45, -45, 0],
+                        "translation": [2, -5, 0]
                     },
                     "thirdperson_lefthand": {
-                        "rotation": [43, -180, 0],
-                        "translation": [7.51, 10.25, -1]
+                        "rotation": [0, -90, 0],
+                        "translation": [-0.75, -5, 2.5]
                     },
                     "firstperson_righthand": {
-                        "rotation": [0, 180, 0],
-                        "translation": [-15, 3, -12],
+                        "rotation": [0, 0, 5],
+                        "translation": [-5, -8.5, 5],
                         "scale": [1.25, 1.25, 1.25]
                     },
                     "firstperson_lefthand": {
-                        "rotation": [0, 180, 0],
-                        "translation": [5, 3, -9],
+                        "rotation": [0, 0, 5],
+                        "translation": [-5, -8.5, 5],
                         "scale": [1.25, 1.25, 1.25]
                     },
+                    "ground": {
+                        "translation": [0, 4, 0]
+                    },
                     "gui": {
-                        "rotation": [24, -45, -5],
-                        "translation": [-0.5, 0.75, 0],
-                        "scale": [0.65, 0.6, 0.9]
+                        "rotation": [0, 155, 5],
+                        "translation": [0, -2, 0],
+                        "scale": [0.65, 0.65, 0.65]
+                    },
+                    "head": {
+                        "rotation": [0, 0, 90],
+                        "translation": [3.25, 9, -3],
+                        "scale": [1.25, 1.25, 1.25]
+                    },
+                    "fixed": {
+                        "translation": [0, -3, 0]
                     }
-                }
+                },
+                "groups": [
+                    {
+                        "name": "shield",
+                        "origin": [8, 8, 8],
+                        "color": 0,
+                        "children": [
+                            {
+                                "name": "shield_base",
+                                "origin": [0, 0, 0],
+                                "color": 0,
+                                "children": [0, 1, 2]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "handle",
+                        "origin": [0, 0, 0],
+                        "color": 0,
+                        "children": [3, 4, 5]
+                    }
+                ]
             }
+
 
             # Define the block model output path
             item_model_file_path = os.path.join(item_model_dir, f"{blocking_shield_name}.json")
@@ -459,7 +547,7 @@ def bed_models():
                 "parent": "fariance:block/template_bed_foot",
                 "textures": {
                     "bed": f"fariance:entity/bed/{wood}_{color}",
-                    "particle": f"minecraft:block/{wood}_planks"
+                    "particle": f"{directory}:block/{wood}_planks"
                 }
             }
 
