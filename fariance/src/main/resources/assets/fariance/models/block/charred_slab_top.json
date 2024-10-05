@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/slab",
+  "parent": "minecraft:block/slab_top",
   "textures": {
     "bottom": "fariance:block/charred_planks",
     "side": "fariance:block/charred_planks",

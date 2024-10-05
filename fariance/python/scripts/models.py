@@ -1168,7 +1168,7 @@ def new_wood_blocks():
         with open(block_model_file_path, 'w') as f:
             json.dump(block_model_data, f, indent=2)
 
-        slab_top_name = f"{wood}_slab"
+        slab_top_name = f"{wood}_slab_top"
                 
         # Block model data
         block_model_data = {
