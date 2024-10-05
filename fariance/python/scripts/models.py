@@ -881,11 +881,11 @@ def new_wood_blocks():
         with open(item_model_file_path, 'w') as f:
             json.dump(item_model_data, f, indent=2)
 
-        gate_name = f"{wood}_fence_gate"
+        gate_name = f"template_{wood}_fence_gate"
                 
         # Block model data
         block_model_data = {
-            "parent": "minecraft:block/fence_post",
+            "parent": "minecraft:block/fence_gate",
             "textures": {
                 "texture": f"fariance:block/{wood}_planks"
             }

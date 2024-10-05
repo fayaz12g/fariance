@@ -271,7 +271,7 @@ def new_wood_blockstates():
         with open(blockstates_file_path, 'w') as f:
             json.dump(blockstates_data, f, indent=2)
 
-        fence_gate_name = f"{wood}_fence_post"
+        fence_gate_name = f"{wood}_fence_gate"
         blockstates_data = {
             "variants": {
                 "facing=east,in_wall=false,open=false": {
