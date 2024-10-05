@@ -30,3 +30,16 @@ def generate_mcmeta():
                 json.dump(mcmeta_content, mcmeta_file, indent=2)
 
             # print(f"Generated MCMETA file: {mcmeta_path}")
+
+    for wood in NETHER_WOODS:
+        mcmeta_content = {
+            "animation": {
+                "interpolate": True,
+                "frametime": 10
+            }
+        }
+        file_name = f"{wood}_stem.png"
+        mcmeta_path = os.path.join(block_output_dir, f"{file_name}.mcmeta")
+        
+        with open(mcmeta_path, 'w') as mcmeta_file:
+            json.dump(mcmeta_content, mcmeta_file, indent=2)
