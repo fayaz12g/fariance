@@ -246,6 +246,31 @@ def new_wood_blockstates():
         with open(blockstates_file_path, 'w') as f:
             json.dump(blockstates_data, f, indent=2)
 
+        blockstates_data = {
+            "variants": {
+                "axis=x": {
+                "model": f"fariance:block/stripped_{log_name}",
+                "x": 90,
+                "y": 90
+                },
+                "axis=y": {
+                "model": f"fariance:block/stripped_{log_name}"
+                },
+                "axis=z": {
+                "model": f"fariance:block/stripped_{log_name}",
+                "x": 90
+                }
+            }
+        }
+        
+        # Define the output path for the blockstates file
+        blockstates_file_path = os.path.join(blockstates_dir, f"stripped_{log_name}.json")
+        os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+        
+        # Write the blockstates data to the file
+        with open(blockstates_file_path, 'w') as f:
+            json.dump(blockstates_data, f, indent=2)
+
         fence_gate_name = f"{wood}_fence_post"
         blockstates_data = {
             "variants": {
