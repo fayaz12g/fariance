@@ -1106,11 +1106,32 @@ def new_wood_blocks():
         stripped_log_name = f"stripped_{wood}_{log_type}"
                 
         # Block model data
-        block_model_data = {
+        block_model_data ={
+            "parent": "minecraft:block/cube_column",
+            "textures": {
+                "end": f"fariance:block/stripped_{wood}_{log_type}_top",
+                "side": f"fariance:block/stripped_{wood}_{log_type}"
+            }
         }
 
         # Define the block model output path
         block_model_file_path = os.path.join(block_model_dir, f"{stripped_log_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/cube_column_horizontal",
+            "textures": {
+                "end": f"fariance:block/stripped_{wood}_{log_type}_top",
+                "side": f"fariance:block/stripped_{wood}_{log_type}"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{stripped_log_name}_horizontal.json")
         
         # Write the block model data to the file
         with open(block_model_file_path, 'w') as f:
