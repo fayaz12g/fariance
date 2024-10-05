@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W",
+    "P",
+    "S"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:coal"
+    },
+    "P": {
+      "item": "fariance:tyrian_stick"
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "result": {
+    "id": "fariance:tyrian_soul_torch",
+    "count": 4
+  }
+}

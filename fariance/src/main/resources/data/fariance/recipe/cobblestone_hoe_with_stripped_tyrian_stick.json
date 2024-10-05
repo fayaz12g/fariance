@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:cobblestone"
+    },
+    "S": {
+      "item": "fariance:stripped_tyrian_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:cobblestone_hoe_with_stripped_tyrian_stick",
+    "count": 1
+  }
+}

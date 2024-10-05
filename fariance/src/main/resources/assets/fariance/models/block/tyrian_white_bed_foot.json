@@ -1,0 +1,7 @@
+{
+  "parent": "fariance:block/template_bed_foot",
+  "textures": {
+    "bed": "fariance:entity/bed/tyrian_white",
+    "particle": "minecraft:block/tyrian_planks"
+  }
+}

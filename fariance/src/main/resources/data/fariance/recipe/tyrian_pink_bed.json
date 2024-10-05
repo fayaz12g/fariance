@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "PPP"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:pink_wool"
+    },
+    "P": {
+      "item": "minecraft:tyrian_planks"
+    }
+  },
+  "result": {
+    "id": "fariance:tyrian_pink_bed",
+    "count": 1
+  }
+}

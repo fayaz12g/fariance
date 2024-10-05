@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:nether_quartz"
+    },
+    "S": {
+      "item": "fariance:stripped_tyrian_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:quartz_shovel_with_stripped_tyrian_stick",
+    "count": 1
+  }
+}

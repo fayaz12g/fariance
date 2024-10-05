@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/crimson_shovel_with_tyrian_stick"
+  }
+}

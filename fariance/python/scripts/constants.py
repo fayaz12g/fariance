@@ -13,9 +13,9 @@ entity_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "
 
 
 # Define constants
-NEW_WOOD = ["pale_oak", "charred", "scarlet"]
+NEW_WOOD = ["pale_oak", "charred", "tyrian"]
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"] + NEW_WOOD
-NETHER_WOODS = ["charred", "scarlet", "crimson", "warped"]
+NETHER_WOODS = ["charred", "tyrian", "crimson", "warped"]
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]
 MATERIAL_BASE = ["iron", "diamond", "gold", "netherite"]
 MATERIAL_NEW =   ["amethyst", "redstone", "lapis", "quartz"]

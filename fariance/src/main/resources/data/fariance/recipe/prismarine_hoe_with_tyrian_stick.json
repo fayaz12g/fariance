@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:prismarine"
+    },
+    "S": {
+      "item": "fariance:tyrian_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:prismarine_hoe_with_tyrian_stick",
+    "count": 1
+  }
+}
