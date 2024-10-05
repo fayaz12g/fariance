@@ -431,12 +431,16 @@ def bed_models():
             # Blocking shield models
             bed_block_name_head = f"{wood}_{color}_bed_head"
             
+            if wood in NEW_WOOD:
+                directory = "fariance"
+            else:
+                directory = "minecraft"
             # Block model data for the bed head
             block_head_model_data = {
                 "parent": "fariance:block/template_bed_head",
                 "textures": {
                     "bed": f"fariance:entity/bed/{wood}_{color}",
-                    "particle": f"minecraft:block/{wood}_planks"
+                    "particle": f"{directory}:block/{wood}_planks"
                 }
             }
 

@@ -2,6 +2,6 @@
   "parent": "fariance:block/template_bed_head",
   "textures": {
     "bed": "fariance:entity/bed/charred_lime",
-    "particle": "minecraft:block/charred_planks"
+    "particle": "fariance:block/charred_planks"
   }
 }
