@@ -63,7 +63,7 @@ public class ItemRegistry {
             "normal", "redstone", "soul");
 
     private static final List<String> NEW_WOOD_TYPES = Arrays.asList(
-            "pale_oak", "charred", "scarlet");
+            "pale_oak", "charred", "tyrian");
 
     private static final List<String> NETHER_WOODS = Arrays.asList(
             "crimson", "charred", "scarlet", "warped");
