@@ -262,10 +262,11 @@ public class ItemRegistry {
             }
 
             // Log or Stem
-            RegistryObject<Block> stem = BLOCKS.register(woodName + log_type,
-                    () -> new RotatedPillarBlock(BlockBehaviour.Properties.of().strength(2.0F).sound(SoundType.WOOD)));
-            GENERATED_BLOCKS.put(woodName + log_type, stem);
-            registerBlockItem(woodName + log_type, stem);
+            String log_name = woodName + log_type;
+            RegistryObject<Block> stem = BLOCKS.register(log_name,
+                    () -> new CustomLogBlock(BlockBehaviour.Properties.of().strength(2.0F).sound(SoundType.WOOD), log_name));
+            GENERATED_BLOCKS.put(log_name, stem);
+            registerBlockItem(log_name, stem);
 
             // Stripped Log or Stem
             RegistryObject<Block> strippedStem = BLOCKS.register("stripped_" + woodName + log_type,
