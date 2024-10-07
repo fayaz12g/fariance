@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "effetewood:block/stripped_effete_stem"
-  }
-}

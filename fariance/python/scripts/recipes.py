@@ -34,6 +34,34 @@ def planks_to_sticks():
             # Append the recipe as JSON
             recipes.append((stick_name, json.dumps(recipe, indent=2)))
 
+def stick2stick_recipes():
+    # Add recipes for crafting sticks using sticks
+    for wood in WOOD_TYPES:
+        if wood not in ["bamboo"]:
+            
+            # Set the item and output amount
+            material = f"fariance:{wood}_stick"
+            count = 1
+
+            # Create the recipe based on the material and count
+            recipe = {
+                "type": "minecraft:crafting_shaped",
+                "category": "misc",  # Add category
+                "pattern": [
+                    "P"
+                ],
+                "key": {
+                    "P": {"item": material}
+                },
+                "result": {
+                    "id": "minecraft:stick",
+                    "count": count
+                }
+            }
+
+            # Append the recipe as JSON
+            recipes.append((f"{wood}_stick_to_stick", json.dumps(recipe, indent=2)))
+
 def logs_to_sticks():
     # Add recipes for crafting sticks using two planks of the corresponding wood type
     for wood in STICK_TYPES:
@@ -349,6 +377,7 @@ def generate_recipes():
     fence_gate_recipes()
     shield_recipes()
     torch_recipes()
+    stick2stick_recipes()
 
     # Generate recipes and write them to files
     for item_name, recipe in recipes:
