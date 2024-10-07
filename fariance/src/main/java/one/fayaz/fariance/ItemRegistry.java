@@ -273,14 +273,14 @@ public class ItemRegistry {
             GENERATED_BLOCKS.put(woodName + "_slab", slab);
             registerBlockItem(woodName + "_slab", slab);
 
-//             // Stair (fixed)
+//             // Stair (broken)
 //            RegistryObject<Block> stair = BLOCKS.register(woodName + "_stairs",
 //                    () -> new StairBlock(() -> GENERATED_BLOCKS.get(woodName + "_planks").get().defaultBlockState(),
 //                            BlockBehaviour.Properties.of().strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 //            GENERATED_BLOCKS.put(woodName + "_stairs", stair);
 //            registerBlockItem(woodName + "_stairs", stair);
 //
-            // Trapdoor (fixed)
+            // Trapdoor
             RegistryObject<Block> trapdoor = BLOCKS.register(woodName + "_trapdoor",
                     () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.of().strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
             GENERATED_BLOCKS.put(woodName + "_trapdoor", trapdoor);
@@ -310,7 +310,7 @@ public class ItemRegistry {
             GENERATED_BLOCKS.put(woodName + "_wall_hanging_sign", wallHangingSign);
             // Note: We don't register an item for the wall hanging sign as it uses the same item as the ceiling hanging sign
 //
-//            // Boat (only for non-nether woods)
+//            // Boat (broken)
 //            if (!NETHER_WOODS.contains(wood)) {
 //                RegistryObject<Item> boat = ITEMS.register(woodName + "_boat",
 //                        () -> new BoatItem(false, new Item.Properties().stacksTo(1)));

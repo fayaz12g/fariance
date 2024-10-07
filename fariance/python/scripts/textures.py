@@ -209,6 +209,16 @@ def new_wood_textures():
         else:
             print(f"Warning: Missing texture at {door_bottom_image_path}")
 
+        # New trapdoor
+        trapdoor_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"{wood}_trapdoor.png")
+        if os.path.exists(trapdoor_image_path):
+            output_path = os.path.join(block_output_dir, f"{wood}_trapdoor.png")
+            ingot_img = Image.open(trapdoor_image_path).convert("RGBA")
+            ingot_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture at {trapdoor_image_path}")
+
         # New log top
         log_top_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"{wood}_{log_type}_top.png")
         if os.path.exists(log_top_image_path):

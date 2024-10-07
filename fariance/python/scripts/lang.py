@@ -131,6 +131,9 @@ def new_wood_lang():
         slab_name = f"{wood}_slab"
         entries[f"block.fariance.{slab_name}"] = f"{capitalize_material(wood)} Slab"
 
+        trapdoor_name = f"{wood}_trapdoor"
+        entries[f"block.fariance.{trapdoor_name}"] = f"{capitalize_material(wood)} Trapdoor"
+
 def generate_lang_entries():
     
     # Ensure that the directory exists before writing the lang file

@@ -419,6 +419,86 @@ def new_wood_blockstates():
         with open(blockstates_file_path, 'w') as f:
             json.dump(blockstates_data, f, indent=2)
 
+        trapdoor_name = f"{wood}_trapdoor"
+        blockstates_data = {
+            "variants": {
+                "facing=east,half=bottom,open=false": {
+                "model": f"fariance:block/{trapdoor_name}_bottom",
+                "y": 90
+                },
+                "facing=east,half=bottom,open=true": {
+                "model": f"fariance:block/{trapdoor_name}_open",
+                "y": 90
+                },
+                "facing=east,half=top,open=false": {
+                "model": f"fariance:block/{trapdoor_name}_top",
+                "y": 90
+                },
+                "facing=east,half=top,open=true": {
+                "model": f"fariance:block/{trapdoor_name}_open",
+                "x": 180,
+                "y": 270
+                },
+                "facing=north,half=bottom,open=false": {
+                "model": f"fariance:block/{trapdoor_name}_bottom"
+                },
+                "facing=north,half=bottom,open=true": {
+                "model": f"fariance:block/{trapdoor_name}_open"
+                },
+                "facing=north,half=top,open=false": {
+                "model": f"fariance:block/{trapdoor_name}_top"
+                },
+                "facing=north,half=top,open=true": {
+                "model": f"fariance:block/{trapdoor_name}_open",
+                "x": 180,
+                "y": 180
+                },
+                "facing=south,half=bottom,open=false": {
+                "model": f"fariance:block/{trapdoor_name}_bottom",
+                "y": 180
+                },
+                "facing=south,half=bottom,open=true": {
+                "model": f"fariance:block/{trapdoor_name}_open",
+                "y": 180
+                },
+                "facing=south,half=top,open=false": {
+                "model": f"fariance:block/{trapdoor_name}_top",
+                "y": 180
+                },
+                "facing=south,half=top,open=true": {
+                "model": f"fariance:block/{trapdoor_name}_open",
+                "x": 180,
+                "y": 0
+                },
+                "facing=west,half=bottom,open=false": {
+                "model": f"fariance:block/{trapdoor_name}_bottom",
+                "y": 270
+                },
+                "facing=west,half=bottom,open=true": {
+                "model": f"fariance:block/{trapdoor_name}_open",
+                "y": 270
+                },
+                "facing=west,half=top,open=false": {
+                "model": f"fariance:block/{trapdoor_name}_top",
+                "y": 270
+                },
+                "facing=west,half=top,open=true": {
+                "model": f"fariance:block/{trapdoor_name}_open",
+                "x": 180,
+                "y": 90
+                }
+            }
+            }
+        
+        # Define the output path for the blockstates file
+        blockstates_file_path = os.path.join(blockstates_dir, f"{trapdoor_name}.json")
+        os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+        
+        # Write the blockstates data to the file
+        with open(blockstates_file_path, 'w') as f:
+            json.dump(blockstates_data, f, indent=2)
+
+
 
         door_name = f"{wood}_door"
         blockstates_data = {

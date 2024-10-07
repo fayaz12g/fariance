@@ -1021,6 +1021,67 @@ def new_wood_blocks():
         with open(block_model_file_path, 'w') as f:
             json.dump(block_model_data, f, indent=2)
 
+        trapdoor_name = f"{wood}_trapdoor"
+                
+        # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/template_orientable_trapdoor_open",
+            "textures": {
+                "texture": f"fariance:block/{trapdoor_name}"
+            }
+        }
+
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{trapdoor_name}_open.json")
+
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+          # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/template_orientable_trapdoor_top",
+            "textures": {
+                "texture": f"fariance:block/{trapdoor_name}"
+            }
+        }
+
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{trapdoor_name}_top.json")
+
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+          # Block model data
+        block_model_data = {
+            "parent": "minecraft:block/template_orientable_trapdoor_bottom",
+            "textures": {
+                "texture": f"fariance:block/{trapdoor_name}"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{trapdoor_name}_bottom.json")
+
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Item model data for the trap door
+        item_model_data = {
+            "parent": f"fariance:block/{wood}_trapdoor_bottom"
+        }
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{trapdoor_name}.json")
+        
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
         # Block model data
         block_model_data = {
             "parent": "minecraft:block/door_bottom_left_open",
