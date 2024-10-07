@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:warped_planks"
+    },
+    "S": {
+      "item": "fariance:stripped_dark_oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:warped_shovel_with_stripped_dark_oak_stick",
+    "count": 1
+  }
+}

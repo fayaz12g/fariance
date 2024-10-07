@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:stripped_cherry_log"
+    }
+  },
+  "result": {
+    "id": "fariance:stripped_cherry_stick",
+    "count": 16
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/tuff_axe_with_stripped_crimson_stick"
+  }
+}

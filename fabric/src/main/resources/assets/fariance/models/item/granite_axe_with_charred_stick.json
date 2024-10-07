@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/granite_axe_with_charred_stick"
+  }
+}

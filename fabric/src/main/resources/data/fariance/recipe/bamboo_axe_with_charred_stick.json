@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:bamboo_planks"
+    },
+    "S": {
+      "item": "fariance:charred_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:bamboo_axe_with_charred_stick",
+    "count": 1
+  }
+}

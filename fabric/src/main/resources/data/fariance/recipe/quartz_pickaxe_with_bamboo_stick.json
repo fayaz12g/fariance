@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:nether_quartz"
+    },
+    "S": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "id": "fariance:quartz_pickaxe_with_bamboo_stick",
+    "count": 1
+  }
+}

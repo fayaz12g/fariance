@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:bamboo_planks"
+    },
+    "S": {
+      "item": "fariance:cherry_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:bamboo_hoe_with_cherry_stick",
+    "count": 1
+  }
+}

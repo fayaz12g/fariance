@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    "PPP"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:lime_wool"
+    },
+    "P": {
+      "item": "minecraft:scarlet_planks"
+    }
+  },
+  "result": {
+    "id": "fariance:scarlet_lime_bed",
+    "count": 1
+  }
+}

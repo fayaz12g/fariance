@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:jungle_planks"
+    },
+    "S": {
+      "item": "fariance:crimson_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:jungle_hoe_with_crimson_stick",
+    "count": 1
+  }
+}

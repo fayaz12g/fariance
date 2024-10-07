@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "S": {
+      "item": "fariance:stripped_scarlet_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:dark_oak_hoe_with_stripped_scarlet_stick",
+    "count": 1
+  }
+}

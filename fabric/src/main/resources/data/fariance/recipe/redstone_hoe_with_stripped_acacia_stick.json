@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "fariance:stripped_acacia_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:redstone_hoe_with_stripped_acacia_stick",
+    "count": 1
+  }
+}

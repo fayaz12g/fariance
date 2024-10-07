@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:spruce_planks"
+    },
+    "S": {
+      "item": "fariance:oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:spruce_axe_with_oak_stick",
+    "count": 1
+  }
+}

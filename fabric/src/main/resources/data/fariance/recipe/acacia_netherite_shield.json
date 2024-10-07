@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "minecraft:acacia_planks"
+    },
+    "o": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "WoW",
+    "WWW",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "fariance:acacia_netherite_shield"
+  }
+}

@@ -6,8 +6,8 @@ bin
 .classpath
 .project
 
-./fariance/src/resources
-./fabric/src/resources
+./fariance/src/main/resources
+./fabric/src/main/resources
 
 # idea
 out

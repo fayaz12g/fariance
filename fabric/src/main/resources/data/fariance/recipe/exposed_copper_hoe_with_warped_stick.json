@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "fariance:exposed_copper_ingot"
+    },
+    "S": {
+      "item": "fariance:warped_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:exposed_copper_hoe_with_warped_stick",
+    "count": 1
+  }
+}

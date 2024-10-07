@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:blackstone"
+    },
+    "S": {
+      "item": "fariance:stripped_tyrian_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:blackstone_sword_with_stripped_tyrian_stick",
+    "count": 1
+  }
+}

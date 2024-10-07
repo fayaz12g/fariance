@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:crimson_planks"
+    }
+  },
+  "result": {
+    "id": "fariance:crimson_stick",
+    "count": 4
+  }
+}

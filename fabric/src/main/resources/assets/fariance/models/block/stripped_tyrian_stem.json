@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "fariance:block/stripped_tyrian_stem_top",
+    "side": "fariance:block/stripped_tyrian_stem"
+  }
+}

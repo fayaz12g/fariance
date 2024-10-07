@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:andesite"
+    },
+    "S": {
+      "item": "fariance:stripped_dark_oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:andesite_axe_with_stripped_dark_oak_stick",
+    "count": 1
+  }
+}

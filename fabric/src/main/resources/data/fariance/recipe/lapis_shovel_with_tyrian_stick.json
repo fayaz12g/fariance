@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "S": {
+      "item": "fariance:tyrian_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:lapis_shovel_with_tyrian_stick",
+    "count": 1
+  }
+}

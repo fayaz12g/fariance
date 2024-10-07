@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:azalea_planks"
+    },
+    "S": {
+      "item": "fariance:charred_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:azalea_pickaxe_with_charred_stick",
+    "count": 1
+  }
+}

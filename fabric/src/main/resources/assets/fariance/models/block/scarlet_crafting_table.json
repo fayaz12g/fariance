@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/scarlet_planks",
+    "east": "fariance:block/scarlet_crafting_table_side",
+    "north": "fariance:block/scarlet_crafting_table_front",
+    "particle": "fariance:block/scarlet_crafting_table_front",
+    "south": "fariance:block/scarlet_crafting_table_side",
+    "up": "fariance:block/scarlet_crafting_table_top",
+    "west": "fariance:block/scarlet_crafting_table_front"
+  }
+}

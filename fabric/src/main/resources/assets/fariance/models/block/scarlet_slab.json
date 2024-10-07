@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "fariance:block/scarlet_planks",
+    "side": "fariance:block/scarlet_planks",
+    "top": "fariance:block/scarlet_planks"
+  }
+}

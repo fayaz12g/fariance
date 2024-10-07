@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "S": {
+      "item": "fariance:mangrove_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:lapis_hoe_with_mangrove_stick",
+    "count": 1
+  }
+}

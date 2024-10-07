@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/deepslate_sword_with_stripped_cherry_stick"
+  }
+}

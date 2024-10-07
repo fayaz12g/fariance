@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "fariance:acacia_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:iron_axe_with_acacia_stick",
+    "count": 1
+  }
+}

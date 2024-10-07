@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/azalea_pickaxe_with_warped_stick"
+  }
+}

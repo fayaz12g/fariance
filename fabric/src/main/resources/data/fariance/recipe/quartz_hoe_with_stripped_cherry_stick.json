@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:nether_quartz"
+    },
+    "S": {
+      "item": "fariance:stripped_cherry_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:quartz_hoe_with_stripped_cherry_stick",
+    "count": 1
+  }
+}

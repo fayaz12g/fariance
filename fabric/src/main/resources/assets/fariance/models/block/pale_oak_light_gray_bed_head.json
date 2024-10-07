@@ -1,0 +1,7 @@
+{
+  "parent": "fariance:block/template_bed_head",
+  "textures": {
+    "bed": "fariance:entity/bed/pale_oak_light_gray",
+    "particle": "fariance:block/pale_oak_planks"
+  }
+}

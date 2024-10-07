@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:acacia_planks"
+    },
+    "S": {
+      "item": "fariance:charred_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:acacia_pickaxe_with_charred_stick",
+    "count": 1
+  }
+}

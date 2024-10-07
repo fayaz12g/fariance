@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "fariance:block/scarlet_redstone_torch_off"
+    },
+    "lit=true": {
+      "model": "fariance:block/scarlet_redstone_torch"
+    }
+  }
+}

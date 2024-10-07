@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "S": {
+      "item": "fariance:acacia_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:lapis_pickaxe_with_acacia_stick",
+    "count": 1
+  }
+}

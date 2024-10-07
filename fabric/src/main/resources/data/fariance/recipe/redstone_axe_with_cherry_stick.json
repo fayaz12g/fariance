@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "fariance:cherry_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:redstone_axe_with_cherry_stick",
+    "count": 1
+  }
+}

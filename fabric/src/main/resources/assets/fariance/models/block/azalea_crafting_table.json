@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/azalea_planks",
+    "east": "fariance:block/azalea_crafting_table_side",
+    "north": "fariance:block/azalea_crafting_table_front",
+    "particle": "fariance:block/azalea_crafting_table_front",
+    "south": "fariance:block/azalea_crafting_table_side",
+    "up": "fariance:block/azalea_crafting_table_top",
+    "west": "fariance:block/azalea_crafting_table_front"
+  }
+}

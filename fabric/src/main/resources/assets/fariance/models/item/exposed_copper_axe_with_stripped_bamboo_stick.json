@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/exposed_copper_axe_with_stripped_bamboo_stick"
+  }
+}

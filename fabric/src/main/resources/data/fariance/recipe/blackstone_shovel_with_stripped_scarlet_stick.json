@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:blackstone"
+    },
+    "S": {
+      "item": "fariance:stripped_scarlet_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:blackstone_shovel_with_stripped_scarlet_stick",
+    "count": 1
+  }
+}

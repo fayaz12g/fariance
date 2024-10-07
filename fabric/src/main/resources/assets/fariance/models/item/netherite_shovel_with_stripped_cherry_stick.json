@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/netherite_shovel_with_stripped_cherry_stick"
+  }
+}

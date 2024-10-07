@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "SSS",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "item": "fariance:stripped_oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:stripped_oak_ladder",
+    "count": 3
+  }
+}

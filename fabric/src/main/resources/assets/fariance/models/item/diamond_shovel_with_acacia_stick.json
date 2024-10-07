@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/diamond_shovel_with_acacia_stick"
+  }
+}

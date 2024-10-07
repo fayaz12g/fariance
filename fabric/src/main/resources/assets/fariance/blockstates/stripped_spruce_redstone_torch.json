@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "fariance:block/stripped_spruce_redstone_torch_off"
+    },
+    "lit=true": {
+      "model": "fariance:block/stripped_spruce_redstone_torch"
+    }
+  }
+}

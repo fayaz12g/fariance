@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "fariance:stripped_azalea_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:gold_sword_with_stripped_azalea_stick",
+    "count": 1
+  }
+}

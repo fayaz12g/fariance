@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "S": {
+      "item": "fariance:warped_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:deepslate_sword_with_warped_stick",
+    "count": 1
+  }
+}

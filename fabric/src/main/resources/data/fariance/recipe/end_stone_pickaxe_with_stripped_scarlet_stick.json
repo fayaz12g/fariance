@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:end_stone"
+    },
+    "S": {
+      "item": "fariance:stripped_scarlet_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:end_stone_pickaxe_with_stripped_scarlet_stick",
+    "count": 1
+  }
+}

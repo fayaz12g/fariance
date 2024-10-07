@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "S": {
+      "item": "fariance:cherry_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:amethyst_shovel_with_cherry_stick",
+    "count": 1
+  }
+}

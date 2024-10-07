@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:crimson_planks"
+    },
+    "S": {
+      "item": "fariance:azalea_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:crimson_axe_with_azalea_stick",
+    "count": 1
+  }
+}

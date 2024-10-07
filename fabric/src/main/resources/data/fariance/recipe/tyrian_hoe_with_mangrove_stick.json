@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:tyrian_planks"
+    },
+    "S": {
+      "item": "fariance:mangrove_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:tyrian_hoe_with_mangrove_stick",
+    "count": 1
+  }
+}

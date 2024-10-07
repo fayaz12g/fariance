@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:warped_planks"
+    },
+    "S": {
+      "item": "fariance:crimson_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:warped_pickaxe_with_crimson_stick",
+    "count": 1
+  }
+}

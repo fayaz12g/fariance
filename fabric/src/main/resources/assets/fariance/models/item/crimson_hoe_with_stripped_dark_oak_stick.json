@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/crimson_hoe_with_stripped_dark_oak_stick"
+  }
+}

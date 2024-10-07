@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "fariance:pale_oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:redstone_hoe_with_pale_oak_stick",
+    "count": 1
+  }
+}

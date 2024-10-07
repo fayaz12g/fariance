@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/quartz_pickaxe_with_stripped_crimson_stick"
+  }
+}

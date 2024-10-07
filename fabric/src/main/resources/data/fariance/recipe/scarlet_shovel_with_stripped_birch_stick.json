@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:scarlet_planks"
+    },
+    "S": {
+      "item": "fariance:stripped_birch_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:scarlet_shovel_with_stripped_birch_stick",
+    "count": 1
+  }
+}

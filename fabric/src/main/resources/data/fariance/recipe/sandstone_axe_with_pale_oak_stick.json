@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:sandstone"
+    },
+    "S": {
+      "item": "fariance:pale_oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:sandstone_axe_with_pale_oak_stick",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "fariance:oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:netherite_shovel_with_oak_stick",
+    "count": 1
+  }
+}

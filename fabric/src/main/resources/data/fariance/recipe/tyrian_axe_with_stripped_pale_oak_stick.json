@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:tyrian_planks"
+    },
+    "S": {
+      "item": "fariance:stripped_pale_oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:tyrian_axe_with_stripped_pale_oak_stick",
+    "count": 1
+  }
+}

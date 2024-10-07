@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:oak_planks"
+    },
+    "S": {
+      "item": "fariance:cherry_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:oak_hoe_with_cherry_stick",
+    "count": 1
+  }
+}

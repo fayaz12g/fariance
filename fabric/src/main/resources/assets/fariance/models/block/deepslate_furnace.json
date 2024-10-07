@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "fariance:block/deepslate_furnace_front",
+    "side": "fariance:block/deepslate_furnace_side",
+    "top": "fariance:block/deepslate_furnace_top"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "fariance:cobblestone_furnace",
+    "fariance:deepslate_furnace",
+    "fariance:andesite_furnace",
+    "fariance:diorite_furnace",
+    "fariance:granite_furnace",
+    "fariance:blackstone_furnace",
+    "fariance:prismarine_furnace",
+    "fariance:sandstone_furnace",
+    "fariance:red_sandstone_furnace",
+    "fariance:end_stone_furnace",
+    "fariance:tuff_furnace"
+  ]
+}

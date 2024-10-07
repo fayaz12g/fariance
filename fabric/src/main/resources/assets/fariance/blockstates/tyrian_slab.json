@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fariance:block/tyrian_slab"
+    },
+    "type=double": {
+      "model": "fariance:block/tyrian_planks"
+    },
+    "type=top": {
+      "model": "fariance:block/tyrian_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/prismarine_axe_with_stripped_oak_stick"
+  }
+}

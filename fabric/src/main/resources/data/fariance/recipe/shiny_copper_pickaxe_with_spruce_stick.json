@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "fariance:spruce_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:shiny_copper_pickaxe_with_spruce_stick",
+    "count": 1
+  }
+}

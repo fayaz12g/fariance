@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W",
+    "P"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:coal"
+    },
+    "P": {
+      "item": "fariance:pale_oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:pale_oak_torch",
+    "count": 4
+  }
+}

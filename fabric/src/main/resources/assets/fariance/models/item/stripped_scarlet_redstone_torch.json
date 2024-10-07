@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fariance:block/stripped_scarlet_redstone_torch"
+  }
+}

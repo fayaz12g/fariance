@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/lapis_sword_with_blaze_stick"
+  }
+}

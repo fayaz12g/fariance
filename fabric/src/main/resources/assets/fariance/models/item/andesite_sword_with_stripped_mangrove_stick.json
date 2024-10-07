@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/andesite_sword_with_stripped_mangrove_stick"
+  }
+}

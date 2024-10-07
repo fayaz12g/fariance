@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:azalea_planks"
+    },
+    "S": {
+      "item": "fariance:azalea_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:azalea_hoe_with_azalea_stick",
+    "count": 1
+  }
+}

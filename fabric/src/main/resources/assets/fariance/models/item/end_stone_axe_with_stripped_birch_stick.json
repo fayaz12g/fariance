@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/end_stone_axe_with_stripped_birch_stick"
+  }
+}

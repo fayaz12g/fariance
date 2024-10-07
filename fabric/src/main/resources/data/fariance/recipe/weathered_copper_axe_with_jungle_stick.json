@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "fariance:weathered_copper_ingot"
+    },
+    "S": {
+      "item": "fariance:jungle_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:weathered_copper_axe_with_jungle_stick",
+    "count": 1
+  }
+}

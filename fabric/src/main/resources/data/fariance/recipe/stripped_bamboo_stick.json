@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:stripped_bamboo_log"
+    }
+  },
+  "result": {
+    "id": "fariance:stripped_bamboo_stick",
+    "count": 16
+  }
+}

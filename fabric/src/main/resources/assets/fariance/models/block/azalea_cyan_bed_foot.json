@@ -1,0 +1,7 @@
+{
+  "parent": "fariance:block/template_bed_foot",
+  "textures": {
+    "bed": "fariance:entity/bed/azalea_cyan",
+    "particle": "fariance:block/azalea_planks"
+  }
+}

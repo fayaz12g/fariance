@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/sandstone_shovel_with_warped_stick"
+  }
+}

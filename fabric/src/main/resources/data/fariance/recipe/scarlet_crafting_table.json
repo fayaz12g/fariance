@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:scarlet_planks"
+    }
+  },
+  "result": {
+    "id": "fariance:scarlet_crafting_table",
+    "count": 1
+  }
+}

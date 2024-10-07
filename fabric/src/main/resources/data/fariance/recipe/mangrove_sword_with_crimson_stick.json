@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:mangrove_planks"
+    },
+    "S": {
+      "item": "fariance:crimson_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:mangrove_sword_with_crimson_stick",
+    "count": 1
+  }
+}

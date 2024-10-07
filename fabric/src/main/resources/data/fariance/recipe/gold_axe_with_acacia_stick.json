@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "fariance:acacia_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:gold_axe_with_acacia_stick",
+    "count": 1
+  }
+}

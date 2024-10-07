@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "fariance:oak_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:iron_shovel_with_oak_stick",
+    "count": 1
+  }
+}

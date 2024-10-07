@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "fariance:block/scarlet_fence_post"
+      }
+    },
+    {
+      "apply": {
+        "model": "fariance:block/scarlet_fence_side",
+        "uvlock": true
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fariance:block/scarlet_fence_side",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "fariance:block/scarlet_fence_side",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "south": "True"
+      }
+    },
+    {
+      "apply": {
+        "model": "fariance:block/scarlet_fence_side",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "west": "true"
+      }
+    }
+  ]
+}

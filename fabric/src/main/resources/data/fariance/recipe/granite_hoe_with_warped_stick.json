@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:granite"
+    },
+    "S": {
+      "item": "fariance:warped_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:granite_hoe_with_warped_stick",
+    "count": 1
+  }
+}

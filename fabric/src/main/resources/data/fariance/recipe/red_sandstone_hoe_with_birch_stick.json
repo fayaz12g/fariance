@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:red_sandstone"
+    },
+    "S": {
+      "item": "fariance:birch_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:red_sandstone_hoe_with_birch_stick",
+    "count": 1
+  }
+}

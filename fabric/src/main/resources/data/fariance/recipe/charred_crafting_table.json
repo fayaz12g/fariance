@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:charred_planks"
+    }
+  },
+  "result": {
+    "id": "fariance:charred_crafting_table",
+    "count": 1
+  }
+}

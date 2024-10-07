@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:sandstone"
+    },
+    "S": {
+      "item": "fariance:warped_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:sandstone_axe_with_warped_stick",
+    "count": 1
+  }
+}

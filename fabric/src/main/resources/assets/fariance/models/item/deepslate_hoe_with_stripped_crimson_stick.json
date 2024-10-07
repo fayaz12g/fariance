@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/deepslate_hoe_with_stripped_crimson_stick"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "S": {
+      "item": "fariance:jungle_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:deepslate_hoe_with_jungle_stick",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "fariance:weathered_copper_ingot"
+    },
+    "S": {
+      "item": "fariance:charred_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:weathered_copper_hoe_with_charred_stick",
+    "count": 1
+  }
+}

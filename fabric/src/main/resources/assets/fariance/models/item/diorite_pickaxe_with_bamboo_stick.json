@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/diorite_pickaxe_with_bamboo_stick"
+  }
+}

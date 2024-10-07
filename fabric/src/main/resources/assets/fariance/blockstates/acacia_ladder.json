@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "fariance:block/acacia_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "fariance:block/acacia_ladder"
+    },
+    "facing=south": {
+      "model": "fariance:block/acacia_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fariance:block/acacia_ladder",
+      "y": 270
+    }
+  }
+}

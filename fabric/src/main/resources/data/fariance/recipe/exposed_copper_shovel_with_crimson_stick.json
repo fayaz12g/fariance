@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "fariance:exposed_copper_ingot"
+    },
+    "S": {
+      "item": "fariance:crimson_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:exposed_copper_shovel_with_crimson_stick",
+    "count": 1
+  }
+}

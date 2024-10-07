@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:blackstone"
+    },
+    "S": {
+      "item": "fariance:birch_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:blackstone_axe_with_birch_stick",
+    "count": 1
+  }
+}

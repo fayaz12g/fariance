@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "fariance:azalea_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:redstone_pickaxe_with_azalea_stick",
+    "count": 1
+  }
+}

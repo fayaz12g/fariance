@@ -1,0 +1,7 @@
+{
+  "parent": "fariance:block/template_bed_head",
+  "textures": {
+    "bed": "fariance:entity/bed/cherry_white",
+    "particle": "minecraft:block/cherry_planks"
+  }
+}

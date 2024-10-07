@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "fariance:stripped_cherry_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:redstone_sword_with_stripped_cherry_stick",
+    "count": 1
+  }
+}

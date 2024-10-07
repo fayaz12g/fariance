@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/sandstone_sword_with_dark_oak_stick"
+  }
+}

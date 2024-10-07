@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/cobblestone_hoe_with_pale_oak_stick"
+  }
+}

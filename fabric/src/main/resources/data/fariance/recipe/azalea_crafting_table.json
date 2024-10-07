@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:azalea_planks"
+    }
+  },
+  "result": {
+    "id": "fariance:azalea_crafting_table",
+    "count": 1
+  }
+}

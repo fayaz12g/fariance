@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/bamboo_hoe_with_stripped_warped_stick"
+  }
+}

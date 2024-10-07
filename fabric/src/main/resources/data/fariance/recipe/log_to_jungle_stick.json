@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:jungle_log"
+    }
+  },
+  "result": {
+    "id": "fariance:jungle_stick",
+    "count": 16
+  }
+}

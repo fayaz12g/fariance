@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fariance:item/cherry_sword_with_stripped_jungle_stick"
+  }
+}
