@@ -31,6 +31,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.IEventBus;
 import one.fayaz.fariance.blocks.*;
+import one.fayaz.fariance.blocks.signs.CustomSignBlockEntity;
+import one.fayaz.fariance.blocks.signs.CustomStandingSignBlock;
+import one.fayaz.fariance.blocks.signs.CustomWallSignBlock;
 import org.slf4j.Logger;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Inventory;
@@ -128,6 +131,10 @@ public class ItemRegistry {
         generateBeds();
         generateNewWoodBlocks();
         generateTorches();
+
+        CustomStandingSignBlock.register(); // Register custom standing sign block
+        CustomWallSignBlock.register(); // Register custom wall sign block
+        CustomSignBlockEntity.registerBlockEntities(); // Register custom sign block entity
     }
 
     private static void generateTorches() {

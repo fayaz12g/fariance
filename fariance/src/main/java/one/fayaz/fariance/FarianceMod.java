@@ -15,6 +15,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import one.fayaz.fariance.blocks.CustomBedBlock;
 import one.fayaz.fariance.blocks.CustomFurnaceBlock;
+import one.fayaz.fariance.blocks.signs.CustomSignBlockEntity;
 import org.slf4j.Logger;
 
 import java.util.List;
@@ -109,9 +110,10 @@ public class FarianceMod {
         // Register the custom block entities
         CustomFurnaceBlock.registerBlockEntities();
 
-        // Then register block entities
+        // Then register bed entities
         CustomBedBlock.registerBlockEntities();
 
+        // Register custom creative tabs
         CREATIVE_MODE_TABS.register(modEventBus);
 
         // Register ourselves for server and other game events
