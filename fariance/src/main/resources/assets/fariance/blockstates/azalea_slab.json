@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fariance:block/azalea_slab"
+    },
+    "type=double": {
+      "model": "fariance:block/azalea_planks"
+    },
+    "type=top": {
+      "model": "fariance:block/azalea_slab_top"
+    }
+  }
+}

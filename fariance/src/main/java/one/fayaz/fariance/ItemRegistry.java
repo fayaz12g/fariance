@@ -63,7 +63,7 @@ public class ItemRegistry {
             "normal", "redstone", "soul");
 
     private static final List<String> NEW_WOOD_TYPES = Arrays.asList(
-            "pale_oak", "charred", "tyrian");
+            "pale_oak", "charred", "tyrian", "azalea");
 
     private static final List<String> NETHER_WOODS = Arrays.asList(
             "crimson", "charred", "tyrian", "warped");
@@ -272,7 +272,7 @@ public class ItemRegistry {
                     () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2.0F, 3.0F).sound(SoundType.WOOD)));
             GENERATED_BLOCKS.put(woodName + "_slab", slab);
             registerBlockItem(woodName + "_slab", slab);
-            
+
         }
     }
 

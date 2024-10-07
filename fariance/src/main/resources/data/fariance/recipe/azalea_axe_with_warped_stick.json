@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MM ",
+    "MS ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:azalea_planks"
+    },
+    "S": {
+      "item": "fariance:warped_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:azalea_axe_with_warped_stick",
+    "count": 1
+  }
+}

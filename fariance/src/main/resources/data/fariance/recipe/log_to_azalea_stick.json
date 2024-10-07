@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:azalea_log"
+    }
+  },
+  "result": {
+    "id": "fariance:azalea_stick",
+    "count": 16
+  }
+}

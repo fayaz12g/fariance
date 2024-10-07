@@ -13,7 +13,7 @@ entity_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "
 
 
 # Define constants
-NEW_WOOD = ["pale_oak", "charred", "tyrian"]
+NEW_WOOD = ["pale_oak", "charred", "tyrian", "azalea"]
 WOOD_TYPES = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak", "mangrove", "cherry", "crimson", "warped", "bamboo"] + NEW_WOOD
 NETHER_WOODS = ["charred", "tyrian", "crimson", "warped"]
 TOOL_TYPES = ["sword", "pickaxe", "shovel", "hoe", "axe"]

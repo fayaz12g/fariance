@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:jungle_planks"
+    },
+    "S": {
+      "item": "fariance:azalea_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:jungle_sword_with_azalea_stick",
+    "count": 1
+  }
+}
