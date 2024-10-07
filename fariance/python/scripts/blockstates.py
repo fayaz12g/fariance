@@ -395,7 +395,7 @@ def new_wood_blockstates():
                     "y": 180
                 },
                 "when": {
-                    "south": "True"
+                    "south": "true"
                 }
                 },
                 {

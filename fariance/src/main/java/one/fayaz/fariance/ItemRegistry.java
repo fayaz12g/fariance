@@ -239,7 +239,7 @@ public class ItemRegistry {
 
             // Fence
             RegistryObject<Block> fence = BLOCKS.register(woodName + "_fence",
-                    () -> new FenceBlock(BlockBehaviour.Properties.of().strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+                    () -> new CustomFenceBlock(BlockBehaviour.Properties.of().strength(2.0F, 3.0F).sound(SoundType.WOOD)));
             GENERATED_BLOCKS.put(woodName + "_fence", fence);
             registerBlockItem(woodName + "_fence", fence);
 
