@@ -290,36 +290,20 @@ public class ItemRegistry {
 
             // Standing Sign
             RegistryObject<Block> sign = BLOCKS.register(woodName + "_sign",
-                    () -> new StandingSignBlock(WoodType.OAK, BlockBehaviour.Properties.of()
-                            .noCollission().strength(1.0F).sound(SoundType.WOOD)));
+                    () -> new CustomStandingSignBlock(BlockBehaviour.Properties.of()
+                            .noCollission().strength(1.0F).sound(SoundType.WOOD), WoodType.OAK));
             GENERATED_BLOCKS.put(woodName + "_sign", sign);
 
             // Wall Sign
             RegistryObject<Block> wallSign = BLOCKS.register(woodName + "_wall_sign",
-                    () -> new WallSignBlock(WoodType.OAK, BlockBehaviour.Properties.of()
-                            .noCollission().strength(1.0F).sound(SoundType.WOOD)));
+                    () -> new CustomWallSignBlock(BlockBehaviour.Properties.of()
+                            .noCollission().strength(1.0F).sound(SoundType.WOOD), WoodType.OAK));
             GENERATED_BLOCKS.put(woodName + "_wall_sign", wallSign);
 
             // Register sign item (for both standing and wall signs)
             GENERATED_ITEMS.put(woodName + "_sign", ITEMS.register(woodName + "_sign",
                     () -> new SignItem(new Item.Properties().stacksTo(16), sign.get(), wallSign.get())));
 
-            // Hanging Sign
-            RegistryObject<Block> hangingSign = BLOCKS.register(woodName + "_hanging_sign",
-                    () -> new CeilingHangingSignBlock(WoodType.OAK, BlockBehaviour.Properties.of()
-                            .noCollission().strength(1.0F).sound(SoundType.WOOD)));
-            GENERATED_BLOCKS.put(woodName + "_hanging_sign", hangingSign);
-
-            // Wall Hanging Sign
-            RegistryObject<Block> wallHangingSign = BLOCKS.register(woodName + "_wall_hanging_sign",
-                    () -> new WallHangingSignBlock(WoodType.OAK, BlockBehaviour.Properties.of()
-                            .noCollission().strength(1.0F).sound(SoundType.WOOD)));
-            GENERATED_BLOCKS.put(woodName + "_wall_hanging_sign", wallHangingSign);
-
-            // Register hanging sign item (for both ceiling and wall hanging signs)
-            GENERATED_ITEMS.put(woodName + "_hanging_sign", ITEMS.register(woodName + "_hanging_sign",
-                    () -> new HangingSignItem(hangingSign.get(), wallHangingSign.get(), new Item.Properties().stacksTo(16))));
-//
 //            // Boat (broken)
 //            if (!NETHER_WOODS.contains(wood)) {
 //                RegistryObject<Item> boat = ITEMS.register(woodName + "_boat",
