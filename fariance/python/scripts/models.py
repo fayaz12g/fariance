@@ -1055,6 +1055,68 @@ def new_wood_blocks():
         with open(block_model_file_path, 'w') as f:
             json.dump(block_model_data, f, indent=2)
 
+        # Block model data
+        block_model_data = {
+            "textures": {
+                "particle": f"fariance:block/{wood}_planks"
+            }
+        }
+
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{wood}_sign.json")
+
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        block_model_data = {
+            "textures": {
+                "particle": f"fariance:block/stripped_{wood}_{log_type}"
+            }
+        }
+
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{wood}_hanging_sign.json")
+
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data
+        item_model_data = {
+            "parent": "minecraft:item/generated",
+            "textures": {
+                "layer0": f"fariance:item/{wood}_sign"
+            }
+        }
+
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{wood}_sign.json")
+
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
+        # Block model data
+        item_model_data = {
+            "parent": "minecraft:item/generated",
+            "textures": {
+                "layer0": f"fariance:item/{wood}_hanging_sign"
+            }
+        }
+
+
+        # Define the block model output path
+        item_model_file_path = os.path.join(item_model_dir, f"{wood}_hanging_sign.json")
+
+        # Write the block model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
           # Block model data
         block_model_data = {
             "parent": "minecraft:block/template_orientable_trapdoor_bottom",

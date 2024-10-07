@@ -10,6 +10,8 @@ item_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "it
 block_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "block")
 atlases_output_dir = os.path.join(output_dir, "assets", "fariance", "atlases")
 entity_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "entity")
+gui_output_dir = os.path.join(output_dir, "assets", "fariance", "textures", "gui")
+os.makedirs(gui_output_dir, exist_ok=True)  # Create the directory if it doesn't exist
 
 
 # Define constants

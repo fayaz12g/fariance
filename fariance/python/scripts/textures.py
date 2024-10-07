@@ -219,6 +219,57 @@ def new_wood_textures():
         else:
             print(f"Warning: Missing texture at {trapdoor_image_path}")
 
+        # New signs
+        sign_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"sign.png")
+        if os.path.exists(sign_image_path):
+            output_path = os.path.join(entity_output_dir, "signs", f"{wood}.png")
+            ingot_img = Image.open(sign_image_path).convert("RGBA")
+            ingot_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture at {sign_image_path}")
+
+        # New hanging signs
+        hanging_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"hanging_sign.png")
+        if os.path.exists(hanging_image_path):
+            output_path = os.path.join(entity_output_dir, "signs", "hanging", f"{wood}.png")
+            ingot_img = Image.open(hanging_image_path).convert("RGBA")
+            ingot_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture at {hanging_image_path}")
+
+
+        # New signs item
+        sign_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"{wood}_sign.png")
+        if os.path.exists(sign_image_path):
+            output_path = os.path.join(item_output_dir, f"{wood}_sign.png")
+            ingot_img = Image.open(sign_image_path).convert("RGBA")
+            ingot_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture at {sign_image_path}")
+
+        # New hanging signs item
+        hanging_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"{wood}_hanging_sign.png")
+        if os.path.exists(hanging_image_path):
+            output_path = os.path.join(item_output_dir, f"{wood}_hanging_sign.png")
+            ingot_img = Image.open(hanging_image_path).convert("RGBA")
+            ingot_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture at {hanging_image_path}")
+
+        # New hanging signs
+        gui_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"gui.png")
+        if os.path.exists(gui_image_path):
+            output_path = os.path.join(gui_output_dir, "hanging_signs", f"{wood}.png")
+            ingot_img = Image.open(gui_image_path).convert("RGBA")
+            ingot_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture at {gui_image_path}")
+
         # New log top
         log_top_image_path = os.path.join(image_dir, "newwood", f"{wood}", f"{wood}_{log_type}_top.png")
         if os.path.exists(log_top_image_path):

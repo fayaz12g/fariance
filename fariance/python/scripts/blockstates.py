@@ -634,6 +634,74 @@ def new_wood_blockstates():
         with open(blockstates_file_path, 'w') as f:
             json.dump(blockstates_data, f, indent=2)
 
+        sign_name = f"{wood}_sign"
+        blockstates_data = {
+            "variants": {
+                "": {
+                "model": f"fariance:block/{wood}_sign"
+                }
+            }
+        }
+        
+        # Define the output path for the blockstates file
+        blockstates_file_path = os.path.join(blockstates_dir, f"{sign_name}.json")
+        os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+        
+        # Write the blockstates data to the file
+        with open(blockstates_file_path, 'w') as f:
+            json.dump(blockstates_data, f, indent=2)
+
+        hanging_sign_name = f"{wood}_hanging_sign"
+        blockstates_data = {
+            "variants": {
+                "": {
+                "model": f"fariance:block/{wood}_hanging_sign"
+                }
+            }
+        }
+        
+        # Define the output path for the blockstates file
+        blockstates_file_path = os.path.join(blockstates_dir, f"{hanging_sign_name}.json")
+        os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+        
+        # Write the blockstates data to the file
+        with open(blockstates_file_path, 'w') as f:
+            json.dump(blockstates_data, f, indent=2)
+
+        sign_name = f"{wood}_wall_sign"
+        blockstates_data = {
+            "variants": {
+                "": {
+                "model": f"fariance:block/{wood}_sign"
+                }
+            }
+        }
+        
+        # Define the output path for the blockstates file
+        blockstates_file_path = os.path.join(blockstates_dir, f"{sign_name}.json")
+        os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+        
+        # Write the blockstates data to the file
+        with open(blockstates_file_path, 'w') as f:
+            json.dump(blockstates_data, f, indent=2)
+
+        hanging_sign_name = f"{wood}_wall_hanging_sign"
+        blockstates_data = {
+            "variants": {
+                "": {
+                "model": f"fariance:block/{wood}_hanging_sign"
+                }
+            }
+        }
+        
+        # Define the output path for the blockstates file
+        blockstates_file_path = os.path.join(blockstates_dir, f"{hanging_sign_name}.json")
+        os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+        
+        # Write the blockstates data to the file
+        with open(blockstates_file_path, 'w') as f:
+            json.dump(blockstates_data, f, indent=2)
+
 
 def ladder_blockstates():
     # Ladder blockstates
