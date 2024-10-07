@@ -34,56 +34,56 @@ public class FarianceMod {
 
     // Create CreativeModeTabs for each tool type
     public static final RegistryObject<CreativeModeTab> SWORDS_TAB = CREATIVE_MODE_TABS.register("swords_tab", () -> CreativeModeTab.builder()
-            .withTabsBefore(CreativeModeTabs.INVENTORY)
+            .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .icon(() -> ItemRegistry.GENERATED_ITEMS.get("oak_sword_with_oak_stick").get().getDefaultInstance())
             .title(Component.translatable("itemGroup.fariance.swords"))
             .displayItems((parameters, output) -> addItemsToTab(output, "sword"))
             .build());
 
     public static final RegistryObject<CreativeModeTab> PICKAXES_TAB = CREATIVE_MODE_TABS.register("pickaxes_tab", () -> CreativeModeTab.builder()
-            .withTabsBefore(CreativeModeTabs.INVENTORY)
+            .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .icon(() -> ItemRegistry.GENERATED_ITEMS.get("oak_pickaxe_with_oak_stick").get().getDefaultInstance())
             .title(Component.translatable("itemGroup.fariance.pickaxes"))
             .displayItems((parameters, output) -> addItemsToTab(output, "pickaxe"))
             .build());
 
     public static final RegistryObject<CreativeModeTab> AXES_TAB = CREATIVE_MODE_TABS.register("axes_tab", () -> CreativeModeTab.builder()
-            .withTabsBefore(CreativeModeTabs.INVENTORY)
+            .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .icon(() -> ItemRegistry.GENERATED_ITEMS.get("oak_axe_with_oak_stick").get().getDefaultInstance())
             .title(Component.translatable("itemGroup.fariance.axes"))
             .displayItems((parameters, output) -> addItemsToTab(output, "axe"))
             .build());
 
     public static final RegistryObject<CreativeModeTab> SHOVELS_TAB = CREATIVE_MODE_TABS.register("shovels_tab", () -> CreativeModeTab.builder()
-            .withTabsBefore(CreativeModeTabs.INVENTORY)
+            .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .icon(() -> ItemRegistry.GENERATED_ITEMS.get("oak_shovel_with_oak_stick").get().getDefaultInstance())
             .title(Component.translatable("itemGroup.fariance.shovels"))
             .displayItems((parameters, output) -> addItemsToTab(output, "shovel"))
             .build());
 
     public static final RegistryObject<CreativeModeTab> HOES_TAB = CREATIVE_MODE_TABS.register("hoes_tab", () -> CreativeModeTab.builder()
-            .withTabsBefore(CreativeModeTabs.INVENTORY)
+            .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .icon(() -> ItemRegistry.GENERATED_ITEMS.get("oak_hoe_with_oak_stick").get().getDefaultInstance())
             .title(Component.translatable("itemGroup.fariance.hoes"))
             .displayItems((parameters, output) -> addItemsToTab(output, "hoe"))
             .build());
 
     public static final RegistryObject<CreativeModeTab> BEDS_TAB = CREATIVE_MODE_TABS.register("beds_tab", () -> CreativeModeTab.builder()
-            .withTabsBefore(CreativeModeTabs.INVENTORY)
+            .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .icon(() -> ItemRegistry.GENERATED_ITEMS.get("oak_red_bed").get().getDefaultInstance())
             .title(Component.translatable("itemGroup.fariance.beds"))
             .displayItems((parameters, output) -> addOtherItemsToTab(output, "bed"))
             .build());
 
     public static final RegistryObject<CreativeModeTab> SHIELDS_TAB = CREATIVE_MODE_TABS.register("shields_tab", () -> CreativeModeTab.builder()
-            .withTabsBefore(CreativeModeTabs.INVENTORY)
+            .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .icon(() -> ItemRegistry.GENERATED_ITEMS.get("oak_iron_shield").get().getDefaultInstance())
             .title(Component.translatable("itemGroup.fariance.shields"))
             .displayItems((parameters, output) -> addOtherItemsToTab(output, "shield"))
             .build());
 
     public static final RegistryObject<CreativeModeTab> TORCHES_TAB = CREATIVE_MODE_TABS.register("torches_tab", () -> CreativeModeTab.builder()
-            .withTabsBefore(CreativeModeTabs.INVENTORY)
+            .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .icon(() -> ItemRegistry.GENERATED_ITEMS.get("stripped_oak_torch").get().getDefaultInstance())
             .title(Component.translatable("itemGroup.fariance.torches"))
             .displayItems((parameters, output) -> addOtherItemsToTab(output, "torch"))
@@ -91,7 +91,7 @@ public class FarianceMod {
 
     // New Misc tab for all other items
     public static final RegistryObject<CreativeModeTab> MISC_TAB = CREATIVE_MODE_TABS.register("misc_tab", () -> CreativeModeTab.builder()
-            .withTabsBefore(CreativeModeTabs.INVENTORY)
+            .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
             .icon(() -> ItemRegistry.GENERATED_ITEMS.get("oak_diamond_shield").get().getDefaultInstance())
             .title(Component.translatable("itemGroup.fariance.misc"))
             .displayItems((parameters, output) -> addMiscItemsToTab(output))
