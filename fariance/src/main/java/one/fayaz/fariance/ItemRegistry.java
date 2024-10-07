@@ -273,6 +273,54 @@ public class ItemRegistry {
             GENERATED_BLOCKS.put(woodName + "_slab", slab);
             registerBlockItem(woodName + "_slab", slab);
 
+//             // Stair (fixed)
+//            RegistryObject<Block> stair = BLOCKS.register(woodName + "_stairs",
+//                    () -> new StairBlock(() -> GENERATED_BLOCKS.get(woodName + "_planks").get().defaultBlockState(),
+//                            BlockBehaviour.Properties.of().strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+//            GENERATED_BLOCKS.put(woodName + "_stairs", stair);
+//            registerBlockItem(woodName + "_stairs", stair);
+//
+            // Trapdoor (fixed)
+            RegistryObject<Block> trapdoor = BLOCKS.register(woodName + "_trapdoor",
+                    () -> new TrapDoorBlock(BlockSetType.OAK, BlockBehaviour.Properties.of().strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+            GENERATED_BLOCKS.put(woodName + "_trapdoor", trapdoor);
+            registerBlockItem(woodName + "_trapdoor", trapdoor);
+//
+            // Sign
+            RegistryObject<Block> sign = BLOCKS.register(woodName + "_sign",
+                    () -> new StandingSignBlock(WoodType.OAK, BlockBehaviour.Properties.of().noCollission().strength(1.0F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put(woodName + "_sign", sign);
+            registerBlockItem(woodName + "_sign", sign);
+//
+            // Wall Sign
+            RegistryObject<Block> wallSign = BLOCKS.register(woodName + "_wall_sign",
+                    () -> new WallSignBlock(WoodType.OAK, BlockBehaviour.Properties.of().noCollission().strength(1.0F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put(woodName + "_wall_sign", wallSign);
+            // Note: We don't register an item for the wall sign as it uses the same item as the standing sign
+//
+            // Hanging Sign
+            RegistryObject<Block> hangingSign = BLOCKS.register(woodName + "_hanging_sign",
+                    () -> new CeilingHangingSignBlock(WoodType.OAK, BlockBehaviour.Properties.of().noCollission().strength(1.0F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put(woodName + "_hanging_sign", hangingSign);
+            registerBlockItem(woodName + "_hanging_sign", hangingSign);
+//
+            // Wall Hanging Sign
+            RegistryObject<Block> wallHangingSign = BLOCKS.register(woodName + "_wall_hanging_sign",
+                    () -> new WallHangingSignBlock(WoodType.OAK, BlockBehaviour.Properties.of().noCollission().strength(1.0F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put(woodName + "_wall_hanging_sign", wallHangingSign);
+            // Note: We don't register an item for the wall hanging sign as it uses the same item as the ceiling hanging sign
+//
+//            // Boat (only for non-nether woods)
+//            if (!NETHER_WOODS.contains(wood)) {
+//                RegistryObject<Item> boat = ITEMS.register(woodName + "_boat",
+//                        () -> new BoatItem(false, new Item.Properties().stacksTo(1)));
+//                GENERATED_ITEMS.put(woodName + "_boat", boat);
+//
+//                RegistryObject<Item> chestBoat = ITEMS.register(woodName + "_chest_boat",
+//                        () -> new BoatItem(true, new Item.Properties().stacksTo(1)));
+//                GENERATED_ITEMS.put(woodName + "_chest_boat", chestBoat);
+//            }
+
         }
     }
 
