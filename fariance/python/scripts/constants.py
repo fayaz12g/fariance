@@ -79,7 +79,8 @@ tabs = {
         "shovels": "Fariance Shovels",
         "hoes": "Fariance Hoes",
         "beds": "Fariance Beds",
-        "misc": "Fariance Miscellaneous"
+        "torches": "Fariance Torches",
+        "shields": "Fariance Shields",
     }
 
 
