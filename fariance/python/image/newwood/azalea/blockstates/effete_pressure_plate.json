@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "effetewood:block/effete_pressure_plate"
+    },
+    "powered=true": {
+      "model": "effetewood:block/effete_pressure_plate_down"
+    }
+  }
+}

@@ -72,7 +72,7 @@ public class FarianceMod {
             .withTabsAfter(CreativeModeTabs.SEARCH)
             .icon(() -> ItemRegistry.GENERATED_ITEMS.get("oak_red_bed").get().getDefaultInstance())
             .title(Component.translatable("itemGroup.fariance.beds"))
-            .displayItems((parameters, output) -> addItemsToTab(output, "bed"))
+            .displayItems((parameters, output) -> addOtherItemsToTab(output, "bed"))
             .build());
 
     // New Misc tab for all other items
@@ -107,6 +107,22 @@ public class FarianceMod {
     private void commonSetup(final FMLCommonSetupEvent event) {
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
+    }
+
+
+    private static void addOtherItemsToTab(CreativeModeTab.Output output, String thing) {
+        List<RegistryObject<Item>> sortedItems = ItemRegistry.GENERATED_ITEMS.values().stream()
+                .filter(itemRegistryObject -> itemRegistryObject.getId().getPath().matches(".*_" + thing))
+                .sorted((o1, o2) -> {
+                    String name1 = o1.getId().getPath();
+                    String name2 = o2.getId().getPath();
+                    return name1.compareTo(name2); // Sort by item name
+                })
+                .collect(Collectors.toList());
+
+        for (RegistryObject<Item> item : sortedItems) {
+            output.accept(item.get());
+        }
     }
 
     private static void addItemsToTab(CreativeModeTab.Output output, String toolType) {

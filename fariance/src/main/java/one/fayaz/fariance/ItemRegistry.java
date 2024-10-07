@@ -272,6 +272,7 @@ public class ItemRegistry {
                     () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2.0F, 3.0F).sound(SoundType.WOOD)));
             GENERATED_BLOCKS.put(woodName + "_slab", slab);
             registerBlockItem(woodName + "_slab", slab);
+            
         }
     }
 

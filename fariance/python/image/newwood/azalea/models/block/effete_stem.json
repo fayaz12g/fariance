@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "effetewood:block/effete_stem",
+    "end": "effetewood:block/effete_stem_top"
+  }
+}

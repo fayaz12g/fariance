@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "side": "effetewood:block/effete_planks",
+    "bottom": "effetewood:block/effete_planks",
+    "top": "effetewood:block/effete_planks"
+  }
+}

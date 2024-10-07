@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "effetewood:block/effete_slab_top"
+    },
+    "type=bottom": {
+      "model": "effetewood:block/effete_slab"
+    },
+    "type=double": {
+      "model": "effetewood:block/effete_planks"
+    }
+  }
+}

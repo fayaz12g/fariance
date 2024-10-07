@@ -1,0 +1,20 @@
+{
+  "itemGroup.effetewood": "Effete Wood",
+  "block.effetewood.effete_stem": "Effete Stem",
+  "block.effetewood.stripped_effete_stem": "Stripped Effete Stem",
+  "block.effetewood.effete_hyphae": "Effete Hyphae",
+  "block.effetewood.stripped_effete_hyphae": "Stripped Effete Hyphae",
+  "block.effetewood.effete_planks": "Effete Planks",
+  "block.effetewood.effete_slab": "Effete Slab",
+  "block.effetewood.effete_stairs": "Effete Stairs",
+  "block.effetewood.effete_fence": "Effete Fence",
+  "block.effetewood.effete_fence_gate": "Effete Fence Gate",
+  "block.effetewood.effete_pressure_plate": "Effete Pressure Plate",
+  "block.effetewood.effete_button": "Effete Button",
+  "block.effetewood.effete_door": "Effete Door",
+  "block.effetewood.effete_trapdoor": "Effete Trapdoor",
+  "block.effetewood.effete_sign": "Effete Sign",
+  "block.effetewood.effete_wall_sign": "Effete Wall Sign",
+  "item.effetewood.effete_door": "Effete Door",
+  "item.effetewood.effete_sign": "Effete Sign"
+}

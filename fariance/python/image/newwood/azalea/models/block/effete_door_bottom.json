@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "bottom": "effetewood:block/effete_door_bottom",
+    "top": "effetewood:block/effete_door_top"
+  }
+}
