@@ -31,13 +31,14 @@ public class CustomSignBlockEntity extends SignBlockEntity {
     public static void registerBlockEntities() {
         CUSTOM_SIGN_BLOCK_ENTITY = BLOCK_ENTITY_TYPES.register(
                 "custom_sign_block_entity",
-                () -> BlockEntityType.Builder.of(CustomSignBlockEntity::new, // Correctly supply the constructor reference
+                () -> BlockEntityType.Builder.of(CustomSignBlockEntity::new,
                         ItemRegistry.GENERATED_BLOCKS.values().stream()
                                 .filter(block -> block.get() instanceof CustomStandingSignBlock || block.get() instanceof CustomWallSignBlock)
                                 .map(RegistryObject::get)
-                                .toArray(Block[]::new) // Ensure the array type is Block[]
-                ).build(null) // Build the BlockEntityType with a null constructor
+                                .toArray(Block[]::new) // Ensure this is Block[]
+                ).build(null)
         );
+
 
         BLOCK_ENTITY_TYPES.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
