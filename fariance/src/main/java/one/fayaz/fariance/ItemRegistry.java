@@ -304,6 +304,22 @@ public class ItemRegistry {
             GENERATED_ITEMS.put(woodName + "_sign", ITEMS.register(woodName + "_sign",
                     () -> new SignItem(new Item.Properties().stacksTo(16), sign.get(), wallSign.get())));
 
+            // Hanging Sign
+            RegistryObject<Block> hangingSign = BLOCKS.register(woodName + "_hanging_sign",
+                    () -> new CeilingHangingSignBlock(WoodType.OAK, BlockBehaviour.Properties.of()
+                            .noCollission().strength(1.0F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put(woodName + "_hanging_sign", hangingSign);
+
+            // Wall Hanging Sign
+            RegistryObject<Block> wallHangingSign = BLOCKS.register(woodName + "_wall_hanging_sign",
+                    () -> new WallHangingSignBlock(WoodType.OAK, BlockBehaviour.Properties.of()
+                            .noCollission().strength(1.0F).sound(SoundType.WOOD)));
+            GENERATED_BLOCKS.put(woodName + "_wall_hanging_sign", wallHangingSign);
+
+            // Register hanging sign item (for both ceiling and wall hanging signs)
+            GENERATED_ITEMS.put(woodName + "_hanging_sign", ITEMS.register(woodName + "_hanging_sign",
+                    () -> new HangingSignItem(hangingSign.get(), wallHangingSign.get(), new Item.Properties().stacksTo(16))));
+//
 //            // Boat (broken)
 //            if (!NETHER_WOODS.contains(wood)) {
 //                RegistryObject<Item> boat = ITEMS.register(woodName + "_boat",

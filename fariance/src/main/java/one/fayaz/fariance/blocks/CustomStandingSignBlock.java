@@ -15,7 +15,8 @@ public class CustomStandingSignBlock extends StandingSignBlock {
 
     @Override
     public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-        return new SignBlockEntity(pos, state);
+        return new CustomSignBlockEntity(pos, state);  // Use the custom block entity here
     }
 }
+
 
