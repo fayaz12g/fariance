@@ -6,6 +6,9 @@ bin
 .classpath
 .project
 
+./fariance/src/resources
+./fabric/src/resources
+
 # idea
 out
 *.ipr
