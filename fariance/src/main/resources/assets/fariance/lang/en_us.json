@@ -6648,5 +6648,20 @@
   "block.fariance.stripped_tyrian_redstone_torch": "Stripped Tyrian Redstone Torch",
   "block.fariance.stripped_azalea_torch": "Stripped Azalea Torch",
   "block.fariance.stripped_azalea_soul_torch": "Stripped Azalea Soul Torch",
-  "block.fariance.stripped_azalea_redstone_torch": "Stripped Azalea Redstone Torch"
+  "block.fariance.stripped_azalea_redstone_torch": "Stripped Azalea Redstone Torch",
+  "block.fariance.oak_composter": "Oak Composter",
+  "block.fariance.spruce_composter": "Spruce Composter",
+  "block.fariance.birch_composter": "Birch Composter",
+  "block.fariance.jungle_composter": "Jungle Composter",
+  "block.fariance.acacia_composter": "Acacia Composter",
+  "block.fariance.dark_oak_composter": "Dark Oak Composter",
+  "block.fariance.mangrove_composter": "Mangrove Composter",
+  "block.fariance.cherry_composter": "Cherry Composter",
+  "block.fariance.crimson_composter": "Crimson Composter",
+  "block.fariance.warped_composter": "Warped Composter",
+  "block.fariance.bamboo_composter": "Bamboo Composter",
+  "block.fariance.pale_oak_composter": "Pale Oak Composter",
+  "block.fariance.charred_composter": "Charred Composter",
+  "block.fariance.tyrian_composter": "Tyrian Composter",
+  "block.fariance.azalea_composter": "Azalea Composter"
 }

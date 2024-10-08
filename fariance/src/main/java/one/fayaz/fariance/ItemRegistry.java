@@ -132,6 +132,7 @@ public class ItemRegistry {
         generateNewWoodBlocks();
         generateTorches();
         generateBarrels();
+        generateComposters();
 
         CustomStandingSignBlock.register(); // Register custom standing sign block
         CustomWallSignBlock.register(); // Register custom wall sign block
@@ -491,6 +492,25 @@ public class ItemRegistry {
 
     private static Block createBarrelBlock(String wood) {
         return new CustomBarrelBlock(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.WOOD)
+                .strength(2.5F)
+                .sound(SoundType.WOOD)
+                .ignitedByLava()) {
+        };
+    }
+
+    // Composters
+    private static void generateComposters() {
+        for (String wood : WOOD_TYPES) {
+            String composterName = wood + "_composter";
+            RegistryObject<Block> block = BLOCKS.register(composterName, () -> createComposterBlock(wood));
+            GENERATED_BLOCKS.put(composterName, block);
+            GENERATED_ITEMS.put(composterName, ITEMS.register(composterName, () -> new BlockItem(block.get(), new Item.Properties())));
+        }
+    }
+
+    private static Block createComposterBlock(String wood) {
+        return new ComposterBlock(BlockBehaviour.Properties.of()
                 .mapColor(MapColor.WOOD)
                 .strength(2.5F)
                 .sound(SoundType.WOOD)

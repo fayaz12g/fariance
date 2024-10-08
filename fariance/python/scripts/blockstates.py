@@ -960,6 +960,93 @@ def furnace_blockstates():
         with open(blockstates_file_path, 'w') as f:
             json.dump(blockstates_data, f, indent=2)
 
+
+def composter_blockstates():
+    # Composter blockstates
+    for wood in WOOD_TYPES:
+        composter_name = f"{wood}_composter"
+        blockstates_data = {
+            "multipart": [
+                {
+                "apply": {
+                    "model": f"fariance:block/{wood}_composter"
+                }
+                },
+                {
+                "apply": {
+                    "model": "minecraft:block/composter_contents1"
+                },
+                "when": {
+                    "level": "1"
+                }
+                },
+                {
+                "apply": {
+                    "model": "minecraft:block/composter_contents2"
+                },
+                "when": {
+                    "level": "2"
+                }
+                },
+                {
+                "apply": {
+                    "model": "minecraft:block/composter_contents3"
+                },
+                "when": {
+                    "level": "3"
+                }
+                },
+                {
+                "apply": {
+                    "model": "minecraft:block/composter_contents4"
+                },
+                "when": {
+                    "level": "4"
+                }
+                },
+                {
+                "apply": {
+                    "model": "minecraft:block/composter_contents5"
+                },
+                "when": {
+                    "level": "5"
+                }
+                },
+                {
+                "apply": {
+                    "model": "minecraft:block/composter_contents6"
+                },
+                "when": {
+                    "level": "6"
+                }
+                },
+                {
+                "apply": {
+                    "model": "minecraft:block/composter_contents7"
+                },
+                "when": {
+                    "level": "7"
+                }
+                },
+                {
+                "apply": {
+                    "model": "minecraft:block/composter_contents_ready"
+                },
+                "when": {
+                    "level": "8"
+                }
+                }
+            ]
+        }
+        
+        # Define the output path for the blockstates file
+        blockstates_file_path = os.path.join(blockstates_dir, f"{composter_name}.json")
+        os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+        
+        # Write the blockstates data to the file
+        with open(blockstates_file_path, 'w') as f:
+            json.dump(blockstates_data, f, indent=2)
+
 def barrel_blockstates():
     # Barrel blockstates
     for wood in WOOD_TYPES:

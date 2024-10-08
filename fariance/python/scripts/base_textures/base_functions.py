@@ -1,5 +1,37 @@
 from PIL import Image, ImageEnhance, ImageOps
 
+
+def apply_barrel_darkening_mask(tool_image, special_mask_image, amount):
+    # Make sure both images are in RGBA format
+    tool_image = tool_image.convert('RGBA')
+    special_mask_image = special_mask_image.convert('RGBA')
+    
+    # Loop through each pixel in special_mask_image
+    for x in range(special_mask_image.width):
+        for y in range(special_mask_image.height):
+            mask_r, mask_g, mask_b, mask_a = special_mask_image.getpixel((x, y))
+            
+            if mask_a > 0:  # Only process non-transparent pixels
+                # Calculate how close the pixel is to black (0 is black, 255 is white)
+                mask_brightness = (mask_r + mask_g + mask_b) / 3 / 255.0  # Normalize to [0, 1]
+
+                # Darken factor: 0 (full black) should darken the most, 1 (full white) should darken the least
+                darken_factor = 1 - mask_brightness
+
+                # Get the corresponding pixel from tool_image
+                tool_r, tool_g, tool_b, tool_a = tool_image.getpixel((x, y))
+
+                # Darken the tool_image pixel by reducing its RGB values
+                new_r = int(tool_r * (1 - darken_factor * amount))
+                new_g = int(tool_g * (1 - darken_factor * amount))
+                new_b = int(tool_b * (1 - darken_factor * amount))
+
+                # Apply the darkened color back to the tool_image
+                tool_image.putpixel((x, y), (new_r, new_g, new_b, tool_a))
+
+    return tool_image
+
+
 def apply_mask(block_image, mask_image):
     # Resize block image to match mask size if necessary
     if block_image.size != mask_image.size:

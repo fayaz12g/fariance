@@ -41,6 +41,13 @@ def shield_lang():
             shield_name = f"{wood}_{material}_shield"
             entries[f"item.fariance.{shield_name}"] = capitalize_material(shield_name)
 
+def composter_lang():
+    # Add composter names
+    for wood in WOOD_TYPES:
+        composter_name = f"{wood}_composter"
+        entries[f"block.fariance.{composter_name}"] = capitalize_material(composter_name)
+
+
 def barrel_lang():
     # Add barrel names
     for wood in WOOD_TYPES:
@@ -166,6 +173,7 @@ def generate_lang_entries():
     barrel_lang()
     new_wood_lang()
     torch_lang()
+    composter_lang()
 
     # Generate lang file
     with open(lang_file_path, "w") as f:

@@ -1480,6 +1480,89 @@ def barrel_models():
         with open(item_model_file_path, 'w') as f:
             json.dump(item_model_data, f, indent=2)
 
+def composter_models():
+     # Loop through each wood type and generate the corresponding models
+    for wood in WOOD_TYPES:
+        composter_name = f"{wood}_composter"
+        
+        # Block model data for the composter
+        block_model_data = {
+            "parent": "block/block",
+            "textures": {
+                "particle": f"fariance:block/{wood}_composter_side",
+                "top": f"fariance:block/{wood}_composter_top",
+                "bottom": f"fariance:block/{wood}_composter_bottom",
+                "side": f"fariance:block/{wood}_composter_side",
+                "inside": f"fariance:block/{wood}_composter_bottom"
+            },
+            "elements": [
+                {   "from": [ 0, 0, 0 ],
+                    "to": [ 16, 2, 16 ],
+                    "faces": {
+                        "up":    { "texture": "#inside" },
+                        "down":  { "texture": "#bottom", "cullface": "down" }
+                    }
+                },
+                {   "from": [ 0, 0, 0 ],
+                    "to": [ 2, 16, 16 ],
+                    "faces": {
+                        "up":    { "texture": "#top", "cullface": "up" },
+                        "north": { "texture": "#side", "cullface": "north" },
+                        "south": { "texture": "#side", "cullface": "south" },
+                        "west":  { "texture": "#side", "cullface": "west" },
+                        "east":  { "texture": "#side" }
+                    }
+                },
+                {   "from": [ 14, 0, 0 ],
+                    "to": [ 16, 16, 16 ],
+                    "faces": {
+                        "up":    { "texture": "#top", "cullface": "up" },
+                        "north": { "texture": "#side", "cullface": "north" },
+                        "south": { "texture": "#side", "cullface": "south" },
+                        "west":  { "texture": "#side" },
+                        "east":  { "texture": "#side", "cullface": "east" }
+                    }
+                },
+                {   "from": [ 2, 0, 0 ],
+                    "to": [ 14, 16, 2 ],
+                    "faces": {
+                        "up":    { "texture": "#top", "cullface": "up" },
+                        "north": { "texture": "#side", "cullface": "north" },
+                        "south": { "texture": "#side" }
+                    }
+                },
+                {   "from": [ 2, 0, 14 ],
+                    "to": [ 14, 16, 16 ],
+                    "faces": {
+                        "up":    { "texture": "#top", "cullface": "up" },
+                        "north": { "texture": "#side" },
+                        "south": { "texture": "#side", "cullface": "south" }
+                    }
+                }
+            ]
+        }
+
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{composter_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        
+        # Item model data for the composter
+        item_model_data = {
+            "parent": f"fariance:block/{wood}_composter"
+        }
+
+        # Define the item model output path (in the models/item folder)
+        item_model_file_path = os.path.join(item_model_dir, f"{composter_name}.json")
+
+        # Write the item model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
 def generate_models():
     os.makedirs(item_model_dir, exist_ok=True)
     os.makedirs(block_model_dir, exist_ok=True)
@@ -1498,6 +1581,7 @@ def generate_models():
     torch_models()
     wall_torch_models()
     barrel_models()
+    composter_models()
 
 
 

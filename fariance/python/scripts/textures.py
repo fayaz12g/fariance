@@ -315,6 +315,36 @@ def torch_textures():
                         print(f"Warning: Missing texture for {torch_off_name}")
 
 
+
+def composter_textures():
+    # Generate barrel textures
+    for wood in WOOD_TYPES:
+        composter_top_image_path = os.path.join(image_dir, "composter", f"{wood}_composter_top.png")
+        composter_side_image_path = os.path.join(image_dir, "composter", f"{wood}_composter_side.png")
+        composter_bottom_image_path = os.path.join(image_dir, "composter", f"{wood}_composter_bottom.png")
+       
+        if os.path.exists(composter_top_image_path):
+            output_path = os.path.join(block_output_dir, f"{wood}_composter_top.png")
+            barrel_img = Image.open(composter_top_image_path).convert("RGBA")
+            barrel_img.save(output_path)
+        else:
+            print(f"Warning: Missing texture at {composter_top_image_path}")
+
+        if os.path.exists(composter_side_image_path):
+            output_path = os.path.join(block_output_dir, f"{wood}_composter_side.png")
+            barrel_img = Image.open(composter_side_image_path).convert("RGBA")
+            barrel_img.save(output_path)
+        else:
+            print(f"Warning: Missing texture at {composter_side_image_path}")
+
+        if os.path.exists(composter_bottom_image_path):
+            output_path = os.path.join(block_output_dir, f"{wood}_composter_top_open.png")
+            barrel_img = Image.open(composter_bottom_image_path).convert("RGBA")
+            barrel_img.save(output_path)
+        else:
+            print(f"Warning: Missing texture at {composter_bottom_image_path}")
+
+
 def barrel_textures():
     # Generate barrel textures
     for wood in WOOD_TYPES:
