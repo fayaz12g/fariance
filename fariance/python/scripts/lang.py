@@ -41,6 +41,12 @@ def shield_lang():
             shield_name = f"{wood}_{material}_shield"
             entries[f"item.fariance.{shield_name}"] = capitalize_material(shield_name)
 
+def barrel_lang():
+    # Add barrel names
+    for wood in WOOD_TYPES:
+        barrel_name = f"{wood}_barrel"
+        entries[f"block.fariance.{barrel_name}"] = capitalize_material(barrel_name)
+
 def bed_lang():
     # Add bed names
     for wood in WOOD_TYPES:
@@ -157,6 +163,7 @@ def generate_lang_entries():
     ladder_block_lang()
     shield_lang()
     bed_lang()
+    barrel_lang()
     new_wood_lang()
     torch_lang()
 

@@ -131,6 +131,7 @@ public class ItemRegistry {
         generateBeds();
         generateNewWoodBlocks();
         generateTorches();
+        generateBarrels();
 
         CustomStandingSignBlock.register(); // Register custom standing sign block
         CustomWallSignBlock.register(); // Register custom wall sign block
@@ -476,6 +477,25 @@ public class ItemRegistry {
             String ingotName = copperType + "_ingot";
             GENERATED_ITEMS.put(ingotName, ITEMS.register(ingotName, () -> new Item(new Item.Properties())));
         }
+    }
+
+    // Barrels
+    private static void generateBarrels() {
+        for (String wood : WOOD_TYPES) {
+            String barrelName = wood + "_barrel";
+            RegistryObject<Block> block = BLOCKS.register(barrelName, () -> createBarrelBlock(wood));
+            GENERATED_BLOCKS.put(barrelName, block);
+            GENERATED_ITEMS.put(barrelName, ITEMS.register(barrelName, () -> new BlockItem(block.get(), new Item.Properties())));
+        }
+    }
+
+    private static Block createBarrelBlock(String wood) {
+        return new BarrelBlock(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.WOOD)
+                .strength(2.5F)
+                .sound(SoundType.WOOD)
+                .ignitedByLava()) {
+        };
     }
 
     // FURNACES

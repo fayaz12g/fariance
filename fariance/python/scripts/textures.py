@@ -43,6 +43,7 @@ def generate_textures():
     bed_textures()
     torch_textures()
     new_wood_textures()
+    barrel_textures()
 
     print(f"Texture generation done!")
 
@@ -314,6 +315,43 @@ def torch_textures():
                         print(f"Warning: Missing texture for {torch_off_name}")
 
 
+def barrel_textures():
+    # Generate barrel textures
+    for wood in WOOD_TYPES:
+        barrel_top_image_path = os.path.join(image_dir, "barrel", f"{wood}_barrel_top.png")
+        barrel_top_open_image_path = os.path.join(image_dir, "barrel", f"{wood}_barrel_top_open.png")
+        barrel_side_image_path = os.path.join(image_dir, "barrel", f"{wood}_barrel_side.png")
+        barrel_bottom_image_path = os.path.join(image_dir, "barrel", f"{wood}_barrel_bottom.png")
+       
+        if os.path.exists(barrel_top_image_path):
+            output_path = os.path.join(item_output_dir, f"{wood}_barrel_top.png")
+            barrel_img = Image.open(barrel_top_image_path).convert("RGBA")
+            barrel_img.save(output_path)
+        else:
+            print(f"Warning: Missing texture at {barrel_top_image_path}")
+
+        if os.path.exists(barrel_side_image_path):
+            output_path = os.path.join(item_output_dir, f"{wood}_barrel_side.png")
+            barrel_img = Image.open(barrel_side_image_path).convert("RGBA")
+            barrel_img.save(output_path)
+        else:
+            print(f"Warning: Missing texture at {barrel_side_image_path}")
+
+        if os.path.exists(barrel_top_open_image_path):
+            output_path = os.path.join(item_output_dir, f"{wood}_barrel_top_open.png")
+            barrel_img = Image.open(barrel_top_open_image_path).convert("RGBA")
+            barrel_img.save(output_path)
+        else:
+            print(f"Warning: Missing texture at {barrel_top_open_image_path}")
+
+        if os.path.exists(barrel_bottom_image_path):
+            output_path = os.path.join(item_output_dir, f"{wood}_barrel_bottom.png")
+            barrel_img = Image.open(barrel_bottom_image_path).convert("RGBA")
+            barrel_img.save(output_path)
+        else:
+            print(f"Warning: Missing texture at {barrel_bottom_image_path}")
+
+
 def ingot_textures():
     # Generate copper ingot textures
     for ingot in COPPER_TYPES:
@@ -353,6 +391,7 @@ def bed_textures():
                 # print(f"Generated texture: {output_path}")
             else:
                 print(f"Warning: Missing texture for {wood}_{color} bed entity")
+
 
 def furnace_textures():
     # Generate textures for furnaces

@@ -18,6 +18,7 @@ def generate_blockstates():
     new_wood_blockstates()
     torch_blockstates()
     wall_torch_blockstates()
+    barrel_blockstates()
 
     print("Blockstates generated successfully.")
 
@@ -953,6 +954,75 @@ def furnace_blockstates():
         
         # Define the output path for the blockstates file
         blockstates_file_path = os.path.join(blockstates_dir, f"{furnace_name}.json")
+        os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+        
+        # Write the blockstates data to the file
+        with open(blockstates_file_path, 'w') as f:
+            json.dump(blockstates_data, f, indent=2)
+
+def barrel_blockstates():
+    # Barrel blockstates
+    for wood in WOOD_TYPES:
+        barrel_name = f"{wood}_barrel"
+        blockstates_data = {
+            "variants": {
+                "facing=down,open=false": {
+                "model": f"fariance:block/{wood}_barrel",
+                "x": 180
+                },
+                "facing=down,open=true": {
+                "model": f"fariance:block/{wood}_barrel_open",
+                "x": 180
+                },
+                "facing=east,open=false": {
+                "model": f"fariance:block/{wood}_barrel",
+                "x": 90,
+                "y": 90
+                },
+                "facing=east,open=true": {
+                "model": f"fariance:block/{wood}_barrel_open",
+                "x": 90,
+                "y": 90
+                },
+                "facing=north,open=false": {
+                "model": f"fariance:block/{wood}_barrel",
+                "x": 90
+                },
+                "facing=north,open=true": {
+                "model": f"fariance:block/{wood}_barrel_open",
+                "x": 90
+                },
+                "facing=south,open=false": {
+                "model": f"fariance:block/{wood}_barrel",
+                "x": 90,
+                "y": 180
+                },
+                "facing=south,open=true": {
+                "model": f"fariance:block/{wood}_barrel_open",
+                "x": 90,
+                "y": 180
+                },
+                "facing=up,open=false": {
+                "model": f"fariance:block/{wood}_barrel"
+                },
+                "facing=up,open=true": {
+                "model": f"fariance:block/{wood}_barrel_open"
+                },
+                "facing=west,open=false": {
+                "model": f"fariance:block/{wood}_barrel",
+                "x": 90,
+                "y": 270
+                },
+                "facing=west,open=true": {
+                "model": f"fariance:block/{wood}_barrel_open",
+                "x": 90,
+                "y": 270
+                }
+            }
+        }
+        
+        # Define the output path for the blockstates file
+        blockstates_file_path = os.path.join(blockstates_dir, f"{barrel_name}.json")
         os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
         
         # Write the blockstates data to the file

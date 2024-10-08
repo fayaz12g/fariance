@@ -7,6 +7,7 @@ from shields import *
 from ladders import *
 from beds import *
 from torches import *
+from barrel import *
 
 def main():
     # Generate the tool heads
@@ -32,6 +33,9 @@ def main():
 
     # Generate the bed textures
     generate_all_torches()
+
+    # Generate the barrel textures
+    barrel_textures()
 
 if __name__ == "__main__":
     main()
