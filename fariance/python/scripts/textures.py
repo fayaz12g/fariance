@@ -324,28 +324,28 @@ def barrel_textures():
         barrel_bottom_image_path = os.path.join(image_dir, "barrel", f"{wood}_barrel_bottom.png")
        
         if os.path.exists(barrel_top_image_path):
-            output_path = os.path.join(item_output_dir, f"{wood}_barrel_top.png")
+            output_path = os.path.join(block_output_dir, f"{wood}_barrel_top.png")
             barrel_img = Image.open(barrel_top_image_path).convert("RGBA")
             barrel_img.save(output_path)
         else:
             print(f"Warning: Missing texture at {barrel_top_image_path}")
 
         if os.path.exists(barrel_side_image_path):
-            output_path = os.path.join(item_output_dir, f"{wood}_barrel_side.png")
+            output_path = os.path.join(block_output_dir, f"{wood}_barrel_side.png")
             barrel_img = Image.open(barrel_side_image_path).convert("RGBA")
             barrel_img.save(output_path)
         else:
             print(f"Warning: Missing texture at {barrel_side_image_path}")
 
         if os.path.exists(barrel_top_open_image_path):
-            output_path = os.path.join(item_output_dir, f"{wood}_barrel_top_open.png")
+            output_path = os.path.join(block_output_dir, f"{wood}_barrel_top_open.png")
             barrel_img = Image.open(barrel_top_open_image_path).convert("RGBA")
             barrel_img.save(output_path)
         else:
             print(f"Warning: Missing texture at {barrel_top_open_image_path}")
 
         if os.path.exists(barrel_bottom_image_path):
-            output_path = os.path.join(item_output_dir, f"{wood}_barrel_bottom.png")
+            output_path = os.path.join(block_output_dir, f"{wood}_barrel_bottom.png")
             barrel_img = Image.open(barrel_bottom_image_path).convert("RGBA")
             barrel_img.save(output_path)
         else:
