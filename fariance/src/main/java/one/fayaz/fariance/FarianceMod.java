@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import one.fayaz.fariance.blocks.CustomBarrelBlock;
 import one.fayaz.fariance.blocks.CustomBedBlock;
 import one.fayaz.fariance.blocks.CustomFurnaceBlock;
 import one.fayaz.fariance.blocks.signs.CustomSignBlockEntity;
@@ -112,6 +113,9 @@ public class FarianceMod {
 
         // Then register bed entities
         CustomBedBlock.registerBlockEntities();
+
+        // Then register barrel entities
+        CustomBarrelBlock.registerBlockEntities();
 
         // Register custom creative tabs
         CREATIVE_MODE_TABS.register(modEventBus);

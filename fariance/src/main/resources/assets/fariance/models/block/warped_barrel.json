@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "fariance:block/warped_barrel_bottom",
+    "side": "fariance:block/warped_barrel_side",
+    "top": "fariance:block/warped_barrel_top"
+  }
+}

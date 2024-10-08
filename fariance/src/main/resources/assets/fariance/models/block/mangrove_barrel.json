@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "fariance:block/mangrove_barrel_bottom",
+    "side": "fariance:block/mangrove_barrel_side",
+    "top": "fariance:block/mangrove_barrel_top"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "fariance:block/tyrian_barrel_bottom",
+    "side": "fariance:block/tyrian_barrel_side",
+    "top": "fariance:block/tyrian_barrel_top_open"
+  }
+}

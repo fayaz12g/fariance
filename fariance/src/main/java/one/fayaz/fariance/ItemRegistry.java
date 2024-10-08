@@ -490,7 +490,7 @@ public class ItemRegistry {
     }
 
     private static Block createBarrelBlock(String wood) {
-        return new BarrelBlock(BlockBehaviour.Properties.of()
+        return new CustomBarrelBlock(BlockBehaviour.Properties.of()
                 .mapColor(MapColor.WOOD)
                 .strength(2.5F)
                 .sound(SoundType.WOOD)
