@@ -1429,6 +1429,57 @@ def atlases_blocks():
     with open(model_file_path, 'w') as f:
         json.dump(model_data, f, indent=2)
 
+def barrel_models():
+     # Loop through each wood type and generate the corresponding models
+    for wood in WOOD_TYPES:
+        barrel_name = f"{wood}_barrel"
+        
+        # Block model data for the barrel
+        block_model_data = {
+            "parent": "minecraft:block/cube_bottom_top",
+            "textures": {
+                "bottom": f"fariance:block/{wood}_barrel_bottom",
+                "side": f"fariance:block/{wood}_barrel_side",
+                "top": f"fariance:block/{wood}_barrel_top"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{barrel_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        # Block model data for the barrel open
+        block_model_data = {
+            "parent": "minecraft:block/cube_bottom_top",
+            "textures": {
+                "bottom": f"fariance:block/{wood}_barrel_bottom",
+                "side": f"fariance:block/{wood}_barrel_side",
+                "top": f"fariance:block/{wood}_barrel_top_open"
+            }
+        }
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{barrel_name}_open.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+        
+        # Item model data for the ladder
+        item_model_data = {
+            "parent": f"fariance:block/{wood}_barrel"
+        }
+
+        # Define the item model output path (in the models/item folder)
+        item_model_file_path = os.path.join(item_model_dir, f"{barrel_name}.json")
+
+        # Write the item model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
 def generate_models():
     os.makedirs(item_model_dir, exist_ok=True)
     os.makedirs(block_model_dir, exist_ok=True)
@@ -1446,6 +1497,7 @@ def generate_models():
     new_wood_blocks()
     torch_models()
     wall_torch_models()
+    barrel_models()
 
 
 
