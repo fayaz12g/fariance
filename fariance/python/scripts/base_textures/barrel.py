@@ -56,7 +56,7 @@ def barrel_textures():
         barrel_top_overlay = Image.open(barrel_top_overlay_path).convert("RGBA")
 
         # Apply darkening mask
-        barrel_top_img = apply_barrel_darkening_mask(barrel_top_img, barrel_top_dark, 0.43)
+        barrel_top_img = apply_barrel_darkening_mask(barrel_top_img, barrel_top_dark, 0.3)
         
         # Add overlay
         barrel_top_img = overlay_texture_transparent(barrel_top_img, barrel_top_overlay)
@@ -99,3 +99,5 @@ def barrel_textures():
         # Combine planks base with masked stripped log overlay
         barrel_bottom_img = Image.alpha_composite(barrel_bottom_img, barrel_bottom_overlay)
         barrel_bottom_img.save(output_path)
+
+barrel_textures()
