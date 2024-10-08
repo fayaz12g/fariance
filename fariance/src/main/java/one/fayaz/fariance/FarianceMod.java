@@ -3,6 +3,7 @@ package one.fayaz.fariance;
 import com.mojang.logging.LogUtils;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
@@ -12,10 +13,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import one.fayaz.fariance.blocks.CustomBarrelBlock;
-import one.fayaz.fariance.blocks.CustomBedBlock;
-import one.fayaz.fariance.blocks.CustomFurnaceBlock;
+import one.fayaz.fariance.blocks.*;
 import one.fayaz.fariance.blocks.signs.CustomSignBlockEntity;
 import org.slf4j.Logger;
 
@@ -99,8 +99,12 @@ public class FarianceMod {
             .displayItems((parameters, output) -> addMiscItemsToTab(output))
             .build());
 
+
     public FarianceMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
+
+        // Add the new menus
+        ModMenuTypes.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

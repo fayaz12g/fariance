@@ -3,11 +3,17 @@ package one.fayaz.fariance.blocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.NonNullList;
-import net.minecraft.world.Container;
-import net.minecraft.world.ContainerHelper;
-import net.minecraft.world.WorldlyContainer;
+import net.minecraft.network.chat.Component;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.stats.Stats;
+import net.minecraft.world.*;
+import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -18,6 +24,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -38,6 +45,44 @@ public class CustomBarrelBlock extends Block implements EntityBlock {
     public CustomBarrelBlock(BlockBehaviour.Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(OPEN, Boolean.FALSE));
+    }
+
+    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+        if (level.isClientSide) {
+            return InteractionResult.SUCCESS;
+        } else {
+            BlockEntity blockEntity = level.getBlockEntity(pos);
+            if (blockEntity instanceof CustomBarrelBlockEntity) {
+                player.openMenu((MenuProvider) blockEntity);
+                player.awardStat(Stats.OPEN_BARREL);
+            }
+            return InteractionResult.CONSUME;
+        }
+    }
+
+    @Override
+    public void onRemove(BlockState state, Level level, BlockPos pos, BlockState newState, boolean isMoving) {
+        if (!state.is(newState.getBlock())) {
+            BlockEntity blockEntity = level.getBlockEntity(pos);
+            if (blockEntity instanceof CustomBarrelBlockEntity) {
+                Containers.dropContents(level, pos, (CustomBarrelBlockEntity) blockEntity);
+                level.updateNeighbourForOutputSignal(pos, this);
+            }
+            super.onRemove(state, level, pos, newState, isMoving);
+        }
+    }
+
+    public static void setOpen(Level level, BlockPos pos, BlockState state, boolean open) {
+        level.setBlock(pos, state.setValue(OPEN, open), 3);
+        playSound(level, pos, open);
+    }
+
+    private static void playSound(Level level, BlockPos pos, boolean open) {
+        double d0 = (double)pos.getX() + 0.5D;
+        double d1 = (double)pos.getY() + 0.5D;
+        double d2 = (double)pos.getZ() + 0.5D;
+        SoundEvent soundEvent = open ? SoundEvents.BARREL_OPEN : SoundEvents.BARREL_CLOSE;
+        level.playSound(null, d0, d1, d2, soundEvent, SoundSource.BLOCKS, 0.5F, level.random.nextFloat() * 0.1F + 0.9F);
     }
 
     @Override
@@ -68,7 +113,7 @@ public class CustomBarrelBlock extends Block implements EntityBlock {
     // Add other necessary methods like use, onRemove, etc.
 }
 
-class CustomBarrelBlockEntity extends BlockEntity implements WorldlyContainer {
+class CustomBarrelBlockEntity extends BlockEntity implements WorldlyContainer, MenuProvider  {
     private NonNullList<ItemStack> items = NonNullList.withSize(27, ItemStack.EMPTY);
 
     public CustomBarrelBlockEntity(BlockPos pos, BlockState state) {
@@ -131,6 +176,31 @@ class CustomBarrelBlockEntity extends BlockEntity implements WorldlyContainer {
     @Override
     public void clearContent() {
         this.items.clear();
+    }
+
+
+    @Override
+    public AbstractContainerMenu createMenu(int windowId, Inventory playerInventory, Player player) {
+        return new CustomBarrelMenu(windowId, playerInventory, this);
+    }
+
+    @Override
+    public Component getDisplayName() {
+        return Component.translatable("container.barrel");
+    }
+
+    @Override
+    public void startOpen(Player player) {
+        if (!this.remove && !player.isSpectator()) {
+            CustomBarrelBlock.setOpen(this.level, this.worldPosition, this.getBlockState(), true);
+        }
+    }
+
+    @Override
+    public void stopOpen(Player player) {
+        if (!this.remove && !player.isSpectator()) {
+            CustomBarrelBlock.setOpen(this.level, this.worldPosition, this.getBlockState(), false);
+        }
     }
 
     // Add methods for saving and loading NBT data
