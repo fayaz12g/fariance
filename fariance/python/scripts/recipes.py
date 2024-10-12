@@ -36,8 +36,8 @@ def planks_to_sticks():
 
 def stick2stick_recipes():
     # Add recipes for crafting sticks using sticks
-    for wood in WOOD_TYPES:
-        if wood not in ["bamboo"]:
+    for wood in STICK_TYPES:
+        if wood not in ["blaze", "breeze", "bamboo"]:
             
             # Set the item and output amount
             material = f"fariance:{wood}_stick"
