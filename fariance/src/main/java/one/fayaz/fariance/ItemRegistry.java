@@ -510,7 +510,7 @@ public class ItemRegistry {
     }
 
     private static Block createComposterBlock(String wood) {
-        return new ComposterBlock(BlockBehaviour.Properties.of()
+        return new Block(BlockBehaviour.Properties.of()
                 .mapColor(MapColor.WOOD)
                 .strength(2.5F)
                 .sound(SoundType.WOOD)
