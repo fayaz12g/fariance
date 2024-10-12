@@ -54,4 +54,6 @@ def composter_textures():
         composter_side_img = overlay_texture(composter_side_img, composter_side_overlay_img)
         composter_side_img.save(output_path)
 
+    print("Done generating all composter textures")
+
 composter_textures()

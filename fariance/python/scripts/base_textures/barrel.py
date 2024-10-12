@@ -70,4 +70,6 @@ def barrel_textures():
         barrel_bottom_img = Image.alpha_composite(barrel_bottom_img, barrel_bottom_overlay)
         barrel_bottom_img.save(output_path)
 
+    print("Done generating all barrel textures")
+    
 barrel_textures()
