@@ -19,7 +19,10 @@ import one.fayaz.fariance.blocks.*;
 import one.fayaz.fariance.blocks.signs.CustomSignBlockEntity;
 import org.slf4j.Logger;
 
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 @Mod(FarianceMod.MODID)
@@ -165,6 +168,9 @@ public class FarianceMod {
     }
 
     private static void addMiscItemsToTab(CreativeModeTab.Output output) {
+        String[] groupingWords = {"button", "trapdoor", "planks", "stem", "log", "plate", "gate", "fence"};
+        Set<String> groupingWordsSet = new HashSet<>(Arrays.asList(groupingWords));
+
         List<RegistryObject<Item>> sortedItems = ItemRegistry.GENERATED_ITEMS.values().stream()
                 .filter(itemRegistryObject -> {
                     String itemPath = itemRegistryObject.getId().getPath();
@@ -174,17 +180,49 @@ public class FarianceMod {
                     String name1 = o1.getId().getPath();
                     String name2 = o2.getId().getPath();
 
-                    // Get the last word (after the last underscore)
-                    String lastWord1 = name1.substring(name1.lastIndexOf('_') + 1);
-                    String lastWord2 = name2.substring(name2.lastIndexOf('_') + 1);
+                    String[] words1 = name1.split("_");
+                    String[] words2 = name2.split("_");
 
-                    // Compare the last words first
+                    String lastWord1 = words1[words1.length - 1];
+                    String lastWord2 = words2[words2.length - 1];
+
+                    boolean isGrouped1 = groupingWordsSet.contains(lastWord1);
+                    boolean isGrouped2 = groupingWordsSet.contains(lastWord2);
+
+                    if (isGrouped1 && isGrouped2) {
+                        // Both items are in grouping words, compare by first word
+                        int firstWordComparison = words1[0].compareTo(words2[0]);
+                        if (firstWordComparison != 0) {
+                            return firstWordComparison;
+                        }
+                        // If first words are the same, compare by last word
+                        return lastWord1.compareTo(lastWord2);
+                    } else if (isGrouped1) {
+                        return -1; // o1 should come first
+                    } else if (isGrouped2) {
+                        return 1; // o2 should come first
+                    }
+
+                    // If neither are in grouping words, use the previous sorting logic
                     int lastWordComparison = lastWord1.compareTo(lastWord2);
                     if (lastWordComparison != 0) {
                         return lastWordComparison;
                     }
 
-                    // If last words are the same, compare the full names
+                    if (words1.length > 1 && words2.length > 1) {
+                        int secondLastWordComparison = words1[words1.length - 2].compareTo(words2[words2.length - 2]);
+                        if (secondLastWordComparison != 0) {
+                            return secondLastWordComparison;
+                        }
+                    }
+
+                    if (words1.length > 2 && words2.length > 2) {
+                        int thirdLastWordComparison = words1[words1.length - 3].compareTo(words2[words2.length - 3]);
+                        if (thirdLastWordComparison != 0) {
+                            return thirdLastWordComparison;
+                        }
+                    }
+
                     return name1.compareTo(name2);
                 })
                 .collect(Collectors.toList());

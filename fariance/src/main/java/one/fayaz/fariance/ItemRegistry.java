@@ -16,6 +16,8 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.piston.MovingPistonBlock;
+import net.minecraft.world.level.block.piston.PistonBaseBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
@@ -133,6 +135,12 @@ public class ItemRegistry {
         generateTorches();
         generateBarrels();
         generateComposters();
+
+
+//        generatePistons();
+//        generateBeehives();
+//        generateCrafters();
+        generateFletchingTables();
 
         CustomStandingSignBlock.register(); // Register custom standing sign block
         CustomWallSignBlock.register(); // Register custom wall sign block
@@ -517,6 +525,83 @@ public class ItemRegistry {
                 .ignitedByLava()) {
         };
     }
+
+    // Piston
+    private static void generatePistons() {
+        for (String wood : WOOD_TYPES) {
+            String pistonName = wood + "_beehive";
+            RegistryObject<Block> block = BLOCKS.register(pistonName, () -> createPistons(wood));
+            GENERATED_BLOCKS.put(pistonName, block);
+            GENERATED_ITEMS.put(pistonName, ITEMS.register(pistonName, () -> new BlockItem(block.get(), new Item.Properties())));
+        }
+    }
+
+    private static Block createPistons(String wood) {
+        return new MovingPistonBlock(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.WOOD)
+                .strength(2.5F)
+                .sound(SoundType.WOOD)
+                .ignitedByLava()) {
+        };
+    }
+
+    // Crafter
+    private static void generateCrafters() {
+        for (String wood : WOOD_TYPES) {
+            String crafterName = wood + "_crafter";
+            RegistryObject<Block> block = BLOCKS.register(crafterName, () -> createCrafters(wood));
+            GENERATED_BLOCKS.put(crafterName, block);
+            GENERATED_ITEMS.put(crafterName, ITEMS.register(crafterName, () -> new BlockItem(block.get(), new Item.Properties())));
+        }
+    }
+
+    private static Block createCrafters(String wood) {
+        return new CrafterBlock(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.WOOD)
+                .strength(2.5F)
+                .sound(SoundType.WOOD)
+                .ignitedByLava()) {
+        };
+    }
+
+    // Beehives
+    private static void generateBeehives() {
+        for (String wood : WOOD_TYPES) {
+            String beehiveName = wood + "_beehive";
+            RegistryObject<Block> block = BLOCKS.register(beehiveName, () -> createBeehives(wood));
+            GENERATED_BLOCKS.put(beehiveName, block);
+            GENERATED_ITEMS.put(beehiveName, ITEMS.register(beehiveName, () -> new BlockItem(block.get(), new Item.Properties())));
+        }
+    }
+
+    private static Block createBeehives(String wood) {
+        return new BeehiveBlock(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.WOOD)
+                .strength(2.5F)
+                .sound(SoundType.WOOD)
+                .ignitedByLava()) {
+        };
+    }
+
+    // Fletching Tables
+    private static void generateFletchingTables() {
+        for (String wood : WOOD_TYPES) {
+            String fletchingName = wood + "_fletching_table";
+            RegistryObject<Block> block = BLOCKS.register(fletchingName, () -> createFletchingTableBlock(wood));
+            GENERATED_BLOCKS.put(fletchingName, block);
+            GENERATED_ITEMS.put(fletchingName, ITEMS.register(fletchingName, () -> new BlockItem(block.get(), new Item.Properties())));
+        }
+    }
+
+    private static Block createFletchingTableBlock(String wood) {
+        return new FletchingTableBlock(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.WOOD)
+                .strength(2.5F)
+                .sound(SoundType.WOOD)
+                .ignitedByLava()) {
+        };
+    }
+
 
     // FURNACES
     private static void generateFurnaces() {
