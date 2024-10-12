@@ -339,7 +339,7 @@ def composter_textures():
             print(f"Warning: Missing texture at {composter_side_image_path}")
 
         if os.path.exists(composter_bottom_image_path):
-            output_path = os.path.join(block_output_dir, f"{wood}_composter_top_open.png")
+            output_path = os.path.join(block_output_dir, f"{wood}_composter_bottom.png")
             barrel_img = Image.open(composter_bottom_image_path).convert("RGBA")
             barrel_img.save(output_path)
         else:
