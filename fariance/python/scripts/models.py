@@ -1480,6 +1480,51 @@ def barrel_models():
         with open(item_model_file_path, 'w') as f:
             json.dump(item_model_data, f, indent=2)
 
+def fletching_models():
+     # Loop through each wood type and generate the corresponding models
+    for wood in WOOD_TYPES:
+        fletching_name = f"{wood}_fletching_table"
+        
+        if wood in NEW_WOOD:
+            namespace = "fariance"
+        else:
+            namespace = "minecraft"
+
+        # Block model data for the fletching
+        block_model_data = {
+            "parent": "minecraft:block/cube",
+            "textures": {
+                "down": f"{namespace}:block/{wood}_planks",
+                "east": "minecraft:block/fletching_table_side",
+                "north": "minecraft:block/fletching_table_front",
+                "particle": "minecraft:block/fletching_table_front",
+                "south": "minecraft:block/fletching_table_front",
+                "up": "minecraft:block/fletching_table_top",
+                "west": "minecraft:block/fletching_table_side"
+            }
+        }
+
+
+        # Define the block model output path
+        block_model_file_path = os.path.join(block_model_dir, f"{fletching_name}.json")
+        
+        # Write the block model data to the file
+        with open(block_model_file_path, 'w') as f:
+            json.dump(block_model_data, f, indent=2)
+
+        
+        # Item model data for the fletching
+        item_model_data = {
+            "parent": f"fariance:block/{wood}_fletching_table"
+        }
+
+        # Define the item model output path (in the models/item folder)
+        item_model_file_path = os.path.join(item_model_dir, f"{fletching_name}.json")
+
+        # Write the item model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
 def composter_models():
      # Loop through each wood type and generate the corresponding models
     for wood in WOOD_TYPES:
@@ -1582,6 +1627,7 @@ def generate_models():
     wall_torch_models()
     barrel_models()
     composter_models()
+    fletching_models()
 
 
 

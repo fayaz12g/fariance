@@ -6663,5 +6663,20 @@
   "block.fariance.pale_oak_composter": "Pale Oak Composter",
   "block.fariance.charred_composter": "Charred Composter",
   "block.fariance.tyrian_composter": "Tyrian Composter",
-  "block.fariance.azalea_composter": "Azalea Composter"
+  "block.fariance.azalea_composter": "Azalea Composter",
+  "block.fariance.oak_fletching_table": "Oak Fletching Table",
+  "block.fariance.spruce_fletching_table": "Spruce Fletching Table",
+  "block.fariance.birch_fletching_table": "Birch Fletching Table",
+  "block.fariance.jungle_fletching_table": "Jungle Fletching Table",
+  "block.fariance.acacia_fletching_table": "Acacia Fletching Table",
+  "block.fariance.dark_oak_fletching_table": "Dark Oak Fletching Table",
+  "block.fariance.mangrove_fletching_table": "Mangrove Fletching Table",
+  "block.fariance.cherry_fletching_table": "Cherry Fletching Table",
+  "block.fariance.crimson_fletching_table": "Crimson Fletching Table",
+  "block.fariance.warped_fletching_table": "Warped Fletching Table",
+  "block.fariance.bamboo_fletching_table": "Bamboo Fletching Table",
+  "block.fariance.pale_oak_fletching_table": "Pale Oak Fletching Table",
+  "block.fariance.charred_fletching_table": "Charred Fletching Table",
+  "block.fariance.tyrian_fletching_table": "Tyrian Fletching Table",
+  "block.fariance.azalea_fletching_table": "Azalea Fletching Table"
 }

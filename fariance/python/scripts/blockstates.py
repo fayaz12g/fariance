@@ -20,6 +20,7 @@ def generate_blockstates():
     wall_torch_blockstates()
     barrel_blockstates()
     composter_blockstates()
+    fletching_blockstates()
 
     print("Blockstates generated successfully.")
 
@@ -1042,6 +1043,26 @@ def composter_blockstates():
         
         # Define the output path for the blockstates file
         blockstates_file_path = os.path.join(blockstates_dir, f"{composter_name}.json")
+        os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
+        
+        # Write the blockstates data to the file
+        with open(blockstates_file_path, 'w') as f:
+            json.dump(blockstates_data, f, indent=2)
+
+def fletching_blockstates():
+    # Fletching table blockstates
+    for wood in WOOD_TYPES:
+        fletching_name = f"{wood}_fletching_table"
+        blockstates_data = {
+            "variants": {
+                "": {
+                "model": f"fariance:block/{wood}_fletching_table"
+                }
+            }
+        }
+                    
+        # Define the output path for the blockstates file
+        blockstates_file_path = os.path.join(blockstates_dir, f"{fletching_name}.json")
         os.makedirs(os.path.dirname(blockstates_file_path), exist_ok=True)
         
         # Write the blockstates data to the file

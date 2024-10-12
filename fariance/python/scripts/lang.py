@@ -48,6 +48,12 @@ def composter_lang():
         entries[f"block.fariance.{composter_name}"] = capitalize_material(composter_name)
 
 
+def fletching_lang():
+    # Add composter names
+    for wood in WOOD_TYPES:
+        fletching_name = f"{wood}_fletching_table"
+        entries[f"block.fariance.{fletching_name}"] = capitalize_material(fletching_name)
+
 def barrel_lang():
     # Add barrel names
     for wood in WOOD_TYPES:
@@ -174,6 +180,7 @@ def generate_lang_entries():
     new_wood_lang()
     torch_lang()
     composter_lang()
+    fletching_lang()
 
     # Generate lang file
     with open(lang_file_path, "w") as f:
