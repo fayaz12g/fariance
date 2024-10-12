@@ -1495,12 +1495,12 @@ def fletching_models():
             "parent": "minecraft:block/cube",
             "textures": {
                 "down": f"{namespace}:block/{wood}_planks",
-                "east": "minecraft:block/fletching_table_side",
-                "north": "minecraft:block/fletching_table_front",
-                "particle": "minecraft:block/fletching_table_front",
-                "south": "minecraft:block/fletching_table_front",
-                "up": "minecraft:block/fletching_table_top",
-                "west": "minecraft:block/fletching_table_side"
+                "east": f"fariance:block/{wood}_fletching_table_side",
+                "north": f"fariance:block/{wood}_fletching_table_front",
+                "particle": f"fariance:block/{wood}_fletching_table_front",
+                "south": f"fariance:block/{wood}_fletching_table_front",
+                "up": f"fariance:block/{wood}_fletching_table_top",
+                "west": f"fariance:block/{wood}_fletching_table_side"
             }
         }
 

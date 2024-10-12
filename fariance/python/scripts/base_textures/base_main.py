@@ -7,6 +7,7 @@ from shields import *
 from ladders import *
 from beds import *
 from torches import *
+from fletching import *
 from barrel import *
 
 def main():
@@ -36,6 +37,9 @@ def main():
 
     # Generate the barrel textures
     barrel_textures()
+
+    # Generate the fletching table textures
+    fletching_textures()
 
 if __name__ == "__main__":
     main()

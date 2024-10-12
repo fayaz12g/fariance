@@ -340,7 +340,7 @@ def fletching_textures():
             print(f"Warning: Missing texture at {composter_side_image_path}")
 
         if os.path.exists(composter_front_image_path):
-            output_path = os.path.join(block_output_dir, f"{wood}_fletching_table_front")
+            output_path = os.path.join(block_output_dir, f"{wood}_fletching_table_front.png")
             barrel_img = Image.open(composter_front_image_path).convert("RGBA")
             barrel_img.save(output_path)
         else:

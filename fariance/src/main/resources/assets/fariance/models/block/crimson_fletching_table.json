@@ -2,11 +2,11 @@
   "parent": "minecraft:block/cube",
   "textures": {
     "down": "minecraft:block/crimson_planks",
-    "east": "minecraft:block/fletching_table_side",
-    "north": "minecraft:block/fletching_table_front",
-    "particle": "minecraft:block/fletching_table_front",
-    "south": "minecraft:block/fletching_table_front",
-    "up": "minecraft:block/fletching_table_top",
-    "west": "minecraft:block/fletching_table_side"
+    "east": "fariance:block/crimson_fletching_table_side",
+    "north": "fariance:block/crimson_fletching_table_front",
+    "particle": "fariance:block/crimson_fletching_table_front",
+    "south": "fariance:block/crimson_fletching_table_front",
+    "up": "fariance:block/crimson_fletching_table_top",
+    "west": "fariance:block/crimson_fletching_table_side"
   }
 }
