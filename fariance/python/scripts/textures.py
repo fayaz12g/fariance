@@ -44,6 +44,7 @@ def generate_textures():
     torch_textures()
     new_wood_textures()
     barrel_textures()
+    composter_textures()
 
     print(f"Texture generation done!")
 

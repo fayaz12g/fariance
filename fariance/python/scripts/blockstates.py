@@ -19,6 +19,7 @@ def generate_blockstates():
     torch_blockstates()
     wall_torch_blockstates()
     barrel_blockstates()
+    composter_blockstates()
 
     print("Blockstates generated successfully.")
 
