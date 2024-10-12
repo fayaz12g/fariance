@@ -168,7 +168,7 @@ public class FarianceMod {
     }
 
     private static void addMiscItemsToTab(CreativeModeTab.Output output) {
-        String[] groupingWords = {"button", "trapdoor", "planks", "stem", "log", "plate", "gate", "fence"};
+        String[] groupingWords = {"button", "trapdoor", "planks", "stem", "log", "plate", "gate", "fence", "slab"};
         Set<String> groupingWordsSet = new HashSet<>(Arrays.asList(groupingWords));
 
         List<RegistryObject<Item>> sortedItems = ItemRegistry.GENERATED_ITEMS.values().stream()
