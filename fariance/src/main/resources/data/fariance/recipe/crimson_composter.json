@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:crimson_slab"
+    }
+  },
+  "result": {
+    "id": "fariance:crimson_composter",
+    "count": 1
+  }
+}

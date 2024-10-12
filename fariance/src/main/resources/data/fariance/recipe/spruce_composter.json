@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:spruce_slab"
+    }
+  },
+  "result": {
+    "id": "fariance:spruce_composter",
+    "count": 1
+  }
+}

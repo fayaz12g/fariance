@@ -123,6 +123,62 @@ def tool_recipes():
         recipes.append((item_name, json.dumps(recipe, indent=2)))
 
 
+def barrel_recipes():
+     # Add recipes for barrels for each wood type
+    for wood in WOOD_TYPES:
+        # Wood type mapping
+        plank_item = f"minecraft:{wood}_planks" if wood not in NEW_WOOD else f"fariance:{wood}_planks"
+        slab_item = f"minecraft:{wood}_slab" if wood not in NEW_WOOD else f"fariance:{wood}_slab"
+
+        barrel_name = f"{wood}_barrel"
+        recipe = {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",  # Add category
+            "pattern": [
+                "PSP",
+                "P P",
+                "PSP"
+            ],
+            "key": {
+                "S": {"item": slab_item},
+                "P": {"item": plank_item},
+            },
+            "result": {
+                "id": f"fariance:{barrel_name}",
+                "count": 1
+            }
+        }
+        recipes.append((barrel_name, json.dumps(recipe, indent=2)))
+
+
+def composter_recipes():
+     # Add recipes for composters for each wood type
+    for wood in WOOD_TYPES:
+        # Wood type mapping
+        plank_item = f"minecraft:{wood}_planks" if wood not in NEW_WOOD else f"fariance:{wood}_planks"
+        slab_item = f"minecraft:{wood}_slab" if wood not in NEW_WOOD else f"fariance:{wood}_slab"
+
+        composter_name = f"{wood}_composter"
+        recipe = {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc",  # Add category
+            "pattern": [
+                "S S",
+                "S S",
+                "SSS"
+            ],
+            "key": {
+                "S": {"item": slab_item}
+            },
+            "result": {
+                "id": f"fariance:{composter_name}",
+                "count": 1
+            }
+        }
+        recipes.append((composter_name, json.dumps(recipe, indent=2)))
+
+
+
 def ladder_recipes():
      # Add recipes for ladders for each wood type
     for wood in STICK_TYPES:
@@ -378,6 +434,8 @@ def generate_recipes():
     shield_recipes()
     torch_recipes()
     stick2stick_recipes()
+    composter_recipes()
+    barrel_recipes
 
     # Generate recipes and write them to files
     for item_name, recipe in recipes:

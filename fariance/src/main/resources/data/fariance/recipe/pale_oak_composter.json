@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "fariance:pale_oak_slab"
+    }
+  },
+  "result": {
+    "id": "fariance:pale_oak_composter",
+    "count": 1
+  }
+}

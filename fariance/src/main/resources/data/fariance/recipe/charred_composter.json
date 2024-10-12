@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "fariance:charred_slab"
+    }
+  },
+  "result": {
+    "id": "fariance:charred_composter",
+    "count": 1
+  }
+}

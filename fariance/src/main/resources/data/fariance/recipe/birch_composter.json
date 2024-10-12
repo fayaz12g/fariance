@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:birch_slab"
+    }
+  },
+  "result": {
+    "id": "fariance:birch_composter",
+    "count": 1
+  }
+}

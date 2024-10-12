@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:jungle_slab"
+    }
+  },
+  "result": {
+    "id": "fariance:jungle_composter",
+    "count": 1
+  }
+}
