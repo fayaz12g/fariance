@@ -45,6 +45,8 @@ def generate_textures():
     new_wood_textures()
     barrel_textures()
     composter_textures()
+    fletching_textures()
+
 
     print(f"Texture generation done!")
 
@@ -315,6 +317,34 @@ def torch_textures():
                     else:
                         print(f"Warning: Missing texture for {torch_off_name}")
 
+
+def fletching_textures():
+    # Generate fletching textures
+    for wood in WOOD_TYPES:
+        composter_top_image_path = os.path.join(image_dir, "fletching", f"{wood}_fletching_table_top.png")
+        composter_side_image_path = os.path.join(image_dir, "fletching", f"{wood}_fletching_table_side.png")
+        composter_front_image_path = os.path.join(image_dir, "fletching", f"{wood}_fletching_table_front.png")
+       
+        if os.path.exists(composter_top_image_path):
+            output_path = os.path.join(block_output_dir, f"{wood}_fletching_table_top.png")
+            barrel_img = Image.open(composter_top_image_path).convert("RGBA")
+            barrel_img.save(output_path)
+        else:
+            print(f"Warning: Missing texture at {composter_top_image_path}")
+
+        if os.path.exists(composter_side_image_path):
+            output_path = os.path.join(block_output_dir, f"{wood}_fletching_table_side.png")
+            barrel_img = Image.open(composter_side_image_path).convert("RGBA")
+            barrel_img.save(output_path)
+        else:
+            print(f"Warning: Missing texture at {composter_side_image_path}")
+
+        if os.path.exists(composter_front_image_path):
+            output_path = os.path.join(block_output_dir, f"{wood}_fletching_table_front")
+            barrel_img = Image.open(composter_front_image_path).convert("RGBA")
+            barrel_img.save(output_path)
+        else:
+            print(f"Warning: Missing texture at {composter_front_image_path}")
 
 
 def composter_textures():
