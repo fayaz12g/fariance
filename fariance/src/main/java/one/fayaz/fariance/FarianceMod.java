@@ -19,10 +19,7 @@ import one.fayaz.fariance.blocks.*;
 import one.fayaz.fariance.blocks.signs.CustomSignBlockEntity;
 import org.slf4j.Logger;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Mod(FarianceMod.MODID)
@@ -171,6 +168,20 @@ public class FarianceMod {
         String[] groupingWords = {"button", "trapdoor", "planks", "stem", "log", "plate", "gate", "fence", "slab", "sign", "door"};
         Set<String> groupingWordsSet = new HashSet<>(Arrays.asList(groupingWords));
 
+        // Define the order for grouped items
+        Map<String, Integer> groupOrder = new HashMap<>();
+        groupOrder.put("log", 0);
+        groupOrder.put("stem", 1);
+        groupOrder.put("planks", 2);
+        groupOrder.put("slab", 3);
+        groupOrder.put("fence", 4);
+        groupOrder.put("gate", 5);
+        groupOrder.put("door", 6);
+        groupOrder.put("trapdoor", 7);
+        groupOrder.put("plate", 8);
+        groupOrder.put("button", 9);
+        groupOrder.put("sign", 10);
+
         List<RegistryObject<Item>> sortedItems = ItemRegistry.GENERATED_ITEMS.values().stream()
                 .filter(itemRegistryObject -> {
                     String itemPath = itemRegistryObject.getId().getPath();
@@ -190,13 +201,27 @@ public class FarianceMod {
                     boolean isGrouped2 = groupingWordsSet.contains(lastWord2);
 
                     if (isGrouped1 && isGrouped2) {
-                        // Both items are in grouping words, compare by first word
-                        int firstWordComparison = words1[0].compareTo(words2[0]);
-                        if (firstWordComparison != 0) {
-                            return firstWordComparison;
+                        // Both items are in grouping words
+                        String groupingWord1 = words1[0];
+                        String groupingWord2 = words2[0];
+
+                        // Handle "stripped" wood types
+                        if (words1[0].equals("stripped") && (lastWord1.equals("log") || lastWord1.equals("stem"))) {
+                            groupingWord1 = words1[1];
                         }
-                        // If first words are the same, compare by last word
-                        return lastWord1.compareTo(lastWord2);
+                        if (words2[0].equals("stripped") && (lastWord2.equals("log") || lastWord2.equals("stem"))) {
+                            groupingWord2 = words2[1];
+                        }
+
+                        // Compare by the grouping word (usually the first word, or second for stripped logs/stems)
+                        int groupingWordComparison = groupingWord1.compareTo(groupingWord2);
+                        if (groupingWordComparison != 0) {
+                            return groupingWordComparison;
+                        }
+
+                        // If grouping words are the same, sort by the predefined order
+                        return Integer.compare(groupOrder.getOrDefault(lastWord1, Integer.MAX_VALUE),
+                                groupOrder.getOrDefault(lastWord2, Integer.MAX_VALUE));
                     } else if (isGrouped1) {
                         return -1; // o1 should come first
                     } else if (isGrouped2) {
@@ -213,13 +238,6 @@ public class FarianceMod {
                         int secondLastWordComparison = words1[words1.length - 2].compareTo(words2[words2.length - 2]);
                         if (secondLastWordComparison != 0) {
                             return secondLastWordComparison;
-                        }
-                    }
-
-                    if (words1.length > 2 && words2.length > 2) {
-                        int thirdLastWordComparison = words1[words1.length - 3].compareTo(words2[words2.length - 3]);
-                        if (thirdLastWordComparison != 0) {
-                            return thirdLastWordComparison;
                         }
                     }
 
