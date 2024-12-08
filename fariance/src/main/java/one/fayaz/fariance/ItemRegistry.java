@@ -94,6 +94,9 @@ public class ItemRegistry {
     private static final List<String> COPPER_TYPES = Arrays.asList(
             "shiny_copper", "weathered_copper", "exposed_copper", "oxidized_copper");
 
+    private static final List<String> SOUP_TYPES = Arrays.asList(
+            "mushroom", "fungal", "rabbit");
+
     private static final List<String> STICK_TYPES = new ArrayList<>();
     static {
         STICK_TYPES.addAll(Arrays.asList("blaze", "breeze")); // Add base stick types
@@ -452,6 +455,21 @@ public class ItemRegistry {
             if (!stick.equals("blaze") && !stick.equals("breeze") && !stick.equals("bamboo")) {
                 String stickName = stick + "_stick";
                 GENERATED_ITEMS.put(stickName, ITEMS.register(stickName, () -> new Item(new Item.Properties())));
+            }
+        }
+    }
+
+    // BOWLS
+    private static void generateBowls() {
+        for (String wood : WOOD_TYPES) {
+             {
+                String bowlName = wood + "_bowl";
+                GENERATED_ITEMS.put(bowlName, ITEMS.register(bowlName, () -> new Item(new Item.Properties())));
+                    // Create stews
+                    for (String soup : SOUP_TYPES) {
+                        String stewName = bowlName + "_with_" + soup + "_stew";
+                        GENERATED_ITEMS.put(stewName, ITEMS.register(stewName, () -> new Item(new Item.Properties())));
+                    }
             }
         }
     }
