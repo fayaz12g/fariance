@@ -192,6 +192,7 @@ def generate_lang_entries():
     torch_lang()
     composter_lang()
     fletching_lang()
+    stews_lang()
 
     # Generate lang file
     with open(lang_file_path, "w") as f:
