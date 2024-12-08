@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P P",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "fariance:tyrian_planks"
+    }
+  },
+  "result": {
+    "id": "fariance:tyrian_bowl",
+    "count": 1
+  }
+}

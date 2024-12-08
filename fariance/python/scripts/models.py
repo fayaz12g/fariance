@@ -51,6 +51,44 @@ def ingot_models():
             json.dump(model_data, f, indent=2)
 
 
+def soup_models():
+     # Loop through each wood type and generate the corresponding models
+    for wood in STICK_TYPES:
+        bowl_name = f"{wood}_bowl"
+        
+        # Item model data for the bowl
+        item_model_data = {
+            "parent": "minecraft:item/generated",
+            "textures": {
+                "layer0": f"fariance:block/{bowl_name}"
+            }
+        }
+
+        # Define the item model output path (in the models/item folder)
+        item_model_file_path = os.path.join(item_model_dir, f"{bowl_name}.json")
+
+        # Write the item model data to the file
+        with open(item_model_file_path, 'w') as f:
+            json.dump(item_model_data, f, indent=2)
+
+        for soup in SOUP_TYPES:
+            stew_name = f"{soup}_stew_in_{wood}_bowl"
+            
+            # Item model data for the stew
+            item_model_data = {
+                "parent": "minecraft:item/generated",
+                "textures": {
+                    "layer0": f"fariance:block/{stew_name}"
+                }
+            }
+
+            # Define the item model output path (in the models/item folder)
+            item_model_file_path = os.path.join(item_model_dir, f"{stew_name}.json")
+
+            # Write the item model data to the file
+            with open(item_model_file_path, 'w') as f:
+                json.dump(item_model_data, f, indent=2)
+
 def ladder_models():
      # Loop through each wood type and generate the corresponding models
     for wood in STICK_TYPES:
@@ -1628,6 +1666,7 @@ def generate_models():
     barrel_models()
     composter_models()
     fletching_models()
+    soup_models()
 
 
 

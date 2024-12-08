@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fariance:block/fungal_stew_in_stripped_mangrove_bowl"
+  }
+}

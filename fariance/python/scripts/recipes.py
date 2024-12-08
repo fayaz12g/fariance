@@ -123,6 +123,103 @@ def tool_recipes():
         recipes.append((item_name, json.dumps(recipe, indent=2)))
 
 
+def bowl_recipes():
+     # Add recipes for bowls for each wood type
+    for wood in WOOD_TYPES:
+        # Wood type mapping
+        plank_item = f"minecraft:{wood}_planks" if wood not in NEW_WOOD else f"fariance:{wood}_planks"
+
+        bowl_name = f"{wood}_bowl"
+        recipe = {
+            "type": "minecraft:crafting_shaped",
+            "category": "misc", 
+            "pattern": [
+                "P P",
+                " P "
+            ],
+            "key": {
+                "P": {"item": plank_item},
+            },
+            "result": {
+                "id": f"fariance:{bowl_name}",
+                "count": 1
+            }
+        }
+        recipes.append((bowl_name, json.dumps(recipe, indent=2)))
+
+        # Mushroom stew
+        stew_name = f"{wood}_bowl_with_mushroom_stew"
+        recipe = {
+            "type": "minecraft:crafting_shapeless",
+            "category": "misc",
+            "ingredients": [
+                "minecraft:brown_mushroom",
+                "minecraft:red_mushroom",
+                f"fariance:{bowl_name}"
+            ],
+            "result": {
+                "count": 1,
+                "id": f"fariance:{stew_name}"
+            }
+        }
+        recipes.append((stew_name, json.dumps(recipe, indent=2)))
+
+        # rabbit stew
+        stew_name = f"{wood}_bowl_with_rabbit_stew"
+        recipe = {
+            "type": "minecraft:crafting_shapeless",
+            "category": "misc",
+            "ingredients": [
+                "minecraft:baked_potato",
+                "minecraft:cooked_rabbit",
+                "minecraft:carrot",
+                "minecraft:brown_mushroom"
+                f"fariance:{bowl_name}"
+            ],
+            "result": {
+                "count": 1,
+                "id": f"fariance:{stew_name}"
+            }
+        }
+        recipes.append((f'{stew_name}_brown', json.dumps(recipe, indent=2)))
+
+        # rabbit stew
+        stew_name = f"{wood}_bowl_with_rabbit_stew"
+        recipe = {
+            "type": "minecraft:crafting_shapeless",
+            "category": "misc",
+            "ingredients": [
+                "minecraft:baked_potato",
+                "minecraft:cooked_rabbit",
+                "minecraft:carrot",
+                "minecraft:red_mushroom"
+                f"fariance:{bowl_name}"
+            ],
+            "result": {
+                "count": 1,
+                "id": f"fariance:{stew_name}"
+            }
+        }
+        recipes.append((f'{stew_name}_red', json.dumps(recipe, indent=2)))
+
+        # fungal stew
+        stew_name = f"{wood}_bowl_with_fungal_stew"
+        recipe = {
+            "type": "minecraft:crafting_shapeless",
+            "category": "misc",
+            "ingredients": [
+                "minecraft:warped_fungus",
+                "minecraft:crimson_fungus",
+                f"fariance:{bowl_name}"
+            ],
+            "result": {
+                "count": 1,
+                "id": f"fariance:{stew_name}"
+            }
+        }
+        recipes.append((stew_name, json.dumps(recipe, indent=2)))
+
+
 def barrel_recipes():
      # Add recipes for barrels for each wood type
     for wood in WOOD_TYPES:
@@ -435,7 +532,8 @@ def generate_recipes():
     torch_recipes()
     stick2stick_recipes()
     composter_recipes()
-    barrel_recipes
+    barrel_recipes()
+    bowl_recipes()
 
     # Generate recipes and write them to files
     for item_name, recipe in recipes:

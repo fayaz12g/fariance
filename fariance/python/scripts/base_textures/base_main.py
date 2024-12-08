@@ -9,6 +9,7 @@ from beds import *
 from torches import *
 from fletching import *
 from barrel import *
+from soups import *
 
 def main():
     # Generate the tool heads
@@ -40,6 +41,10 @@ def main():
 
     # Generate the fletching table textures
     fletching_textures()
+
+    # Generate the bowls and soups textures
+    generate_bowls()
+    generate_soups()
 
 if __name__ == "__main__":
     main()

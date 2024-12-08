@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:warped_slab"
+    },
+    "P": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "result": {
+    "id": "fariance:warped_barrel",
+    "count": 1
+  }
+}

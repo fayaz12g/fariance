@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "key": {
+    "S": {
+      "item": "fariance:azalea_slab"
+    },
+    "P": {
+      "item": "fariance:azalea_planks"
+    }
+  },
+  "result": {
+    "id": "fariance:azalea_barrel",
+    "count": 1
+  }
+}

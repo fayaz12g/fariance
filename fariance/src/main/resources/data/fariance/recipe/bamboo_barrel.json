@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:bamboo_slab"
+    },
+    "P": {
+      "item": "minecraft:bamboo_planks"
+    }
+  },
+  "result": {
+    "id": "fariance:bamboo_barrel",
+    "count": 1
+  }
+}

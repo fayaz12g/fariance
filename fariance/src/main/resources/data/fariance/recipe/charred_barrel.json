@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "key": {
+    "S": {
+      "item": "fariance:charred_slab"
+    },
+    "P": {
+      "item": "fariance:charred_planks"
+    }
+  },
+  "result": {
+    "id": "fariance:charred_barrel",
+    "count": 1
+  }
+}

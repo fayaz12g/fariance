@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P P",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:bamboo_planks"
+    }
+  },
+  "result": {
+    "id": "fariance:bamboo_bowl",
+    "count": 1
+  }
+}

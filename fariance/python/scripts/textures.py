@@ -46,6 +46,7 @@ def generate_textures():
     barrel_textures()
     composter_textures()
     fletching_textures()
+    stew_textures()
 
 
     print(f"Texture generation done!")
@@ -110,6 +111,31 @@ def tool_textures():
                 print(f"Warning: {head_image_path} not found!")
             else:
                 print(f"Warning: Missing texture for {material}_{tool}_with_{stick}_stick")
+
+
+def stew_textures():
+    # Generate textures for bowls
+    for wood in WOOD_TYPES:
+        bowl_image_path = os.path.join(image_dir, "soup", f"{wood}_bowl.png")
+        if os.path.exists(bowl_image_path):
+            output_path = os.path.join(item_output_dir, f"{wood}_bowl.png")
+            bowl_img = Image.open(bowl_image_path).convert("RGBA")
+            bowl_img.save(output_path)
+            # print(f"Generated texture: {output_path}")
+        else:
+            print(f"Warning: Missing texture for {wood}_bowl")
+    
+        # Generate textures for stews
+        for soup in SOUP_TYPES:
+            soup_image_path = os.path.join(image_dir, "soup", f"{wood}_bowl_with_{soup}_stew.png")
+            if os.path.exists(soup_image_path):
+                output_path = os.path.join(item_output_dir, f"{wood}_bowl_with_{soup}_stew.png")
+                stew_img = Image.open(soup_image_path).convert("RGBA")
+                stew_img.save(output_path)
+                # print(f"Generated texture: {output_path}")
+            else:
+                print(f"Warning: Missing texture for {wood}_bowl_with_{soup}_stew")
+
 
 
 def stick_textures():
