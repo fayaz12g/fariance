@@ -85,6 +85,7 @@ tabs = {
         "misc": "Fariance Miscellaneous",
         "torches": "Fariance Torches",
         "shields": "Fariance Shields",
+        "soups": "Fariance Soups",
     }
 
 
