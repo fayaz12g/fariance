@@ -96,6 +96,7 @@ public class FarianceMod {
             .icon(() -> ItemRegistry.GENERATED_ITEMS.get("oak_bowl").get().getDefaultInstance())
             .title(Component.translatable("itemGroup.fariance.soups"))
             .displayItems((parameters, output) -> addOtherItemsToTab(output, "bowl"))
+            .displayItems((parameters, output) -> addOtherItemsToTab(output, "stew"))
             .build());
 
     // New Misc tab for all other items
