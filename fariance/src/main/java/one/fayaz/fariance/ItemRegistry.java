@@ -468,11 +468,6 @@ public class ItemRegistry {
              {
                 String bowlName = wood + "_bowl";
                 GENERATED_ITEMS.put(bowlName, ITEMS.register(bowlName, () -> new Item(new Item.Properties())));
-                    // Create stews
-                    for (String soup : SOUP_TYPES) {
-                        String stewName = bowlName + "_with_" + soup + "_stew";
-                        GENERATED_ITEMS.put(stewName, ITEMS.register(stewName, () -> new Item(new Item.Properties())));
-                    }
             }
         }
     }
