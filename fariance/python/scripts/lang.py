@@ -55,7 +55,7 @@ def stews_lang():
         entries[f"block.fariance.{bowl_name}"] = capitalize_material(bowl_name)
 
         for soup in SOUP_TYPES:
-            soup_name = f"{soup}_stew_in_{wood}_bowl"
+            soup_name = f"{wood}_bowl_with_{soup}_stew"
             entries[f"block.fariance.{soup_name}"] = capitalize_material(soup_name)
             
 

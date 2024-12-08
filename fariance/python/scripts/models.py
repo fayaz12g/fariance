@@ -60,7 +60,7 @@ def soup_models():
         item_model_data = {
             "parent": "minecraft:item/generated",
             "textures": {
-                "layer0": f"fariance:block/{bowl_name}"
+                "layer0": f"fariance:item/{bowl_name}"
             }
         }
 
@@ -72,13 +72,13 @@ def soup_models():
             json.dump(item_model_data, f, indent=2)
 
         for soup in SOUP_TYPES:
-            stew_name = f"{soup}_stew_in_{wood}_bowl"
+            stew_name = f"{wood}_bowl_with_{soup}_stew"
             
             # Item model data for the stew
             item_model_data = {
                 "parent": "minecraft:item/generated",
                 "textures": {
-                    "layer0": f"fariance:block/{stew_name}"
+                    "layer0": f"fariance:item/{stew_name}"
                 }
             }
 

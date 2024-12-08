@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fariance:item/breeze_bowl_with_mushroom_stew"
+  }
+}

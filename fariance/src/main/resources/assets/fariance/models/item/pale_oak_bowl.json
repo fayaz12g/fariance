@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "fariance:block/pale_oak_bowl"
+    "layer0": "fariance:item/pale_oak_bowl"
   }
 }

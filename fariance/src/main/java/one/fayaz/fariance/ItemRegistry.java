@@ -140,7 +140,7 @@ public class ItemRegistry {
         generateComposters();
 
         generateBowls();
-        generateStews;
+        generateStews();
 
 
 //        generatePistons();
@@ -480,13 +480,10 @@ public class ItemRegistry {
     // STEWS
     private static void generateStews() {
         for (String wood : WOOD_TYPES) {
-            {
-                // Create stews
                 for (String soup : SOUP_TYPES) {
                     String stewName = wood + "_bowl_with_" + soup + "_stew";
                     GENERATED_ITEMS.put(stewName, ITEMS.register(stewName, () -> new Item(new Item.Properties())));
                 }
-            }
         }
     }
 

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "fariance:block/stripped_azalea_bowl"
+    "layer0": "fariance:item/stripped_azalea_bowl"
   }
 }

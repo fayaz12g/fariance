@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fariance:item/mangrove_bowl_with_rabbit_stew"
+  }
+}
