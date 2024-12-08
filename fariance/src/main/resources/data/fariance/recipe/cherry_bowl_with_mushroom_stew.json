@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "fariance:cherry_bowl"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fariance:cherry_bowl_with_mushroom_stew"
+  }
+}

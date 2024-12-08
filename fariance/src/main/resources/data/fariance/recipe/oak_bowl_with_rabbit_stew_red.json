@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:baked_potato",
+    "minecraft:cooked_rabbit",
+    "minecraft:carrot",
+    "minecraft:red_mushroomfariance:oak_bowl"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fariance:oak_bowl_with_rabbit_stew"
+  }
+}

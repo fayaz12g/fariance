@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:warped_fungus",
+    "minecraft:crimson_fungus",
+    "fariance:tyrian_bowl"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fariance:tyrian_bowl_with_fungal_stew"
+  }
+}

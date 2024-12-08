@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:warped_fungus",
+    "minecraft:crimson_fungus",
+    "fariance:spruce_bowl"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fariance:spruce_bowl_with_fungal_stew"
+  }
+}
