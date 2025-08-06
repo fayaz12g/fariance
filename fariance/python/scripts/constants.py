@@ -28,7 +28,7 @@ SOUP_TYPES = ["mushroom", "rabbit","fungal"]
 
 MATERIAL_TYPES = MATERIAL_BASE + STONE_TYPES + MATERIAL_NEW + COPPER_TYPES + WOOD_TYPES
 
-TORCH_TYPES= ["normal", "soul", "redstone"]
+TORCH_TYPES= ["normal", "soul", "redstone", "copper"]
 
 # Define potions types
 POTION_TYPES = [

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W",
+    "P"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "fariance:tyrian_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:tyrian_copper_torch",
+    "count": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W",
+    "P"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "fariance:birch_stick"
+    }
+  },
+  "result": {
+    "id": "fariance:birch_copper_torch",
+    "count": 4
+  }
+}
