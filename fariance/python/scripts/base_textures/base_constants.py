@@ -19,7 +19,7 @@ WOOL_COLORS = ["black", "blue", "brown", "cyan", "gray", "green", "light_blue", 
                "red", "white", "yellow"]
 
 
-TORCH_TYPES= ["normal", "soul", "redstone"]
+TORCH_TYPES= ["normal", "soul", "redstone", "copper"]
 
 # Define potions types
 POTION_TYPES = [
